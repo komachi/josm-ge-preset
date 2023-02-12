@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://josm.openstreetmap.de/tagging-preset-1.0"
+  author="Anton Nesterov"
+  version="0.0.1"
+  link="https://github.com/komachi/josm-ge-preset"
+  icon="https://upload.wikimedia.org/wikipedia/commons/4/41/Twemoji12_1f1ec-1f1ea.svg"
+  description="Georgian POIs"
+  ka.description="საქართველოს POI"
+  ru.description="Грузинские POI"
+>
+  <chunk id="name">
+    <text key="name" text="Name" />
+    <text key="name:en" text="name:en" />
+    <text key="name:ru" text="name:ru" />
+    <text key="name:tr" text="name:tr" />
+  </chunk>
+  <chunk id="phone">
+    <combo key="contact:phone" text="Phone number" text.ka="Ტელეფონის ნომერი" />
+  </chunk>
+  <chunk id="website">
+    <combo key="contact:website" text="Website" text.ka="ვებგვერდი" />
+  </chunk>
+  <chunk id="social">
+    <combo key="contact:facebook" text="Facebook" />
+    <combo key="contact:telegram" text="Telegram" />
+    <combo key="contact:linkedin" text="LinkedIn" />
+    <combo key="contact:youtube" text="YouTube" />
+    <combo key="contact:twitter" text="Twitter" />
+  </chunk>
+  <chunk id="operator">
+    <combo key="operator" text="Operator" />
+  </chunk>
+  <chunk id="ref">
+    <text key="ref" text="Reference" ka.text="ნომერი" ru.text="Номер" />
+  </chunk>
+  <chunk id="level">
+    <text key="level" text="Level" ka.text="სართული" ru.text="Этаж" />
+  </chunk>
+  <chunk id="height">
+    <combo key="height" text="Height (meters)" ka.text="სიმაღლე (მეტრი)"/>
+  </chunk>
+  <chunk id="wheelchair">
+    <combo key="wheelchair" text="Wheelchairs" ka.text="ეტლები" values="yes,limited,no" />
+  </chunk>
+  <chunk id="wheelchair_address">
+    <reference ref="wheelchair" />
+    <preset_link preset_name="Address" />
+  </chunk>
+  <chunk id="contacts">
+    <reference ref="website" />
+    <reference ref="phone" />
+    <reference ref="social" />
+  </chunk>
+  <chunk id="basic_data">
+    <reference ref="name" />
+    <reference ref="contacts" />
+  </chunk>
+  <chunk id="bic_branch_ref_wheelchair_atm_address">
+    <combo key="bic" text="BIC/SWIFT" />
+    <combo key="branch" text="Branch" ka.text="ფილიალი" ru.text="Филиал (или отделение)" />
+    <text key="ref" text="Reference number" ka.text="ფილიალის ნომერი" ru.text="Номер отделения" />
+    <reference ref="wheelchair" />
+    <check key="atm" text="Automated Teller Machine" ka.text="ბანკომატ" ru.text="Банкомат" />
+    <preset_link preset_name="Address" />
+  </chunk>
+
+  <group
+    name="POI"
+    icon="https://upload.wikimedia.org/wikipedia/commons/4/41/Twemoji12_1f1ec-1f1ea.svg"
+  >
+    <group
+      name="Pharmacies"
+      ka.name="აფთიაქები"
+      ru.name="Аптеки"
+      icon="https://upload.wikimedia.org/wikipedia/commons/e/e7/Twemoji_1f48a.svg"
+    >
+      <item name="PSP" ka.name="პსპ" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="პსპ" />
+        <key key="brand:wikidata" value="Q115970964" />
+        <key key="contact:facebook" value="https://facebook.com/psp.ge" />
+        <key key="contact:instagram" value="https://instagram.com/psp_pharmacy" />
+        <key key="contact:youtube" value="https://youtube.com/user/PSPN1TV" />
+        <key key="contact:website" value="https://psp.ge" />
+        <key key="contact:email" value="online@psp.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="name" value="პსპ" />
+        <key key="name:ka" value="პსპ" />
+        <key key="name:en" value="PSP" />
+        <key key="amenity" value="pharmacy" />
+        <key key="healthcare" value="pharmacy" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Aversi"
+        ka.name="ავერსი"
+        ru.name="Аверси"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ავერსი" />
+        <key key="brand:wikidata" value="Q55653978" />
+        <key key="contact:facebook" value="https://facebook.com/AversiPharma" />
+        <key key="contact:instagram" value="https://instagram.com/aversipharma" />
+        <key key="contact:youtube" value="https://youtube.com/user/AversiPharma" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/aversi-pharma" />
+        <key key="contact:website" value="https://www.aversi.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="name" value="ავერსი" />
+        <key key="name:ka" value="ავერსი" />
+        <key key="name:en" value="Aversi" />
+        <key key="name:ru" value="Аверси" />
+        <key key="amenity" value="pharmacy" />
+        <key key="healthcare" value="pharmacy" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Pharmadepot"
+        ka.name="ფარმადეპი"
+        ru.name="Фармадепот"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ფარმადეპი" />
+        <key key="contact:facebook" value="https://www.facebook.com/Pharmadepot/" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="name" value="ფარმადეპი" />
+        <key key="name:ka" value="ფარმადეპი" />
+        <key key="name:en" value="Pharmadepot" />
+        <key key="name:ru" value="Фармадепот" />
+        <key key="amenity" value="pharmacy" />
+        <key key="healthcare" value="pharmacy" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item name="Neopharmi" ka.name="ნეოფარმი" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ნეოფარმი" />
+        <key key="contact:website" value="http://neopharmi.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="name" value="ნეოფარმი" />
+        <key key="name:ka" value="ნეოფარმი" />
+        <key key="name:en" value="Neopharmi" />
+        <key key="name:ru" value="Неофарми" />
+        <key key="amenity" value="pharmacy" />
+        <key key="healthcare" value="pharmacy" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item name="GPC" ka.name="ჯპს" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ჯპს" />
+        <key key="brand:wikidata" value="Q115971130" />
+        <key key="contact:facebook" value="https://www.facebook.com/gpcpharmacy/" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="name" value="ჯპს" />
+        <key key="name:ka" value="ჯპს" />
+        <key key="name:en" value="GPC" />
+        <key key="amenity" value="pharmacy" />
+        <key key="healthcare" value="pharmacy" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+    </group>
+
+    <group
+      name="Food shops"
+      ka.name="პროდუქტები"
+      ru.name="Продукты"
+      icon="https://upload.wikimedia.org/wikipedia/commons/7/71/Emoji_u1f347.svg"
+    >
+      <item
+        name="Spar"
+        ka.name="სპარი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="SPAR" />
+        <key key="brand:wikidata" value="Q610492" />
+        <key key="contact:facebook" value="https://www.facebook.com/SPARGeorgia/" />
+        <key key="contact:email" value="office@spar-georgia.com" />
+        <key key="contact:website" value="https://spargeorgia.com" />
+        <key key="name" value="სპარი" />
+        <key key="name:ka" value="სპარი" />
+        <key key="name:en" value="Spar" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Nikora"
+        ka.name="ნიკორა"
+        ru.name="Никора"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ნიკორა" />
+        <key key="brand:wikidata" value="Q115949612" />
+        <key key="contact:facebook" value="https://www.facebook.com/nikorasupermarket" />
+        <key key="contact:instagram" value="https://www.instagram.com/nikora_supermarket" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/nikora-supermarket" />
+        <key key="contact:email" value="info@nikoratrade.ge" />
+        <key key="contact:website" value="https://nikorasupermarket.ge" />
+        <key key="name" value="ნიკორა" />
+        <key key="name:ka" value="ნიკორა" />
+        <key key="name:en" value="Nikora" />
+        <key key="name:ru" value="Никора" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Ori Nabiji"
+        ka.name="ორი ნაბიჯი"
+        ru.name="Ори набиджи"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ორი ნაბიჯი" />
+        <key key="brand:wikidata" value="Q115949750" />
+        <key key="contact:facebook" value="https://facebook.com/2nabijiofficial/" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/2-%E1%83%9C%E1%83%90%E1%83%91%E1%83%98%E1%83%AF%E1%83%98-2-nabiji" />
+        <key key="contact:website" value="https://2nabiji.ge" />
+        <key key="name" value="ორი ნაბიჯი" />
+        <key key="name:ka" value="ორი ნაბიჯი" />
+        <key key="alt_name:ka" value="2 ნაბიჯი" />
+        <key key="name:en" value="Ori Nabiji" />
+        <key key="alt_name:en" value="2 Nabiji" />
+        <key key="name:ru" value="Ори набиджи" />
+        <key key="alt_name:ru" value="2 набиджи" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />        
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Billion"
+        ka.name="ბილიონი"
+        ru.name="Биллиони"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ბილიონი" />
+        <key key="contact:facebook" value="https://www.facebook.com/BillionSupermarket" />
+        <key key="contact:email" value="info@billioni.ge" />
+        <key key="name" value="ბილიონი" />
+        <key key="name:ka" value="ბილიონი" />
+        <key key="name:en" value="Billion" />
+        <key key="name:ru" value="Биллиони" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Magniti"
+        ka.name="მაგნიტი"
+        ru.name="Магнити"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="მაგნიტი" />
+        <key key="contact:facebook" value="https://www.facebook.com/magniti.ge" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/magniti" />
+        <key key="contact:youtube" value="https://www.youtube.com/channel/UCXnteLjNLQ7p_A-J25RgMKw" />
+        <key key="contact:website" value="https://magniti.ge" />
+        <key key="contact:email" value="info@magniti.ge" />
+        <key key="name" value="მაგნიტი" />
+        <key key="name:ka" value="მაგნიტი" />
+        <key key="name:en" value="Magniti" />
+        <key key="name:ru" value="Магнити" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />        
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+    </group>
+
+    <group
+      name="Finance"
+      ka.name="ფინანსები"
+      ru.name="Финансы"
+      icon="https://upload.wikimedia.org/wikipedia/commons/6/64/Emoji_u1f4b0.svg"
+    >
+      <item
+        name="TBC Bank"
+        ru.name="ТиБиСи Банк"
+        ka.name="თიბისი ბანკი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="bank" />
+        <key key="brand" value="თიბისი ბანკი" />
+        <key key="brand:wikidata" value="Q2620975" />
+        <key key="contact:website" value="https://www.tbcbank.ge" />
+        <key key="name" value="თიბისი ბანკი" />
+        <key key="name:ka" value="თიბისი ბანკი" />
+        <key key="name:en" value="TBC Bank" />
+        <key key="name:ru" value="ТиБиСи Банк" />
+        <key key="short_name:ka" value="თიბისი" />
+        <key key="short_name:en" value="TBC" />
+        <key key="short_name:ru" value="ТиБиСи" />
+        <reference ref="bic_branch_ref_wheelchair_atm_address" />
+        <reference ref="contacts" />
+      </item>
+      <item
+        name="Bank of Georgia"
+        ru.name="Банк Грузии"
+        ka.name="საქართველოს ბანკი"
+        tr.name="Gürcistan Bankası"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="bank" />
+        <key key="brand" value="საქართველოს ბანკი" />
+        <key key="brand:wikidata" value="Q2469733" />
+        <key key="contact:website" value="https://bankofgeorgia.ge" />
+        <key key="contact:instagram" value="https://www.instagram.com/bankofgeorgia" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/bank-of-georgia" />
+        <key key="contact:youtube" value="https://www.youtube.com/user/BankofGeorgiaTV" />
+        <key key="contact:email" value="customerservice@bog.ge" />
+        <key key="name" value="საქართველოს ბანკი" />
+        <key key="name:ka" value="საქართველოს ბანკი" />
+        <key key="name:en" value="Bank of Georgia" />
+        <key key="name:ru" value="Банк Грузии" />
+        <key key="name:tr" value="Gürcistan Bankası" />
+        <key key="short_name:en" value="BoG" />
+        <reference ref="bic_branch_ref_wheelchair_atm_address" />
+        <reference ref="contacts" />
+      </item>
+      <item name="Liberty" ka.name="ლიბერთი" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="bank" />
+        <key key="brand" value="ლიბერთი" />
+        <key key="brand:wikidata" value="Q6541585" />
+        <key key="contact:website" value="https://libertybank.ge" />
+        <key key="name" value="ლიბერთი" />
+        <key key="name:ka" value="ლიბერთი" />
+        <key key="name:en" value="Liberty" />
+        <key key="name:ru" value="Либерти" />
+        <reference ref="bic_branch_ref_wheelchair_atm_address" />
+        <reference ref="contacts" />
+      </item>
+      <item
+        name="Credo Bank"
+        ka.name="კრედო ბანკი"
+        ru.name="Кредо Банк"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="bank" />
+        <key key="brand" value="კრედო ბანკი" />
+        <key key="contact:website" value="https://credobank.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/CredoBank" />
+        <key key="contact:instagram" value="https://www.instagram.com/credobank" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/credo-bank" />
+        <key key="contact:youtube" value="https://www.youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
+        <key key="contact:email" value="info@credo.ge" />
+        <key key="name" value="კრედო ბანკი" />
+        <key key="name:ka" value="კრედო ბანკი" />
+        <key key="name:en" value="Credo Bank" />
+        <key key="name:ru" value="Кредо Банк" />
+        <key key="short_name:ka" value="კრედო" />
+        <key key="short_name:en" value="Credo" />
+        <key key="short_name:ru" value="Кредо" />
+        <reference ref="bic_branch_ref_wheelchair_atm_address" />
+        <reference ref="contacts" />
+      </item>
+
+      <item
+        name="Bank of Georgia Paybox"
+        ka.name="საქართველოს ბანკის ჩასარიცხი აპარატი"
+        ru.name="Пейбокс Банка Грузии"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+        <key key="amenity" value="payment_terminal" />
+        <key key="brand" value="საქართველოს ბანკი" />
+        <key key="brand:wikidata" value="Q2469733" />
+        <key key="contact:website" value="https://bankofgeorgia.ge" />
+        <key key="operator:wikidata" value="Q2469733" />
+        <key key="operator" value="საქართველოს ბანკი" />
+        <key key="operator:en" value="Bank of Georgia" />
+        <key key="operator:ru" value="Банк Грузии" />
+        <key key="operator:tr" value="Gürcistan Bankası" />
+        <key key="payment:coins" value="no" />
+        <key key="payment:cash" value="yes" />
+        <key key="payment:cash:USD" value="yes" />
+        <key key="payment:cash:EUR" value="yes" />
+      </item>
+      <item
+        name="TBC Paybox"
+        ka.name="თიბისი ბანკის ჩასარიცხი აპარატი"
+        ru.name="Пейбокс ТиБиСи"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+        <key key="amenity" value="payment_terminal" />
+        <key key="brand" value="თიბისი ბანკი" />
+        <key key="brand:wikidata" value="Q2620975" />
+        <key key="contact:website" value="https://www.tbcbank.ge" />
+        <key key="operator:wikidata" value="Q2620975" />
+        <key key="operator" value="თიბისი ბანკი" />
+        <key key="operator:short" value="თიბისი" />
+        <key key="operator:en" value="TBC Bank" />
+        <key key="operator:short:en" value="TBC" />
+        <key key="operator:ru" value="ТиБиСи Банк" />
+        <key key="operator:short:ru" value="ТиБиСи" />
+        <key key="payment:coins" value="no" />
+        <key key="payment:cash" value="yes" />
+        <key key="payment:cash:USD" value="yes" />
+        <key key="payment:cash:EUR" value="yes" />
+      </item>
+
+      <item
+        name="Bank of Georgia ATM"
+        ka.name="საქართველოს ბანკის ბანკომატი"
+        ru.name="Банкомат Банка Грузии"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+        <key key="amenity" value="atm" />
+        <key key="brand" value="საქართველოს ბანკი" />
+        <key key="brand:wikidata" value="Q2469733" />
+        <key key="contact:website" value="https://bankofgeorgia.ge" />
+        <key key="operator:wikidata" value="Q2469733" />
+        <key key="operator" value="საქართველოს ბანკი" />
+        <key key="operator:en" value="Bank of Georgia" />
+        <key key="operator:ru" value="Банк Грузии" />
+        <key key="operator:tr" value="Gürcistan Bankası" />
+      </item>
+
+      <item
+        name="TBC ATM"
+        ka.name="თიბისი ბანკის ბანკომატი"
+        ru.name="Банкомат ТиБиСи"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+        <key key="amenity" value="atm" />
+        <key key="brand" value="თიბისი ბანკი" />
+        <key key="brand:wikidata" value="Q2620975" />
+        <key key="contact:website" value="https://www.tbcbank.ge" />
+        <key key="operator:wikidata" value="Q2620975" />
+        <key key="operator" value="თიბისი ბანკი" />
+        <key key="operator:short" value="თიბისი" />
+        <key key="operator:en" value="TBC Bank" />
+        <key key="operator:short:en" value="TBC" />
+        <key key="operator:ru" value="ТиБиСи Банк" />
+        <key key="operator:short:ru" value="ТиБиСи" />
+      </item>
+      <item
+        name="Liberty ATM"
+        ka.name="თიბისი ბანკის ბანკომატი"
+        ru.name="Банкомат Либерти"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+        <key key="amenity" value="atm" />
+        <key key="brand" value="ლიბერთი" />
+        <key key="brand:wikidata" value="Q6541585" />
+        <key key="contact:website" value="https://libertybank.ge" />
+        <key key="operator:wikidata" value="Q6541585" />
+        <key key="operator" value="ლიბერთი" />
+        <key key="operator:en" value="Liberty" />
+        <key key="operator:ru" value="Либерти" />
+      </item>
+      <item
+        name="Credo ATM"
+        ka.name="კრედო ბანკის ბანკომატი"
+        ru.name="Банкомат Кредо"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+        <key key="amenity" value="atm" />
+        <key key="brand" value="კრედო ბანკი" />
+        <key key="contact:website" value="https://credobank.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/CredoBank" />
+        <key key="contact:instagram" value="https://www.instagram.com/credobank" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/credo-bank" />
+        <key key="contact:youtube" value="https://www.youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
+        <key key="contact:email" value="info@credo.ge" />
+        <key key="operator" value="კრედო ბანკი" />
+        <key key="operator:en" value="Credo Bank" />
+        <key key="operator:ru" value="Кредо Банк" />
+        <key key="operator:short:ka" value="კრედო" />
+        <key key="operator:short:en" value="Credo" />
+        <key key="operator:short:ru" value="Кредо" />
+      </item>
+      <item
+        name="Credo ATM"
+        ka.name="კრედო ბანკის ბანკომატი"
+        ru.name="Банкомат Кредо"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+        <key key="amenity" value="atm" />
+        <key key="brand" value="კრედო ბანკი" />
+        <key key="contact:website" value="https://credobank.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/CredoBank" />
+        <key key="contact:instagram" value="https://www.instagram.com/credobank" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/credo-bank" />
+        <key key="contact:youtube" value="https://www.youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
+        <key key="contact:email" value="info@credo.ge" />
+        <key key="operator" value="კრედო ბანკი" />
+        <key key="operator:en" value="Credo Bank" />
+        <key key="operator:ru" value="Кредо Банк" />
+        <key key="operator:short:ka" value="კრედო" />
+        <key key="operator:short:en" value="Credo" />
+        <key key="operator:short:ru" value="Кредо" />
+      </item>
+    </group>
+
+    <group
+      name="Fuel stations"
+      ka.name="ბენზინგასამართი სადგური"
+      ru.name="Автозаправочные станции"
+      icon="https://upload.wikimedia.org/wikipedia/commons/4/4d/Twemoji12_26fd.svg"
+    >
+      <item
+        name="Rompetrol"
+        ka.name="რომპეტროლი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="fuel" />
+        <key key="brand" value="Rompetrol" />
+        <key key="brand:wikidata" value="Q1788862" />
+        <key key="contact:website" value="https://www.rompetrol.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/RompetrolGeorgiaLtd" />
+        <key key="contact:email" value="officege@rompetrol.com" />
+        <key key="name" value="რომპეტროლი" />
+        <key key="name:ka" value="რომპეტროლი" />
+        <key key="name:en" value="Rompetrol" />
+        <reference ref="basic_data" />
+      </item>
+      <item
+        name="Socar"
+        ka.name="სოკარი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="fuel" />
+        <key key="brand" value="Socar" />
+        <key key="brand:wikidata" value="Q1622293" />
+        <key key="operator" value="სოკარ ჯორჯია პეტროლეუმი" />
+        <key key="operator:en" value="SOCAR Georgia Petroleum" />
+        <key key="contact:website" value="https://www.sgp.ge" />
+        <key key="contact:email" value="info@sgp.ge" />
+        <key key="name" value="სოკარი" />
+        <key key="name:ka" value="სოკარი" />
+        <key key="name:en" value="Socar" />
+        <reference ref="basic_data" />
+      </item>
+      <item
+        name="Wissol"
+        ka.name="ვისოლ"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="fuel" />
+        <key key="brand" value="WISSOL" />        
+        <key key="brand:wikidata" value="Q8027737" />
+        <key key="operator:wikidata" value="Q8027737" />
+        <key key="operator" value="ვისოლ პეტროლიუმ ჯორჯია" />
+        <key key="operator:en" value="Wissol Petroleum Georgia" />
+        <key key="contact:website" value="http://wissol.ge" />
+        <key key="contact:email" value="office@wissol.ge" />
+        <key key="name" value="ვისოლ" />
+        <key key="name:ka" value="ვისოლ" />
+        <key key="name:en" value="Wissol" />
+        <reference ref="basic_data" />
+      </item>
+      <item
+        name="Gulf"
+        ka.name="გულფი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="fuel" />
+        <key key="brand" value="Gulf" />
+        <key key="brand:wikidata" value="Q5617505" />
+        <key key="operator" value="სან პეტროლიუმ ჯორჯია" />
+        <key key="operator:en" value="Sun Petroleum Georgia" />
+        <key key="contact:website" value="https://gulf.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/gulfge" />
+        <key key="contact:twitter" value="https://twitter.com/GulfGe" />
+        <key key="contact:youtube" value="https://www.youtube.com/user/GulfGe" />
+        <key key="name" value="გულფი" />
+        <key key="name:ka" value="გულფი" />
+        <key key="name:en" value="Gulf" />
+        <reference ref="basic_data" />
+      </item>
+    </group>
+
+    <group
+      name="Urban units"
+      ka.name="ქალაქის ინფრასტრუქტურა"
+      ru.name="Городская инфраструктура"
+      icon="https://upload.wikimedia.org/wikipedia/commons/c/ce/Fxemoji_u1F3E2.svg"
+    >
+      <item
+        name="Gas substation"
+        ka.name="გაზის ქვესადგური"
+        ru.name="Газорегуляторный пункт"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <reference ref="operator" />
+        <reference ref="ref" />
+        <key key="pipeline" value="substation" />
+        <key key="substance" value="gas" />
+        <key key="substation" value="distribution" />
+        <preset_link preset_name="Address" />
+        <preset_link preset_name="Building" />
+      </item>
+      <item
+        name="Minor power substation (building)"
+        ka.name="სატრანსფორმატორო ქვესადგური (შენობა)"
+        ru.name="Трансформаторная подстанция (ТП, потребительская; здание)"
+        type="node,closedway,multipolygon"
+        icon="https://upload.wikimedia.org/wikipedia/commons/d/d0/Emoji_u26a1.svg"
+        preset_name_label="true"
+      >
+        <space />
+        <reference ref="operator" />
+        <reference ref="ref" />
+        <key key="building" value="service" />
+        <key key="building:levels" value="1" />
+        <key key="location" value="indoor" />
+        <key key="power" value="substation" />
+        <key key="substation" value="minor_distribution" />
+        <preset_link preset_name="Address" />
+      </item>
+      <item name="BatumVelo" type="node" preset_name_label="true">
+        <space />
+        <reference ref="ref" />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+        <combo key="capacity" text="Capacity" />
+        <key key="amenity" value="bicycle_rental" />
+        <key key="bicycle_rental" value="docking_station" />
+        <key key="network" value="BatumVelo" />
+        <key key="operator" value="შპს „ბათუმის ავტოტრანსპორტი“" />
+        <key key="operator:type" value="government" />
+        <key key="contact:email" value="support@batumvelo.ge" />
+        <key key="contact:phone" value="+995 577 377676" />
+        <key key="contact:website" value="https://batumvelo.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/%E1%83%91%E1%83%90%E1%83%97%E1%83%A3%E1%83%9B%E1%83%95%E1%83%94%E1%83%9A%E1%83%9DBatumVelo-111566860732265/" />
+        <key key="fee" value="yes" />
+        <key key="payment:cash" value="no" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+      </item>
+    </group>
+  </group>
+</presets>
