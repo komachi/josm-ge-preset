@@ -345,6 +345,59 @@
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
       </item>
+      <item
+        name="Nazilbe"
+        ka.name="ნაზილბე"
+        ru.name="Назилбе"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ნაზილბე" />
+        <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=100057598083303" />
+        <key key="contact:website" value="https://nazilbe.ge" />
+        <key key="name" value="ნაზილბე" />
+        <key key="name:ka" value="ნაზილბე" />
+        <key key="name:en" value="Nazilbe" />
+        <key key="name:ru" value="Назилбе" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />        
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Goodwill"
+        ka.name="გუდვილი"
+        ru.name="Гудвилл"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="გუდვილი" />
+        <key key="contact:facebook" value="https://www.facebook.com/GOODWILLHYPERMARKET" />
+        <key key="contact:website" value="https://goodwill.ge" />
+        <key key="contact:email" value="marketing@goodwill.ge" />
+        <key key="name" value="გუდვილი" />
+        <key key="name:ka" value="გუდვილი" />
+        <key key="name:en" value="Goodwill" />
+        <key key="name:ru" value="Гудвилл" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />        
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
     </group>
 
     <group
@@ -578,15 +631,15 @@
         <key key="operator:short:ru" value="Кредо" />
       </item>
       <item
-        name="Credo ATM"
-        ka.name="კრედო ბანკის ბანკომატი"
-        ru.name="Банкомат Кредо"
+        name="Credo Paybox"
+        ka.name="კრედო ბანკის ჩასარიცხი აპარატი"
+        ru.name="Пейбокс Кредо"
         type="node,closedway,multipolygon"
         preset_name_label="true"
       >
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
-        <key key="amenity" value="atm" />
+        <key key="amenity" value="payment_terminal" />
         <key key="brand" value="კრედო ბანკი" />
         <key key="contact:website" value="https://credobank.ge" />
         <key key="contact:facebook" value="https://www.facebook.com/CredoBank" />
@@ -689,6 +742,46 @@
         <key key="name" value="გულფი" />
         <key key="name:ka" value="გულფი" />
         <key key="name:en" value="Gulf" />
+        <reference ref="basic_data" />
+      </item>
+      <item
+        name="Connect"
+        ka.name="ქონექთი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="fuel" />
+        <key key="brand" value="Connect" />
+        <key key="contact:facebook" value="https://www.facebook.com/ConnectPetroleumGeo" />
+        <key key="contact:email" value="info@connect.com.ge" />
+        <key key="name" value="ქონექთი" />
+        <key key="name:ka" value="ქონექთი" />
+        <key key="name:en" value="Connect" />
+        <reference ref="basic_data" />
+      </item>
+      <item
+        name="Lukoil"
+        ka.name="ლუკოილი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="fuel" />
+        <key key="brand" value="Lukoil" />
+        <key key="brand:wikidata" value="Q329347" />
+        <key key="operator" value="შპს ლუკოილ ჯორჯია" />
+        <key key="operator:en" value="Lukoil Georgia" />
+        <key key="contact:website" value="http://www.lukoil.ge/" />
+        <key key="contact:facebook" value="https://www.facebook.com/lukoil.georgia" />
+        <key key="contact:twitter" value="https://twitter.com/GulfGe" />
+        <key key="contact:youtube" value="https://www.youtube.com/user/GulfGe" />
+        <key key="contact:email" value="info@lukoil.ge" />
+        <key key="name" value="ლუკოილი" />
+        <key key="name:ka" value="ლუკოილი" />
+        <key key="name:en" value="Lukoil" />
         <reference ref="basic_data" />
       </item>
     </group>
