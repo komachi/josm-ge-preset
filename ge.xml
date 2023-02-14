@@ -398,6 +398,117 @@
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
       </item>
+      <item
+        name="AgroHub"
+        ka.name="აგროჰაბი"
+        ru.name="Агрохаб"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="აგროჰაბი" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/agrohub" />
+        <key key="contact:youtube" value="https://www.youtube.com/channel/UCIbue9itKq2Dp3Uzsf4twWA" />
+        <key key="contact:instagram" value="https://www.instagram.com/agrohub" />
+        <key key="contact:facebook" value="https://www.facebook.com/agrohubge" />
+        <key key="contact:website" value="http://www.agrohub.ge" />
+        <key key="name" value="აგროჰაბი" />
+        <key key="name:ka" value="აგროჰაბი" />
+        <key key="name:en" value="AgroHub" />
+        <key key="name:ru" value="Агрохаб" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />        
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Carrefour"
+        ka.name="კარფური"
+        ru.name="Карфур"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="კარფური" />
+        <key key="contact:twitter" value="https://twitter.com/carrefourge" />
+        <key key="contact:youtube" value="https://www.youtube.com/channel/UCQ7aPJ3odUD15oPgBrqhEtA" />
+        <key key="contact:instagram" value="https://instagram.com/carrefour_georgia" />
+        <key key="contact:facebook" value="https://facebook.com/carrefourgeorgia" />
+        <key key="contact:website" value="https://www.carrefour.ge" />
+        <key key="contact:email" value="mobappgeo@mafcarrefour.com" />
+        <key key="name" value="კარფური" />
+        <key key="name:ka" value="კარფური" />
+        <key key="name:en" value="Carrefour" />
+        <key key="name:ru" value="Карфур" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />        
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Libre"
+        ka.name="ლიბრე"
+        ru.name="Либре"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ლიბრე" />
+        <key key="contact:facebook" value="https://www.facebook.com/supermarketilibre" />
+        <key key="name" value="ლიბრე" />
+        <key key="name:ka" value="ლიბრე" />
+        <key key="name:en" value="Libre" />
+        <key key="name:ru" value="Либре" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />        
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Zgapari"
+        ka.name="ზღაპარი"
+        ru.name="Згапари"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ზღაპარი" />
+        <key key="contact:facebook" value="https://www.facebook.com/Zgaparisupermarket" />
+        <key key="contact:website" value="https://zgapari.ge" />
+        <key key="contact:email" value="ltd.zgapari@gmail.com" />
+        <key key="name" value="ზღაპარი" />
+        <key key="name:ka" value="ზღაპარი" />
+        <key key="name:en" value="Zgapari" />
+        <key key="name:ru" value="Згапари" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />        
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
     </group>
 
     <group
