@@ -202,7 +202,7 @@
       name="Food shops"
       ka.name="პროდუქტები"
       ru.name="Продукты"
-      icon="https://upload.wikimedia.org/wikipedia/commons/7/71/Emoji_u1f347.svg"
+      icon="https://upload.wikimedia.org/wikipedia/commons/9/9f/Twemoji12_1f6d2.svg"
     >
       <item
         name="Spar"
@@ -399,7 +399,7 @@
         <reference ref="wheelchair_address" />
       </item>
       <item
-        name="AgroHub"
+        name="Agrohub"
         ka.name="აგროჰაბი"
         ru.name="Агрохаб"
         type="node,closedway,multipolygon"
@@ -415,7 +415,7 @@
         <key key="contact:website" value="http://www.agrohub.ge" />
         <key key="name" value="აგროჰაბი" />
         <key key="name:ka" value="აგროჰაბი" />
-        <key key="name:en" value="AgroHub" />
+        <key key="name:en" value="Agrohub" />
         <key key="name:ru" value="Агрохаб" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -436,7 +436,10 @@
       >
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
-        <key key="brand" value="კარფური" />
+        <key key="brand" value="Carrefour" />
+        <key key="brand:wikidata" value="Q217599" />
+        <key key="operator" value="Majid Al Futtaim Group" />
+        <key key="operator:wikidata" value="Q1617128" />
         <key key="contact:twitter" value="https://twitter.com/carrefourge" />
         <key key="contact:youtube" value="https://www.youtube.com/channel/UCQ7aPJ3odUD15oPgBrqhEtA" />
         <key key="contact:instagram" value="https://instagram.com/carrefour_georgia" />
@@ -506,6 +509,315 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Alcorium"
+        ka.name="ალქორიუმი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ალქორიუმი" />
+        <key key="contact:email" value="info@alcorium-store.ge" />
+        <key key="contact:website" value="https://alcorium-store.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/alcorium" />
+        <key key="name" value="ალქორიუმი" />
+        <key key="name:ka" value="ალქორიუმი" />
+        <key key="name:en" value="Alcorium" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />        
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="drink:chacha" value="retail" />
+        <key key="drink:beer" value="retail" />
+        <key key="drink:wine" value="retail" />
+        <key key="drink:sparkling_wine" value="retail" />
+        <key key="drink:whisky" value="retail" />
+        <key key="drink:vodka" value="retail" />
+        <key key="drink:cider" value="retail" />
+        <key key="drink:gin" value="retail" />
+        <key key="drink:rum" value="retail" />
+        <key key="drink:congac" value="retail" />
+        <key key="drink:tequila" value="retail" />
+        <key key="drink:liquor" value="retail" />
+        <key key="shop" value="alcohol" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+    </group>
+
+    <group
+      name="Shops"
+      ka.name="მაღაზიები"
+      ru.name="Магазины"
+      icon="https://upload.wikimedia.org/wikipedia/commons/5/59/Twemoji12_1f6cd.svg"
+    >
+      <item
+        name="Clean House"
+        ka.name="სუფთა სახლი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="სუფთა სახლი" />
+        <key key="name" value="სუფთა სახლი" />
+        <key key="name:ka" value="სუფთა სახლი" />
+        <key key="name:en" value="Clean House" />
+        <key key="alt_name:en" value="Supta Sakhli" />
+        <key key="contact:website" value="https://ch.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/suftasakhli" />
+        <key key="contact:instagram" value="https://www.instagram.com/supta_sakhli" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/%E1%83%A1%E1%83%A3%E1%83%A4%E1%83%97%E1%83%90-%E1%83%A1%E1%83%90%E1%83%AE%E1%83%9A%E1%83%98" />
+        <key key="contact:email" value="contact@ch.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />        
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="chemist" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+
+      <item
+        name="Zoommer"
+        ka.name="ზუმერი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="ზუმერი" />
+        <key key="name" value="ზუმერი" />
+        <key key="name:ka" value="ზუმერი" />
+        <key key="name:en" value="Zoommer" />
+        <key key="contact:website" value="https://zoommer.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/zoommerge" />
+        <key key="contact:instagram" value="https://www.instagram.com/zoommer.ge" />
+        <key key="contact:twitter" value="https://twitter.com/Zoommer_tweets" />
+        <key key="contact:youtube" value="https://www.youtube.com/user/WwwZoommerGe" />
+        <key key="contact:email" value="info@zoommer.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />        
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="electronics" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Alta"
+        ka.name="ალტა"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="ალტა" />
+        <key key="name" value="ალტა" />
+        <key key="name:ka" value="ალტა" />
+        <key key="name:en" value="Alta" />
+        <key key="contact:website" value="https://alta.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/alta.ge" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/altaofficial" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="electronics" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Elit Electronics"
+        ka.name="ელიტ ელექტრონიქსი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="ელიტ ელექტრონიქსი" />
+        <key key="name" value="ელიტ ელექტრონიქსი" />
+        <key key="name:ka" value="ელიტ ელექტრონიქსი" />
+        <key key="name:en" value="Elit Electronics" />
+        <key key="contact:email" value="info@ee.ge" />
+        <key key="contact:website" value="https://ee.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/ElitElectronics" />
+        <key key="contact:instagram" value="https://www.instagram.com/elit_electronics" />
+        <key key="contact:tiktok" value="https://www.tiktok.com/@elitelectronics" />
+        <key key="contact:youtube" value="https://www.youtube.com/c/EeGeElitElectronics" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/elit-electronics" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="electronics" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Metromart"
+        ka.name="მეტრომარტი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="მეტრომარტი" />
+        <key key="name" value="მეტრომარტი" />
+        <key key="name:ka" value="მეტრომარტი" />
+        <key key="name:en" value="Metromart" />
+        <key key="contact:website" value="https://metromart.ge" />
+        <key key="contact:email" value="info@metromart.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/Metromarti" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="electronics" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Unicom"
+        ka.name="უნიკომი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="უნიკომი" />
+        <key key="name" value="უნიკომი" />
+        <key key="name:ka" value="უნიკომი" />
+        <key key="name:en" value="Unicom" />
+        <key key="contact:website" value="https://unicom.ge" />
+        <key key="contact:email" value="info@unicom.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="electronics" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="iTechnics"
+        ka.name="აიტექნიკსი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="აიტექნიკსი" />
+        <key key="name" value="აიტექნიკსი" />
+        <key key="name:ka" value="აიტექნიკსი" />
+        <key key="name:en" value="iTechnics" />
+        <key key="contact:website" value="https://itechnics.ge" />
+        <key key="contact:email" value="info@itechnics.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/itechnicsgeo" />
+        <key key="contact:instagram" value="https://www.instagram.com/itechnics_geo" />
+        <key key="contact:twitter" value="https://twitter.com/itechnicgeorgia" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/itechnic-georgia" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="electronics" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Biblusi"
+        ka.name="ბიბლუსი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="ბიბლუსი" />
+        <key key="name" value="ბიბლუსი" />
+        <key key="name:ka" value="ბიბლუსი" />
+        <key key="name:en" value="Biblus" />
+        <key key="contact:website" value="https://biblusi.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/biblusi.ge" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/biblusi" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="books" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+    </group>
+    <group
+      name="Pets"
+      ka.name="შინაური ცხოველები"
+      ru.name="Питомцы"
+      icon="https://upload.wikimedia.org/wikipedia/commons/1/18/Twemoji12_1f436.svg"
+    >
+      <item
+        name="Pet Spot"
+        ka.name="პეტ სპოტი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="პეტ სპოტი" />
+        <key key="name" value="პეტ სპოტი" />
+        <key key="name:ka" value="პეტ სპოტი" />
+        <key key="name:en" value="Pet Spot" />
+        <key key="contact:website" value="https://www.petspot.shop" />
+        <key key="contact:facebook" value="https://www.facebook.com/PetSpot.Georgia" />
+        <key key="contact:instagram" value="https://www.instagram.com/petspot_georgia" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" /> 
+        <key key="payment:american_express" value="yes" />       
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="pet" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="ZooCity"
+        ka.name="ზოოსითი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="ზოოსითი" />
+        <key key="name" value="ზოოსითი" />
+        <key key="name:ka" value="ზოოსითი" />
+        <key key="name:en" value="ZooCity" />
+        <key key="contact:website" value="https://zoocity.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/ZooCityGeo" />
+        <key key="contact:instagram" value="https://www.instagram.com/zoocity_geo" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />       
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="pet" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
       </item>
@@ -875,6 +1187,7 @@
       <item
         name="Lukoil"
         ka.name="ლუკოილი"
+        ru.name="Лукойл"
         type="node,closedway,multipolygon"
         preset_name_label="true"
       >
@@ -893,7 +1206,119 @@
         <key key="name" value="ლუკოილი" />
         <key key="name:ka" value="ლუკოილი" />
         <key key="name:en" value="Lukoil" />
+        <key key="name:ru" value="Лукойл" />
         <reference ref="basic_data" />
+      </item>
+    </group>
+
+    <group
+      name="Communication"
+      ka.name="კომუნიკაცია"
+      ru.name="Коммуникация"
+      icon="https://upload.wikimedia.org/wikipedia/commons/a/a0/Twemoji_1f4de.svg"
+    >
+      <item
+        name="Beeline"
+        ka.name="ბილაინი"
+        ru.name="Билайн"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="ბილაინი" />
+        <key key="brand:wikidata" value="Q402880" />
+        <key key="name" value="ბილაინი" />
+        <key key="name:ka" value="ბილაინი" />
+        <key key="name:en" value="Beeline" />
+        <key key="contact:website" value="https://www.beeline.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="office" value="telecommunication" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Silknet"
+        ka.name="სილქნეტი"
+        ru.name="Силкнет"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="სილქნეტი" />
+        <key key="brand:wikidata" value="Q12869272" />
+        <key key="name" value="სილქნეტი" />
+        <key key="name:ka" value="სილქნეტი" />
+        <key key="name:en" value="Silknet" />
+        <key key="name:ru" value="Силкнет" />
+        <key key="contact:website" value="https://silknet.com" />
+        <key key="contact:facebook" value="https://www.facebook.com/silknet" />
+        <key key="contact:instagram" value="https://www.instagram.com/silknet_" />
+        <key key="contact:youtube" value="https://www.youtube.com/channel/UCnXM6z9Z40w86hHrglwTkOw" />
+        <key key="office" value="telecommunication" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Magti"
+        ka.name="მაგთი"
+        ru.name="Магти"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="მაგთი" />
+        <key key="operator" value="MagtiCom" />
+        <key key="operator:wikidata" value="Q6732495" />
+        <key key="name" value="მაგთი" />
+        <key key="name:ka" value="მაგთი" />
+        <key key="name:en" value="Magti" />
+        <key key="name:ru" value="Магти" />
+        <key key="contact:website" value="https://www.magticom.ge" />
+        <key key="contact:email" value="office@magticom.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/Magti/" />
+        <key key="contact:instagram" value="https://www.instagram.com/silknet_" />
+        <key key="contact:youtube" value="https://www.youtube.com/channel/UCnXM6z9Z40w86hHrglwTkOw" />
+        <key key="office" value="telecommunication" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Cellular antenna (on roof)"
+        ka.name="ფიჭური ანტენა (სახურავზე)"
+        ru.name="Антенна сотовой связи (на крыше)"
+        type="node"
+        preset_name_label="true"
+      >
+        <space />
+        <reference ref="operator" />
+        <key key="man_made" value="antenna" />
+        <key key="communication:mobile_phone" value="yes" />
+        <key key="location" value="roof" />
+        <link wiki="Tag:man_made%3Dantenna" />
+        <link wiki="Proposed_features/Telecommunications_tower" text="Proposed features/Telecommunications tower" />
+      </item>
+      <item
+        name="Cellular tower"
+        ka.name="ფიჭური კოშკი"
+        ru.name="Башня сотовой связи"
+        type="node"
+        preset_name_label="true"
+      >
+        <space />
+        <reference ref="operator" />
+        <reference ref="height" />
+        <key key="communication:mobile_phone" value="yes" />
+        <key key="man_made" value="tower" />
+        <key key="tower:type" value="communication" />
+        <link wiki="Proposed_features/Telecommunications_tower" text="Proposed features/Telecommunications tower" />
+        <link wiki="Tag:man_made%3Dtower" />
       </item>
     </group>
 
@@ -937,9 +1362,77 @@
         <key key="substation" value="minor_distribution" />
         <preset_link preset_name="Address" />
       </item>
+      <item
+        name="Waste basket"
+        type="node,closedway,multipolygon"
+        icon="https://upload.wikimedia.org/wikipedia/commons/6/64/Twemoji12_1f5d1.svg"
+        preset_name_label="true"
+      >
+        <space />
+        <reference ref="operator" />
+        <key key="access" value="yes" />
+        <key key="amenity" value="waste_basket" />
+        <key key="waste" value="trash" />
+      </item>
+      <item
+        name="Waste disposal"
+        type="node,closedway,multipolygon"
+        icon="https://upload.wikimedia.org/wikipedia/commons/6/64/Twemoji12_1f5d1.svg"
+        preset_name_label="true"
+      >
+        <space />
+        <reference ref="operator" />
+        <key key="access" value="yes" />
+        <key key="amenity" value="waste_disposal" />
+        <key key="waste" value="trash" />
+      </item>
+      <item
+        name="PET recycling container"
+        type="node,closedway,multipolygon"
+        icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg"
+        preset_name_label="true"
+      >
+        <space />
+        <reference ref="operator" />
+        <key key="access" value="yes" />
+        <key key="amenity" value="recycling" />
+        <key key="recycling_type" value="container" />
+        <key key="recycling:PET" value="yes" />
+      </item>
+      <item
+        name="PET+Aluminium recycling container"
+        type="node,closedway,multipolygon"
+        icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg"
+        preset_name_label="true"
+      >
+        <space />
+        <reference ref="operator" />
+        <key key="access" value="yes" />
+        <key key="amenity" value="recycling" />
+        <key key="recycling_type" value="container" />
+        <key key="recycling:PET" value="yes" />
+        <key key="recycling:aluminium" value="yes" />
+      </item>
+      <item
+        name="PET+Aluminium+Glass+Paper recycling container"
+        type="node,closedway,multipolygon"
+        icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg"
+        preset_name_label="true"
+      >
+        <space />
+        <reference ref="operator" />
+        <key key="access" value="yes" />
+        <key key="amenity" value="recycling" />
+        <key key="recycling_type" value="container" />
+        <key key="recycling:PET" value="yes" />
+        <key key="recycling:aluminium" value="yes" />
+        <key key="recycling:glass_bottles" value="yes" />
+        <key key="recycling:paper" value="yes" />
+      </item>
       <item name="BatumVelo" type="node" preset_name_label="true">
         <space />
         <reference ref="ref" />
+        <reference ref="operator" />
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <combo key="capacity" text="Capacity" />
         <key key="amenity" value="bicycle_rental" />
