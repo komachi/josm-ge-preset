@@ -94,6 +94,7 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="პსპ" />
         <key key="brand:wikidata" value="Q115970964" />
+        <key key="operator:wikidata" value="Q115970964" />
         <key key="contact:facebook" value="https://facebook.com/psp.ge" />
         <key key="contact:instagram" value="https://instagram.com/psp_pharmacy" />
         <key key="contact:youtube" value="https://youtube.com/user/PSPN1TV" />
@@ -124,6 +125,7 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ავერსი" />
         <key key="brand:wikidata" value="Q55653978" />
+        <key key="operator:wikidata" value="Q55653978" />
         <key key="contact:facebook" value="https://facebook.com/AversiPharma" />
         <key key="contact:instagram" value="https://instagram.com/aversipharma" />
         <key key="contact:youtube" value="https://youtube.com/user/AversiPharma" />
@@ -174,7 +176,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ნეოფარმი" />
-        <key key="contact:website" value="http://neopharmi.ge" />
+        <key key="contact:website" value="https://neopharmi.ge" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
@@ -183,7 +185,7 @@
         <key key="name" value="ნეოფარმი" />
         <key key="name:ka" value="ნეოფარმი" />
         <key key="name:en" value="Neopharmi" />
-        <key key="name:ru" value="Неофарми" />
+        <key key="name:ru" value="Неофарм" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_data" />
@@ -194,6 +196,8 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ჯპს" />
         <key key="brand:wikidata" value="Q115971130" />
+        <key key="operator:wikidata" value="Q115971130" />
+        <key key="contact:email" value="info@gepha.com" />
         <key key="contact:facebook" value="https://facebook.com/gpcpharmacy/" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -492,9 +496,10 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ნიკორა" />
         <key key="brand:wikidata" value="Q115949612" />
+        <key key="operator:wikidata" value="Q115949612" />
         <key key="contact:facebook" value="https://facebook.com/nikorasupermarket" />
         <key key="contact:instagram" value="https://instagram.com/nikora_supermarket" />
-        <key key="contact:linkedin" value="https://www.linkedin.com/company/nikora-supermarket" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/nikora-supermarket" />
         <key key="contact:email" value="info@nikoratrade.ge" />
         <key key="contact:website" value="https://nikorasupermarket.ge" />
         <key key="name" value="ნიკორა" />
@@ -522,6 +527,7 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ორი ნაბიჯი" />
         <key key="brand:wikidata" value="Q115949750" />
+        <key key="operator:wikidata" value="Q115949750" />
         <key key="contact:facebook" value="https://facebook.com/2nabijiofficial/" />
         <key key="contact:linkedin" value="https://linkedin.com/company/2-%E1%83%9C%E1%83%90%E1%83%91%E1%83%98%E1%83%AF%E1%83%98-2-nabiji" />
         <key key="contact:website" value="https://2nabiji.ge" />
@@ -530,7 +536,7 @@
         <key key="alt_name:ka" value="2 ნაბიჯი" />
         <key key="name:en" value="Ori Nabiji" />
         <key key="alt_name:en" value="2 Nabiji" />
-        <key key="name:ru" value="Ори набиджи" />
+        <key key="name:ru" value="Ори Набиджи" />
         <key key="alt_name:ru" value="2 набиджи" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -578,7 +584,7 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="მაგნიტი" />
         <key key="contact:facebook" value="https://facebook.com/magniti.ge" />
-        <key key="contact:linkedin" value="https://www.linkedin.com/company/magniti" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/magniti" />
         <key key="contact:youtube" value="https://youtube.com/channel/UCXnteLjNLQ7p_A-J25RgMKw" />
         <key key="contact:website" value="https://magniti.ge" />
         <key key="contact:email" value="info@magniti.ge" />
@@ -660,7 +666,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="აგროჰაბი" />
-        <key key="contact:linkedin" value="https://www.linkedin.com/company/agrohub" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/agrohub" />
         <key key="contact:youtube" value="https://youtube.com/channel/UCIbue9itKq2Dp3Uzsf4twWA" />
         <key key="contact:instagram" value="https://instagram.com/agrohub" />
         <key key="contact:facebook" value="https://facebook.com/agrohubge" />
@@ -985,7 +991,7 @@
         <key key="contact:website" value="https://ee.ge" />
         <key key="contact:facebook" value="https://facebook.com/ElitElectronics" />
         <key key="contact:instagram" value="https://instagram.com/elit_electronics" />
-        <key key="contact:tiktok" value="https://www.tiktok.com/@elitelectronics" />
+        <key key="contact:tiktok" value="https://tiktok.com/@elitelectronics" />
         <key key="contact:youtube" value="https://youtube.com/c/EeGeElitElectronics" />
         <key key="contact:linkedin" value="https://linkedin.com/company/elit-electronics" />
         <key key="payment:visa" value="yes" />
@@ -1062,7 +1068,7 @@
         <key key="contact:facebook" value="https://facebook.com/itechnicsgeo" />
         <key key="contact:instagram" value="https://instagram.com/itechnics_geo" />
         <key key="contact:twitter" value="https://twitter.com/itechnicgeorgia" />
-        <key key="contact:linkedin" value="https://www.linkedin.com/company/itechnic-georgia" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/itechnic-georgia" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
@@ -1324,6 +1330,7 @@
         <key key="amenity" value="bank" />
         <key key="brand" value="თიბისი ბანკი" />
         <key key="brand:wikidata" value="Q2620975" />
+        <key key="operator:wikidata" value="Q2620975" />
         <key key="contact:website" value="https://www.tbcbank.ge" />
         <key key="name" value="თიბისი ბანკი" />
         <key key="name:ka" value="თიბისი ბანკი" />
@@ -1348,9 +1355,11 @@
         <key key="amenity" value="bank" />
         <key key="brand" value="საქართველოს ბანკი" />
         <key key="brand:wikidata" value="Q2469733" />
+        <key key="operator:wikidata" value="Q2469733" />
         <key key="contact:website" value="https://bankofgeorgia.ge" />
         <key key="contact:instagram" value="https://instagram.com/bankofgeorgia" />
-        <key key="contact:linkedin" value="https://www.linkedin.com/company/bank-of-georgia" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/bank-of-georgia" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/bank-of-georgia" />
         <key key="contact:youtube" value="https://youtube.com/user/BankofGeorgiaTV" />
         <key key="contact:email" value="customerservice@bog.ge" />
         <key key="name" value="საქართველოს ბანკი" />
@@ -1368,7 +1377,13 @@
         <key key="amenity" value="bank" />
         <key key="brand" value="ლიბერთი" />
         <key key="brand:wikidata" value="Q6541585" />
+        <key key="operator:wikidata" value="Q6541585" />
         <key key="contact:website" value="https://libertybank.ge" />
+        <key key="contact:email" value="info@lb.ge" />
+        <key key="contact:phone" value="+995 322 555500" />
+        <key key="contact:facebook" value="https://facebook.com/libertybank.ge" />
+        <key key="contact:instagram" value="https://instagram.com/liberty_bank_" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/libertybankge" />
         <key key="name" value="ლიბერთი" />
         <key key="name:ka" value="ლიბერთი" />
         <key key="name:en" value="Liberty" />
@@ -1390,9 +1405,10 @@
         <key key="contact:website" value="https://credobank.ge" />
         <key key="contact:facebook" value="https://facebook.com/CredoBank" />
         <key key="contact:instagram" value="https://instagram.com/credobank" />
-        <key key="contact:linkedin" value="https://www.linkedin.com/company/credo-bank" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/credo-bank" />
         <key key="contact:youtube" value="https://youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
         <key key="contact:email" value="info@credo.ge" />
+        <key key="contact:phone" value="+995 322 424242" />
         <key key="name" value="კრედო ბანკი" />
         <key key="name:ka" value="კრედო ბანკი" />
         <key key="name:en" value="Credo Bank" />
@@ -1400,6 +1416,156 @@
         <key key="short_name:ka" value="კრედო" />
         <key key="short_name:en" value="Credo" />
         <key key="short_name:ru" value="Кредо" />
+        <reference ref="bic_branch_ref_wheelchair_atm_address" />
+        <reference ref="contacts" />
+      </item>
+
+      <item
+        name="Basisbank"
+        ka.name="კრედო ბანკი"
+        ru.name="Базисбанк"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="bank" />
+        <key key="brand" value="ბაზისბანკი" />
+        <key key="brand:wikidata" value="Q16365625" />
+        <key key="operator:wikidata" value="Q16365625" />
+        <key key="contact:website" value="https://bb.ge" />
+        <key key="contact:facebook" value="https://facebook.com/Basisbank" />
+        <key key="contact:instagram" value="https://instagram.com/basis_bank" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/jsc-basisbank" />
+        <key key="contact:youtube" value="https://youtube.com/user/basisbankhualing" />
+        <key key="contact:phone" value="+995 322 922922" />
+        <key key="name" value="ბაზისბანკი" />
+        <key key="name:ka" value="ბაზისბანკი" />
+        <key key="name:en" value="Basisbank" />
+        <key key="name:ru" value="Базисбанк" />
+        <reference ref="bic_branch_ref_wheelchair_atm_address" />
+        <reference ref="contacts" />
+      </item>
+
+      <item
+        name="Terabank"
+        ka.name="ტერაბანკი"
+        ru.name="Терабанк"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="bank" />
+        <key key="brand" value="ტერაბანკი" />
+        <key key="contact:website" value="https://terabank.ge" />
+        <key key="contact:facebook" value="https://facebook.com/terabank" />
+        <key key="contact:instagram" value="https://instagram.com/Terabank" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/terabank" />
+        <key key="contact:email" value="info@terabank.ge" />
+        <key key="contact:phone" value="+995 322 550000" />
+        <key key="name" value="ტერაბანკი" />
+        <key key="name:ka" value="ტერაბანკი" />
+        <key key="name:en" value="Terabank" />
+        <key key="name:ru" value="Терабанк" />
+        <reference ref="bic_branch_ref_wheelchair_atm_address" />
+        <reference ref="contacts" />
+      </item>
+
+      <item
+        name="ProCredit Bank"
+        ka.name="პროკრედიტ ბანკი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="bank" />
+        <key key="brand" value="ProCredit Bank" />
+        <key key="contact:website" value="https://procreditbank.ge" />
+        <key key="contact:facebook" value="https://facebook.com/procreditbankgeorgia" />
+        <key key="contact:instagram" value="https://instagram.com/procreditbankgeorgia" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/procredit-bank-georgia-%E1%83%9E%E1%83%A0%E1%83%9D%E1%83%99%E1%83%A0%E1%83%94%E1%83%93%E1%83%98%E1%83%A2-%E1%83%91%E1%83%90%E1%83%9C%E1%83%99%E1%83%98-%E1%83%A1%E1%83%90%E1%83%A5%E1%83%90%E1%83%A0%E1%83%97%E1%83%95%E1%83%94%E1%83%9A%E1%83%9D" />
+        <key key="contact:email" value="geo.info@procredit-group.com" />
+        <key key="contact:phone" value="+995 322 202222" />
+        <key key="name" value="პროკრედიტ ბანკი" />
+        <key key="name:ka" value="პროკრედიტ ბანკი" />
+        <key key="name:en" value="ProCredit Bank" />
+        <reference ref="bic_branch_ref_wheelchair_atm_address" />
+        <reference ref="contacts" />
+      </item>
+
+      <item
+        name="Cartu Bank"
+        ka.name="ბანკი ქართუ"
+        ru.name="Карту Банк"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="bank" />
+        <key key="brand" value="ბანკი ქართუ" />
+        <key key="contact:website" value="https://cartubank.ge" />
+        <key key="contact:facebook" value="https://facebook.com/cartubank" />
+        <key key="contact:twitter" value="https://twitter.com/CartuBank" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/cartu-bank" />
+        <key key="contact:email" value="info@cartubank.ge" />
+        <key key="contact:phone" value="+995 032 2008080" />
+        <key key="name" value="ბანკი ქართუ" />
+        <key key="name:ka" value="ბანკი ქართუ" />
+        <key key="name:en" value="Cartu Bank" />
+        <key key="name:ru" value="Карту Банк" />
+        <reference ref="bic_branch_ref_wheelchair_atm_address" />
+        <reference ref="contacts" />
+      </item>
+
+      <item
+        name="Ziraat Bank"
+        ka.name="ბანკი ქართუ"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="bank" />
+        <key key="brand" value="Ziraat Bank" />
+        <key key="brand:wikidata" value="Q696003" />
+        <key key="contact:website" value="https://ziraatbank.ge" />
+        <key key="name" value="ზირაათ ბანკი" />
+        <key key="name:ka" value="ზირაათ ბანკი" />
+        <key key="name:en" value="Ziraat Bank" />
+        <key key="name:ru" value="Зираат Банк" />
+        <key key="name:tr" value="Ziraat Bankası" />
+        <reference ref="bic_branch_ref_wheelchair_atm_address" />
+        <reference ref="contacts" />
+      </item>
+
+      <item
+        name="Halyk Bank"
+        ka.name="ხალიკ ბანკი"
+        ru.name="Халык Банк"
+        kk.name="Халық Банкі"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="bank" />
+        <key key="brand" value="Halyk Bank" />
+        <key key="brand:wikidata" value="Q1046186" />
+        <key key="operator" value="ხალიკ ბანკი საქართველო" />
+        <key key="contact:website" value="https://halykbank.ge" />
+        <key key="contact:email" value="info@hbg.ge" />
+        <key key="contact:phone" value="+995 322 240707" />
+        <key key="contact:facebook" value="https://facebook.com/halykbank.ge" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/halykbankgeo" />
+        <key key="contact:instagram" value="https://instagram.com/halykbankgeo" />
+        <key key="name" value="ხალიკ ბანკი" />
+        <key key="name:ka" value="ხალიკ ბანკი" />
+        <key key="name:en" value="Halyk Bank" />
+        <key key="name:ru" value="Халык Банк" />
+        <key key="name:kk" value="Халық Банкі" />
         <reference ref="bic_branch_ref_wheelchair_atm_address" />
         <reference ref="contacts" />
       </item>
@@ -1451,6 +1617,32 @@
         <key key="payment:cash" value="yes" />
         <key key="payment:cash:USD" value="yes" />
         <key key="payment:cash:EUR" value="yes" />
+      </item>
+
+      <item
+        name="Credo Paybox"
+        ka.name="კრედო ბანკის ჩასარიცხი აპარატი"
+        ru.name="Пейбокс Кредо"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+        <key key="amenity" value="payment_terminal" />
+        <key key="brand" value="კრედო ბანკი" />
+        <key key="contact:website" value="https://credobank.ge" />
+        <key key="contact:facebook" value="https://facebook.com/CredoBank" />
+        <key key="contact:instagram" value="https://instagram.com/credobank" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/credo-bank" />
+        <key key="contact:youtube" value="https://youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
+        <key key="contact:email" value="info@credo.ge" />
+        <key key="contact:phone" value="+995 322 424242" />
+        <key key="operator" value="კრედო ბანკი" />
+        <key key="operator:en" value="Credo Bank" />
+        <key key="operator:ru" value="Кредо Банк" />
+        <key key="operator:short:ka" value="კრედო" />
+        <key key="operator:short:en" value="Credo" />
+        <key key="operator:short:ru" value="Кредо" />
       </item>
 
       <item
@@ -1507,6 +1699,11 @@
         <key key="brand" value="ლიბერთი" />
         <key key="brand:wikidata" value="Q6541585" />
         <key key="contact:website" value="https://libertybank.ge" />
+        <key key="contact:email" value="info@lb.ge" />
+        <key key="contact:phone" value="+995 322 555500" />
+        <key key="contact:facebook" value="https://facebook.com/libertybank.ge" />
+        <key key="contact:instagram" value="https://instagram.com/liberty_bank_" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/libertybankge" />
         <key key="operator:wikidata" value="Q6541585" />
         <key key="operator" value="ლიბერთი" />
         <key key="operator:en" value="Liberty" />
@@ -1526,9 +1723,10 @@
         <key key="contact:website" value="https://credobank.ge" />
         <key key="contact:facebook" value="https://facebook.com/CredoBank" />
         <key key="contact:instagram" value="https://instagram.com/credobank" />
-        <key key="contact:linkedin" value="https://www.linkedin.com/company/credo-bank" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/credo-bank" />
         <key key="contact:youtube" value="https://youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
         <key key="contact:email" value="info@credo.ge" />
+        <key key="contact:phone" value="+995 322 424242" />
         <key key="operator" value="კრედო ბანკი" />
         <key key="operator:en" value="Credo Bank" />
         <key key="operator:ru" value="Кредо Банк" />
@@ -1536,29 +1734,97 @@
         <key key="operator:short:en" value="Credo" />
         <key key="operator:short:ru" value="Кредо" />
       </item>
+
       <item
-        name="Credo Paybox"
-        ka.name="კრედო ბანკის ჩასარიცხი აპარატი"
-        ru.name="Пейбокс Кредо"
+        name="Basisbank ATM"
+        ka.name="ბაზისბანკი ბანკომატი"
+        ru.name="Банкомат Базисбанка"
         type="node,closedway,multipolygon"
         preset_name_label="true"
       >
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
-        <key key="amenity" value="payment_terminal" />
-        <key key="brand" value="კრედო ბანკი" />
-        <key key="contact:website" value="https://credobank.ge" />
-        <key key="contact:facebook" value="https://facebook.com/CredoBank" />
-        <key key="contact:instagram" value="https://instagram.com/credobank" />
-        <key key="contact:linkedin" value="https://www.linkedin.com/company/credo-bank" />
-        <key key="contact:youtube" value="https://youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
-        <key key="contact:email" value="info@credo.ge" />
-        <key key="operator" value="კრედო ბანკი" />
-        <key key="operator:en" value="Credo Bank" />
-        <key key="operator:ru" value="Кредо Банк" />
-        <key key="operator:short:ka" value="კრედო" />
-        <key key="operator:short:en" value="Credo" />
-        <key key="operator:short:ru" value="Кредо" />
+        <key key="amenity" value="atm" />
+        <key key="brand" value="ბაზისბანკი" />
+        <key key="brand:wikidata" value="Q16365625" />
+        <key key="contact:website" value="https://bb.ge" />
+        <key key="contact:facebook" value="https://facebook.com/Basisbank" />
+        <key key="contact:instagram" value="https://instagram.com/basis_bank" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/jsc-basisbank" />
+        <key key="contact:youtube" value="https://youtube.com/user/basisbankhualing" />
+        <key key="contact:phone" value="+995 322 922922" />
+        <key key="operator" value="ბაზისბანკი" />
+        <key key="operator:en" value="Basisbank" />
+        <key key="operator:ru" value="Базисбанк" />
+        <key key="operator:wikidata" value="Q16365625" />
+      </item>
+
+      <item
+        name="Terabank ATM"
+        ka.name="ტერაბანკი ბანკომატი"
+        ru.name="Банкомат Терабанка"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+        <key key="amenity" value="atm" />
+        <key key="brand" value="ტერაბანკი" />
+        <key key="contact:website" value="https://terabank.ge" />
+        <key key="contact:facebook" value="https://facebook.com/terabank" />
+        <key key="contact:instagram" value="https://instagram.com/Terabank" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/terabank" />
+        <key key="contact:email" value="info@terabank.ge" />
+        <key key="contact:phone" value="+995 322 550000" />
+        <key key="operator" value="ტერაბანკი" />
+        <key key="operator:en" value="Terabank" />
+        <key key="operator:ru" value="Терабанк" />
+      </item>
+
+      <item
+        name="Cartu Bank ATM"
+        ka.name="ბანკი ქართუ ბანკომატი"
+        ru.name="Банкомат Карту Банка"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+        <key key="amenity" value="atm" />
+        <key key="brand" value="ბანკი ქართუ" />
+        <key key="contact:website" value="https://cartubank.ge" />
+        <key key="contact:facebook" value="https://facebook.com/cartubank" />
+        <key key="contact:twitter" value="https://twitter.com/CartuBank" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/cartu-bank" />
+        <key key="contact:email" value="info@cartubank.ge" />
+        <key key="contact:phone" value="+995 032 2008080" />
+        <key key="operator" value="ბანკი ქართუ" />
+        <key key="operator:en" value="Cartu Bank" />
+        <key key="operator:ru" value="Карту Банк" />
+      </item>
+      <item
+        name="Halyk Bank ATM"
+        ka.name="ხალიკ ბანკი ბანკომატი"
+        ru.name="Банкомат Халык Банка"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+        <key key="amenity" value="atm" />
+        <key key="brand" value="Halyk Bank" />
+        <key key="brand:wikidata" value="Q1046186" />
+        <key key="operator" value="ხალიკ ბანკი საქართველო" />
+        <key key="contact:website" value="https://halykbank.ge" />
+        <key key="contact:email" value="info@hbg.ge" />
+        <key key="contact:phone" value="+995 322 240707" />
+        <key key="contact:facebook" value="https://facebook.com/halykbank.ge" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/halykbankgeo" />
+        <key key="contact:instagram" value="https://instagram.com/halykbankgeo" />
+        <key key="operator" value="ხალიკ ბანკი" />
+        <key key="operator:en" value="Halyk Bank" />
+        <key key="operator:ru" value="Халык Банк" />
+        <key key="operator:kk" value="Халық Банкі" />
       </item>
     </group>
 
@@ -1709,12 +1975,16 @@
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ბილაინი" />
         <key key="brand:wikidata" value="Q402880" />
+        <key key="operator" value="ვიონი საქართველო" />
         <key key="operator:wikidata" value="Q4044421" />
         <key key="name" value="ბილაინი" />
         <key key="name:ka" value="ბილაინი" />
         <key key="name:en" value="Beeline" />
         <key key="name:ru" value="Билайн" />
         <key key="contact:website" value="https://www.beeline.ge" />
+        <key key="contact:facebook" value="https://facebook.com/beeline.ge" />
+        <key key="contact:instagram" value="https://instagram.com/beeline_georgia" />
+        <key key="contact:youtube" value="https://youtube.com/channel/UCQi0s8nhD7c1dOpGwNPnZ5g" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
@@ -1735,6 +2005,7 @@
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="სილქნეტი" />
         <key key="brand:wikidata" value="Q12869272" />
+        <key key="operator:wikidata" value="Q12869272" />
         <key key="name" value="სილქნეტი" />
         <key key="name:ka" value="სილქნეტი" />
         <key key="name:en" value="Silknet" />
@@ -1746,6 +2017,11 @@
         <key key="contact:instagram" value="https://instagram.com/silknet_" />
         <key key="contact:linkedin" value="https://linkedin.com/company/silknet" />
         <key key="contact:youtube" value="https://youtube.com/channel/UCnXM6z9Z40w86hHrglwTkOw" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
         <key key="office" value="telecommunication" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -1771,6 +2047,11 @@
         <key key="contact:facebook" value="https://facebook.com/Magti" />
         <key key="contact:instagram" value="https://instagram.com/magticom" />
         <key key="contact:twitter" value="https://twitter.com/magticom" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
         <key key="office" value="telecommunication" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
