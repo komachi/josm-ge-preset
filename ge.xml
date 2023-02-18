@@ -9,6 +9,9 @@
   description="Georgian POIs"
   ka.description="საქართველოს POI"
   ru.description="Грузинские POI"
+  shortdescription="Georgian POIs"
+  ka.shortdescription="საქართველოს POI"
+  ru.shortdescription="Грузинские POI"
 >
   <chunk id="name">
     <text key="name" text="Name" />
@@ -64,6 +67,16 @@
     <reference ref="wheelchair" />
     <check key="atm" text="Automated Teller Machine" ka.text="ბანკომატ" ru.text="Банкомат" />
     <preset_link preset_name="Address" />
+  </chunk>
+  <chunk id="clothes_list">
+    <multiselect
+      key="clothes"
+      text="Clothes"
+      ka.text="Ტანსაცმელი"
+      ru.text="Одежда"
+      values="babies,children,costumes,denim,fashion,fur,hats,leather,maternity,men,motorcycle,oversize,schoolwear,sports,suits,swimwear,traditional,underwear,unisex,wedding,women,workwear"
+      default="hats;men;women;children;underwear"
+    />
   </chunk>
 
   <group
@@ -141,7 +154,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ფარმადეპი" />
-        <key key="contact:facebook" value="https://www.facebook.com/Pharmadepot/" />
+        <key key="contact:facebook" value="https://facebook.com/Pharmadepot/" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:american_express" value="yes" />
@@ -181,7 +194,7 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ჯპს" />
         <key key="brand:wikidata" value="Q115971130" />
-        <key key="contact:facebook" value="https://www.facebook.com/gpcpharmacy/" />
+        <key key="contact:facebook" value="https://facebook.com/gpcpharmacy/" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:american_express" value="yes" />
@@ -193,6 +206,244 @@
         <key key="name:en" value="GPC" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Roniko"
+        ka.name="რონიკო"
+        ru.name="Ронико"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="რონიკო" />
+        <key key="name" value="რონიკო" />
+        <key key="name:ka" value="რონიკო" />
+        <key key="name:en" value="Roniko" />
+        <key key="name:ru" value="Ронико" />
+        <key key="contact:website" value="https://roniko.ge" />
+        <key key="contact:facebook" value="https://facebook.com/ronikooptics" />
+        <key key="contact:instagram" value="https://instagram.com/roniko_optics" />
+        <key key="contact:youtube" value="https://youtube.com/user/ronikooptics" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="optican" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+    </group>
+
+    <group
+      name="Healthcare"
+      ka.name="ჯანმრთელობა"
+      ru.name="Здравоохранение"
+      icon="https://upload.wikimedia.org/wikipedia/commons/7/73/Twemoji12_1f3e5.svg"
+    >
+      <item
+        name="Synevo"
+        ka.name="სინევი"
+        ru.name="Синево"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="Synevo" />
+        <key key="name" value="სინევი" />
+        <key key="name:ka" value="სინევი" />
+        <key key="name:en" value="Synevo" />
+        <key key="name:ru" value="Синево" />
+        <key key="contact:website" value="https://synevo.ge" />
+        <key key="contact:email" value="info@synevo.ge" />
+        <key key="contact:phone" value="+995 322 393833;+995 322 800111" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/synevo-georgia" />
+        <key key="contact:facebook" value="https://facebook.com/synevolabs" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="healthcare" value="sample_collection" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+    </group>
+
+    <group
+      name="Eatery"
+      ka.name="საზოგადოებრივი კვება"
+      ru.name="Общепит"
+      icon="https://upload.wikimedia.org/wikipedia/commons/1/1d/Emojione_1F374.svg"
+    >
+      <item
+        name="KFC"
+        ka.name="ქიიეფსი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <check key="drive_through" text="Drive through" />
+        <key key="brand" value="KFC" />
+        <key key="brand:wikidata" value="Q524757" />
+        <key key="name" value="კეი ეფ სი" />
+        <key key="name:ka" value="კეი ეფ სი" />
+        <key key="name:en" value="KFC" />
+        <key key="alt_name:en" value="Kentucky Fried Chicken" />
+        <key key="contact:facebook" value="https://facebook.com/KFCGeo" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="takeaway" value="yes" />
+        <key key="cuisine" value="chiken;burger" />
+        <key key="amenity" value="fast_food" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="McDonald's"
+        ka.name="ქიიეფსი"
+        ru.name="Макдональдс"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <check key="drive_through" text="Drive through" />
+        <key key="brand" value="McDonald's" />
+        <key key="brand:wikidata" value="Q38076" />
+        <key key="name" value="მაკდონალდსი" />
+        <key key="name:ka" value="მაკდონალდსი" />
+        <key key="name:en" value="McDonald's" />
+        <key key="name:ru" value="Макдональдс" />
+        <key key="contact:website" value="https://www.mcdonalds.ge" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/mcdonalds-georgia" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="takeaway" value="yes" />
+        <key key="cuisine" value="burger" />
+        <key key="amenity" value="fast_food" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Dunkin' Donuts"
+        ka.name="დანკინ დონათსი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <check key="drive_through" text="Drive through" />
+        <key key="brand" value="Dunkin' Donuts" />
+        <key key="brand:wikidata" value="Q847743" />
+        <key key="name" value="დანკინ დონათსი" />
+        <key key="name:ka" value="დანკინ დონათსი" />
+        <key key="name:en" value="Dunkin' Donuts" />
+        <key key="contact:website" value="https://dd.ge" />
+        <key key="contact:facebook" value="https://facebook.com/dunkindonutsgeo" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="takeaway" value="yes" />
+        <key key="cuisine" value="donut;coffee_shop" />
+        <key key="amenity" value="fast_food" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Subway"
+        ka.name="საბვეი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <check key="drive_through" text="Drive through" />
+        <key key="brand" value="Subway" />
+        <key key="brand:wikidata" value="Q244457" />
+        <key key="name" value="საბვეი" />
+        <key key="name:ka" value="საბვეი" />
+        <key key="name:en" value="Subway" />
+        <key key="contact:website" value="https://mysubway.ge" />
+        <key key="contact:facebook" value="https://facebook.com/SubwayGE" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="takeaway" value="yes" />
+        <key key="cuisine" value="sandwich" />
+        <key key="amenity" value="fast_food" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Burger King"
+        ka.name="ბურგერ კინგი"
+        ru.name="Бургер Кинг"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <check key="drive_through" text="Drive through" />
+        <key key="brand" value="Burger King" />
+        <key key="brand:wikidata" value="Q177054" />
+        <key key="name" value="ბურგერ კინგი" />
+        <key key="name:ka" value="ბურგერ კინგი" />
+        <key key="name:en" value="Burger King" />
+        <key key="name:ru" value="Бургер Кинг" />
+        <key key="contact:facebook" value="https://facebook.com/BurgerKingGE" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="takeaway" value="yes" />
+        <key key="cuisine" value="burger" />
+        <key key="amenity" value="fast_food" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Wendy's"
+        ka.name="ვენდისი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <check key="drive_through" text="Drive through" />
+        <key key="brand" value="Wendy's" />
+        <key key="brand:wikidata" value="Q550258" />
+        <key key="name" value="ვენდისი" />
+        <key key="name:ka" value="ვენდისი" />
+        <key key="name:en" value="Wendy's" />
+        <key key="contact:facebook" value="https://facebook.com/WendysGeorgia" />
+        <key key="contact:instagram" value="https://instagram.com/wendysgeorgia" />
+        <key key="contact:website" value="https://wendys.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="takeaway" value="yes" />
+        <key key="cuisine" value="burger" />
+        <key key="amenity" value="fast_food" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
       </item>
@@ -214,7 +465,7 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="SPAR" />
         <key key="brand:wikidata" value="Q610492" />
-        <key key="contact:facebook" value="https://www.facebook.com/SPARGeorgia/" />
+        <key key="contact:facebook" value="https://facebook.com/SPARGeorgia/" />
         <key key="contact:email" value="office@spar-georgia.com" />
         <key key="contact:website" value="https://spargeorgia.com" />
         <key key="name" value="სპარი" />
@@ -241,8 +492,8 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ნიკორა" />
         <key key="brand:wikidata" value="Q115949612" />
-        <key key="contact:facebook" value="https://www.facebook.com/nikorasupermarket" />
-        <key key="contact:instagram" value="https://www.instagram.com/nikora_supermarket" />
+        <key key="contact:facebook" value="https://facebook.com/nikorasupermarket" />
+        <key key="contact:instagram" value="https://instagram.com/nikora_supermarket" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/nikora-supermarket" />
         <key key="contact:email" value="info@nikoratrade.ge" />
         <key key="contact:website" value="https://nikorasupermarket.ge" />
@@ -283,7 +534,7 @@
         <key key="alt_name:ru" value="2 набиджи" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
-        <key key="payment:american_express" value="yes" />        
+        <key key="payment:american_express" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
@@ -301,7 +552,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ბილიონი" />
-        <key key="contact:facebook" value="https://www.facebook.com/BillionSupermarket" />
+        <key key="contact:facebook" value="https://facebook.com/BillionSupermarket" />
         <key key="contact:email" value="info@billioni.ge" />
         <key key="name" value="ბილიონი" />
         <key key="name:ka" value="ბილიონი" />
@@ -326,9 +577,9 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="მაგნიტი" />
-        <key key="contact:facebook" value="https://www.facebook.com/magniti.ge" />
+        <key key="contact:facebook" value="https://facebook.com/magniti.ge" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/magniti" />
-        <key key="contact:youtube" value="https://www.youtube.com/channel/UCXnteLjNLQ7p_A-J25RgMKw" />
+        <key key="contact:youtube" value="https://youtube.com/channel/UCXnteLjNLQ7p_A-J25RgMKw" />
         <key key="contact:website" value="https://magniti.ge" />
         <key key="contact:email" value="info@magniti.ge" />
         <key key="name" value="მაგნიტი" />
@@ -337,7 +588,7 @@
         <key key="name:ru" value="Магнити" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
-        <key key="payment:american_express" value="yes" />        
+        <key key="payment:american_express" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
@@ -355,7 +606,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ნაზილბე" />
-        <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=100057598083303" />
+        <key key="contact:facebook" value="https://facebook.com/profile.php?id=100057598083303" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/nazilbe" />
         <key key="contact:website" value="https://nazilbe.ge" />
         <key key="name" value="ნაზილბე" />
         <key key="name:ka" value="ნაზილბე" />
@@ -363,7 +615,7 @@
         <key key="name:ru" value="Назилбе" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
-        <key key="payment:american_express" value="yes" />        
+        <key key="payment:american_express" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
@@ -381,7 +633,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="გუდვილი" />
-        <key key="contact:facebook" value="https://www.facebook.com/GOODWILLHYPERMARKET" />
+        <key key="contact:facebook" value="https://facebook.com/GOODWILLHYPERMARKET" />
         <key key="contact:website" value="https://goodwill.ge" />
         <key key="contact:email" value="marketing@goodwill.ge" />
         <key key="name" value="გუდვილი" />
@@ -390,7 +642,7 @@
         <key key="name:ru" value="Гудвилл" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
-        <key key="payment:american_express" value="yes" />        
+        <key key="payment:american_express" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
@@ -409,9 +661,9 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="აგროჰაბი" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/agrohub" />
-        <key key="contact:youtube" value="https://www.youtube.com/channel/UCIbue9itKq2Dp3Uzsf4twWA" />
-        <key key="contact:instagram" value="https://www.instagram.com/agrohub" />
-        <key key="contact:facebook" value="https://www.facebook.com/agrohubge" />
+        <key key="contact:youtube" value="https://youtube.com/channel/UCIbue9itKq2Dp3Uzsf4twWA" />
+        <key key="contact:instagram" value="https://instagram.com/agrohub" />
+        <key key="contact:facebook" value="https://facebook.com/agrohubge" />
         <key key="contact:website" value="http://www.agrohub.ge" />
         <key key="name" value="აგროჰაბი" />
         <key key="name:ka" value="აგროჰაბი" />
@@ -419,7 +671,7 @@
         <key key="name:ru" value="Агрохаб" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
-        <key key="payment:american_express" value="yes" />        
+        <key key="payment:american_express" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
@@ -432,6 +684,7 @@
         ka.name="კარფური"
         ru.name="Карфур"
         type="node,closedway,multipolygon"
+        icon="https://upload.wikimedia.org/wikipedia/commons/5/5b/Carrefour_logo.svg"
         preset_name_label="true"
       >
         <space />
@@ -441,7 +694,7 @@
         <key key="operator" value="Majid Al Futtaim Group" />
         <key key="operator:wikidata" value="Q1617128" />
         <key key="contact:twitter" value="https://twitter.com/carrefourge" />
-        <key key="contact:youtube" value="https://www.youtube.com/channel/UCQ7aPJ3odUD15oPgBrqhEtA" />
+        <key key="contact:youtube" value="https://youtube.com/channel/UCQ7aPJ3odUD15oPgBrqhEtA" />
         <key key="contact:instagram" value="https://instagram.com/carrefour_georgia" />
         <key key="contact:facebook" value="https://facebook.com/carrefourgeorgia" />
         <key key="contact:website" value="https://www.carrefour.ge" />
@@ -452,7 +705,7 @@
         <key key="name:ru" value="Карфур" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
-        <key key="payment:american_express" value="yes" />        
+        <key key="payment:american_express" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
@@ -470,14 +723,14 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ლიბრე" />
-        <key key="contact:facebook" value="https://www.facebook.com/supermarketilibre" />
+        <key key="contact:facebook" value="https://facebook.com/supermarketilibre" />
         <key key="name" value="ლიბრე" />
         <key key="name:ka" value="ლიბრე" />
         <key key="name:en" value="Libre" />
         <key key="name:ru" value="Либре" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
-        <key key="payment:american_express" value="yes" />        
+        <key key="payment:american_express" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
@@ -495,7 +748,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ზღაპარი" />
-        <key key="contact:facebook" value="https://www.facebook.com/Zgaparisupermarket" />
+        <key key="contact:facebook" value="https://facebook.com/Zgaparisupermarket" />
         <key key="contact:website" value="https://zgapari.ge" />
         <key key="contact:email" value="ltd.zgapari@gmail.com" />
         <key key="name" value="ზღაპარი" />
@@ -504,7 +757,85 @@
         <key key="name:ru" value="Згапари" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
-        <key key="payment:american_express" value="yes" />        
+        <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Fresco"
+        ka.name="ფრესკო"
+        ru.name="Фреско"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ფრესკო" />
+        <key key="contact:facebook" value="https://facebook.com/FrescoRetailGroup" />
+        <key key="contact:website" value="https://fresco.ge" />
+        <key key="name" value="ფრესკო" />
+        <key key="name:ka" value="ფრესკო" />
+        <key key="name:en" value="Fresco" />
+        <key key="name:ru" value="Фреско" />
+        <key key="currency:XBT" value="yes" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Ioli"
+        ka.name="იოლი"
+        ru.name="Иоли"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="იოლი" />
+        <key key="contact:facebook" value="https://facebook.com/ioli.supermarket" />
+        <key key="name" value="იოლი" />
+        <key key="name:ka" value="იოლი" />
+        <key key="name:en" value="Ioli" />
+        <key key="name:ru" value="Иоли" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Willmart"
+        ka.name="ვილმარტი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ვილმარტი" />
+        <key key="contact:facebook" value="https://facebook.com/willmartbatumi" />
+        <key key="contact:instagram" value="https://instagram.com/willmartbatumi" />
+        <key key="contact:website" value="https://willmart.ge" />
+        <key key="contact:email" value="info@willmart.ge" />
+        <key key="name" value="ვილმარტი" />
+        <key key="name:ka" value="ვილმარტი" />
+        <key key="name:en" value="Willmart" />
+        <key key="name:ru" value="Виллмарт" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
@@ -523,13 +854,13 @@
         <key key="brand" value="ალქორიუმი" />
         <key key="contact:email" value="info@alcorium-store.ge" />
         <key key="contact:website" value="https://alcorium-store.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/alcorium" />
+        <key key="contact:facebook" value="https://facebook.com/alcorium" />
         <key key="name" value="ალქორიუმი" />
         <key key="name:ka" value="ალქორიუმი" />
         <key key="name:en" value="Alcorium" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
-        <key key="payment:american_express" value="yes" />        
+        <key key="payment:american_express" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
@@ -571,13 +902,13 @@
         <key key="name:en" value="Clean House" />
         <key key="alt_name:en" value="Supta Sakhli" />
         <key key="contact:website" value="https://ch.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/suftasakhli" />
-        <key key="contact:instagram" value="https://www.instagram.com/supta_sakhli" />
+        <key key="contact:facebook" value="https://facebook.com/suftasakhli" />
+        <key key="contact:instagram" value="https://instagram.com/supta_sakhli" />
         <key key="contact:linkedin" value="https://linkedin.com/company/%E1%83%A1%E1%83%A3%E1%83%A4%E1%83%97%E1%83%90-%E1%83%A1%E1%83%90%E1%83%AE%E1%83%9A%E1%83%98" />
         <key key="contact:email" value="contact@ch.ge" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
-        <key key="payment:american_express" value="yes" />        
+        <key key="payment:american_express" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
@@ -599,14 +930,14 @@
         <key key="name:ka" value="ზუმერი" />
         <key key="name:en" value="Zoommer" />
         <key key="contact:website" value="https://zoommer.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/zoommerge" />
-        <key key="contact:instagram" value="https://www.instagram.com/zoommer.ge" />
+        <key key="contact:facebook" value="https://facebook.com/zoommerge" />
+        <key key="contact:instagram" value="https://instagram.com/zoommer.ge" />
         <key key="contact:twitter" value="https://twitter.com/Zoommer_tweets" />
-        <key key="contact:youtube" value="https://www.youtube.com/user/WwwZoommerGe" />
+        <key key="contact:youtube" value="https://youtube.com/user/WwwZoommerGe" />
         <key key="contact:email" value="info@zoommer.ge" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
-        <key key="payment:american_express" value="yes" />        
+        <key key="payment:american_express" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
@@ -627,7 +958,7 @@
         <key key="name:ka" value="ალტა" />
         <key key="name:en" value="Alta" />
         <key key="contact:website" value="https://alta.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/alta.ge" />
+        <key key="contact:facebook" value="https://facebook.com/alta.ge" />
         <key key="contact:linkedin" value="https://linkedin.com/company/altaofficial" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -652,10 +983,10 @@
         <key key="name:en" value="Elit Electronics" />
         <key key="contact:email" value="info@ee.ge" />
         <key key="contact:website" value="https://ee.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/ElitElectronics" />
-        <key key="contact:instagram" value="https://www.instagram.com/elit_electronics" />
+        <key key="contact:facebook" value="https://facebook.com/ElitElectronics" />
+        <key key="contact:instagram" value="https://instagram.com/elit_electronics" />
         <key key="contact:tiktok" value="https://www.tiktok.com/@elitelectronics" />
-        <key key="contact:youtube" value="https://www.youtube.com/c/EeGeElitElectronics" />
+        <key key="contact:youtube" value="https://youtube.com/c/EeGeElitElectronics" />
         <key key="contact:linkedin" value="https://linkedin.com/company/elit-electronics" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -680,7 +1011,7 @@
         <key key="name:en" value="Metromart" />
         <key key="contact:website" value="https://metromart.ge" />
         <key key="contact:email" value="info@metromart.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/Metromarti" />
+        <key key="contact:facebook" value="https://facebook.com/Metromarti" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
@@ -728,8 +1059,8 @@
         <key key="name:en" value="iTechnics" />
         <key key="contact:website" value="https://itechnics.ge" />
         <key key="contact:email" value="info@itechnics.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/itechnicsgeo" />
-        <key key="contact:instagram" value="https://www.instagram.com/itechnics_geo" />
+        <key key="contact:facebook" value="https://facebook.com/itechnicsgeo" />
+        <key key="contact:instagram" value="https://instagram.com/itechnics_geo" />
         <key key="contact:twitter" value="https://twitter.com/itechnicgeorgia" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/itechnic-georgia" />
         <key key="payment:visa" value="yes" />
@@ -742,7 +1073,7 @@
         <reference ref="wheelchair_address" />
       </item>
       <item
-        name="Biblusi"
+        name="Biblus"
         ka.name="ბიბლუსი"
         type="node,closedway,multipolygon"
         preset_name_label="true"
@@ -754,7 +1085,7 @@
         <key key="name:ka" value="ბიბლუსი" />
         <key key="name:en" value="Biblus" />
         <key key="contact:website" value="https://biblusi.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/biblusi.ge" />
+        <key key="contact:facebook" value="https://facebook.com/biblusi.ge" />
         <key key="contact:linkedin" value="https://linkedin.com/company/biblusi" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -762,6 +1093,139 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="books" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Bata"
+        ka.name="ბატა"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="Bata" />
+        <key key="brand:wikidata" value="Q688082" />
+        <key key="name" value="ბატა" />
+        <key key="name:ka" value="ბატა" />
+        <key key="name:en" value="Bata" />
+        <key key="contact:facebook" value="https://facebook.com/batageorgia" />
+        <key key="contact:linkedin" value="https://instagram.com/bata.georgia" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="shoes" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="LC Waikiki"
+        ka.name="ელსი ვაიქიქი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="LC Waikiki" />
+        <key key="brand:wikidata" value="Q3205965" />
+        <key key="name" value="ელსი ვაიკიკი" />
+        <key key="name:ka" value="ელსი ვაიკიკი" />
+        <key key="name:en" value="LC Waikiki" />
+        <key key="contact:website" value="https://www.lcwaikiki.ge" />
+        <key key="contact:facebook" value="https://facebook.com/LCWaikikiGeorgia" />
+        <key key="contact:instagram" value="https://instagram.com/lcwaikiki.georgia" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="clothes" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <reference ref="clothes_list" />
+      </item>
+      <item
+        name="Miniso"
+        ka.name="მინისო"
+        type="node,closedway,multipolygon"
+        icon="https://upload.wikimedia.org/wikipedia/commons/4/46/Miniso_logo.svg"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="Miniso" />
+        <key key="brand:wikidata" value="Q20732498" />
+        <key key="name" value="მინისო" />
+        <key key="name:ka" value="მინისო" />
+        <key key="name:en" value="Miniso" />
+        <key key="operator" value="Miniso Georgia" />
+        <key key="contact:website" value="https://miniso.ge" />
+        <key key="contact:facebook" value="https://facebook.com/minisogeorgia" />
+        <key key="contact:instagram" value="https://instagram.com/miniso_georgia" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/miniso-georgia" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="variety_store" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Jysk"
+        ka.name="იუსკ"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="JYSK" />
+        <key key="brand:wikidata" value="Q138913" />
+        <key key="name" value="იუსკ" />
+        <key key="name:ka" value="იუსკ" />
+        <key key="name:en" value="Jysk" />
+        <key key="contact:website" value="https://jysk.ge" />
+        <key key="contact:facebook" value="https://facebook.com/JYSKGeorgia" />
+        <key key="contact:instagram" value="https://instagram.com/jyskgeorgia" />
+        <key key="contact:email" value="online@jysk.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="variety_store" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Gorgia"
+        ka.name="გორგია"
+        ru.name="Горгиа"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="გორგია" />
+        <key key="name" value="გორგია" />
+        <key key="name:ka" value="გორგია" />
+        <key key="name:en" value="Gorgia" />
+        <key key="name:ru" value="Горгиа" />
+        <key key="contact:website" value="https://gorgia.ge" />
+        <key key="contact:facebook" value="https://facebook.com/gorgia.ge" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/bmc-gorgia" />
+        <key key="contact:instagram" value="https://instagram.com/gorgia.ge" />
+        <key key="contact:email" value="web@gorgia.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="doityourself" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
       </item>
@@ -785,8 +1249,8 @@
         <key key="name:ka" value="პეტ სპოტი" />
         <key key="name:en" value="Pet Spot" />
         <key key="contact:website" value="https://www.petspot.shop" />
-        <key key="contact:facebook" value="https://www.facebook.com/PetSpot.Georgia" />
-        <key key="contact:instagram" value="https://www.instagram.com/petspot_georgia" />
+        <key key="contact:facebook" value="https://facebook.com/PetSpot.Georgia" />
+        <key key="contact:instagram" value="https://instagram.com/petspot_georgia" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" /> 
         <key key="payment:american_express" value="yes" />       
@@ -810,13 +1274,32 @@
         <key key="name:ka" value="ზოოსითი" />
         <key key="name:en" value="ZooCity" />
         <key key="contact:website" value="https://zoocity.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/ZooCityGeo" />
-        <key key="contact:instagram" value="https://www.instagram.com/zoocity_geo" />
+        <key key="contact:facebook" value="https://facebook.com/ZooCityGeo" />
+        <key key="contact:instagram" value="https://instagram.com/zoocity_geo" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />       
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
+        <key key="shop" value="pet" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Zoomart"
+        ka.name="ზოომარტი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="ზოომარტი" />
+        <key key="name" value="ზოომარტი" />
+        <key key="name:ka" value="ზოომარტი" />
+        <key key="name:en" value="Zoomart" />
+        <key key="contact:website" value="https://zoomart.ge" />
+        <key key="contact:facebook" value="https://facebook.com/zoomart.ge" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/zoomartgeorgia" />
         <key key="shop" value="pet" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -866,9 +1349,9 @@
         <key key="brand" value="საქართველოს ბანკი" />
         <key key="brand:wikidata" value="Q2469733" />
         <key key="contact:website" value="https://bankofgeorgia.ge" />
-        <key key="contact:instagram" value="https://www.instagram.com/bankofgeorgia" />
+        <key key="contact:instagram" value="https://instagram.com/bankofgeorgia" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/bank-of-georgia" />
-        <key key="contact:youtube" value="https://www.youtube.com/user/BankofGeorgiaTV" />
+        <key key="contact:youtube" value="https://youtube.com/user/BankofGeorgiaTV" />
         <key key="contact:email" value="customerservice@bog.ge" />
         <key key="name" value="საქართველოს ბანკი" />
         <key key="name:ka" value="საქართველოს ბანკი" />
@@ -905,10 +1388,10 @@
         <key key="amenity" value="bank" />
         <key key="brand" value="კრედო ბანკი" />
         <key key="contact:website" value="https://credobank.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/CredoBank" />
-        <key key="contact:instagram" value="https://www.instagram.com/credobank" />
+        <key key="contact:facebook" value="https://facebook.com/CredoBank" />
+        <key key="contact:instagram" value="https://instagram.com/credobank" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/credo-bank" />
-        <key key="contact:youtube" value="https://www.youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
+        <key key="contact:youtube" value="https://youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
         <key key="contact:email" value="info@credo.ge" />
         <key key="name" value="კრედო ბანკი" />
         <key key="name:ka" value="კრედო ბანკი" />
@@ -1041,10 +1524,10 @@
         <key key="amenity" value="atm" />
         <key key="brand" value="კრედო ბანკი" />
         <key key="contact:website" value="https://credobank.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/CredoBank" />
-        <key key="contact:instagram" value="https://www.instagram.com/credobank" />
+        <key key="contact:facebook" value="https://facebook.com/CredoBank" />
+        <key key="contact:instagram" value="https://instagram.com/credobank" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/credo-bank" />
-        <key key="contact:youtube" value="https://www.youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
+        <key key="contact:youtube" value="https://youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
         <key key="contact:email" value="info@credo.ge" />
         <key key="operator" value="კრედო ბანკი" />
         <key key="operator:en" value="Credo Bank" />
@@ -1065,10 +1548,10 @@
         <key key="amenity" value="payment_terminal" />
         <key key="brand" value="კრედო ბანკი" />
         <key key="contact:website" value="https://credobank.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/CredoBank" />
-        <key key="contact:instagram" value="https://www.instagram.com/credobank" />
+        <key key="contact:facebook" value="https://facebook.com/CredoBank" />
+        <key key="contact:instagram" value="https://instagram.com/credobank" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/credo-bank" />
-        <key key="contact:youtube" value="https://www.youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
+        <key key="contact:youtube" value="https://youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
         <key key="contact:email" value="info@credo.ge" />
         <key key="operator" value="კრედო ბანკი" />
         <key key="operator:en" value="Credo Bank" />
@@ -1097,7 +1580,7 @@
         <key key="brand" value="Rompetrol" />
         <key key="brand:wikidata" value="Q1788862" />
         <key key="contact:website" value="https://www.rompetrol.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/RompetrolGeorgiaLtd" />
+        <key key="contact:facebook" value="https://facebook.com/RompetrolGeorgiaLtd" />
         <key key="contact:email" value="officege@rompetrol.com" />
         <key key="name" value="რომპეტროლი" />
         <key key="name:ka" value="რომპეტროლი" />
@@ -1133,7 +1616,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="fuel" />
-        <key key="brand" value="WISSOL" />        
+        <key key="brand" value="WISSOL" />
         <key key="brand:wikidata" value="Q8027737" />
         <key key="operator:wikidata" value="Q8027737" />
         <key key="operator" value="ვისოლ პეტროლიუმ ჯორჯია" />
@@ -1159,9 +1642,9 @@
         <key key="operator" value="სან პეტროლიუმ ჯორჯია" />
         <key key="operator:en" value="Sun Petroleum Georgia" />
         <key key="contact:website" value="https://gulf.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/gulfge" />
+        <key key="contact:facebook" value="https://facebook.com/gulfge" />
         <key key="contact:twitter" value="https://twitter.com/GulfGe" />
-        <key key="contact:youtube" value="https://www.youtube.com/user/GulfGe" />
+        <key key="contact:youtube" value="https://youtube.com/user/GulfGe" />
         <key key="name" value="გულფი" />
         <key key="name:ka" value="გულფი" />
         <key key="name:en" value="Gulf" />
@@ -1177,7 +1660,7 @@
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="fuel" />
         <key key="brand" value="Connect" />
-        <key key="contact:facebook" value="https://www.facebook.com/ConnectPetroleumGeo" />
+        <key key="contact:facebook" value="https://facebook.com/ConnectPetroleumGeo" />
         <key key="contact:email" value="info@connect.com.ge" />
         <key key="name" value="ქონექთი" />
         <key key="name:ka" value="ქონექთი" />
@@ -1199,9 +1682,9 @@
         <key key="operator" value="შპს ლუკოილ ჯორჯია" />
         <key key="operator:en" value="Lukoil Georgia" />
         <key key="contact:website" value="http://www.lukoil.ge/" />
-        <key key="contact:facebook" value="https://www.facebook.com/lukoil.georgia" />
+        <key key="contact:facebook" value="https://facebook.com/lukoil.georgia" />
         <key key="contact:twitter" value="https://twitter.com/GulfGe" />
-        <key key="contact:youtube" value="https://www.youtube.com/user/GulfGe" />
+        <key key="contact:youtube" value="https://youtube.com/user/GulfGe" />
         <key key="contact:email" value="info@lukoil.ge" />
         <key key="name" value="ლუკოილი" />
         <key key="name:ka" value="ლუკოილი" />
@@ -1228,9 +1711,11 @@
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ბილაინი" />
         <key key="brand:wikidata" value="Q402880" />
+        <key key="operator:wikidata" value="Q4044421" />
         <key key="name" value="ბილაინი" />
         <key key="name:ka" value="ბილაინი" />
         <key key="name:en" value="Beeline" />
+        <key key="name:ru" value="Билайн" />
         <key key="contact:website" value="https://www.beeline.ge" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -1256,10 +1741,13 @@
         <key key="name:ka" value="სილქნეტი" />
         <key key="name:en" value="Silknet" />
         <key key="name:ru" value="Силкнет" />
+        <key key="old_name:ka" value="ჯეოსელი" />
+        <key key="old_name:en" value="Geocell" />
         <key key="contact:website" value="https://silknet.com" />
-        <key key="contact:facebook" value="https://www.facebook.com/silknet" />
-        <key key="contact:instagram" value="https://www.instagram.com/silknet_" />
-        <key key="contact:youtube" value="https://www.youtube.com/channel/UCnXM6z9Z40w86hHrglwTkOw" />
+        <key key="contact:facebook" value="https://facebook.com/silknet" />
+        <key key="contact:instagram" value="https://instagram.com/silknet_" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/silknet" />
+        <key key="contact:youtube" value="https://youtube.com/channel/UCnXM6z9Z40w86hHrglwTkOw" />
         <key key="office" value="telecommunication" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -1282,9 +1770,9 @@
         <key key="name:ru" value="Магти" />
         <key key="contact:website" value="https://www.magticom.ge" />
         <key key="contact:email" value="office@magticom.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/Magti/" />
-        <key key="contact:instagram" value="https://www.instagram.com/silknet_" />
-        <key key="contact:youtube" value="https://www.youtube.com/channel/UCnXM6z9Z40w86hHrglwTkOw" />
+        <key key="contact:facebook" value="https://facebook.com/Magti" />
+        <key key="contact:instagram" value="https://instagram.com/magticom" />
+        <key key="contact:twitter" value="https://twitter.com/magticom" />
         <key key="office" value="telecommunication" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -1319,6 +1807,162 @@
         <key key="tower:type" value="communication" />
         <link wiki="Proposed_features/Telecommunications_tower" text="Proposed features/Telecommunications tower" />
         <link wiki="Tag:man_made%3Dtower" />
+      </item>
+    </group>
+
+    <group
+      name="Government services"
+      ka.name="სახელმწიფო ორგანოები"
+      ru.name="Государственные органы"
+      icon="https://upload.wikimedia.org/wikipedia/commons/d/dd/Emoji_u1f46e.svg"
+    >
+      <item
+        name="Revenue Service"
+        ka.name="შემოსავლების სამსახური"
+        ru.name="Налоговая служба"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <key key="office" value="government" />
+        <key key="government" value="tax" />
+        <key key="name" value="შემოსავლების სამსახური" />
+        <key key="name:ka" value="შემოსავლების სამსახური" />
+        <key key="name:en" value="Revenue Service" />
+        <key key="name:ru" value="Налоговая служба" />
+        <key key="contact:facebook" value="https://facebook.com/georgia.revenue.service" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/georgia-revenue-service-%E1%83%A8%E1%83%94%E1%83%9B%E1%83%9D%E1%83%A1%E1%83%90%E1%83%95%E1%83%9A%E1%83%94%E1%83%91%E1%83%98%E1%83%A1-%E1%83%A1%E1%83%90%E1%83%9B%E1%83%A1%E1%83%90%E1%83%AE%E1%83%A3%E1%83%A0%E1%83%98" />
+        <key key="contact:youtube" value="https://youtube.com/channel/UCkAz6v7yxav4jWXAfJWpnGA" />
+        <key key="contact:website" value="https://rs.ge" />
+        <key key="contact:email" value="info@rs.ge" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:government%3Dtax" />
+      </item>
+    </group>
+
+    <group
+      name="Post"
+      ka.name="ფოსტა"
+      ru.name="Почта"
+      icon="https://upload.wikimedia.org/wikipedia/commons/d/dc/Twemoji12_2709.svg"
+    >
+      <item
+        name="Georgian Post"
+        ka.name="საქართველოს ფოსტა"
+        ru.name="Почта Грузии"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <text
+          key="ref"
+          text="Postcode/Reference"
+          ka.text="საფოსტო ინდექსი"
+          ru.text="Почтовый индекс"
+        />
+        <key key="amenity" value="post_office" />
+        <key key="brand" value="საქართველოს ფოსტა" />
+        <key key="brand:en" value="Georgian Post" />
+        <key key="brand:ru" value="Почта Грузии" />
+        <key key="brand:uk" value="Пошта Грузії" />
+        <key key="brand:wikidata" value="Q12869041" />
+        <key key="operator" value="შპს საქართველოს ფოსტა" />
+        <key key="operator:wikidata" value="Q12869041" />
+        <key key="contact:facebook" value="https://facebook.com/gpost.ge" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/georgian-post" />
+        <key key="contact:youtube" value="https://youtube.com/channel/UCjI73rVjVyi2AIOMOmguX4A" />
+        <key key="contact:website" value="https://gpost.ge" />
+        <key key="contact:email" value="info@gpost.ge" />
+        <combo
+          key="contact:phone"
+          text="Phone number"
+          values="+995 32 2240909"
+          default="+995 32 2240909"
+        />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:amenity%3Dpost_office" />
+      </item>
+      <item
+        name="CDEK"
+        ru.name="СДЭК"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <key key="amenity" value="post_office" />
+        <key key="brand" value="СДЭК" />
+        <key key="brand:en" value="CDEK" />
+        <key key="brand:ru" value="СДЭК" />
+        <key key="brand:wikidata" value="Q28665980" />
+        <key key="contact:website" value="https://cdek.ge" />
+        <key key="contact:email" value="georgia@cdek.ru" />
+        <key key="operator" value="СДЭК" />
+        <key key="operator:wikidata" value="Q28665980" />
+        <key key="office" value="logistics" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:amenity%3Dpost_office" />
+      </item>
+      <item
+        name="USA2GEORGIA"
+        type="node"
+        preset_name_label="true"
+      >
+        <space />
+        <key key="amenity" value="post_office" />
+        <key key="name" value="USA2GEORGIA" />
+        <key key="name:en" value="USA2GEORGIA" />
+        <key key="brand" value="USA2GEORGIA" />
+        <key key="contact:website" value="https://usa2georgia.com" />
+        <key key="contact:instagram" value="https://instagram.com/usa2georgia.com_" />
+        <key key="contact:facebook" value="https://facebook.com/USA2GEORGIACOM" />
+        <key key="contact:email" value="sales@usa2georgia.com" />
+        <key key="office" value="logistics" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:amenity%3Dpost_office" />
+      </item>
+      <item
+        name="Postbox (Georgian Post)"
+        ka.name="საფოსტო ყუთი (საქართველოს ფოსტა)"
+        ru.name="Почтовый ящик (Почта Грузии)"
+        type="node"
+        icon="https://upload.wikimedia.org/wikipedia/commons/8/82/Twemoji_1f4ee.svg"
+        preset_name_label="true"
+      >
+        <space />
+        <text
+          key="ref"
+          text="Reference number"
+        />
+        <combo
+          key="collection_times"
+          text="Collection times"
+        />
+        <combo
+          key="post_box:type"
+          text="Type"
+          values="pillar,lamp,wall,meter"
+          values_context="post_box"
+        />
+        <check key="drive_through" text="Drive through" />
+        <key key="amenity" value="post_box" />
+        <key key="brand" value="საქართველოს ფოსტა" />
+        <key key="brand:en" value="Georgian Post" />
+        <key key="brand:ru" value="Почта Грузии" />
+        <key key="brand:uk" value="Пошта Грузії" />
+        <key key="brand:wikidata" value="Q12869041" />
+        <key key="operator" value="შპს საქართველოს ფოსტა" />
+        <key key="operator:wikidata" value="Q12869041" />
+        <key key="contact:facebook" value="https://facebook.com/gpost.ge" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/georgian-post" />
+        <key key="contact:youtube" value="https://youtube.com/channel/UCjI73rVjVyi2AIOMOmguX4A" />
+        <key key="contact:phone" value="+995 32 2240909" />
+        <key key="contact:website" value="https://gpost.ge" />
+        <key key="contact:email" value="info@gpost.ge" />
+        <link wiki="Tag:amenity%3Dpost_box" />
       </item>
     </group>
 
@@ -1364,7 +2008,7 @@
       </item>
       <item
         name="Waste basket"
-        type="node,closedway,multipolygon"
+        type="node"
         icon="https://upload.wikimedia.org/wikipedia/commons/6/64/Twemoji12_1f5d1.svg"
         preset_name_label="true"
       >
@@ -1376,7 +2020,7 @@
       </item>
       <item
         name="Waste disposal"
-        type="node,closedway,multipolygon"
+        type="node"
         icon="https://upload.wikimedia.org/wikipedia/commons/6/64/Twemoji12_1f5d1.svg"
         preset_name_label="true"
       >
@@ -1388,7 +2032,7 @@
       </item>
       <item
         name="PET recycling container"
-        type="node,closedway,multipolygon"
+        type="node"
         icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg"
         preset_name_label="true"
       >
@@ -1401,7 +2045,7 @@
       </item>
       <item
         name="PET+Aluminium recycling container"
-        type="node,closedway,multipolygon"
+        type="node"
         icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg"
         preset_name_label="true"
       >
@@ -1415,7 +2059,7 @@
       </item>
       <item
         name="PET+Aluminium+Glass+Paper recycling container"
-        type="node,closedway,multipolygon"
+        type="node"
         icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg"
         preset_name_label="true"
       >
@@ -1438,12 +2082,12 @@
         <key key="amenity" value="bicycle_rental" />
         <key key="bicycle_rental" value="docking_station" />
         <key key="network" value="BatumVelo" />
-        <key key="operator" value="შპს „ბათუმის ავტოტრანსპორტი“" />
+        <key key="operator" value="შპს ბათუმის ავტოტრანსპორტი" />
         <key key="operator:type" value="government" />
         <key key="contact:email" value="support@batumvelo.ge" />
         <key key="contact:phone" value="+995 577 377676" />
         <key key="contact:website" value="https://batumvelo.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/%E1%83%91%E1%83%90%E1%83%97%E1%83%A3%E1%83%9B%E1%83%95%E1%83%94%E1%83%9A%E1%83%9DBatumVelo-111566860732265/" />
+        <key key="contact:facebook" value="https://facebook.com/%E1%83%91%E1%83%90%E1%83%97%E1%83%A3%E1%83%9B%E1%83%95%E1%83%94%E1%83%9A%E1%83%9DBatumVelo-111566860732265/" />
         <key key="fee" value="yes" />
         <key key="payment:cash" value="no" />
         <key key="payment:visa" value="yes" />
