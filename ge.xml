@@ -1485,9 +1485,9 @@
       </item>
 
       <item
-        name="Basisbank"
+        name="BasisBank"
         ka.name="კრედო ბანკი"
-        ru.name="Базисбанк"
+        ru.name="БазисБанк"
         type="node,closedway,multipolygon"
         preset_name_label="true"
       >
@@ -1495,8 +1495,8 @@
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
         <key key="brand" value="ბაზისბანკი" />
-        <key key="brand:en" value="Basisbank" />
-        <key key="brand:ru" value="Базисбанк" />
+        <key key="brand:en" value="BasisBank" />
+        <key key="brand:ru" value="БазисБанк" />
         <key key="brand:wikidata" value="Q16365625" />
         <key key="operator:wikidata" value="Q16365625" />
         <key key="contact:website" value="https://bb.ge" />
@@ -1504,11 +1504,11 @@
         <key key="contact:instagram" value="https://instagram.com/basis_bank" />
         <key key="contact:linkedin" value="https://linkedin.com/company/jsc-basisbank" />
         <key key="contact:youtube" value="https://youtube.com/user/basisbankhualing" />
-        <key key="contact:phone" value="+995 322 922922" />
+        <key key="contact:phone" value="+995 32 292 29 22" />
         <key key="name" value="ბაზისბანკი" />
         <key key="name:ka" value="ბაზისბანკი" />
-        <key key="name:en" value="Basisbank" />
-        <key key="name:ru" value="Базисбанк" />
+        <key key="name:en" value="BasisBank" />
+        <key key="name:ru" value="БазисБанк" />
         <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
         <reference ref="bic_branch_ref_wheelchair_atm_address" />
         <reference ref="contacts" />
@@ -1832,9 +1832,9 @@
       </item>
 
       <item
-        name="Basisbank ATM"
+        name="BasisBank ATM"
         ka.name="ბაზისბანკი ბანკომატი"
-        ru.name="Банкомат Базисбанка"
+        ru.name="Банкомат БазисБанка"
         type="node,closedway,multipolygon"
         preset_name_label="true"
       >
@@ -1842,8 +1842,8 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="ბაზისბანკი" />
-        <key key="brand:en" value="Basisbank" />
-        <key key="brand:ru" value="Базисбанк" />
+        <key key="brand:en" value="BasisBank" />
+        <key key="brand:ru" value="БазисБанк" />
         <key key="brand:wikidata" value="Q16365625" />
         <key key="contact:website" value="https://bb.ge" />
         <key key="contact:facebook" value="https://facebook.com/Basisbank" />
@@ -2229,6 +2229,42 @@
       ru.name="Государственные органы"
       icon="https://upload.wikimedia.org/wikipedia/commons/d/dd/Emoji_u1f46e.svg"
     >
+      <item
+        name="Public Service Hall"
+        ka.name="იუსტიციის სახლი"
+        ru.name="Дом Юстиции"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo
+          key="opening_hours"
+          text="Opening Hours"
+          values="Mo-Fr 09:00-18:00; Sa-Su off,Mo-Fr 09:00-18:00; Sa-Su 09:00-17:00"
+          default="Mo-Fr 09:00-18:00; Sa-Su off"
+        />
+        <key key="office" value="government" />
+        <key key="government" value="public_service" />
+        <key key="name" value="იუსტიციის სახლი" />
+        <key key="name:ka" value="იუსტიციის სახლი" />
+        <key key="name:en" value="Public Service Hall" />
+        <key key="name:ru" value="Дом Юстиции" />
+        <key key="name:es" value="Casa de Justicia" />
+        <key key="name:hy" value="Արդարադատության տուն" />
+        <key key="name:ab" value="Аиустициa aҩны" />
+        <key key="contact:facebook" value="https://facebook.com/publicservicehall" />
+        <key key="contact:twitter" value="https://twitter.com/PublicServiceH" />
+        <key key="contact:flickr" value="https://flickr.com/photos/publicservicehall" />
+        <key key="contact:youtube" value="https://youtube.com/user/PublicServiceHallGe" />
+        <key key="contact:website" value="https://psh.gov.ge" />
+        <key key="contact:email" value="info@psh.gov.ge" />
+        <key key="operator" value="სსიპ იუსტიციის სახლი" />
+        <key key="operator:en" value="LEPL Public Service Hall" />
+        <key key="operator:wikidata" value="Q2344378" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:government%3Dpublic_service" />
+      </item>
       <item
         name="Revenue Service"
         ka.name="შემოსავლების სამსახური"
