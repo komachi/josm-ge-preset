@@ -124,6 +124,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ავერსი" />
+        <key key="brand:en" value="Aversi" />
+        <key key="brand:ru" value="Аверси" />
         <key key="brand:wikidata" value="Q55653978" />
         <key key="operator:wikidata" value="Q55653978" />
         <key key="contact:facebook" value="https://facebook.com/AversiPharma" />
@@ -156,6 +158,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ფარმადეპი" />
+        <key key="brand:en" value="Pharmadepot" />
+        <key key="brand:ru" value="Фармадепот" />
         <key key="contact:facebook" value="https://facebook.com/Pharmadepot/" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -176,6 +180,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ნეოფარმი" />
+        <key key="brand:en" value="Neopharmi" />
+        <key key="brand:ru" value="Неофарм" />
         <key key="contact:website" value="https://neopharmi.ge" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -195,6 +201,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ჯპს" />
+        <key key="brand:en" value="GPC" />
         <key key="brand:wikidata" value="Q115971130" />
         <key key="operator:wikidata" value="Q115971130" />
         <key key="contact:email" value="info@gepha.com" />
@@ -223,6 +230,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="რონიკო" />
+        <key key="brand:en" value="Roniko" />
+        <key key="brand:ru" value="Ронико" />
         <key key="name" value="რონიკო" />
         <key key="name:ka" value="რონიკო" />
         <key key="name:en" value="Roniko" />
@@ -258,6 +267,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="Synevo" />
+        <key key="brand:en" value="Synevo" />
+        <key key="brand:ru" value="Синево" />
         <key key="name" value="სინევი" />
         <key key="name:ka" value="სინევი" />
         <key key="name:en" value="Synevo" />
@@ -321,7 +332,9 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <check key="drive_through" text="Drive through" />
-        <key key="brand" value="McDonald's" />
+        <key key="brand" value="მაკდონალდსი" />
+        <key key="brand:en" value="McDonald's" />
+        <key key="brand:ru" value="Макдональдс" />
         <key key="brand:wikidata" value="Q38076" />
         <key key="name" value="მაკდონალდსი" />
         <key key="name:ka" value="მაკდონალდსი" />
@@ -495,6 +508,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ნიკორა" />
+        <key key="brand:en" value="Nikora" />
+        <key key="brand:ru" value="Никора" />
         <key key="brand:wikidata" value="Q115949612" />
         <key key="operator:wikidata" value="Q115949612" />
         <key key="contact:facebook" value="https://facebook.com/nikorasupermarket" />
@@ -526,6 +541,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ორი ნაბიჯი" />
+        <key key="brand:en" value="Ori Nabiji" />
+        <key key="brand:ru" value="Ори Набиджи" />
         <key key="brand:wikidata" value="Q115949750" />
         <key key="operator:wikidata" value="Q115949750" />
         <key key="contact:facebook" value="https://facebook.com/2nabijiofficial/" />
@@ -558,6 +575,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ბილიონი" />
+        <key key="brand:en" value="Billion" />
         <key key="contact:facebook" value="https://facebook.com/BillionSupermarket" />
         <key key="contact:email" value="info@billioni.ge" />
         <key key="name" value="ბილიონი" />
@@ -583,6 +601,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="მაგნიტი" />
+        <key key="brand:en" value="Magniti" />
+        <key key="brand:ru" value="Магнити" />
         <key key="contact:facebook" value="https://facebook.com/magniti.ge" />
         <key key="contact:linkedin" value="https://linkedin.com/company/magniti" />
         <key key="contact:youtube" value="https://youtube.com/channel/UCXnteLjNLQ7p_A-J25RgMKw" />
@@ -612,6 +632,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ნაზილბე" />
+        <key key="brand:en" value="Nazilbe" />
+        <key key="brand:ru" value="Назилбе" />
         <key key="contact:facebook" value="https://facebook.com/profile.php?id=100057598083303" />
         <key key="contact:linkedin" value="https://linkedin.com/company/nazilbe" />
         <key key="contact:website" value="https://nazilbe.ge" />
@@ -639,6 +661,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="გუდვილი" />
+        <key key="brand:en" value="Goodwill" />
+        <key key="brand:ru" value="Гудвилл" />
         <key key="contact:facebook" value="https://facebook.com/GOODWILLHYPERMARKET" />
         <key key="contact:website" value="https://goodwill.ge" />
         <key key="contact:email" value="marketing@goodwill.ge" />
@@ -666,6 +690,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="აგროჰაბი" />
+        <key key="brand:en" value="Agrohub" />
+        <key key="brand:ru" value="Агрохаб" />
         <key key="contact:linkedin" value="https://linkedin.com/company/agrohub" />
         <key key="contact:youtube" value="https://youtube.com/channel/UCIbue9itKq2Dp3Uzsf4twWA" />
         <key key="contact:instagram" value="https://instagram.com/agrohub" />
@@ -696,9 +722,10 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="Carrefour" />
+        <key key="brand:en" value="Carrefour" />
+        <key key="brand:ru" value="Карфур" />
         <key key="brand:wikidata" value="Q217599" />
-        <key key="operator" value="Majid Al Futtaim Group" />
-        <key key="operator:wikidata" value="Q1617128" />
+        <key key="operator" value="შპს მაჯიდ ალ ფუტაიმ ჰიპერმარკეტს ჯორჯია" />
         <key key="contact:twitter" value="https://twitter.com/carrefourge" />
         <key key="contact:youtube" value="https://youtube.com/channel/UCQ7aPJ3odUD15oPgBrqhEtA" />
         <key key="contact:instagram" value="https://instagram.com/carrefour_georgia" />
@@ -729,6 +756,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ლიბრე" />
+        <key key="brand:en" value="Libre" />
+        <key key="brand:ru" value="Либре" />
         <key key="contact:facebook" value="https://facebook.com/supermarketilibre" />
         <key key="name" value="ლიბრე" />
         <key key="name:ka" value="ლიბრე" />
@@ -754,6 +783,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ზღაპარი" />
+        <key key="brand:en" value="Zgapari" />
+        <key key="brand:ru" value="Згапари" />
         <key key="contact:facebook" value="https://facebook.com/Zgaparisupermarket" />
         <key key="contact:website" value="https://zgapari.ge" />
         <key key="contact:email" value="ltd.zgapari@gmail.com" />
@@ -781,6 +812,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ფრესკო" />
+        <key key="brand:en" value="Fresco" />
+        <key key="brand:ru" value="Фреско" />
         <key key="contact:facebook" value="https://facebook.com/FrescoRetailGroup" />
         <key key="contact:website" value="https://fresco.ge" />
         <key key="name" value="ფრესკო" />
@@ -808,6 +841,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="იოლი" />
+        <key key="brand:en" value="Ioli" />
+        <key key="brand:ru" value="Иоли" />
         <key key="contact:facebook" value="https://facebook.com/ioli.supermarket" />
         <key key="name" value="იოლი" />
         <key key="name:ka" value="იოლი" />
@@ -825,12 +860,15 @@
       <item
         name="Willmart"
         ka.name="ვილმარტი"
+        ru.name="Виллмарт"
         type="node,closedway,multipolygon"
         preset_name_label="true"
       >
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ვილმარტი" />
+        <key key="brand:en" value="Willmart" />
+        <key key="brand:ru" value="Виллмарт" />
         <key key="contact:facebook" value="https://facebook.com/willmartbatumi" />
         <key key="contact:instagram" value="https://instagram.com/willmartbatumi" />
         <key key="contact:website" value="https://willmart.ge" />
@@ -858,6 +896,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ალქორიუმი" />
+        <key key="brand:en" value="Alcorium" />
         <key key="contact:email" value="info@alcorium-store.ge" />
         <key key="contact:website" value="https://alcorium-store.ge" />
         <key key="contact:facebook" value="https://facebook.com/alcorium" />
@@ -903,6 +942,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="სუფთა სახლი" />
+        <key key="brand:en" value="Clean House" />
         <key key="name" value="სუფთა სახლი" />
         <key key="name:ka" value="სუფთა სახლი" />
         <key key="name:en" value="Clean House" />
@@ -932,6 +972,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ზუმერი" />
+        <key key="brand:en" value="Zoommer" />
         <key key="name" value="ზუმერი" />
         <key key="name:ka" value="ზუმერი" />
         <key key="name:en" value="Zoommer" />
@@ -960,6 +1001,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ალტა" />
+        <key key="brand:en" value="Alta" />
         <key key="name" value="ალტა" />
         <key key="name:ka" value="ალტა" />
         <key key="name:en" value="Alta" />
@@ -984,6 +1026,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ელიტ ელექტრონიქსი" />
+        <key key="brand:en" value="Elit Electronics" />
         <key key="name" value="ელიტ ელექტრონიქსი" />
         <key key="name:ka" value="ელიტ ელექტრონიქსი" />
         <key key="name:en" value="Elit Electronics" />
@@ -1012,6 +1055,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="მეტრომარტი" />
+        <key key="brand:en" value="Metromart" />
         <key key="name" value="მეტრომარტი" />
         <key key="name:ka" value="მეტრომარტი" />
         <key key="name:en" value="Metromart" />
@@ -1036,6 +1080,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="უნიკომი" />
+        <key key="brand:en" value="Unicom" />
         <key key="name" value="უნიკომი" />
         <key key="name:ka" value="უნიკომი" />
         <key key="name:en" value="Unicom" />
@@ -1060,6 +1105,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="აიტექნიკსი" />
+        <key key="brand:en" value="iTechnics" />
         <key key="name" value="აიტექნიკსი" />
         <key key="name:ka" value="აიტექნიკსი" />
         <key key="name:en" value="iTechnics" />
@@ -1087,6 +1133,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ბიბლუსი" />
+        <key key="brand:en" value="Biblus" />
         <key key="name" value="ბიბლუსი" />
         <key key="name:ka" value="ბიბლუსი" />
         <key key="name:en" value="Biblus" />
@@ -1216,6 +1263,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="გორგია" />
+        <key key="brand:en" value="Gorgia" />
         <key key="name" value="გორგია" />
         <key key="name:ka" value="გორგია" />
         <key key="name:en" value="Gorgia" />
@@ -1251,6 +1299,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="პეტ სპოტი" />
+        <key key="brand:en" value="Pet Spot" />
         <key key="name" value="პეტ სპოტი" />
         <key key="name:ka" value="პეტ სპოტი" />
         <key key="name:en" value="Pet Spot" />
@@ -1276,6 +1325,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ზოოსითი" />
+        <key key="brand:en" value="ZooCity" />
         <key key="name" value="ზოოსითი" />
         <key key="name:ka" value="ზოოსითი" />
         <key key="name:en" value="ZooCity" />
@@ -1300,6 +1350,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ზოომარტი" />
+        <key key="brand:en" value="Zoomart" />
         <key key="name" value="ზოომარტი" />
         <key key="name:ka" value="ზოომარტი" />
         <key key="name:en" value="Zoomart" />
@@ -1329,6 +1380,8 @@
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
         <key key="brand" value="თიბისი ბანკი" />
+        <key key="brand:en" value="TBC Bank" />
+        <key key="brand:ru" value="ТиБиСи Банк" />
         <key key="brand:wikidata" value="Q2620975" />
         <key key="operator:wikidata" value="Q2620975" />
         <key key="contact:website" value="https://www.tbcbank.ge" />
@@ -1339,6 +1392,7 @@
         <key key="short_name:ka" value="თიბისი" />
         <key key="short_name:en" value="TBC" />
         <key key="short_name:ru" value="ТиБиСи" />
+        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
         <reference ref="bic_branch_ref_wheelchair_atm_address" />
         <reference ref="contacts" />
       </item>
@@ -1354,6 +1408,9 @@
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
         <key key="brand" value="საქართველოს ბანკი" />
+        <key key="brand:en" value="Bank of Georgia" />
+        <key key="brand:ru" value="Банк Грузии" />
+        <key key="brand:tr" value="Gürcistan Bankası" />
         <key key="brand:wikidata" value="Q2469733" />
         <key key="operator:wikidata" value="Q2469733" />
         <key key="contact:website" value="https://bankofgeorgia.ge" />
@@ -1368,6 +1425,7 @@
         <key key="name:ru" value="Банк Грузии" />
         <key key="name:tr" value="Gürcistan Bankası" />
         <key key="short_name:en" value="BoG" />
+        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
         <reference ref="bic_branch_ref_wheelchair_atm_address" />
         <reference ref="contacts" />
       </item>
@@ -1376,6 +1434,8 @@
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
         <key key="brand" value="ლიბერთი" />
+        <key key="brand:en" value="Liberty" />
+        <key key="brand:ru" value="Либерти" />
         <key key="brand:wikidata" value="Q6541585" />
         <key key="operator:wikidata" value="Q6541585" />
         <key key="contact:website" value="https://libertybank.ge" />
@@ -1388,6 +1448,7 @@
         <key key="name:ka" value="ლიბერთი" />
         <key key="name:en" value="Liberty" />
         <key key="name:ru" value="Либерти" />
+        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
         <reference ref="bic_branch_ref_wheelchair_atm_address" />
         <reference ref="contacts" />
       </item>
@@ -1402,6 +1463,8 @@
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
         <key key="brand" value="კრედო ბანკი" />
+        <key key="brand:en" value="Credo Bank" />
+        <key key="brand:ru" value="Кредо Банк" />
         <key key="contact:website" value="https://credobank.ge" />
         <key key="contact:facebook" value="https://facebook.com/CredoBank" />
         <key key="contact:instagram" value="https://instagram.com/credobank" />
@@ -1416,6 +1479,7 @@
         <key key="short_name:ka" value="კრედო" />
         <key key="short_name:en" value="Credo" />
         <key key="short_name:ru" value="Кредо" />
+        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
         <reference ref="bic_branch_ref_wheelchair_atm_address" />
         <reference ref="contacts" />
       </item>
@@ -1431,6 +1495,8 @@
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
         <key key="brand" value="ბაზისბანკი" />
+        <key key="brand:en" value="Basisbank" />
+        <key key="brand:ru" value="Базисбанк" />
         <key key="brand:wikidata" value="Q16365625" />
         <key key="operator:wikidata" value="Q16365625" />
         <key key="contact:website" value="https://bb.ge" />
@@ -1443,6 +1509,7 @@
         <key key="name:ka" value="ბაზისბანკი" />
         <key key="name:en" value="Basisbank" />
         <key key="name:ru" value="Базисбанк" />
+        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
         <reference ref="bic_branch_ref_wheelchair_atm_address" />
         <reference ref="contacts" />
       </item>
@@ -1458,6 +1525,8 @@
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
         <key key="brand" value="ტერაბანკი" />
+        <key key="brand:en" value="Terabank" />
+        <key key="brand:ru" value="Терабанк" />
         <key key="contact:website" value="https://terabank.ge" />
         <key key="contact:facebook" value="https://facebook.com/terabank" />
         <key key="contact:instagram" value="https://instagram.com/Terabank" />
@@ -1468,6 +1537,7 @@
         <key key="name:ka" value="ტერაბანკი" />
         <key key="name:en" value="Terabank" />
         <key key="name:ru" value="Терабанк" />
+        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
         <reference ref="bic_branch_ref_wheelchair_atm_address" />
         <reference ref="contacts" />
       </item>
@@ -1475,6 +1545,7 @@
       <item
         name="ProCredit Bank"
         ka.name="პროკრედიტ ბანკი"
+        ru.name="ПроКредит Банк"
         type="node,closedway,multipolygon"
         preset_name_label="true"
       >
@@ -1482,6 +1553,8 @@
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
         <key key="brand" value="ProCredit Bank" />
+        <key key="brand:en" value="ProCredit Bank" />
+        <key key="brand:ru" value="ПроКредит Банк" />
         <key key="contact:website" value="https://procreditbank.ge" />
         <key key="contact:facebook" value="https://facebook.com/procreditbankgeorgia" />
         <key key="contact:instagram" value="https://instagram.com/procreditbankgeorgia" />
@@ -1491,6 +1564,8 @@
         <key key="name" value="პროკრედიტ ბანკი" />
         <key key="name:ka" value="პროკრედიტ ბანკი" />
         <key key="name:en" value="ProCredit Bank" />
+        <key key="name:ru" value="ПроКредит Банк" />
+        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
         <reference ref="bic_branch_ref_wheelchair_atm_address" />
         <reference ref="contacts" />
       </item>
@@ -1506,6 +1581,8 @@
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
         <key key="brand" value="ბანკი ქართუ" />
+        <key key="brand:en" value="Cartu Bank" />
+        <key key="brand:ru" value="Карту Банк" />
         <key key="contact:website" value="https://cartubank.ge" />
         <key key="contact:facebook" value="https://facebook.com/cartubank" />
         <key key="contact:twitter" value="https://twitter.com/CartuBank" />
@@ -1516,6 +1593,7 @@
         <key key="name:ka" value="ბანკი ქართუ" />
         <key key="name:en" value="Cartu Bank" />
         <key key="name:ru" value="Карту Банк" />
+        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
         <reference ref="bic_branch_ref_wheelchair_atm_address" />
         <reference ref="contacts" />
       </item>
@@ -1529,7 +1607,10 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
-        <key key="brand" value="Ziraat Bank" />
+        <key key="brand" value="ზირაათ ბანკი" />
+        <key key="brand:en" value="Ziraat Bank" />
+        <key key="brand:ru" value="Зираат Банк" />
+        <key key="brand:tr" value="Ziraat Bankası" />
         <key key="brand:wikidata" value="Q696003" />
         <key key="contact:website" value="https://ziraatbank.ge" />
         <key key="name" value="ზირაათ ბანკი" />
@@ -1537,6 +1618,7 @@
         <key key="name:en" value="Ziraat Bank" />
         <key key="name:ru" value="Зираат Банк" />
         <key key="name:tr" value="Ziraat Bankası" />
+        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
         <reference ref="bic_branch_ref_wheelchair_atm_address" />
         <reference ref="contacts" />
       </item>
@@ -1552,7 +1634,10 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
-        <key key="brand" value="Halyk Bank" />
+        <key key="brand" value="ხალიკ ბანკი" />
+        <key key="brand:en" value="Halyk Bank" />
+        <key key="brand:ru" value="Халык Банк" />
+        <key key="brand:kk" value="Халық Банкі" />
         <key key="brand:wikidata" value="Q1046186" />
         <key key="operator" value="ხალიკ ბანკი საქართველო" />
         <key key="contact:website" value="https://halykbank.ge" />
@@ -1566,6 +1651,7 @@
         <key key="name:en" value="Halyk Bank" />
         <key key="name:ru" value="Халык Банк" />
         <key key="name:kk" value="Халық Банкі" />
+        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
         <reference ref="bic_branch_ref_wheelchair_atm_address" />
         <reference ref="contacts" />
       </item>
@@ -1581,13 +1667,13 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="payment_terminal" />
         <key key="brand" value="საქართველოს ბანკი" />
+        <key key="brand:en" value="Bank of Georgia" />
+        <key key="brand:ru" value="Банк Грузии" />
+        <key key="brand:tr" value="Gürcistan Bankası" />
         <key key="brand:wikidata" value="Q2469733" />
         <key key="contact:website" value="https://bankofgeorgia.ge" />
-        <key key="operator:wikidata" value="Q2469733" />
         <key key="operator" value="საქართველოს ბანკი" />
-        <key key="operator:en" value="Bank of Georgia" />
-        <key key="operator:ru" value="Банк Грузии" />
-        <key key="operator:tr" value="Gürcistan Bankası" />
+        <key key="operator:wikidata" value="Q2469733" />
         <key key="payment:coins" value="no" />
         <key key="payment:cash" value="yes" />
         <key key="payment:cash:USD" value="yes" />
@@ -1603,16 +1689,13 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="payment_terminal" />
-        <key key="brand" value="თიბისი ბანკი" />
         <key key="brand:wikidata" value="Q2620975" />
+        <key key="brand" value="თიბისი ბანკი" />
+        <key key="brand:en" value="TBC Bank" />
+        <key key="brand:ru" value="ТиБиСи Банк" />
         <key key="contact:website" value="https://www.tbcbank.ge" />
-        <key key="operator:wikidata" value="Q2620975" />
         <key key="operator" value="თიბისი ბანკი" />
-        <key key="operator:short" value="თიბისი" />
-        <key key="operator:en" value="TBC Bank" />
-        <key key="operator:short:en" value="TBC" />
-        <key key="operator:ru" value="ТиБиСи Банк" />
-        <key key="operator:short:ru" value="ТиБиСи" />
+        <key key="operator:wikidata" value="Q2620975" />
         <key key="payment:coins" value="no" />
         <key key="payment:cash" value="yes" />
         <key key="payment:cash:USD" value="yes" />
@@ -1630,6 +1713,8 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="payment_terminal" />
         <key key="brand" value="კრედო ბანკი" />
+        <key key="brand:en" value="Credo Bank" />
+        <key key="brand:ru" value="Кредо Банк" />
         <key key="contact:website" value="https://credobank.ge" />
         <key key="contact:facebook" value="https://facebook.com/CredoBank" />
         <key key="contact:instagram" value="https://instagram.com/credobank" />
@@ -1638,11 +1723,6 @@
         <key key="contact:email" value="info@credo.ge" />
         <key key="contact:phone" value="+995 322 424242" />
         <key key="operator" value="კრედო ბანკი" />
-        <key key="operator:en" value="Credo Bank" />
-        <key key="operator:ru" value="Кредо Банк" />
-        <key key="operator:short:ka" value="კრედო" />
-        <key key="operator:short:en" value="Credo" />
-        <key key="operator:short:ru" value="Кредо" />
       </item>
 
       <item
@@ -1656,13 +1736,20 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="საქართველოს ბანკი" />
+        <key key="brand:en" value="Bank of Georgia" />
+        <key key="brand:ru" value="Банк Грузии" />
+        <key key="brand:tr" value="Gürcistan Bankası" />
         <key key="brand:wikidata" value="Q2469733" />
         <key key="contact:website" value="https://bankofgeorgia.ge" />
         <key key="operator:wikidata" value="Q2469733" />
         <key key="operator" value="საქართველოს ბანკი" />
-        <key key="operator:en" value="Bank of Georgia" />
-        <key key="operator:ru" value="Банк Грузии" />
-        <key key="operator:tr" value="Gürcistan Bankası" />
+        <key key="cash_out" value="yes" />
+        <key key="language:en" value="yes" />
+        <key key="language:ka" value="yes" />
+        <key key="currency:GEL" value="yes" />
+        <key key="currency:USD" value="yes" />
+        <key key="currency:EUR" value="yes" />
+        <check key="drive_through" text="Drive through" />
       </item>
 
       <item
@@ -1676,15 +1763,19 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="თიბისი ბანკი" />
+        <key key="brand:en" value="TBC Bank" />
+        <key key="brand:ru" value="ТиБиСи Банк" />
         <key key="brand:wikidata" value="Q2620975" />
         <key key="contact:website" value="https://www.tbcbank.ge" />
         <key key="operator:wikidata" value="Q2620975" />
         <key key="operator" value="თიბისი ბანკი" />
-        <key key="operator:short" value="თიბისი" />
-        <key key="operator:en" value="TBC Bank" />
-        <key key="operator:short:en" value="TBC" />
-        <key key="operator:ru" value="ТиБиСи Банк" />
-        <key key="operator:short:ru" value="ТиБиСи" />
+        <key key="cash_out" value="yes" />
+        <key key="language:en" value="yes" />
+        <key key="language:ka" value="yes" />
+        <key key="currency:GEL" value="yes" />
+        <key key="currency:USD" value="yes" />
+        <key key="currency:EUR" value="yes" />
+        <check key="drive_through" text="Drive through" />
       </item>
       <item
         name="Liberty ATM"
@@ -1697,6 +1788,8 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="ლიბერთი" />
+        <key key="brand:en" value="Liberty" />
+        <key key="brand:ru" value="Либерти" />
         <key key="brand:wikidata" value="Q6541585" />
         <key key="contact:website" value="https://libertybank.ge" />
         <key key="contact:email" value="info@lb.ge" />
@@ -1705,9 +1798,14 @@
         <key key="contact:instagram" value="https://instagram.com/liberty_bank_" />
         <key key="contact:linkedin" value="https://linkedin.com/company/libertybankge" />
         <key key="operator:wikidata" value="Q6541585" />
-        <key key="operator" value="ლიბერთი" />
-        <key key="operator:en" value="Liberty" />
-        <key key="operator:ru" value="Либерти" />
+        <key key="operator" value="ლიბერთი ბანკი" />
+        <key key="cash_out" value="yes" />
+        <key key="language:en" value="yes" />
+        <key key="language:ka" value="yes" />
+        <key key="currency:GEL" value="yes" />
+        <key key="currency:USD" value="yes" />
+        <key key="currency:EUR" value="yes" />
+        <check key="drive_through" text="Drive through" />
       </item>
       <item
         name="Credo ATM"
@@ -1720,6 +1818,8 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="კრედო ბანკი" />
+        <key key="brand:en" value="Credo Bank" />
+        <key key="brand:ru" value="Кредо Банк" />
         <key key="contact:website" value="https://credobank.ge" />
         <key key="contact:facebook" value="https://facebook.com/CredoBank" />
         <key key="contact:instagram" value="https://instagram.com/credobank" />
@@ -1728,11 +1828,7 @@
         <key key="contact:email" value="info@credo.ge" />
         <key key="contact:phone" value="+995 322 424242" />
         <key key="operator" value="კრედო ბანკი" />
-        <key key="operator:en" value="Credo Bank" />
-        <key key="operator:ru" value="Кредо Банк" />
-        <key key="operator:short:ka" value="კრედო" />
-        <key key="operator:short:en" value="Credo" />
-        <key key="operator:short:ru" value="Кредо" />
+        <check key="drive_through" text="Drive through" />
       </item>
 
       <item
@@ -1746,6 +1842,8 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="ბაზისბანკი" />
+        <key key="brand:en" value="Basisbank" />
+        <key key="brand:ru" value="Базисбанк" />
         <key key="brand:wikidata" value="Q16365625" />
         <key key="contact:website" value="https://bb.ge" />
         <key key="contact:facebook" value="https://facebook.com/Basisbank" />
@@ -1754,9 +1852,8 @@
         <key key="contact:youtube" value="https://youtube.com/user/basisbankhualing" />
         <key key="contact:phone" value="+995 322 922922" />
         <key key="operator" value="ბაზისბანკი" />
-        <key key="operator:en" value="Basisbank" />
-        <key key="operator:ru" value="Базисбанк" />
         <key key="operator:wikidata" value="Q16365625" />
+        <check key="drive_through" text="Drive through" />
       </item>
 
       <item
@@ -1770,6 +1867,8 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="ტერაბანკი" />
+        <key key="brand:en" value="Terabank" />
+        <key key="brand:ru" value="Терабанк" />
         <key key="contact:website" value="https://terabank.ge" />
         <key key="contact:facebook" value="https://facebook.com/terabank" />
         <key key="contact:instagram" value="https://instagram.com/Terabank" />
@@ -1777,8 +1876,7 @@
         <key key="contact:email" value="info@terabank.ge" />
         <key key="contact:phone" value="+995 322 550000" />
         <key key="operator" value="ტერაბანკი" />
-        <key key="operator:en" value="Terabank" />
-        <key key="operator:ru" value="Терабанк" />
+        <check key="drive_through" text="Drive through" />
       </item>
 
       <item
@@ -1792,6 +1890,8 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="ბანკი ქართუ" />
+        <key key="brand:en" value="Cartu Bank" />
+        <key key="brand:ru" value="Карту Банк" />
         <key key="contact:website" value="https://cartubank.ge" />
         <key key="contact:facebook" value="https://facebook.com/cartubank" />
         <key key="contact:twitter" value="https://twitter.com/CartuBank" />
@@ -1799,8 +1899,7 @@
         <key key="contact:email" value="info@cartubank.ge" />
         <key key="contact:phone" value="+995 032 2008080" />
         <key key="operator" value="ბანკი ქართუ" />
-        <key key="operator:en" value="Cartu Bank" />
-        <key key="operator:ru" value="Карту Банк" />
+        <check key="drive_through" text="Drive through" />
       </item>
       <item
         name="Halyk Bank ATM"
@@ -1813,6 +1912,9 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="Halyk Bank" />
+        <key key="brand:en" value="Halyk Bank" />
+        <key key="brand:ru" value="Халык Банк" />
+        <key key="brand:kk" value="Халық Банкі" />
         <key key="brand:wikidata" value="Q1046186" />
         <key key="operator" value="ხალიკ ბანკი საქართველო" />
         <key key="contact:website" value="https://halykbank.ge" />
@@ -1822,9 +1924,7 @@
         <key key="contact:linkedin" value="https://linkedin.com/company/halykbankgeo" />
         <key key="contact:instagram" value="https://instagram.com/halykbankgeo" />
         <key key="operator" value="ხალიკ ბანკი" />
-        <key key="operator:en" value="Halyk Bank" />
-        <key key="operator:ru" value="Халык Банк" />
-        <key key="operator:kk" value="Халық Банкі" />
+        <check key="drive_through" text="Drive through" />
       </item>
     </group>
 
@@ -1843,7 +1943,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="fuel" />
-        <key key="brand" value="Rompetrol" />
+        <key key="brand" value="რომპეტროლი" />
+        <key key="brand:en" value="Rompetrol" />
         <key key="brand:wikidata" value="Q1788862" />
         <key key="contact:website" value="https://www.rompetrol.ge" />
         <key key="contact:facebook" value="https://facebook.com/RompetrolGeorgiaLtd" />
@@ -1862,7 +1963,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="fuel" />
-        <key key="brand" value="Socar" />
+        <key key="brand" value="სოკარი" />
+        <key key="brand:en" value="Socar" />
         <key key="brand:wikidata" value="Q1622293" />
         <key key="operator" value="სოკარ ჯორჯია პეტროლეუმი" />
         <key key="operator:en" value="SOCAR Georgia Petroleum" />
@@ -1882,7 +1984,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="fuel" />
-        <key key="brand" value="WISSOL" />
+        <key key="brand" value="ვისოლ" />
+        <key key="brand:en" value="WISSOL" />
         <key key="brand:wikidata" value="Q8027737" />
         <key key="operator:wikidata" value="Q8027737" />
         <key key="operator" value="ვისოლ პეტროლიუმ ჯორჯია" />
@@ -1903,7 +2006,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="fuel" />
-        <key key="brand" value="Gulf" />
+        <key key="brand" value="გულფი" />
+        <key key="brand:en" value="Gulf" />
         <key key="brand:wikidata" value="Q5617505" />
         <key key="operator" value="სან პეტროლიუმ ჯორჯია" />
         <key key="operator:en" value="Sun Petroleum Georgia" />
@@ -1925,7 +2029,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="fuel" />
-        <key key="brand" value="Connect" />
+        <key key="brand" value="ქონექთი" />
+        <key key="brand:en" value="Connect" />
         <key key="contact:facebook" value="https://facebook.com/ConnectPetroleumGeo" />
         <key key="contact:email" value="info@connect.com.ge" />
         <key key="name" value="ქონექთი" />
@@ -1943,7 +2048,9 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="fuel" />
-        <key key="brand" value="Lukoil" />
+        <key key="brand" value="ლუკოილი" />
+        <key key="brand:en" value="Lukoil" />
+        <key key="brand:ru" value="Лукойл" />
         <key key="brand:wikidata" value="Q329347" />
         <key key="operator" value="შპს ლუკოილ ჯორჯია" />
         <key key="operator:en" value="Lukoil Georgia" />
@@ -1954,6 +2061,27 @@
         <key key="name:ka" value="ლუკოილი" />
         <key key="name:en" value="Lukoil" />
         <key key="name:ru" value="Лукойл" />
+        <reference ref="basic_data" />
+      </item>
+      <item
+        name="Portal"
+        ka.name="პორტალი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="fuel" />
+        <key key="brand" value="პორტალი" />
+        <key key="brand:en" value="Portal" />
+        <key key="brand:ru" value="Лукойл" />
+        <key key="brand:wikidata" value="Q329347" />
+        <key key="contact:website" value="https://portal.com.ge" />
+        <key key="contact:facebook" value="https://facebook.com/LTD.portal" />
+        <key key="contact:email" value="info@portal.com.ge" />
+        <key key="name" value="პორტალი" />
+        <key key="name:ka" value="პორტალი" />
+        <key key="name:en" value="Portal" />
         <reference ref="basic_data" />
       </item>
     </group>
@@ -1974,6 +2102,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ბილაინი" />
+        <key key="brand:en" value="Beeline" />
+        <key key="brand:ru" value="Билайн" />
         <key key="brand:wikidata" value="Q402880" />
         <key key="operator" value="ვიონი საქართველო" />
         <key key="operator:wikidata" value="Q4044421" />
@@ -2004,6 +2134,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="სილქნეტი" />
+        <key key="brand:en" value="Silknet" />
+        <key key="brand:ru" value="Силкнет" />
         <key key="brand:wikidata" value="Q12869272" />
         <key key="operator:wikidata" value="Q12869272" />
         <key key="name" value="სილქნეტი" />
@@ -2036,6 +2168,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="მაგთი" />
+        <key key="brand:en" value="Magti" />
+        <key key="brand:ru" value="Магти" />
         <key key="operator" value="MagtiCom" />
         <key key="operator:wikidata" value="Q6732495" />
         <key key="name" value="მაგთი" />
@@ -2118,6 +2252,33 @@
         <reference ref="wheelchair_address" />
         <link wiki="Tag:government%3Dtax" />
       </item>
+      <item
+        name="Patrol Police Departament"
+        ka.name="საპატრულო პოლიციის დეპარტამენტი"
+        ru.name="Департамент патрульной полиции"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <key key="name" default="საპატრულო პოლიციი" />
+        <key key="name:ka" default="საპატრულო პოლიციი" />
+        <key key="name:ru" default="Патрульная полиция" />
+        <key key="name:en" default="Patrol Police" />
+        <key key="amenity" value="police" />
+        <key key="operator" value="საქართველოს შინაგან საქმეთა სამინისტროს საპატრულო პოლიციის დეპარტამენტი" />
+        <key key="operator:short" value="საპატრულო პოლიციი" />
+        <key key="operator:en" value="Patrol Police Departament of the Ministry of Internal Affairs of Georgia" />
+        <key key="operator:short:en" value="Patrol Police" />
+        <key key="operator:ru" value="Департамент патрульной полиции Министерства внутренних дел Грузии" />
+        <key key="operator:short:ru" value="Патрульная полиция" />
+        <key key="operator:wikidata" value="Q56345209" />
+        <key key="contact:facebook" value="https://facebook.com/policeofgeorgia" />
+        <key key="contact:phone" value="+995 322 414242" />
+        <key key="contact:email" value="patrolinfo@mia.gov.ge" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:amenity%3Dpolice" />
+      </item>
     </group>
 
     <group
@@ -2170,19 +2331,19 @@
         preset_name_label="true"
       >
         <space />
-        <key key="amenity" value="post_office" />
         <key key="brand" value="СДЭК" />
         <key key="brand:en" value="CDEK" />
         <key key="brand:ru" value="СДЭК" />
+        <key key="name:en" value="CDEK" />
+        <key key="alt_name:en" value="SDEK" />
+        <key key="name:ru" value="СДЭК" />
         <key key="brand:wikidata" value="Q28665980" />
         <key key="contact:website" value="https://cdek.ge" />
         <key key="contact:email" value="georgia@cdek.ru" />
-        <key key="operator" value="СДЭК" />
-        <key key="operator:wikidata" value="Q28665980" />
-        <key key="office" value="logistics" />
+        <key key="office" value="courier" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
-        <link wiki="Tag:amenity%3Dpost_office" />
+        <link wiki="Tag:office%3Dcourier" />
       </item>
       <item
         name="USA2GEORGIA"
@@ -2190,7 +2351,6 @@
         preset_name_label="true"
       >
         <space />
-        <key key="amenity" value="post_office" />
         <key key="name" value="USA2GEORGIA" />
         <key key="name:en" value="USA2GEORGIA" />
         <key key="brand" value="USA2GEORGIA" />
@@ -2198,10 +2358,29 @@
         <key key="contact:instagram" value="https://instagram.com/usa2georgia.com_" />
         <key key="contact:facebook" value="https://facebook.com/USA2GEORGIACOM" />
         <key key="contact:email" value="sales@usa2georgia.com" />
-        <key key="office" value="logistics" />
+        <key key="office" value="courier" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
-        <link wiki="Tag:amenity%3Dpost_office" />
+        <link wiki="Tag:office%3Dcourier" />
+      </item>
+      <item
+        name="Camex"
+        ka.name="კამექსი"
+        type="node"
+        preset_name_label="true"
+      >
+        <space />
+        <key key="name" value="კამექსი" />
+        <key key="name:en" value="Camex" />
+        <key key="brand" value="კამექსი" />
+        <key key="brand:en" value="Camex" />
+        <key key="contact:website" value="https://camex.ge" />
+        <key key="contact:facebook" value="https://facebook.com/camex.ge" />
+        <key key="contact:instagram" value="https://instagram.com/camex.ge" />
+        <key key="office" value="courier" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:office%3Dcourier" />
       </item>
       <item
         name="Postbox (Georgian Post)"
@@ -2361,6 +2540,7 @@
         <key key="amenity" value="bicycle_rental" />
         <key key="bicycle_rental" value="docking_station" />
         <key key="network" value="BatumVelo" />
+        <key key="brand:en" value="BatumVelo" />
         <key key="operator" value="შპს ბათუმის ავტოტრანსპორტი" />
         <key key="operator:type" value="government" />
         <key key="contact:email" value="support@batumvelo.ge" />
