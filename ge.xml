@@ -249,6 +249,34 @@
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
       </item>
+      <item
+        name="Optimist"
+        ka.name="ოპტიმისტი"
+        ru.name="Оптимист"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="ოპტიმისტი" />
+        <key key="brand:en" value="Optimist" />
+        <key key="brand:ru" value="Оптимист" />
+        <key key="name" value="ოპტიმისტი" />
+        <key key="name:ka" value="ოპტიმისტი" />
+        <key key="name:en" value="Optimist" />
+        <key key="name:ru" value="Оптимист" />
+        <key key="contact:website" value="https://optimist.ge" />
+        <key key="contact:facebook" value="https://facebook.com/optimistgemini" />
+        <key key="contact:email" value="info@geminioptics.ge" />
+        <key key="shop" value="optican" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
     </group>
 
     <group
@@ -317,7 +345,8 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="takeaway" value="yes" />
-        <key key="cuisine" value="chiken;burger" />
+        <key key="delivery" value="yes" />
+        <key key="cuisine" value="burger;wings;chicken" />
         <key key="amenity" value="fast_food" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -348,6 +377,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="takeaway" value="yes" />
+        <key key="delivery" value="yes" />
         <key key="cuisine" value="burger" />
         <key key="amenity" value="fast_food" />
         <reference ref="basic_data" />
@@ -375,7 +405,8 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="takeaway" value="yes" />
-        <key key="cuisine" value="donut;coffee_shop" />
+        <key key="delivery" value="yes" />
+        <key key="cuisine" value="donut;bagel;pizza;hot_dog;burger" />
         <key key="amenity" value="fast_food" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -402,6 +433,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="takeaway" value="yes" />
+        <key key="delivery" value="yes" />
         <key key="cuisine" value="sandwich" />
         <key key="amenity" value="fast_food" />
         <reference ref="basic_data" />
@@ -430,6 +462,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="takeaway" value="yes" />
+        <key key="delivery" value="yes" />
         <key key="cuisine" value="burger" />
         <key key="amenity" value="fast_food" />
         <reference ref="basic_data" />
@@ -459,7 +492,37 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="takeaway" value="yes" />
+        <key key="delivery" value="yes" />
         <key key="cuisine" value="burger" />
+        <key key="amenity" value="fast_food" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Ska Juice Bar"
+        ka.name="ვსკა ჯუს ბარი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="სკა ჯუს ბარი" />
+        <key key="brand:en" value="Ska Juice Bar" />
+        <key key="name" value="სკა ჯუს ბარი" />
+        <key key="name:ka" value="სკა ჯუს ბარი" />
+        <key key="name:en" value="Ska Juice Bar" />
+        <key key="contact:facebook" value="https://facebook.com/skajuicebar" />
+        <key key="contact:instagram" value="https://instagram.com/ska_juicebar" />
+        <key key="contact:email" value="tako@skagroup.ge" />
+        <key key="contact:phone" value="+995 599 877461" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="cuisine" value="juice;smoothie;sandwich" />
+        <key key="takeaway" value="yes" />
+        <key key="delivery" value="yes" />
         <key key="amenity" value="fast_food" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -880,6 +943,83 @@
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Global Products"
+        ka.name="გლობალ პროდუქტი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="გლობალ პროდუქტი" />
+        <key key="brand:en" value="Global Products" />
+        <key key="contact:phone" value="+995 551 771717" />
+        <key key="contact:email" value="info@globalproducts.ge" />
+        <key key="contact:website" value="https://www.globalproducts.ge" />
+        <key key="contact:facebook" value="https://facebook.com/globalproducts.supermarket" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/global-products-distribution" />
+        <key key="name" value="გლობალ პროდუქტი" />
+        <key key="name:ka" value="გლობალ პროდუქტი" />
+        <key key="name:en" value="Global Products" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Daily"
+        ka.name="დეილი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="დეილი" />
+        <key key="brand:en" value="Daily" />
+        <key key="contact:instagram" value="https://instagram.com/dailysupermarket" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/daily-grocery" />
+        <key key="name" value="დეილი" />
+        <key key="name:ka" value="დეილი" />
+        <key key="name:en" value="Daily" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item
+        name="Smart"
+        ka.name="სმარტ"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="სმარტ" />
+        <key key="brand:en" value="Smart" />
+        <key key="contact:website" value="http://www.smart.ge" />
+        <key key="contact:email" value="hotline@smart.ge" />
+        <key key="contact:facebook" value="https://facebook.com/SmartSupermarkets" />
+        <key key="contact:instagram" value="https://instagram.com/smartsupermarket" />
+        <key key="name" value="სმარტ" />
+        <key key="name:ka" value="სმარტ" />
+        <key key="name:en" value="Smart" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
@@ -1926,6 +2066,32 @@
         <key key="operator" value="ხალიკ ბანკი" />
         <check key="drive_through" text="Drive through" />
       </item>
+
+      <item
+        name="Bermeli"
+        ru.name="Бермели"
+        ka.name="ბერმელი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="shop" value="money_lender" />
+        <key key="brand" value="ბერმელი" />
+        <key key="brand:en" value="Bermeli" />
+        <key key="brand:ru" value="Бермели" />
+        <key key="operator" value="შპს მისო „ბერმელი“" />
+        <key key="contact:website" value="https://bermeli.ge" />
+        <key key="contact:facebook" value="https://facebook.com/MikrosapinansoOrganizatsiaBermeli" />
+        <key key="contact:email" value="info@bermeli.ge" />
+        <key key="contact:phone" value="+995 568 700300" />
+        <key key="name" value="ბერმელი" />
+        <key key="name:ka" value="ბერმელი" />
+        <key key="name:en" value="Bermeli" />
+        <key key="name:ru" value="Бермели" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
     </group>
 
     <group
@@ -2083,6 +2249,44 @@
         <key key="name:ka" value="პორტალი" />
         <key key="name:en" value="Portal" />
         <reference ref="basic_data" />
+      </item>
+      <item
+        name="E-Space"
+        ka.name="ი-სპეის"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="charging_station" />
+        <key key="brand" value="ი-სპეის" />
+        <key key="brand:en" value="E-Space" />
+        <key key="contact:website" value="https://e-space.ge" />
+        <key key="contact:facebook" value="https://facebook.com/espace.ge" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/ltd-e-space" />
+        <key key="contact:email" value="info@e-space.ge" />
+        <key key="contact:phone" value="+995 322 433473" />
+        <key key="name" value="ი-სპეის" />
+        <key key="name:ka" value="ი-სპეის" />
+        <key key="name:en" value="E-Space" />
+        <link wiki="Tag:amenity%3Dcharging_station" />
+      </item>
+      <item
+        name="EV Georgia"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="charging_station" />
+        <key key="brand" value="EV Georgia" />
+        <key key="operator:en" value="ElectroUA Georgia" />
+        <key key="contact:website" value="https://ev-georgia.net" />
+        <key key="contact:email" value="info@ev-georgia.net" />
+        <key key="contact:phone" value="+995 514070033" />
+        <key key="contact:telegram" value="https://t.me/EVGeorgia_bot" />
+        <key key="name:en" value="EV Georgia" />
+        <link wiki="Tag:amenity%3Dcharging_station" />
       </item>
     </group>
 
@@ -2309,8 +2513,9 @@
         <key key="operator:short:ru" value="Патрульная полиция" />
         <key key="operator:wikidata" value="Q56345209" />
         <key key="contact:facebook" value="https://facebook.com/policeofgeorgia" />
-        <key key="contact:phone" value="+995 322 414242" />
-        <key key="contact:email" value="patrolinfo@mia.gov.ge" />
+        <key key="contact:website" value="https://police.ge" />
+        <key key="contact:phone" default="+995 322 414242" />
+        <key key="contact:email" default="patrolinfo@mia.gov.ge" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:amenity%3Dpolice" />
