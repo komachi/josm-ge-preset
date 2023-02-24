@@ -19,6 +19,12 @@
     <text key="name:ru" text="name:ru" />
     <text key="name:tr" text="name:tr" />
   </chunk>
+  <chunk id="brand">
+    <text key="brand" text="brand" />
+    <text key="brand:en" text="brand:en" />
+    <text key="brand:ru" text="brand:ru" />
+    <text key="brand:tr" text="brand:tr" />
+  </chunk>
   <chunk id="phone">
     <combo key="contact:phone" text="Phone number" text.ka="Ტელეფონის ნომერი" />
   </chunk>
@@ -60,13 +66,15 @@
     <reference ref="name" />
     <reference ref="contacts" />
   </chunk>
-  <chunk id="bic_branch_ref_wheelchair_atm_address">
+  <chunk id="bank_office">
+    <reference ref="basic_data" />
+    <reference ref="brand" />
+    <reference ref="wheelchair_address" />
     <combo key="bic" text="BIC/SWIFT" />
     <combo key="branch" text="Branch" ka.text="ფილიალი" ru.text="Филиал (или отделение)" />
     <text key="ref" text="Reference number" ka.text="ფილიალის ნომერი" ru.text="Номер отделения" />
-    <reference ref="wheelchair" />
     <check key="atm" text="Automated Teller Machine" ka.text="ბანკომატ" ru.text="Банкомат" />
-    <preset_link preset_name="Address" />
+    <reference ref="contacts" />
   </chunk>
   <chunk id="clothes_list">
     <multiselect
@@ -77,6 +85,105 @@
       values="babies,children,costumes,denim,fashion,fur,hats,leather,maternity,men,motorcycle,oversize,schoolwear,sports,suits,swimwear,traditional,underwear,unisex,wedding,women,workwear"
       default="hats;men;women;children;underwear"
     />
+  </chunk>
+  <chunk id="currencies">
+    <check key="currency:GEL" text="GEL" />
+    <check key="currency:USD" text="USD" />
+    <check key="currency:EUR" text="EUR" />
+    <check key="currency:GBP" text="GBP" />
+  </chunk>
+  <chunk id="full_currencies">
+    <reference ref="currencies" />
+    <check key="currency:RUB" text="RUB" />
+    <check key="currency:TRY" text="TRY" />
+    <check key="currency:UAH" text="UAH" />
+    <check key="currency:AMD" text="AMD" />
+    <check key="currency:CHF" text="CHF" />
+    <check key="currency:CAD" text="CAD" />
+    <check key="currency:KZT" text="KZT" />
+    <check key="currency:AED" text="AED" />
+    <check key="currency:ILS" text="ILS" />
+    <check key="currency:BYN" text="BYN" />
+    <check key="currency:INR" text="INR" />
+    <check key="currency:KWD" text="KWD" />
+    <check key="currency:QAR" text="QAR" />
+    <check key="currency:SAR" text="SAR" />
+  </chunk>
+  <chunk id="crypto_currencies">
+    <check key="currency:XBT" text="Bitcoin" />
+    <check key="currency:LTC" text="Litecoin" />
+    <check key="currency:ETH" text="Ethereum" />
+    <check key="currency:BCH" text="Bitcoin Cash" />
+    <check key="currency:DOGE" text="Dogecoin" />
+    <check key="currency:XMR" text="Monero" />
+    <check key="currency:USDT" text="USDT" />
+    <check key="currency:TRX" text="Tron" />
+    <check key="currency:BNB" text="BNB" />
+    <check key="currency:DASH" text="Dash" />
+  </chunk>
+  <chunk id="atm">
+    <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+    <reference ref="contacts" />
+    <reference ref="operator" />
+    <reference ref="brand" />
+    <check key="drive_through" text="Drive through" />
+    <check key="cash_in" text="Cash in" />
+    <check key="cash_out" text="Cash out" />
+    <reference ref="currencies" />
+  </chunk>
+  <chunk id="crypto_atm">
+    <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+    <reference ref="contacts" />
+    <reference ref="operator" />
+    <reference ref="brand" />
+    <check key="drive_through" text="Drive through" />
+    <check key="cash_in" text="Cash in" />
+    <check key="cash_out" text="Cash out" />
+    <reference ref="crypto_currencies" />
+  </chunk>
+  <chunk id="paybox">
+    <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+    <reference ref="contacts" />
+    <reference ref="operator" />
+    <reference ref="brand" />
+    <check key="drive_through" text="Drive through" />
+    <check key="cash_in" text="Cash in" />
+  </chunk>
+  <chunk id="payment">
+    <check key="payment:mastercard" text="Mastercard" />
+    <check key="payment:visa" text="Visa" />
+    <check key="payment:american_express" text="American Express" />
+    <check key="payment:credit_cards" text="Credit cards" />
+    <check key="payment:debit_cards" text="Debit cards" />
+    <check key="payment:contactless" text="Contactless" />
+  </chunk>
+  <chunk id="fuel">
+    <check key="fuel:octane_98" text="Super (98)" />
+    <check key="fuel:octane_95" text="Premium (95)" />
+    <check key="fuel:octane_92" text="Regular (92)" />
+    <check key="fuel:diesel" text="Diesel" />
+    <check key="fuel:CNG" text="CNG" />
+    <check key="fuel:LPG" text="LPG" />
+  </chunk>
+  <chunk id="fuel_station">
+    <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+    <reference ref="basic_data" />
+    <reference ref="brand" />
+    <reference ref="wheelchair_address" />
+    <reference ref="fuel" />
+    <reference ref="payment" />
+  </chunk>
+  <chunk id="charging_station">
+    <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+    <check key="fee" text="Fee" />
+    <reference ref="brand" />
+    <reference ref="fuel" />
+  </chunk>
+  <chunk id="basic_shop">
+    <reference ref="basic_data" />
+    <reference ref="brand" />
+    <reference ref="wheelchair_address" />
+    <reference ref="payment" />
   </chunk>
 
   <group
@@ -111,8 +218,7 @@
         <key key="name:en" value="PSP" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Aversi"
@@ -145,8 +251,7 @@
         <key key="name:ru" value="Аверси" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Pharmadepot"
@@ -173,8 +278,7 @@
         <key key="name:ru" value="Фармадепот" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item name="Neopharmi" ka.name="ნეოფარმი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
@@ -194,8 +298,7 @@
         <key key="name:ru" value="Неофарм" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item name="GPC" ka.name="ჯპს" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
@@ -217,8 +320,34 @@
         <key key="name:en" value="GPC" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
+      </item>
+      <item
+        name="Impex"
+        ka.name="იმპექსი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="იმპექსი" />
+        <key key="brand:en" value="Impex" />
+        <key key="contact:facebook" value="https://facebook.com/ImpexPharmacy" />
+        <key key="contact:instagram" value="https://instagram.com/impexpharmacy" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/impexpharm" />
+        <key key="contact:phone" default="+995 322 313100" />
+        <key key="contact:email" value="office@myimpex.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="name" value="იმპექსი" />
+        <key key="name:ka" value="იმპექსი" />
+        <key key="name:en" value="Impex" />
+        <key key="amenity" value="pharmacy" />
+        <key key="healthcare" value="pharmacy" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Roniko"
@@ -246,8 +375,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="optican" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Optimist"
@@ -274,8 +402,7 @@
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
     </group>
 
@@ -312,8 +439,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="healthcare" value="sample_collection" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
     </group>
 
@@ -348,8 +474,7 @@
         <key key="delivery" value="yes" />
         <key key="cuisine" value="burger;wings;chicken" />
         <key key="amenity" value="fast_food" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="McDonald's"
@@ -380,8 +505,7 @@
         <key key="delivery" value="yes" />
         <key key="cuisine" value="burger" />
         <key key="amenity" value="fast_food" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Dunkin' Donuts"
@@ -408,8 +532,7 @@
         <key key="delivery" value="yes" />
         <key key="cuisine" value="donut;bagel;pizza;hot_dog;burger" />
         <key key="amenity" value="fast_food" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Subway"
@@ -436,8 +559,7 @@
         <key key="delivery" value="yes" />
         <key key="cuisine" value="sandwich" />
         <key key="amenity" value="fast_food" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Burger King"
@@ -465,8 +587,7 @@
         <key key="delivery" value="yes" />
         <key key="cuisine" value="burger" />
         <key key="amenity" value="fast_food" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Wendy's"
@@ -495,8 +616,7 @@
         <key key="delivery" value="yes" />
         <key key="cuisine" value="burger" />
         <key key="amenity" value="fast_food" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Ska Juice Bar"
@@ -524,8 +644,7 @@
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="amenity" value="fast_food" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
     </group>
 
@@ -558,8 +677,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Nikora"
@@ -591,8 +709,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Ori Nabiji"
@@ -625,8 +742,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Billion"
@@ -651,8 +767,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Magniti"
@@ -682,8 +797,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Nazilbe"
@@ -711,8 +825,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Goodwill"
@@ -740,8 +853,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Agrohub"
@@ -771,8 +883,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Carrefour"
@@ -806,8 +917,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Libre"
@@ -833,8 +943,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Zgapari"
@@ -862,8 +971,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Fresco"
@@ -891,8 +999,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Ioli"
@@ -917,8 +1024,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Willmart"
@@ -947,8 +1053,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Global Products"
@@ -974,8 +1079,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Daily"
@@ -998,8 +1102,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Smart"
@@ -1024,8 +1127,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="supermarket" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Alcorium"
@@ -1062,8 +1164,7 @@
         <key key="drink:tequila" value="retail" />
         <key key="drink:liquor" value="retail" />
         <key key="shop" value="alcohol" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
     </group>
 
@@ -1099,8 +1200,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="chemist" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
 
       <item
@@ -1129,8 +1229,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="electronics" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Alta"
@@ -1154,8 +1253,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="electronics" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Elit Electronics"
@@ -1183,8 +1281,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="electronics" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Metromart"
@@ -1208,8 +1305,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="electronics" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Unicom"
@@ -1233,8 +1329,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="electronics" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="iTechnics"
@@ -1261,8 +1356,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="electronics" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Biblus"
@@ -1286,8 +1380,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="books" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Bata"
@@ -1310,8 +1403,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="shoes" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="LC Waikiki"
@@ -1335,8 +1427,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="clothes" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
         <reference ref="clothes_list" />
       </item>
       <item
@@ -1364,8 +1455,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="variety_store" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Jysk"
@@ -1390,8 +1480,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="variety_store" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Gorgia"
@@ -1420,8 +1509,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="doityourself" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
     </group>
     <group
@@ -1453,8 +1541,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="pet" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="ZooCity"
@@ -1478,8 +1565,7 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="pet" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
       <item
         name="Zoomart"
@@ -1498,8 +1584,7 @@
         <key key="contact:facebook" value="https://facebook.com/zoomart.ge" />
         <key key="contact:linkedin" value="https://linkedin.com/company/zoomartgeorgia" />
         <key key="shop" value="pet" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
+        <reference ref="basic_shop" />
       </item>
     </group>
 
@@ -1519,6 +1604,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
+        <key key="bic" value="TBCBGE22" />
         <key key="brand" value="თიბისი ბანკი" />
         <key key="brand:en" value="TBC Bank" />
         <key key="brand:ru" value="ТиБиСи Банк" />
@@ -1532,9 +1618,7 @@
         <key key="short_name:ka" value="თიბისი" />
         <key key="short_name:en" value="TBC" />
         <key key="short_name:ru" value="ТиБиСи" />
-        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
-        <reference ref="bic_branch_ref_wheelchair_atm_address" />
-        <reference ref="contacts" />
+        <reference ref="bank_office" />
       </item>
       <item
         name="Bank of Georgia"
@@ -1547,6 +1631,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
+        <key key="bic" value="BAGAGE22" />
         <key key="brand" value="საქართველოს ბანკი" />
         <key key="brand:en" value="Bank of Georgia" />
         <key key="brand:ru" value="Банк Грузии" />
@@ -1565,14 +1650,13 @@
         <key key="name:ru" value="Банк Грузии" />
         <key key="name:tr" value="Gürcistan Bankası" />
         <key key="short_name:en" value="BoG" />
-        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
-        <reference ref="bic_branch_ref_wheelchair_atm_address" />
-        <reference ref="contacts" />
+        <reference ref="bank_office" />
       </item>
       <item name="Liberty" ka.name="ლიბერთი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
+        <key key="bic" value="LBRTGE22" />
         <key key="brand" value="ლიბერთი" />
         <key key="brand:en" value="Liberty" />
         <key key="brand:ru" value="Либерти" />
@@ -1589,8 +1673,7 @@
         <key key="name:en" value="Liberty" />
         <key key="name:ru" value="Либерти" />
         <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
-        <reference ref="bic_branch_ref_wheelchair_atm_address" />
-        <reference ref="contacts" />
+        <reference ref="bank_office" />
       </item>
       <item
         name="Credo Bank"
@@ -1602,6 +1685,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
+        <key key="bic" value="JSCRGE22" />
         <key key="brand" value="კრედო ბანკი" />
         <key key="brand:en" value="Credo Bank" />
         <key key="brand:ru" value="Кредо Банк" />
@@ -1619,9 +1703,7 @@
         <key key="short_name:ka" value="კრედო" />
         <key key="short_name:en" value="Credo" />
         <key key="short_name:ru" value="Кредо" />
-        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
-        <reference ref="bic_branch_ref_wheelchair_atm_address" />
-        <reference ref="contacts" />
+        <reference ref="bank_office" />
       </item>
 
       <item
@@ -1634,6 +1716,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
+        <key key="bic" value="" />
         <key key="brand" value="ბაზისბანკი" />
         <key key="brand:en" value="BasisBank" />
         <key key="brand:ru" value="БазисБанк" />
@@ -1649,9 +1732,7 @@
         <key key="name:ka" value="ბაზისბანკი" />
         <key key="name:en" value="BasisBank" />
         <key key="name:ru" value="БазисБанк" />
-        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
-        <reference ref="bic_branch_ref_wheelchair_atm_address" />
-        <reference ref="contacts" />
+        <reference ref="bank_office" />
       </item>
 
       <item
@@ -1664,6 +1745,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
+        <key key="bic" value="TEBAGE22" />
         <key key="brand" value="ტერაბანკი" />
         <key key="brand:en" value="Terabank" />
         <key key="brand:ru" value="Терабанк" />
@@ -1677,9 +1759,7 @@
         <key key="name:ka" value="ტერაბანკი" />
         <key key="name:en" value="Terabank" />
         <key key="name:ru" value="Терабанк" />
-        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
-        <reference ref="bic_branch_ref_wheelchair_atm_address" />
-        <reference ref="contacts" />
+        <reference ref="bank_office" />
       </item>
 
       <item
@@ -1692,6 +1772,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
+        <key key="bic" value="MIBGGE22" />
         <key key="brand" value="ProCredit Bank" />
         <key key="brand:en" value="ProCredit Bank" />
         <key key="brand:ru" value="ПроКредит Банк" />
@@ -1705,9 +1786,7 @@
         <key key="name:ka" value="პროკრედიტ ბანკი" />
         <key key="name:en" value="ProCredit Bank" />
         <key key="name:ru" value="ПроКредит Банк" />
-        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
-        <reference ref="bic_branch_ref_wheelchair_atm_address" />
-        <reference ref="contacts" />
+        <reference ref="bank_office" />
       </item>
 
       <item
@@ -1720,6 +1799,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
+        <key key="bic" value="CRTUGE22" />
         <key key="brand" value="ბანკი ქართუ" />
         <key key="brand:en" value="Cartu Bank" />
         <key key="brand:ru" value="Карту Банк" />
@@ -1733,9 +1813,7 @@
         <key key="name:ka" value="ბანკი ქართუ" />
         <key key="name:en" value="Cartu Bank" />
         <key key="name:ru" value="Карту Банк" />
-        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
-        <reference ref="bic_branch_ref_wheelchair_atm_address" />
-        <reference ref="contacts" />
+        <reference ref="bank_office" />
       </item>
 
       <item
@@ -1747,6 +1825,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
+        <key key="bic" value="TCZBGE22" />
         <key key="brand" value="ზირაათ ბანკი" />
         <key key="brand:en" value="Ziraat Bank" />
         <key key="brand:ru" value="Зираат Банк" />
@@ -1758,9 +1837,7 @@
         <key key="name:en" value="Ziraat Bank" />
         <key key="name:ru" value="Зираат Банк" />
         <key key="name:tr" value="Ziraat Bankası" />
-        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
-        <reference ref="bic_branch_ref_wheelchair_atm_address" />
-        <reference ref="contacts" />
+        <reference ref="bank_office" />
       </item>
 
       <item
@@ -1774,6 +1851,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
+        <key key="bic" value="HABGGE22" />
         <key key="brand" value="ხალიკ ბანკი" />
         <key key="brand:en" value="Halyk Bank" />
         <key key="brand:ru" value="Халык Банк" />
@@ -1791,11 +1869,8 @@
         <key key="name:en" value="Halyk Bank" />
         <key key="name:ru" value="Халык Банк" />
         <key key="name:kk" value="Халық Банкі" />
-        <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
-        <reference ref="bic_branch_ref_wheelchair_atm_address" />
-        <reference ref="contacts" />
+        <reference ref="bank_office" />
       </item>
-
       <item
         name="Bank of Georgia Paybox"
         ka.name="საქართველოს ბანკის ჩასარიცხი აპარატი"
@@ -1818,6 +1893,7 @@
         <key key="payment:cash" value="yes" />
         <key key="payment:cash:USD" value="yes" />
         <key key="payment:cash:EUR" value="yes" />
+        <reference ref="paybox" />
       </item>
       <item
         name="TBC Paybox"
@@ -1840,6 +1916,7 @@
         <key key="payment:cash" value="yes" />
         <key key="payment:cash:USD" value="yes" />
         <key key="payment:cash:EUR" value="yes" />
+        <reference ref="paybox" />
       </item>
 
       <item
@@ -1863,6 +1940,32 @@
         <key key="contact:email" value="info@credo.ge" />
         <key key="contact:phone" value="+995 322 424242" />
         <key key="operator" value="კრედო ბანკი" />
+        <key key="payment:coins" value="no" />
+        <key key="payment:cash" value="yes" />
+        <reference ref="paybox" />
+      </item>
+      <item
+        name="Oppa"
+        ka.name="ოპპა"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+        <key key="amenity" value="payment_terminal" />
+        <key key="brand:en" value="ოპპა" />
+        <key key="brand:en" value="Oppa" />
+        <key key="contact:email" value="info@oppa.ge" />
+        <key key="contact:facebook" value="https://facebook.com/OPPAfintech" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/oppaoppa" />
+        <key key="contact:phone" value="+995 032 2203000;+995 032 2244500" />
+        <key key="operator" value="ოპპა" />
+        <key key="operator:en" value="Oppa" />
+        <key key="payment:coins" value="no" />
+        <key key="payment:cash" value="yes" />
+        <key key="payment:cash:USD" value="yes" />
+        <key key="payment:cash:EUR" value="yes" />
+        <reference ref="paybox" />
       </item>
 
       <item
@@ -1889,7 +1992,7 @@
         <key key="currency:GEL" value="yes" />
         <key key="currency:USD" value="yes" />
         <key key="currency:EUR" value="yes" />
-        <check key="drive_through" text="Drive through" />
+        <reference ref="atm" />
       </item>
 
       <item
@@ -1915,7 +2018,7 @@
         <key key="currency:GEL" value="yes" />
         <key key="currency:USD" value="yes" />
         <key key="currency:EUR" value="yes" />
-        <check key="drive_through" text="Drive through" />
+        <reference ref="atm" />
       </item>
       <item
         name="Liberty ATM"
@@ -1945,7 +2048,7 @@
         <key key="currency:GEL" value="yes" />
         <key key="currency:USD" value="yes" />
         <key key="currency:EUR" value="yes" />
-        <check key="drive_through" text="Drive through" />
+        <reference ref="atm" />
       </item>
       <item
         name="Credo ATM"
@@ -1968,7 +2071,7 @@
         <key key="contact:email" value="info@credo.ge" />
         <key key="contact:phone" value="+995 322 424242" />
         <key key="operator" value="კრედო ბანკი" />
-        <check key="drive_through" text="Drive through" />
+        <reference ref="atm" />
       </item>
 
       <item
@@ -1993,7 +2096,7 @@
         <key key="contact:phone" value="+995 322 922922" />
         <key key="operator" value="ბაზისბანკი" />
         <key key="operator:wikidata" value="Q16365625" />
-        <check key="drive_through" text="Drive through" />
+        <reference ref="atm" />
       </item>
 
       <item
@@ -2016,7 +2119,7 @@
         <key key="contact:email" value="info@terabank.ge" />
         <key key="contact:phone" value="+995 322 550000" />
         <key key="operator" value="ტერაბანკი" />
-        <check key="drive_through" text="Drive through" />
+        <reference ref="atm" />
       </item>
 
       <item
@@ -2039,7 +2142,7 @@
         <key key="contact:email" value="info@cartubank.ge" />
         <key key="contact:phone" value="+995 032 2008080" />
         <key key="operator" value="ბანკი ქართუ" />
-        <check key="drive_through" text="Drive through" />
+        <reference ref="atm" />
       </item>
       <item
         name="Halyk Bank ATM"
@@ -2064,9 +2167,75 @@
         <key key="contact:linkedin" value="https://linkedin.com/company/halykbankgeo" />
         <key key="contact:instagram" value="https://instagram.com/halykbankgeo" />
         <key key="operator" value="ხალიკ ბანკი" />
-        <check key="drive_through" text="Drive through" />
+        <reference ref="atm" />
       </item>
-
+      <item
+        name="Cryptomat"
+        ka.name="კრიპტომატი"
+        ru.name="Криптомат"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+        <key key="amenity" value="atm" />
+        <key key="brand" value="კრიპტომატი" />
+        <key key="brand:en" value="Cryptomat" />
+        <key key="brand:ru" value="Криптомат" />
+        <key key="contact:phone" value="+995 322 880770" />
+        <key key="contact:email" value="support@cryptomat.com" />
+        <key key="contact:website" value="https://cryptomat.com" />
+        <key key="contact:facebook" value="https://facebook.com/CryptomatGeo" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/cryptomat" />
+        <key key="contact:twitter" value="https://twitter.com/Cryptomat_ge" />
+        <key key="contact:youtube" value="https://youtube.com/channel/UCUqgsvb9k9Ogcr6Jd78RSeg" />
+        <key key="cash_in" value="yes" />
+        <key key="payment:credit_cards" value="no" />
+        <key key="payment:debit_cards" value="no" />
+        <key key="payment:coins" value="no" />
+        <key key="payment:cash" value="yes" />
+        <key key="payment:cash:GEL" value="yes" />
+        <key key="currency:GEL" value="yes" />
+        <key key="currency:XBT" value="yes" />
+        <key key="currency:LTC" value="yes" />
+        <reference ref="crypto_atm" />
+      </item>
+      <item
+        name="BitXChange"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+        <key key="amenity" value="atm" />
+        <key key="brand" value="BitXChange" />
+        <key key="operator" value="BitXChange" />
+        <key key="contact:phone" value="+995 322 114118" />
+        <key key="contact:email" value="support@bitxchan.ge" />
+        <key key="contact:website" value="https://bxc.ge" />
+        <key key="contact:facebook" value="https://facebook.com/bxc.ge" />
+        <key key="contact:instagram" value="https://instagram.com/bxc.ge" />
+        <key key="contact:twitter" value="https://twitter.com/bxc_atm" />
+        <key key="contact:telegram" value="https://t.me/bitxchan_ge" />
+        <key key="cash_in" value="yes" />
+        <key key="payment:credit_cards" value="no" />
+        <key key="payment:debit_cards" value="no" />
+        <key key="payment:coins" value="no" />
+        <key key="payment:cash" value="yes" />
+        <key key="payment:cash:GEL" value="yes" />
+        <key key="currency:GEL" value="yes" />
+        <key key="currency:XBT" value="yes" />
+        <key key="currency:LTC" value="yes" />
+        <key key="currency:ETH" value="yes" />
+        <key key="currency:BCH" value="yes" />
+        <key key="currency:DOGE" value="yes" />
+        <key key="currency:XMR" value="yes" />
+        <key key="currency:USDT" value="yes" />
+        <key key="currency:TRX" value="yes" />
+        <key key="currency:BNB" value="yes" />
+        <key key="currency:DASH" value="yes" />
+        <reference ref="crypto_atm" />
+      </item>
       <item
         name="Bermeli"
         ru.name="Бермели"
@@ -2118,7 +2287,7 @@
         <key key="name" value="რომპეტროლი" />
         <key key="name:ka" value="რომპეტროლი" />
         <key key="name:en" value="Rompetrol" />
-        <reference ref="basic_data" />
+        <reference ref="fuel_station" />
       </item>
       <item
         name="Socar"
@@ -2139,7 +2308,7 @@
         <key key="name" value="სოკარი" />
         <key key="name:ka" value="სოკარი" />
         <key key="name:en" value="Socar" />
-        <reference ref="basic_data" />
+        <reference ref="fuel_station" />
       </item>
       <item
         name="Wissol"
@@ -2161,7 +2330,7 @@
         <key key="name" value="ვისოლ" />
         <key key="name:ka" value="ვისოლ" />
         <key key="name:en" value="Wissol" />
-        <reference ref="basic_data" />
+        <reference ref="fuel_station" />
       </item>
       <item
         name="Gulf"
@@ -2184,7 +2353,7 @@
         <key key="name" value="გულფი" />
         <key key="name:ka" value="გულფი" />
         <key key="name:en" value="Gulf" />
-        <reference ref="basic_data" />
+        <reference ref="fuel_station" />
       </item>
       <item
         name="Connect"
@@ -2202,7 +2371,7 @@
         <key key="name" value="ქონექთი" />
         <key key="name:ka" value="ქონექთი" />
         <key key="name:en" value="Connect" />
-        <reference ref="basic_data" />
+        <reference ref="fuel_station" />
       </item>
       <item
         name="Lukoil"
@@ -2227,7 +2396,7 @@
         <key key="name:ka" value="ლუკოილი" />
         <key key="name:en" value="Lukoil" />
         <key key="name:ru" value="Лукойл" />
-        <reference ref="basic_data" />
+        <reference ref="fuel_station" />
       </item>
       <item
         name="Portal"
@@ -2248,7 +2417,7 @@
         <key key="name" value="პორტალი" />
         <key key="name:ka" value="პორტალი" />
         <key key="name:en" value="Portal" />
-        <reference ref="basic_data" />
+        <reference ref="fuel_station" />
       </item>
       <item
         name="E-Space"
@@ -2266,10 +2435,8 @@
         <key key="contact:linkedin" value="https://linkedin.com/company/ltd-e-space" />
         <key key="contact:email" value="info@e-space.ge" />
         <key key="contact:phone" value="+995 322 433473" />
-        <key key="name" value="ი-სპეის" />
-        <key key="name:ka" value="ი-სპეის" />
-        <key key="name:en" value="E-Space" />
-        <link wiki="Tag:amenity%3Dcharging_station" />
+        <key key="authentication:app" value="yes" />
+        <reference ref="charging_station" />
       </item>
       <item
         name="EV Georgia"
@@ -2285,8 +2452,7 @@
         <key key="contact:email" value="info@ev-georgia.net" />
         <key key="contact:phone" value="+995 514070033" />
         <key key="contact:telegram" value="https://t.me/EVGeorgia_bot" />
-        <key key="name:en" value="EV Georgia" />
-        <link wiki="Tag:amenity%3Dcharging_station" />
+        <reference ref="charging_station" />
       </item>
     </group>
 
