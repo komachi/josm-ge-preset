@@ -166,7 +166,7 @@
     <check key="fuel:LPG" text="LPG" />
   </chunk>
   <chunk id="fuel_station">
-    <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
+    <combo key="opening_hours" text="Opening Hours" values="24/7" />
     <reference ref="basic_data" />
     <reference ref="brand" />
     <reference ref="wheelchair_address" />
@@ -1879,7 +1879,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="payment_terminal" />
         <key key="brand" value="საქართველოს ბანკი" />
         <key key="brand:en" value="Bank of Georgia" />
@@ -1903,7 +1902,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="payment_terminal" />
         <key key="brand:wikidata" value="Q2620975" />
         <key key="brand" value="თიბისი ბანკი" />
@@ -1927,7 +1925,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="payment_terminal" />
         <key key="brand" value="კრედო ბანკი" />
         <key key="brand:en" value="Credo Bank" />
@@ -1951,7 +1948,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="payment_terminal" />
         <key key="brand:en" value="ოპპა" />
         <key key="brand:en" value="Oppa" />
@@ -1976,7 +1972,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="საქართველოს ბანკი" />
         <key key="brand:en" value="Bank of Georgia" />
@@ -2003,7 +1998,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="თიბისი ბანკი" />
         <key key="brand:en" value="TBC Bank" />
@@ -2028,7 +2022,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="ლიბერთი" />
         <key key="brand:en" value="Liberty" />
@@ -2058,7 +2051,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="კრედო ბანკი" />
         <key key="brand:en" value="Credo Bank" />
@@ -2082,7 +2074,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="ბაზისბანკი" />
         <key key="brand:en" value="BasisBank" />
@@ -2107,7 +2098,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="ტერაბანკი" />
         <key key="brand:en" value="Terabank" />
@@ -2130,7 +2120,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="ბანკი ქართუ" />
         <key key="brand:en" value="Cartu Bank" />
@@ -2152,7 +2141,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="Halyk Bank" />
         <key key="brand:en" value="Halyk Bank" />
@@ -2177,7 +2165,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="კრიპტომატი" />
         <key key="brand:en" value="Cryptomat" />
@@ -2206,7 +2193,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <key key="amenity" value="atm" />
         <key key="brand" value="BitXChange" />
         <key key="operator" value="BitXChange" />
@@ -2276,13 +2262,13 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="fuel" />
         <key key="brand" value="რომპეტროლი" />
         <key key="brand:en" value="Rompetrol" />
         <key key="brand:wikidata" value="Q1788862" />
         <key key="contact:website" value="https://www.rompetrol.ge" />
         <key key="contact:facebook" value="https://facebook.com/RompetrolGeorgiaLtd" />
+        <key key="contact:phone" default="+995 322 240444" />
         <key key="contact:email" value="officege@rompetrol.com" />
         <key key="name" value="რომპეტროლი" />
         <key key="name:ka" value="რომპეტროლი" />
@@ -2296,7 +2282,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="fuel" />
         <key key="brand" value="სოკარი" />
         <key key="brand:en" value="Socar" />
@@ -2317,7 +2302,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="fuel" />
         <key key="brand" value="ვისოლ" />
         <key key="brand:en" value="WISSOL" />
@@ -2339,7 +2323,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="fuel" />
         <key key="brand" value="გულფი" />
         <key key="brand:en" value="Gulf" />
@@ -2362,7 +2345,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="fuel" />
         <key key="brand" value="ქონექთი" />
         <key key="brand:en" value="Connect" />
@@ -2381,7 +2363,6 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="fuel" />
         <key key="brand" value="ლუკოილი" />
         <key key="brand:en" value="Lukoil" />
@@ -2405,18 +2386,37 @@
         preset_name_label="true"
       >
         <space />
-        <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="fuel" />
         <key key="brand" value="პორტალი" />
         <key key="brand:en" value="Portal" />
-        <key key="brand:ru" value="Лукойл" />
-        <key key="brand:wikidata" value="Q329347" />
         <key key="contact:website" value="https://portal.com.ge" />
         <key key="contact:facebook" value="https://facebook.com/LTD.portal" />
         <key key="contact:email" value="info@portal.com.ge" />
         <key key="name" value="პორტალი" />
         <key key="name:ka" value="პორტალი" />
         <key key="name:en" value="Portal" />
+        <reference ref="fuel_station" />
+      </item>
+      <item
+        name="Optima"
+        ka.name="ოპტიმა"
+        ru.name="Оптима"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <key key="amenity" value="fuel" />
+        <key key="brand" value="ოპტიმა" />
+        <key key="brand:en" value="Optima" />
+        <key key="brand:ru" value="Оптима" />
+        <key key="contact:facebook" value="https://facebook.com/optimapetrol" />
+        <key key="contact:instagram" value="https://instagram.com/optimapetrol" />
+        <key key="contact:website" value="http://optimapetrol.ge" />
+        <key key="contact:email" value="info@optimapetrol.ge" />
+        <key key="name" value="ოპტიმა" />
+        <key key="name:ka" value="ოპტიმა" />
+        <key key="name:en" value="Optima" />
+        <key key="name:ru" value="Оптима" />
         <reference ref="fuel_station" />
       </item>
       <item
