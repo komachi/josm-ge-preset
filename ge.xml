@@ -5,13 +5,13 @@
   author="Anton Nesterov"
   version="0.0.1"
   link="https://github.com/komachi/josm-ge-preset"
-  icon="https://upload.wikimedia.org/wikipedia/commons/4/41/Twemoji12_1f1ec-1f1ea.svg"
+  icon="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Georgia.svg"
   description="Georgian POIs"
   ka.description="საქართველოს POI"
   ru.description="Грузинские POI"
-  shortdescription="Georgian POIs"
-  ka.shortdescription="საქართველოს POI"
-  ru.shortdescription="Грузинские POI"
+  shortdescription="Georgia"
+  ka.shortdescription="საქართველო"
+  ru.shortdescription="Грузия"
 >
   <chunk id="name">
     <text key="name" text="Name" />
@@ -24,12 +24,16 @@
     <text key="brand:en" text="brand:en" />
     <text key="brand:ru" text="brand:ru" />
     <text key="brand:tr" text="brand:tr" />
+    <text key="brand:wikidata" text="brand:wikidata" />
   </chunk>
   <chunk id="phone">
     <combo key="contact:phone" text="Phone number" text.ka="Ტელეფონის ნომერი" />
   </chunk>
   <chunk id="website">
     <combo key="contact:website" text="Website" text.ka="ვებგვერდი" />
+  </chunk>
+  <chunk id="email">
+    <combo key="contact:email" text="Email" />
   </chunk>
   <chunk id="social">
     <combo key="contact:facebook" text="Facebook" />
@@ -40,6 +44,9 @@
   </chunk>
   <chunk id="operator">
     <combo key="operator" text="Operator" />
+  </chunk>
+  <chunk id="access">
+    <combo key="access" text="Access" values="private,public,customers,permissive,no" />
   </chunk>
   <chunk id="ref">
     <text key="ref" text="Reference" ka.text="ნომერი" ru.text="Номер" />
@@ -55,26 +62,35 @@
   </chunk>
   <chunk id="wheelchair_address">
     <reference ref="wheelchair" />
+    <reference ref="level" />
     <preset_link preset_name="Address" />
   </chunk>
   <chunk id="contacts">
     <reference ref="website" />
     <reference ref="phone" />
+    <reference ref="email" />
     <reference ref="social" />
   </chunk>
   <chunk id="basic_data">
     <reference ref="name" />
+    <reference ref="brand" />
     <reference ref="contacts" />
   </chunk>
-  <chunk id="bank_office">
-    <reference ref="basic_data" />
-    <reference ref="brand" />
-    <reference ref="wheelchair_address" />
-    <combo key="bic" text="BIC/SWIFT" />
-    <combo key="branch" text="Branch" ka.text="ფილიალი" ru.text="Филиал (или отделение)" />
-    <text key="ref" text="Reference number" ka.text="ფილიალის ნომერი" ru.text="Номер отделения" />
-    <check key="atm" text="Automated Teller Machine" ka.text="ბანკომატ" ru.text="Банкомат" />
-    <reference ref="contacts" />
+  <chunk id="toilets">
+    <check key="toilets" text="Toilet" ka.text="ტუალეტი" ru.text="Туалет" />
+    <combo key="toilets:wheelchair" text="toilets:wheelchair" values="yes,limited,no" />
+    <combo key="toilets:access" text="toilets:access" values="customers,public" />
+    <check key="toilets:paper_supplied" text="toilets:paper_supplied" />
+    <combo key="toilets:hands_drying" text="toilets:hands_drying" values="electric_hand_dryer,paper_towel,towel" />
+    <check key="toilets:handwashing" text="toilets:handwashing" />
+  </chunk>
+  <chunk id="recycling">
+    <check key="recycling:PET" text="PET" />
+    <check key="recycling:aluminium" text="Aluminium" />
+    <check key="recycling:glass_bottles" text="Glass bottles" />
+    <check key="recycling:paper" text="Paper" />
+    <check key="recycling:batteries" text="Batteries" />
+    <check key="recycling:car_batteries" text="Car batteries" />
   </chunk>
   <chunk id="clothes_list">
     <multiselect
@@ -83,8 +99,30 @@
       ka.text="Ტანსაცმელი"
       ru.text="Одежда"
       values="babies,children,costumes,denim,fashion,fur,hats,leather,maternity,men,motorcycle,oversize,schoolwear,sports,suits,swimwear,traditional,underwear,unisex,wedding,women,workwear"
-      default="hats;men;women;children;underwear"
+      values_searchable="true"
     />
+  </chunk>
+  <chunk id="internet">
+    <combo key="internet_access" text="Internet access" values="wlan,wired,terminal,no" />
+    <combo key="internet_access:fee" text="Internet access fee" values="yes,no,customers" /> 
+    <text  key="internet_access:ssid" text="SSID"  /> 
+  </chunk>
+  <chunk id="smoking">
+    <combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,outside,no" />
+  </chunk>
+  <chunk id="cuisine">
+    <multiselect
+      key="cuisine"
+      text="Cuisine"
+      values="african;american;arab;argentinian;asian;bagel;balkan;barbecue;bavarian;beef_bowl;brazilian;burger;cake;caribbean;chicken;chinese;coffee_shop;crepe;curry;danish;donut;ethiopian;filipino;fish;fish_and_chips;french;friture;frozen_yogurt;german;georgian;greek;heuriger;hot_dog;ice_cream;indian;indonesian;international;italian;japanese;kebab;korean;lebanese;malaysian;mediterranean;mexican;moroccan;noodle;pancake;pasta;persian;peruvian;pizza;polish;portuguese;ramen;regional;russian;sandwich;sausage;seafood;soba;spanish;steak_house;sushi;tex-mex;tapas;thai;turkish;vietnamese;wings"
+      values_searchable="true"
+    />
+  </chunk>
+  <chunk id="fee">
+    <combo key="fee" text="Fee" values="yes,no" />
+  </chunk>
+  <chunk id="location">
+    <combo key="location" text="Location" values="outdoor,indoor,underground,roof,surface,overground,overhead" />
   </chunk>
   <chunk id="currencies">
     <check key="currency:GEL" text="GEL" />
@@ -111,15 +149,18 @@
   </chunk>
   <chunk id="crypto_currencies">
     <check key="currency:XBT" text="Bitcoin" />
+    <check key="currency:BCH" text="Bitcoin Cash" />
+    <check key="payment:lightning" text="Lightning network" />
+    <check key="currency:USDT" text="USDT" />
     <check key="currency:LTC" text="Litecoin" />
     <check key="currency:ETH" text="Ethereum" />
-    <check key="currency:BCH" text="Bitcoin Cash" />
-    <check key="currency:DOGE" text="Dogecoin" />
+    <check key="currency:DASH" text="Dash" />
+    <check key="currency:ZEC" text="Zcash" />
     <check key="currency:XMR" text="Monero" />
-    <check key="currency:USDT" text="USDT" />
+    <check key="currency:DOGE" text="Dogecoin" />
     <check key="currency:TRX" text="Tron" />
     <check key="currency:BNB" text="BNB" />
-    <check key="currency:DASH" text="Dash" />
+    <check key="currency:BTG" text="Bitcoin Gold" />
   </chunk>
   <chunk id="atm">
     <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
@@ -139,6 +180,11 @@
     <check key="drive_through" text="Drive through" />
     <check key="cash_in" text="Cash in" />
     <check key="cash_out" text="Cash out" />
+    <check key="payment:coins" text="Coins" />
+    <check key="payment:cash" text="Cash" />
+    <check key="payment:cash:GEL" text="GEL" />
+    <check key="payment:cash:USD" text="USD" />
+    <check key="payment:cash:EUR" text="EUR" />
     <reference ref="crypto_currencies" />
   </chunk>
   <chunk id="paybox">
@@ -156,6 +202,76 @@
     <check key="payment:credit_cards" text="Credit cards" />
     <check key="payment:debit_cards" text="Debit cards" />
     <check key="payment:contactless" text="Contactless" />
+  </chunk>
+  <chunk id="drink_values">
+    <list_entry value="yes" />
+    <list_entry value="retail" />
+    <list_entry value="served" />
+    <list_entry value="bottled" />
+    <list_entry value="draught" />
+    <list_entry value="takeaway" />
+  </chunk>
+  <chunk id="alcohol">
+    <combo key="drink:beer" text="beer" ru.text="пиво" ka.text="ლუდი" match="key">
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:wine" text="wine" ru.text="вино" ka.text="ღვინო" match="key">
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:sparkling_wine" text="sparkling wine" ru.text="игристое вино" ka.text="ცქრიალა ღვინო" match="key">
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:vodka" text="vodka" ru.text="водка" ka.text="არაყი" match="key">
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:whisky" text="whisky" ru.text="виски" ka.text="ვისკი" match="key">
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:chacha" text="chacha" ka.text="ჭაჭა" match="key">
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:cider" text="cider" ru.text="сидр" ka.text="სიდრი" match="key">
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:rum" text="rum" ru.text="ром" ka.text="რომი" match="key" >
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:cognac" text="cognac" ru.text="коньяк" ka.text="კონიაკი" match="key">
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:gin" text="gin" ru.text="джин" ka.text="ჯინი" match="key">
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:cocktail" text="cocktails" ru.text="коктейли" ka.text="კოქტეილი" match="key">
+      <reference ref="drink_values" />
+    </combo>
+  </chunk>
+  <chunk id="nonalcoholic_drinks">
+    <combo key="drink:coffee" text="coffee" ru.text="кофе" ka.text="ყავა" match="key">
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:espresso" text="espresso" ru.text="эспрессо" ka.text="ესპრესო" match="key">
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:tea" text="tea" ru.text="чай" ka.text="ჩაი" match="key">
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:water" text="water" ru.text="вода" ka.text="წყალი" match="key">
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:soda" text="carbonated water" ru.text="газированная вода" ka.text="ცქრიალა წყალი" match="key">
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:juice" text="juice" ru.text="сок" ka.text="წვენი" match="key" >
+      <reference ref="drink_values" />
+    </combo>
+    <combo key="drink:soft_drink" text="soft drink" ru.text="безалкогольные напитки" ka.text="გამაგრილებელი სასმელი" match="key" >
+      <reference ref="drink_values" />
+    </combo>
+  </chunk>
+  <chunk id="all_drinks">
+    <reference ref="alcohol" />
+    <reference ref="nonalcoholic_drinks" />
   </chunk>
   <chunk id="fuel">
     <check key="fuel:octane_98" text="Super (98)" />
@@ -175,9 +291,8 @@
   </chunk>
   <chunk id="charging_station">
     <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
-    <check key="fee" text="Fee" />
+    <reference ref="fee" />
     <reference ref="brand" />
-    <reference ref="fuel" />
   </chunk>
   <chunk id="basic_shop">
     <reference ref="basic_data" />
@@ -185,10 +300,28 @@
     <reference ref="wheelchair_address" />
     <reference ref="payment" />
   </chunk>
+  <chunk id="eatery">
+    <reference ref="basic_shop" />
+    <reference ref="cuisine" />
+    <reference ref="all_drinks" />
+    <reference ref="internet" />
+    <reference ref="toilets" />
+    <reference ref="smoking" />
+    <check key="drive_through" text="Drive through" />
+  </chunk>
+  <chunk id="bank_office">
+    <reference ref="basic_data" />
+    <reference ref="wheelchair_address" />
+    <reference ref="internet" />
+    <combo key="bic" text="BIC/SWIFT" />
+    <combo key="branch" text="Branch" ka.text="ფილიალი" ru.text="Филиал (или отделение)" />
+    <text key="ref" text="Reference number" ka.text="ფილიალის ნომერი" ru.text="Номер отделения" />
+    <check key="atm" text="Automated Teller Machine" ka.text="ბანკომატ" ru.text="Банкомат" />
+  </chunk>
 
   <group
-    name="POI"
-    icon="https://upload.wikimedia.org/wikipedia/commons/4/41/Twemoji12_1f1ec-1f1ea.svg"
+    name="Georgian POIs"
+    icon="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Georgia.svg"
   >
     <group
       name="Pharmacies"
@@ -457,7 +590,6 @@
       >
         <space />
         <combo key="opening_hours" text="Opening Hours" />
-        <check key="drive_through" text="Drive through" />
         <key key="brand" value="KFC" />
         <key key="brand:wikidata" value="Q524757" />
         <key key="name" value="კეი ეფ სი" />
@@ -474,7 +606,7 @@
         <key key="delivery" value="yes" />
         <key key="cuisine" value="burger;wings;chicken" />
         <key key="amenity" value="fast_food" />
-        <reference ref="basic_shop" />
+        <reference ref="eatery" />
       </item>
       <item
         name="McDonald's"
@@ -485,7 +617,6 @@
       >
         <space />
         <combo key="opening_hours" text="Opening Hours" />
-        <check key="drive_through" text="Drive through" />
         <key key="brand" value="მაკდონალდსი" />
         <key key="brand:en" value="McDonald's" />
         <key key="brand:ru" value="Макдональдс" />
@@ -505,7 +636,7 @@
         <key key="delivery" value="yes" />
         <key key="cuisine" value="burger" />
         <key key="amenity" value="fast_food" />
-        <reference ref="basic_shop" />
+        <reference ref="eatery" />
       </item>
       <item
         name="Dunkin' Donuts"
@@ -515,7 +646,6 @@
       >
         <space />
         <combo key="opening_hours" text="Opening Hours" />
-        <check key="drive_through" text="Drive through" />
         <key key="brand" value="Dunkin' Donuts" />
         <key key="brand:wikidata" value="Q847743" />
         <key key="name" value="დანკინ დონათსი" />
@@ -532,7 +662,7 @@
         <key key="delivery" value="yes" />
         <key key="cuisine" value="donut;bagel;pizza;hot_dog;burger" />
         <key key="amenity" value="fast_food" />
-        <reference ref="basic_shop" />
+        <reference ref="eatery" />
       </item>
       <item
         name="Subway"
@@ -542,7 +672,6 @@
       >
         <space />
         <combo key="opening_hours" text="Opening Hours" />
-        <check key="drive_through" text="Drive through" />
         <key key="brand" value="Subway" />
         <key key="brand:wikidata" value="Q244457" />
         <key key="name" value="საბვეი" />
@@ -559,7 +688,7 @@
         <key key="delivery" value="yes" />
         <key key="cuisine" value="sandwich" />
         <key key="amenity" value="fast_food" />
-        <reference ref="basic_shop" />
+        <reference ref="eatery" />
       </item>
       <item
         name="Burger King"
@@ -570,7 +699,6 @@
       >
         <space />
         <combo key="opening_hours" text="Opening Hours" />
-        <check key="drive_through" text="Drive through" />
         <key key="brand" value="Burger King" />
         <key key="brand:wikidata" value="Q177054" />
         <key key="name" value="ბურგერ კინგი" />
@@ -587,7 +715,7 @@
         <key key="delivery" value="yes" />
         <key key="cuisine" value="burger" />
         <key key="amenity" value="fast_food" />
-        <reference ref="basic_shop" />
+        <reference ref="eatery" />
       </item>
       <item
         name="Wendy's"
@@ -597,7 +725,6 @@
       >
         <space />
         <combo key="opening_hours" text="Opening Hours" />
-        <check key="drive_through" text="Drive through" />
         <key key="brand" value="Wendy's" />
         <key key="brand:wikidata" value="Q550258" />
         <key key="name" value="ვენდისი" />
@@ -616,7 +743,8 @@
         <key key="delivery" value="yes" />
         <key key="cuisine" value="burger" />
         <key key="amenity" value="fast_food" />
-        <reference ref="basic_shop" />
+        <reference ref="crypto_currencies" />
+        <reference ref="eatery" />
       </item>
       <item
         name="Ska Juice Bar"
@@ -644,7 +772,7 @@
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="amenity" value="fast_food" />
-        <reference ref="basic_shop" />
+        <reference ref="eatery" />
       </item>
     </group>
 
@@ -991,13 +1119,13 @@
         <key key="name:ka" value="ფრესკო" />
         <key key="name:en" value="Fresco" />
         <key key="name:ru" value="Фреско" />
-        <key key="currency:XBT" value="yes" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:american_express" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
+        <reference ref="crypto_currencies" />
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
@@ -1111,6 +1239,7 @@
         preset_name_label="true"
       >
         <space />
+        <key key="shop" value="supermarket" />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="სმარტ" />
         <key key="brand:en" value="Smart" />
@@ -1126,7 +1255,7 @@
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
-        <key key="shop" value="supermarket" />
+        <reference ref="crypto_currencies" />
         <reference ref="basic_shop" />
       </item>
       <item
@@ -1359,6 +1488,87 @@
         <reference ref="basic_shop" />
       </item>
       <item
+        name="iPlus"
+        ka.name="აიპლიუსი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="აიპლიუსი" />
+        <key key="brand:en" value="iPlus" />
+        <key key="name" value="აიპლიუსი" />
+        <key key="name:ka" value="აიპლიუსი" />
+        <key key="name:en" value="iPlus" />
+        <key key="contact:website" value="https://iplus.com.ge" />
+        <key key="contact:email" value="info@iphoneplus.ge" />
+        <key key="contact:facebook" value="https://facebook.com/iPlusGeo" />
+        <key key="contact:instagram" value="https://instagram.com/iplus.com.ge" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/iplus-%E1%83%90%E1%83%98%E1%83%9E%E1%83%9A%E1%83%98%E1%83%A3%E1%83%A1%E1%83%98" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="electronics" />
+        <reference ref="crypto_currencies" />
+        <reference ref="basic_shop" />
+      </item>
+      <item
+        name="Megatechnica"
+        ka.name="მეგატექნიკა"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="მეგატექნიკა" />
+        <key key="brand:en" value="Megatechnica" />
+        <key key="name" value="მეგატექნიკა" />
+        <key key="name:ka" value="მეგატექნიკა" />
+        <key key="name:en" value="Megatechnica" />
+        <key key="contact:website" value="https://megatechnica.ge" />
+        <key key="contact:facebook" value="https://facebook.com/Megatechnica.ge" />
+        <key key="contact:instagram" value="https://instagram.com/megatechnica.ge" />
+        <key key="contact:youtube" value="https://youtube.com/channel/UCVvLvPGjYfajMmIxk-WGJbA" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/megatechnica" />
+        <key key="contact:email" value="info@megatechnica.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="electronics" />
+        <reference ref="crypto_currencies" />
+        <reference ref="basic_shop" />
+      </item>
+      <item
+        name="Techno Boom"
+        ka.name="ტექნო ბუმი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="ტექნო ბუმი" />
+        <key key="brand:en" value="Techno Boom" />
+        <key key="name" value="ტექნო ბუმი" />
+        <key key="name:ka" value="ტექნო ბუმი" />
+        <key key="name:en" value="Techno Boom" />
+        <key key="contact:website" value="https://technoboom.ge" />
+        <key key="contact:youtube" value="https://youtube.com/@technoboom6869" />
+        <key key="contact:email" value="info@technoboom.ge" />
+        <key key="contact:phone" default="+995 322 430102" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="electronics" />
+        <reference ref="crypto_currencies" />
+        <reference ref="basic_shop" />
+      </item>
+      <item
         name="Biblus"
         ka.name="ბიბლუსი"
         type="node,closedway,multipolygon"
@@ -1586,6 +1796,25 @@
         <key key="shop" value="pet" />
         <reference ref="basic_shop" />
       </item>
+      <item
+        name="Zoohub"
+        ka.name="ზოოჰაბი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="ზოოჰაბი" />
+        <key key="brand:en" value="Zoohub" />
+        <key key="name" value="ზოოჰაბი" />
+        <key key="name:ka" value="ზოოჰაბი" />
+        <key key="name:en" value="Zoohub" />
+        <key key="contact:phone" default="+995 598 469926" />
+        <key key="contact:email" value="info@zoohub.com.ge" />
+        <key key="contact:facebook" value="https://facebook.com/zoohub" />
+        <key key="shop" value="pet" />
+        <reference ref="basic_shop" />
+      </item>
     </group>
 
     <group
@@ -1716,7 +1945,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
-        <key key="bic" value="" />
+        <key key="bic" value="CBASGE22" />
         <key key="brand" value="ბაზისბანკი" />
         <key key="brand:en" value="BasisBank" />
         <key key="brand:ru" value="БазисБанк" />
@@ -1779,7 +2008,7 @@
         <key key="contact:website" value="https://procreditbank.ge" />
         <key key="contact:facebook" value="https://facebook.com/procreditbankgeorgia" />
         <key key="contact:instagram" value="https://instagram.com/procreditbankgeorgia" />
-        <key key="contact:linkedin" value="https://www.linkedin.com/company/procredit-bank-georgia-%E1%83%9E%E1%83%A0%E1%83%9D%E1%83%99%E1%83%A0%E1%83%94%E1%83%93%E1%83%98%E1%83%A2-%E1%83%91%E1%83%90%E1%83%9C%E1%83%99%E1%83%98-%E1%83%A1%E1%83%90%E1%83%A5%E1%83%90%E1%83%A0%E1%83%97%E1%83%95%E1%83%94%E1%83%9A%E1%83%9D" />
+        <!-- <key key="contact:linkedin" value="https://linkedin.com/company/procredit-bank-georgia-%E1%83%9E%E1%83%A0%E1%83%9D%E1%83%99%E1%83%A0%E1%83%94%E1%83%93%E1%83%98%E1%83%A2-%E1%83%91%E1%83%90%E1%83%9C%E1%83%99%E1%83%98-%E1%83%A1%E1%83%90%E1%83%A5%E1%83%90%E1%83%A0%E1%83%97%E1%83%95%E1%83%94%E1%83%9A%E1%83%9D" /> -->
         <key key="contact:email" value="geo.info@procredit-group.com" />
         <key key="contact:phone" value="+995 322 202222" />
         <key key="name" value="პროკრედიტ ბანკი" />
@@ -1949,7 +2178,7 @@
       >
         <space />
         <key key="amenity" value="payment_terminal" />
-        <key key="brand:en" value="ოპპა" />
+        <key key="brand" value="ოპპა" />
         <key key="brand:en" value="Oppa" />
         <key key="contact:email" value="info@oppa.ge" />
         <key key="contact:facebook" value="https://facebook.com/OPPAfintech" />
@@ -2631,6 +2860,7 @@
         <key key="operator" value="სსიპ იუსტიციის სახლი" />
         <key key="operator:en" value="LEPL Public Service Hall" />
         <key key="operator:wikidata" value="Q2344378" />
+        <key key="operator:type" value="government" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:government%3Dpublic_service" />
@@ -2645,6 +2875,7 @@
         <space />
         <key key="office" value="government" />
         <key key="government" value="tax" />
+        <key key="operator:type" value="government" />
         <key key="name" value="შემოსავლების სამსახური" />
         <key key="name:ka" value="შემოსავლების სამსახური" />
         <key key="name:en" value="Revenue Service" />
@@ -2678,6 +2909,7 @@
         <key key="operator:ru" value="Департамент патрульной полиции Министерства внутренних дел Грузии" />
         <key key="operator:short:ru" value="Патрульная полиция" />
         <key key="operator:wikidata" value="Q56345209" />
+        <key key="operator:type" value="government" />
         <key key="contact:facebook" value="https://facebook.com/policeofgeorgia" />
         <key key="contact:website" value="https://police.ge" />
         <key key="contact:phone" default="+995 322 414242" />
@@ -2716,6 +2948,7 @@
         <key key="brand:wikidata" value="Q12869041" />
         <key key="operator" value="შპს საქართველოს ფოსტა" />
         <key key="operator:wikidata" value="Q12869041" />
+        <key key="operator:type" value="government" />
         <key key="contact:facebook" value="https://facebook.com/gpost.ge" />
         <key key="contact:linkedin" value="https://linkedin.com/company/georgian-post" />
         <key key="contact:youtube" value="https://youtube.com/channel/UCjI73rVjVyi2AIOMOmguX4A" />
@@ -2821,6 +3054,7 @@
         <key key="brand:wikidata" value="Q12869041" />
         <key key="operator" value="შპს საქართველოს ფოსტა" />
         <key key="operator:wikidata" value="Q12869041" />
+        <key key="operator:type" value="government" />
         <key key="contact:facebook" value="https://facebook.com/gpost.ge" />
         <key key="contact:linkedin" value="https://linkedin.com/company/georgian-post" />
         <key key="contact:youtube" value="https://youtube.com/channel/UCjI73rVjVyi2AIOMOmguX4A" />
@@ -2879,6 +3113,7 @@
       >
         <space />
         <reference ref="operator" />
+        <reference ref="access" />
         <key key="access" value="yes" />
         <key key="amenity" value="waste_basket" />
         <key key="waste" value="trash" />
@@ -2891,75 +3126,99 @@
       >
         <space />
         <reference ref="operator" />
+        <reference ref="access" />
         <key key="access" value="yes" />
         <key key="amenity" value="waste_disposal" />
         <key key="waste" value="trash" />
       </item>
       <item
-        name="PET recycling container"
+        name="plastmasa.ge Batumi"
         type="node"
         icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg"
         preset_name_label="true"
       >
         <space />
-        <reference ref="operator" />
+        <reference ref="access" />
+        <key key="contact:website" value="https://plastmasa.ge" />
+        <key key="contact:phone" value="+995 577 495959" />
+        <key key="operator" value="შპს „ბათუმის სანდასუფთავება“" />
+        <key key="operator:type" value="government" />
+        <key key="material" value="plastic" />
+        <key key="colour" value="orangered" />
         <key key="access" value="yes" />
         <key key="amenity" value="recycling" />
         <key key="recycling_type" value="container" />
-        <key key="recycling:PET" value="yes" />
+        <reference ref="recycling" />
       </item>
       <item
-        name="PET+Aluminium recycling container"
+        name="plastmasa.ge Tbilisi"
         type="node"
         icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg"
         preset_name_label="true"
       >
         <space />
-        <reference ref="operator" />
+        <reference ref="access" />
+        <key key="contact:website" value="https://plastmasa.ge/" />
+        <key key="contact:phone" value="+995 322 619050" />
+        <key key="operator" value="შპს „თბილსერვის ჯგუფი“" />
+        <key key="operator:type" value="government" />
         <key key="access" value="yes" />
         <key key="amenity" value="recycling" />
         <key key="recycling_type" value="container" />
-        <key key="recycling:PET" value="yes" />
-        <key key="recycling:aluminium" value="yes" />
+        <reference ref="recycling" />
       </item>
       <item
-        name="PET+Aluminium+Glass+Paper recycling container"
+        name="Recycling container"
         type="node"
         icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg"
         preset_name_label="true"
       >
         <space />
+        <reference ref="access" />
         <reference ref="operator" />
         <key key="access" value="yes" />
         <key key="amenity" value="recycling" />
         <key key="recycling_type" value="container" />
-        <key key="recycling:PET" value="yes" />
-        <key key="recycling:aluminium" value="yes" />
-        <key key="recycling:glass_bottles" value="yes" />
-        <key key="recycling:paper" value="yes" />
+        <reference ref="recycling" />
       </item>
-      <item name="BatumVelo" type="node" preset_name_label="true">
+      <item name="BatumVelo docking station" type="node" preset_name_label="true">
         <space />
         <reference ref="ref" />
         <reference ref="operator" />
+        <reference ref="brand" />
         <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
         <combo key="capacity" text="Capacity" />
         <key key="amenity" value="bicycle_rental" />
         <key key="bicycle_rental" value="docking_station" />
         <key key="network" value="BatumVelo" />
+        <key key="brand" value="ბათუმველო" />
         <key key="brand:en" value="BatumVelo" />
-        <key key="operator" value="შპს ბათუმის ავტოტრანსპორტი" />
+        <key key="operator" value="შპს „ბათუმის ავტოტრანსპორტი“" />
         <key key="operator:type" value="government" />
         <key key="contact:email" value="support@batumvelo.ge" />
         <key key="contact:phone" value="+995 577 377676" />
         <key key="contact:website" value="https://batumvelo.ge" />
         <key key="contact:facebook" value="https://facebook.com/%E1%83%91%E1%83%90%E1%83%97%E1%83%A3%E1%83%9B%E1%83%95%E1%83%94%E1%83%9A%E1%83%9DBatumVelo-111566860732265/" />
         <key key="fee" value="yes" />
+        <key key="authentication:app" value="yes" />
         <key key="payment:cash" value="no" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
+      </item>
+    </group>
+    <group
+      name="Etc"
+      icon="https://upload.wikimedia.org/wikipedia/commons/b/b6/Twemoji_1f45c.svg"
+    >
+      <item name="Apartment entrance" type="node" preset_name_label="true">
+        <space />
+        <reference ref="ref" />
+        <reference ref="wheelchair" />
+        <reference ref="access" />
+        <text key="addr:flats" text="Flats" />
+        <key key="entrance" value="staircase" />
       </item>
     </group>
   </group>
