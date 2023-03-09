@@ -1297,6 +1297,27 @@
         <reference ref="basic_shop" />
       </item>
       <item
+        name="Madart"
+        ka.name="მადარტი"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="მადარტი" />
+        <key key="brand:en" value="Madart" />
+        <key key="name" value="მადარტი" />
+        <key key="name:ka" value="მადარტი" />
+        <key key="name:en" value="Madart" />
+        <key key="contact:website" value="https://madart.ge" />
+        <key key="contact:facebook" value="https://facebook.com/madartgeorgia" />
+        <key key="contact:instagram" value="https://instagram.com/madart_madart" />
+        <key key="contact:email" value="sales@madart.ge" />
+        <combo key="contact:phone" text="Phone" default="+995 032 2192919" />
+        <key key="shop" value="pastry" />
+        <reference ref="basic_shop" />
+      </item>
+      <item
         name="Alcorium"
         ka.name="ალქორიუმი"
         type="node,closedway,multipolygon"
