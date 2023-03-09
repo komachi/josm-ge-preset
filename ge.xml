@@ -102,6 +102,12 @@
       values_searchable="true"
     />
   </chunk>
+  <chunk id="material">
+    <combo key="material" text="Material" values="metal,aluminium,plastic,wood,steel,concrete,stone,glass,brick,bamboo" />
+  </chunk>
+  <chunk id="colour">
+    <combo key="colour" text="Colour" values="black,silver,gray,white,maroon,red,purple,fuchsia,green,lime,olive,yellow,navy,blue,teal,aqua" />
+  </chunk>
   <chunk id="internet">
     <combo key="internet_access" text="Internet access" values="wlan,wired,terminal,no" />
     <combo key="internet_access:fee" text="Internet access fee" values="yes,no,customers" /> 
@@ -318,6 +324,16 @@
     <text key="ref" text="Reference number" ka.text="ფილიალის ნომერი" ru.text="Номер отделения" />
     <check key="atm" text="Automated Teller Machine" ka.text="ბანკომატ" ru.text="Банкомат" />
   </chunk>
+  <chunk id="waste_disposal">
+    <reference ref="access" />
+    <reference ref="operator" />
+    <reference ref="material" />
+    <reference ref="colour" />
+  </chunk>
+  <chunk id="recycling_container">
+    <reference ref="recycling" />
+    <reference ref="waste_disposal" /> 
+  </chunk>
 
   <group
     name="Georgian POIs"
@@ -468,7 +484,7 @@
         <key key="contact:facebook" value="https://facebook.com/ImpexPharmacy" />
         <key key="contact:instagram" value="https://instagram.com/impexpharmacy" />
         <key key="contact:linkedin" value="https://linkedin.com/company/impexpharm" />
-        <key key="contact:phone" default="+995 322 313100" />
+        <combo key="contact:phone" default="+995 322 313100" />
         <key key="contact:email" value="office@myimpex.ge" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -478,6 +494,28 @@
         <key key="name" value="იმპექსი" />
         <key key="name:ka" value="იმპექსი" />
         <key key="name:en" value="Impex" />
+        <key key="amenity" value="pharmacy" />
+        <key key="healthcare" value="pharmacy" />
+        <reference ref="basic_shop" />
+      </item>
+      <item
+        name="Hekate"
+        ka.name="ჰეკატე"
+        ru.name="Гекате"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ჰეკატე" />
+        <key key="brand:en" value="Hekate" />
+        <key key="brand:ru" value="Гекате" />
+        <key key="contact:website" value="http://hekate.ge" />
+        <key key="contact:email" value="info.hekate@mail.ru" />
+        <key key="name" value="ჰეკატე" />
+        <key key="name:ka" value="ჰეკატე" />
+        <key key="name:en" value="Hekate" />
+        <key key="name:ru" value="Гекате" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
@@ -1558,7 +1596,7 @@
         <key key="contact:website" value="https://technoboom.ge" />
         <key key="contact:youtube" value="https://youtube.com/@technoboom6869" />
         <key key="contact:email" value="info@technoboom.ge" />
-        <key key="contact:phone" default="+995 322 430102" />
+        <combo key="contact:phone" text="Phone" default="+995 322 430102" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
@@ -1809,7 +1847,7 @@
         <key key="name" value="ზოოჰაბი" />
         <key key="name:ka" value="ზოოჰაბი" />
         <key key="name:en" value="Zoohub" />
-        <key key="contact:phone" default="+995 598 469926" />
+        <combo key="contact:phone" text="Phone" default="+995 598 469926" />
         <key key="contact:email" value="info@zoohub.com.ge" />
         <key key="contact:facebook" value="https://facebook.com/zoohub" />
         <key key="shop" value="pet" />
@@ -2497,7 +2535,7 @@
         <key key="brand:wikidata" value="Q1788862" />
         <key key="contact:website" value="https://www.rompetrol.ge" />
         <key key="contact:facebook" value="https://facebook.com/RompetrolGeorgiaLtd" />
-        <key key="contact:phone" default="+995 322 240444" />
+        <combo key="contact:phone" text="Phone" default="+995 322 240444" />
         <key key="contact:email" value="officege@rompetrol.com" />
         <key key="name" value="რომპეტროლი" />
         <key key="name:ka" value="რომპეტროლი" />
@@ -2897,10 +2935,10 @@
         preset_name_label="true"
       >
         <space />
-        <key key="name" default="საპატრულო პოლიციი" />
-        <key key="name:ka" default="საპატრულო პოლიციი" />
-        <key key="name:ru" default="Патрульная полиция" />
-        <key key="name:en" default="Patrol Police" />
+        <combo key="name" default="საპატრულო პოლიციი" />
+        <combo key="name:ka" default="საპატრულო პოლიციი" />
+        <combo key="name:ru" default="Патрульная полиция" />
+        <combo key="name:en" default="Patrol Police" />
         <key key="amenity" value="police" />
         <key key="operator" value="საქართველოს შინაგან საქმეთა სამინისტროს საპატრულო პოლიციის დეპარტამენტი" />
         <key key="operator:short" value="საპატრულო პოლიციი" />
@@ -2912,8 +2950,8 @@
         <key key="operator:type" value="government" />
         <key key="contact:facebook" value="https://facebook.com/policeofgeorgia" />
         <key key="contact:website" value="https://police.ge" />
-        <key key="contact:phone" default="+995 322 414242" />
-        <key key="contact:email" default="patrolinfo@mia.gov.ge" />
+        <combo key="contact:phone" text="Phone" default="+995 322 414242" />
+        <combo key="contact:email" text="Email" default="patrolinfo@mia.gov.ge" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:amenity%3Dpolice" />
@@ -3117,6 +3155,7 @@
         <key key="access" value="yes" />
         <key key="amenity" value="waste_basket" />
         <key key="waste" value="trash" />
+        <reference ref="waste_disposal" />
       </item>
       <item
         name="Waste disposal"
@@ -3125,11 +3164,10 @@
         preset_name_label="true"
       >
         <space />
-        <reference ref="operator" />
-        <reference ref="access" />
         <key key="access" value="yes" />
         <key key="amenity" value="waste_disposal" />
         <key key="waste" value="trash" />
+        <reference ref="waste_disposal" />
       </item>
       <item
         name="plastmasa.ge Batumi"
@@ -3143,12 +3181,10 @@
         <key key="contact:phone" value="+995 577 495959" />
         <key key="operator" value="შპს „ბათუმის სანდასუფთავება“" />
         <key key="operator:type" value="government" />
-        <key key="material" value="plastic" />
-        <key key="colour" value="orangered" />
         <key key="access" value="yes" />
         <key key="amenity" value="recycling" />
         <key key="recycling_type" value="container" />
-        <reference ref="recycling" />
+        <reference ref="recycling_container" />
       </item>
       <item
         name="plastmasa.ge Tbilisi"
@@ -3165,7 +3201,7 @@
         <key key="access" value="yes" />
         <key key="amenity" value="recycling" />
         <key key="recycling_type" value="container" />
-        <reference ref="recycling" />
+        <reference ref="recycling_container" />
       </item>
       <item
         name="Recycling container"
@@ -3179,7 +3215,7 @@
         <key key="access" value="yes" />
         <key key="amenity" value="recycling" />
         <key key="recycling_type" value="container" />
-        <reference ref="recycling" />
+        <reference ref="recycling_container" />
       </item>
       <item name="BatumVelo docking station" type="node" preset_name_label="true">
         <space />
