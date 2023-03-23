@@ -1354,6 +1354,31 @@
         <key key="shop" value="alcohol" />
         <reference ref="basic_shop" />
       </item>
+      <item
+        name="Noste"
+        ka.name="ნოსტე"
+        type="node,closedway,multipolygon"
+        preset_name_label="true"
+      >
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ნოსტე" />
+        <key key="brand:en" value="Noste" />
+        <key key="contact:email" value="info@gpp.ge" />
+        <key key="contact:website" value="http://gpp.ge" />
+        <key key="contact:facebook" value="https://facebook.com/Nostechicken" />
+        <key key="name" value="ნოსტე" />
+        <key key="name:ka" value="ნოსტე" />
+        <key key="name:en" value="Noste" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="butcher" />
+        <key key="butcher" value="poultry" />
+        <reference ref="basic_shop" />
+      </item>
     </group>
 
     <group
