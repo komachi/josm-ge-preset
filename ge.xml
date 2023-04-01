@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://josm.openstreetmap.de/tagging-preset-1.0"
-  author="Anton Nesterov"
-  version="0.0.1"
-  link="https://github.com/komachi/josm-ge-preset"
-  icon="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Georgia.svg"
-  description="Georgian POIs"
-  ka.description="საქართველოს POI"
-  ru.description="Грузинские POI"
-  shortdescription="Georgia"
-  ka.shortdescription="საქართველო"
-  ru.shortdescription="Грузия"
->
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://josm.openstreetmap.de/tagging-preset-1.0" author="Anton Nesterov" version="0.0.1" link="https://github.com/komachi/josm-ge-preset" icon="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Georgia.svg" description="Georgian POIs" ka.description="საქართველოს POI" ru.description="Грузинские POI" shortdescription="Georgia" ka.shortdescription="საქართველო" ru.shortdescription="Грузия">
   <chunk id="name">
     <text key="name" text="Name" />
     <text key="name:en" text="name:en" />
@@ -93,14 +81,7 @@
     <check key="recycling:car_batteries" text="Car batteries" />
   </chunk>
   <chunk id="clothes_list">
-    <multiselect
-      key="clothes"
-      text="Clothes"
-      ka.text="Ტანსაცმელი"
-      ru.text="Одежда"
-      values="babies,children,costumes,denim,fashion,fur,hats,leather,maternity,men,motorcycle,oversize,schoolwear,sports,suits,swimwear,traditional,underwear,unisex,wedding,women,workwear"
-      values_searchable="true"
-    />
+    <multiselect key="clothes" text="Clothes" ka.text="Ტანსაცმელი" ru.text="Одежда" values="babies,children,costumes,denim,fashion,fur,hats,leather,maternity,men,motorcycle,oversize,schoolwear,sports,suits,swimwear,traditional,underwear,unisex,wedding,women,workwear" values_searchable="true" />
   </chunk>
   <chunk id="material">
     <combo key="material" text="Material" values="metal,aluminium,plastic,wood,steel,concrete,stone,glass,brick,bamboo" />
@@ -110,19 +91,14 @@
   </chunk>
   <chunk id="internet">
     <combo key="internet_access" text="Internet access" values="wlan,wired,terminal,no" />
-    <combo key="internet_access:fee" text="Internet access fee" values="yes,no,customers" /> 
-    <text  key="internet_access:ssid" text="SSID"  /> 
+    <combo key="internet_access:fee" text="Internet access fee" values="yes,no,customers" />
+    <text key="internet_access:ssid" text="SSID" />
   </chunk>
   <chunk id="smoking">
     <combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,outside,no" />
   </chunk>
   <chunk id="cuisine">
-    <multiselect
-      key="cuisine"
-      text="Cuisine"
-      values="african;american;arab;argentinian;asian;bagel;balkan;barbecue;bavarian;beef_bowl;brazilian;burger;cake;caribbean;chicken;chinese;coffee_shop;crepe;curry;danish;donut;ethiopian;filipino;fish;fish_and_chips;french;friture;frozen_yogurt;german;georgian;greek;heuriger;hot_dog;ice_cream;indian;indonesian;international;italian;japanese;kebab;korean;lebanese;malaysian;mediterranean;mexican;moroccan;noodle;pancake;pasta;persian;peruvian;pizza;polish;portuguese;ramen;regional;russian;sandwich;sausage;seafood;soba;spanish;steak_house;sushi;tex-mex;tapas;thai;turkish;vietnamese;wings"
-      values_searchable="true"
-    />
+    <multiselect key="cuisine" text="Cuisine" values="african;american;arab;argentinian;asian;bagel;balkan;barbecue;bavarian;beef_bowl;brazilian;burger;cake;caribbean;chicken;chinese;coffee_shop;crepe;curry;danish;donut;ethiopian;filipino;fish;fish_and_chips;french;friture;frozen_yogurt;german;georgian;greek;heuriger;hot_dog;ice_cream;indian;indonesian;international;italian;japanese;kebab;korean;lebanese;malaysian;mediterranean;mexican;moroccan;noodle;pancake;pasta;persian;peruvian;pizza;polish;portuguese;ramen;regional;russian;sandwich;sausage;seafood;soba;spanish;steak_house;sushi;tex-mex;tapas;thai;turkish;vietnamese;wings" values_searchable="true" />
   </chunk>
   <chunk id="fee">
     <combo key="fee" text="Fee" values="yes,no" />
@@ -239,7 +215,7 @@
     <combo key="drink:cider" text="cider" ru.text="сидр" ka.text="სიდრი" match="key">
       <reference ref="drink_values" />
     </combo>
-    <combo key="drink:rum" text="rum" ru.text="ром" ka.text="რომი" match="key" >
+    <combo key="drink:rum" text="rum" ru.text="ром" ka.text="რომი" match="key">
       <reference ref="drink_values" />
     </combo>
     <combo key="drink:cognac" text="cognac" ru.text="коньяк" ka.text="კონიაკი" match="key">
@@ -268,10 +244,10 @@
     <combo key="drink:soda" text="carbonated water" ru.text="газированная вода" ka.text="ცქრიალა წყალი" match="key">
       <reference ref="drink_values" />
     </combo>
-    <combo key="drink:juice" text="juice" ru.text="сок" ka.text="წვენი" match="key" >
+    <combo key="drink:juice" text="juice" ru.text="сок" ka.text="წვენი" match="key">
       <reference ref="drink_values" />
     </combo>
-    <combo key="drink:soft_drink" text="soft drink" ru.text="безалкогольные напитки" ka.text="გამაგრილებელი სასმელი" match="key" >
+    <combo key="drink:soft_drink" text="soft drink" ru.text="безалкогольные напитки" ka.text="გამაგრილებელი სასმელი" match="key">
       <reference ref="drink_values" />
     </combo>
   </chunk>
@@ -332,19 +308,11 @@
   </chunk>
   <chunk id="recycling_container">
     <reference ref="recycling" />
-    <reference ref="waste_disposal" /> 
+    <reference ref="waste_disposal" />
   </chunk>
 
-  <group
-    name="Georgian POIs"
-    icon="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Georgia.svg"
-  >
-    <group
-      name="Pharmacies"
-      ka.name="აფთიაქები"
-      ru.name="Аптеки"
-      icon="https://upload.wikimedia.org/wikipedia/commons/e/e7/Twemoji_1f48a.svg"
-    >
+  <group name="Georgian POIs" icon="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Georgia.svg">
+    <group name="Pharmacies" ka.name="აფთიაქები" ru.name="Аптеки" icon="https://upload.wikimedia.org/wikipedia/commons/e/e7/Twemoji_1f48a.svg">
       <item name="PSP" ka.name="პსპ" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
@@ -369,13 +337,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Aversi"
-        ka.name="ავერსი"
-        ru.name="Аверси"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Aversi" ka.name="ავერსი" ru.name="Аверси" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ავერსი" />
@@ -402,13 +364,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Pharmadepot"
-        ka.name="ფარმადეპი"
-        ru.name="Фармадепот"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Pharmadepot" ka.name="ფარმადეპი" ru.name="Фармадепот" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ფარმადეპი" />
@@ -471,12 +427,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Impex"
-        ka.name="იმპექსი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Impex" ka.name="იმპექსი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="იმპექსი" />
@@ -498,13 +449,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Hekate"
-        ka.name="ჰეკატე"
-        ru.name="Гекате"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Hekate" ka.name="ჰეკატე" ru.name="Гекате" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ჰეკატე" />
@@ -520,13 +465,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Roniko"
-        ka.name="რონიკო"
-        ru.name="Ронико"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Roniko" ka.name="რონიკო" ru.name="Ронико" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="რონიკო" />
@@ -548,13 +487,7 @@
         <key key="shop" value="optican" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Optimist"
-        ka.name="ოპტიმისტი"
-        ru.name="Оптимист"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Optimist" ka.name="ოპტიმისტი" ru.name="Оптимист" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ოპტიმისტი" />
@@ -577,19 +510,8 @@
       </item>
     </group>
 
-    <group
-      name="Healthcare"
-      ka.name="ჯანმრთელობა"
-      ru.name="Здравоохранение"
-      icon="https://upload.wikimedia.org/wikipedia/commons/7/73/Twemoji12_1f3e5.svg"
-    >
-      <item
-        name="Synevo"
-        ka.name="სინევი"
-        ru.name="Синево"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+    <group name="Healthcare" ka.name="ჯანმრთელობა" ru.name="Здравоохранение" icon="https://upload.wikimedia.org/wikipedia/commons/7/73/Twemoji12_1f3e5.svg">
+      <item name="Synevo" ka.name="სინევი" ru.name="Синево" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="Synevo" />
@@ -614,18 +536,8 @@
       </item>
     </group>
 
-    <group
-      name="Eatery"
-      ka.name="საზოგადოებრივი კვება"
-      ru.name="Общепит"
-      icon="https://upload.wikimedia.org/wikipedia/commons/1/1d/Emojione_1F374.svg"
-    >
-      <item
-        name="KFC"
-        ka.name="ქიიეფსი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+    <group name="Eatery" ka.name="საზოგადოებრივი კვება" ru.name="Общепит" icon="https://upload.wikimedia.org/wikipedia/commons/1/1d/Emojione_1F374.svg">
+      <item name="KFC" ka.name="ქიიეფსი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="KFC" />
@@ -646,13 +558,7 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
-      <item
-        name="McDonald's"
-        ka.name="ქიიეფსი"
-        ru.name="Макдональдс"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="McDonald's" ka.name="ქიიეფსი" ru.name="Макдональдс" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="მაკდონალდსი" />
@@ -676,12 +582,7 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
-      <item
-        name="Dunkin' Donuts"
-        ka.name="დანკინ დონათსი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Dunkin' Donuts" ka.name="დანკინ დონათსი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="Dunkin' Donuts" />
@@ -702,12 +603,7 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
-      <item
-        name="Subway"
-        ka.name="საბვეი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Subway" ka.name="საბვეი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="Subway" />
@@ -728,13 +624,7 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
-      <item
-        name="Burger King"
-        ka.name="ბურგერ კინგი"
-        ru.name="Бургер Кинг"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Burger King" ka.name="ბურგერ კინგი" ru.name="Бургер Кинг" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="Burger King" />
@@ -755,12 +645,7 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
-      <item
-        name="Wendy's"
-        ka.name="ვენდისი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Wendy's" ka.name="ვენდისი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="Wendy's" />
@@ -784,12 +669,7 @@
         <reference ref="crypto_currencies" />
         <reference ref="eatery" />
       </item>
-      <item
-        name="Ska Juice Bar"
-        ka.name="ვსკა ჯუს ბარი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Ska Juice Bar" ka.name="ვსკა ჯუს ბარი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="სკა ჯუს ბარი" />
@@ -814,18 +694,8 @@
       </item>
     </group>
 
-    <group
-      name="Food shops"
-      ka.name="პროდუქტები"
-      ru.name="Продукты"
-      icon="https://upload.wikimedia.org/wikipedia/commons/9/9f/Twemoji12_1f6d2.svg"
-    >
-      <item
-        name="Spar"
-        ka.name="სპარი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+    <group name="Food shops" ka.name="პროდუქტები" ru.name="Продукты" icon="https://upload.wikimedia.org/wikipedia/commons/9/9f/Twemoji12_1f6d2.svg">
+      <item name="Spar" ka.name="სპარი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="SPAR" />
@@ -845,13 +715,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Nikora"
-        ka.name="ნიკორა"
-        ru.name="Никора"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Nikora" ka.name="ნიკორა" ru.name="Никора" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ნიკორა" />
@@ -877,13 +741,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Ori Nabiji"
-        ka.name="ორი ნაბიჯი"
-        ru.name="Ори набиджи"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Ori Nabiji" ka.name="ორი ნაბიჯი" ru.name="Ори набиджи" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ორი ნაბიჯი" />
@@ -910,13 +768,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Billion"
-        ka.name="ბილიონი"
-        ru.name="Биллиони"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Billion" ka.name="ბილიონი" ru.name="Биллиони" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ბილიონი" />
@@ -935,13 +787,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Magniti"
-        ka.name="მაგნიტი"
-        ru.name="Магнити"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Magniti" ka.name="მაგნიტი" ru.name="Магнити" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="მაგნიტი" />
@@ -965,13 +811,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Nazilbe"
-        ka.name="ნაზილბე"
-        ru.name="Назилбе"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Nazilbe" ka.name="ნაზილბე" ru.name="Назилбе" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ნაზილბე" />
@@ -993,13 +833,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Goodwill"
-        ka.name="გუდვილი"
-        ru.name="Гудвилл"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Goodwill" ka.name="გუდვილი" ru.name="Гудвилл" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="გუდვილი" />
@@ -1021,13 +855,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Agrohub"
-        ka.name="აგროჰაბი"
-        ru.name="Агрохаб"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Agrohub" ka.name="აგროჰაბი" ru.name="Агрохаб" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="აგროჰაბი" />
@@ -1051,14 +879,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Carrefour"
-        ka.name="კარფური"
-        ru.name="Карфур"
-        type="node,closedway,multipolygon"
-        icon="https://upload.wikimedia.org/wikipedia/commons/5/5b/Carrefour_logo.svg"
-        preset_name_label="true"
-      >
+      <item name="Carrefour" ka.name="კარფური" ru.name="Карфур" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/5/5b/Carrefour_logo.svg" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="Carrefour" />
@@ -1085,13 +906,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Libre"
-        ka.name="ლიბრე"
-        ru.name="Либре"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Libre" ka.name="ლიბრე" ru.name="Либре" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ლიბრე" />
@@ -1111,13 +926,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Zgapari"
-        ka.name="ზღაპარი"
-        ru.name="Згапари"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Zgapari" ka.name="ზღაპარი" ru.name="Згапари" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ზღაპარი" />
@@ -1139,13 +948,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Fresco"
-        ka.name="ფრესკო"
-        ru.name="Фреско"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Fresco" ka.name="ფრესკო" ru.name="Фреско" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ფრესკო" />
@@ -1167,13 +970,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Ioli"
-        ka.name="იოლი"
-        ru.name="Иоли"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Ioli" ka.name="იოლი" ru.name="Иоли" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="იოლი" />
@@ -1192,13 +989,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Willmart"
-        ka.name="ვილმარტი"
-        ru.name="Виллмарт"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Willmart" ka.name="ვილმარტი" ru.name="Виллмарт" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ვილმარტი" />
@@ -1221,12 +1012,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Global Products"
-        ka.name="გლობალ პროდუქტი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Global Products" ka.name="გლობალ პროდუქტი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="გლობალ პროდუქტი" />
@@ -1247,12 +1033,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Daily"
-        ka.name="დეილი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Daily" ka.name="დეილი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="დეილი" />
@@ -1270,12 +1051,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Smart"
-        ka.name="სმარტ"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Smart" ka.name="სმარტ" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="shop" value="supermarket" />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
@@ -1296,12 +1072,7 @@
         <reference ref="crypto_currencies" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Madart"
-        ka.name="მადარტი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Madart" ka.name="მადარტი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="მადარტი" />
@@ -1317,12 +1088,7 @@
         <key key="shop" value="pastry" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Alcorium"
-        ka.name="ალქორიუმი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Alcorium" ka.name="ალქორიუმი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ალქორიუმი" />
@@ -1354,12 +1120,7 @@
         <key key="shop" value="alcohol" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Noste"
-        ka.name="ნოსტე"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Noste" ka.name="ნოსტე" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ნოსტე" />
@@ -1379,20 +1140,22 @@
         <key key="butcher" value="poultry" />
         <reference ref="basic_shop" />
       </item>
+      <item name="Express Chain" ka.name="ექსპრეს ქსელი" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="ექსპრეს ქსელი" />
+        <key key="brand:en" value="Express Chain" />
+        <key key="name" value="ექსპრეს ქსელი" />
+        <key key="name:ka" value="ექსპრეს ქსელი" />
+        <key key="name:en" value="Express Chain" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_shop" />
+      </item>
+
     </group>
 
-    <group
-      name="Shops"
-      ka.name="მაღაზიები"
-      ru.name="Магазины"
-      icon="https://upload.wikimedia.org/wikipedia/commons/5/59/Twemoji12_1f6cd.svg"
-    >
-      <item
-        name="Clean House"
-        ka.name="სუფთა სახლი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+    <group name="Shops" ka.name="მაღაზიები" ru.name="Магазины" icon="https://upload.wikimedia.org/wikipedia/commons/5/59/Twemoji12_1f6cd.svg">
+      <item name="Clean House" ka.name="სუფთა სახლი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="სუფთა სახლი" />
@@ -1416,12 +1179,7 @@
         <reference ref="basic_shop" />
       </item>
 
-      <item
-        name="Zoommer"
-        ka.name="ზუმერი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Zoommer" ka.name="ზუმერი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ზუმერი" />
@@ -1444,12 +1202,7 @@
         <key key="shop" value="electronics" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Alta"
-        ka.name="ალტა"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Alta" ka.name="ალტა" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ალტა" />
@@ -1468,12 +1221,7 @@
         <key key="shop" value="electronics" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Elit Electronics"
-        ka.name="ელიტ ელექტრონიქსი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Elit Electronics" ka.name="ელიტ ელექტრონიქსი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ელიტ ელექტრონიქსი" />
@@ -1496,12 +1244,7 @@
         <key key="shop" value="electronics" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Metromart"
-        ka.name="მეტრომარტი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Metromart" ka.name="მეტრომარტი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="მეტრომარტი" />
@@ -1520,12 +1263,7 @@
         <key key="shop" value="electronics" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Unicom"
-        ka.name="უნიკომი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Unicom" ka.name="უნიკომი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="უნიკომი" />
@@ -1544,12 +1282,7 @@
         <key key="shop" value="electronics" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="iTechnics"
-        ka.name="აიტექნიკსი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="iTechnics" ka.name="აიტექნიკსი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="აიტექნიკსი" />
@@ -1571,12 +1304,7 @@
         <key key="shop" value="electronics" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="iPlus"
-        ka.name="აიპლიუსი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="iPlus" ka.name="აიპლიუსი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="აიპლიუსი" />
@@ -1598,12 +1326,7 @@
         <reference ref="crypto_currencies" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Megatechnica"
-        ka.name="მეგატექნიკა"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Megatechnica" ka.name="მეგატექნიკა" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="მეგატექნიკა" />
@@ -1626,12 +1349,7 @@
         <reference ref="crypto_currencies" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Techno Boom"
-        ka.name="ტექნო ბუმი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Techno Boom" ka.name="ტექნო ბუმი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ტექნო ბუმი" />
@@ -1652,12 +1370,7 @@
         <reference ref="crypto_currencies" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Biblus"
-        ka.name="ბიბლუსი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Biblus" ka.name="ბიბლუსი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ბიბლუსი" />
@@ -1676,12 +1389,7 @@
         <key key="shop" value="books" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Bata"
-        ka.name="ბატა"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Bata" ka.name="ბატა" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="Bata" />
@@ -1699,12 +1407,7 @@
         <key key="shop" value="shoes" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="LC Waikiki"
-        ka.name="ელსი ვაიქიქი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="LC Waikiki" ka.name="ელსი ვაიქიქი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="LC Waikiki" />
@@ -1724,13 +1427,7 @@
         <reference ref="basic_shop" />
         <reference ref="clothes_list" />
       </item>
-      <item
-        name="Miniso"
-        ka.name="მინისო"
-        type="node,closedway,multipolygon"
-        icon="https://upload.wikimedia.org/wikipedia/commons/4/46/Miniso_logo.svg"
-        preset_name_label="true"
-      >
+      <item name="Miniso" ka.name="მინისო" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/4/46/Miniso_logo.svg" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="Miniso" />
@@ -1751,12 +1448,7 @@
         <key key="shop" value="variety_store" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Jysk"
-        ka.name="იუსკ"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Jysk" ka.name="იუსკ" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="JYSK" />
@@ -1776,13 +1468,7 @@
         <key key="shop" value="variety_store" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Gorgia"
-        ka.name="გორგია"
-        ru.name="Горгиа"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Gorgia" ka.name="გორგია" ru.name="Горгиа" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="გორგია" />
@@ -1806,18 +1492,8 @@
         <reference ref="basic_shop" />
       </item>
     </group>
-    <group
-      name="Pets"
-      ka.name="შინაური ცხოველები"
-      ru.name="Питомцы"
-      icon="https://upload.wikimedia.org/wikipedia/commons/1/18/Twemoji12_1f436.svg"
-    >
-      <item
-        name="Pet Spot"
-        ka.name="პეტ სპოტი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+    <group name="Pets" ka.name="შინაური ცხოველები" ru.name="Питомцы" icon="https://upload.wikimedia.org/wikipedia/commons/1/18/Twemoji12_1f436.svg">
+      <item name="Pet Spot" ka.name="პეტ სპოტი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="პეტ სპოტი" />
@@ -1829,20 +1505,15 @@
         <key key="contact:facebook" value="https://facebook.com/PetSpot.Georgia" />
         <key key="contact:instagram" value="https://instagram.com/petspot_georgia" />
         <key key="payment:visa" value="yes" />
-        <key key="payment:mastercard" value="yes" /> 
-        <key key="payment:american_express" value="yes" />       
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="pet" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="ZooCity"
-        ka.name="ზოოსითი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="ZooCity" ka.name="ზოოსითი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ზოოსითი" />
@@ -1854,19 +1525,14 @@
         <key key="contact:facebook" value="https://facebook.com/ZooCityGeo" />
         <key key="contact:instagram" value="https://instagram.com/zoocity_geo" />
         <key key="payment:visa" value="yes" />
-        <key key="payment:mastercard" value="yes" />       
+        <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="shop" value="pet" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Zoomart"
-        ka.name="ზოომარტი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Zoomart" ka.name="ზოომარტი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ზოომარტი" />
@@ -1880,12 +1546,7 @@
         <key key="shop" value="pet" />
         <reference ref="basic_shop" />
       </item>
-      <item
-        name="Zoohub"
-        ka.name="ზოოჰაბი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Zoohub" ka.name="ზოოჰაბი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ზოოჰაბი" />
@@ -1901,19 +1562,8 @@
       </item>
     </group>
 
-    <group
-      name="Finance"
-      ka.name="ფინანსები"
-      ru.name="Финансы"
-      icon="https://upload.wikimedia.org/wikipedia/commons/6/64/Emoji_u1f4b0.svg"
-    >
-      <item
-        name="TBC Bank"
-        ru.name="ТиБиСи Банк"
-        ka.name="თიბისი ბანკი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+    <group name="Finance" ka.name="ფინანსები" ru.name="Финансы" icon="https://upload.wikimedia.org/wikipedia/commons/6/64/Emoji_u1f4b0.svg">
+      <item name="TBC Bank" ru.name="ТиБиСи Банк" ka.name="თიბისი ბანკი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
@@ -1933,14 +1583,7 @@
         <key key="short_name:ru" value="ТиБиСи" />
         <reference ref="bank_office" />
       </item>
-      <item
-        name="Bank of Georgia"
-        ru.name="Банк Грузии"
-        ka.name="საქართველოს ბანკი"
-        tr.name="Gürcistan Bankası"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Bank of Georgia" ru.name="Банк Грузии" ka.name="საქართველოს ბანკი" tr.name="Gürcistan Bankası" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
@@ -1988,13 +1631,7 @@
         <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
         <reference ref="bank_office" />
       </item>
-      <item
-        name="Credo Bank"
-        ka.name="კრედო ბანკი"
-        ru.name="Кредо Банк"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Credo Bank" ka.name="კრედო ბანკი" ru.name="Кредо Банк" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
@@ -2019,13 +1656,7 @@
         <reference ref="bank_office" />
       </item>
 
-      <item
-        name="BasisBank"
-        ka.name="კრედო ბანკი"
-        ru.name="БазисБанк"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="BasisBank" ka.name="კრედო ბანკი" ru.name="БазисБанк" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
@@ -2048,13 +1679,7 @@
         <reference ref="bank_office" />
       </item>
 
-      <item
-        name="Terabank"
-        ka.name="ტერაბანკი"
-        ru.name="Терабанк"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Terabank" ka.name="ტერაბანკი" ru.name="Терабанк" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
@@ -2075,13 +1700,7 @@
         <reference ref="bank_office" />
       </item>
 
-      <item
-        name="ProCredit Bank"
-        ka.name="პროკრედიტ ბანკი"
-        ru.name="ПроКредит Банк"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="ProCredit Bank" ka.name="პროკრედიტ ბანკი" ru.name="ПроКредит Банк" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
@@ -2102,13 +1721,7 @@
         <reference ref="bank_office" />
       </item>
 
-      <item
-        name="Cartu Bank"
-        ka.name="ბანკი ქართუ"
-        ru.name="Карту Банк"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Cartu Bank" ka.name="ბანკი ქართუ" ru.name="Карту Банк" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
@@ -2129,12 +1742,7 @@
         <reference ref="bank_office" />
       </item>
 
-      <item
-        name="Ziraat Bank"
-        ka.name="ბანკი ქართუ"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Ziraat Bank" ka.name="ბანკი ქართუ" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
@@ -2153,14 +1761,7 @@
         <reference ref="bank_office" />
       </item>
 
-      <item
-        name="Halyk Bank"
-        ka.name="ხალიკ ბანკი"
-        ru.name="Халык Банк"
-        kk.name="Халық Банкі"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Halyk Bank" ka.name="ხალიკ ბანკი" ru.name="Халык Банк" kk.name="Халық Банкі" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
@@ -2184,13 +1785,7 @@
         <key key="name:kk" value="Халық Банкі" />
         <reference ref="bank_office" />
       </item>
-      <item
-        name="Bank of Georgia Paybox"
-        ka.name="საქართველოს ბანკის ჩასარიცხი აპარატი"
-        ru.name="Пейбокс Банка Грузии"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Bank of Georgia Paybox" ka.name="საქართველოს ბანკის ჩასარიცხი აპარატი" ru.name="Пейбокс Банка Грузии" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="payment_terminal" />
         <key key="brand" value="საქართველოს ბანკი" />
@@ -2207,13 +1802,7 @@
         <key key="payment:cash:EUR" value="yes" />
         <reference ref="paybox" />
       </item>
-      <item
-        name="TBC Paybox"
-        ka.name="თიბისი ბანკის ჩასარიცხი აპარატი"
-        ru.name="Пейбокс ТиБиСи"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="TBC Paybox" ka.name="თიბისი ბანკის ჩასარიცხი აპარატი" ru.name="Пейбокс ТиБиСи" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="payment_terminal" />
         <key key="brand:wikidata" value="Q2620975" />
@@ -2230,13 +1819,7 @@
         <reference ref="paybox" />
       </item>
 
-      <item
-        name="Credo Paybox"
-        ka.name="კრედო ბანკის ჩასარიცხი აპარატი"
-        ru.name="Пейбокс Кредо"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Credo Paybox" ka.name="კრედო ბანკის ჩასარიცხი აპარატი" ru.name="Пейбокс Кредо" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="payment_terminal" />
         <key key="brand" value="კრედო ბანკი" />
@@ -2254,12 +1837,7 @@
         <key key="payment:cash" value="yes" />
         <reference ref="paybox" />
       </item>
-      <item
-        name="Oppa"
-        ka.name="ოპპა"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Oppa" ka.name="ოპპა" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="payment_terminal" />
         <key key="brand" value="ოპპა" />
@@ -2277,13 +1855,7 @@
         <reference ref="paybox" />
       </item>
 
-      <item
-        name="Bank of Georgia ATM"
-        ka.name="საქართველოს ბანკის ბანკომატი"
-        ru.name="Банкомат Банка Грузии"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Bank of Georgia ATM" ka.name="საქართველოს ბანკის ბანკომატი" ru.name="Банкомат Банка Грузии" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
         <key key="brand" value="საქართველოს ბანკი" />
@@ -2303,13 +1875,7 @@
         <reference ref="atm" />
       </item>
 
-      <item
-        name="TBC ATM"
-        ka.name="თიბისი ბანკის ბანკომატი"
-        ru.name="Банкомат ТиБиСи"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="TBC ATM" ka.name="თიბისი ბანკის ბანკომატი" ru.name="Банкомат ТиБиСи" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
         <key key="brand" value="თიბისი ბანკი" />
@@ -2327,13 +1893,7 @@
         <key key="currency:EUR" value="yes" />
         <reference ref="atm" />
       </item>
-      <item
-        name="Liberty ATM"
-        ka.name="თიბისი ბანკის ბანკომატი"
-        ru.name="Банкомат Либерти"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Liberty ATM" ka.name="თიბისი ბანკის ბანკომატი" ru.name="Банкомат Либерти" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
         <key key="brand" value="ლიბერთი" />
@@ -2356,13 +1916,7 @@
         <key key="currency:EUR" value="yes" />
         <reference ref="atm" />
       </item>
-      <item
-        name="Credo ATM"
-        ka.name="კრედო ბანკის ბანკომატი"
-        ru.name="Банкомат Кредо"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Credo ATM" ka.name="კრედო ბანკის ბანკომატი" ru.name="Банкомат Кредо" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
         <key key="brand" value="კრედო ბანკი" />
@@ -2379,13 +1933,7 @@
         <reference ref="atm" />
       </item>
 
-      <item
-        name="BasisBank ATM"
-        ka.name="ბაზისბანკი ბანკომატი"
-        ru.name="Банкомат БазисБанка"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="BasisBank ATM" ka.name="ბაზისბანკი ბანკომატი" ru.name="Банкомат БазисБанка" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
         <key key="brand" value="ბაზისბანკი" />
@@ -2403,13 +1951,7 @@
         <reference ref="atm" />
       </item>
 
-      <item
-        name="Terabank ATM"
-        ka.name="ტერაბანკი ბანკომატი"
-        ru.name="Банкомат Терабанка"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Terabank ATM" ka.name="ტერაბანკი ბანკომატი" ru.name="Банкомат Терабанка" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
         <key key="brand" value="ტერაბანკი" />
@@ -2425,13 +1967,7 @@
         <reference ref="atm" />
       </item>
 
-      <item
-        name="Cartu Bank ATM"
-        ka.name="ბანკი ქართუ ბანკომატი"
-        ru.name="Банкомат Карту Банка"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Cartu Bank ATM" ka.name="ბანკი ქართუ ბანკომატი" ru.name="Банкомат Карту Банка" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
         <key key="brand" value="ბანკი ქართუ" />
@@ -2446,13 +1982,7 @@
         <key key="operator" value="ბანკი ქართუ" />
         <reference ref="atm" />
       </item>
-      <item
-        name="Halyk Bank ATM"
-        ka.name="ხალიკ ბანკი ბანკომატი"
-        ru.name="Банкомат Халык Банка"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Halyk Bank ATM" ka.name="ხალიკ ბანკი ბანკომატი" ru.name="Банкомат Халык Банка" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
         <key key="brand" value="Halyk Bank" />
@@ -2470,13 +2000,7 @@
         <key key="operator" value="ხალიკ ბანკი" />
         <reference ref="atm" />
       </item>
-      <item
-        name="Cryptomat"
-        ka.name="კრიპტომატი"
-        ru.name="Криптомат"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Cryptomat" ka.name="კრიპტომატი" ru.name="Криптомат" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
         <key key="brand" value="კრიპტომატი" />
@@ -2500,11 +2024,7 @@
         <key key="currency:LTC" value="yes" />
         <reference ref="crypto_atm" />
       </item>
-      <item
-        name="BitXChange"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="BitXChange" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
         <key key="brand" value="BitXChange" />
@@ -2535,13 +2055,7 @@
         <key key="currency:DASH" value="yes" />
         <reference ref="crypto_atm" />
       </item>
-      <item
-        name="Bermeli"
-        ru.name="Бермели"
-        ka.name="ბერმელი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Bermeli" ru.name="Бермели" ka.name="ბერმელი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="shop" value="money_lender" />
@@ -2562,18 +2076,8 @@
       </item>
     </group>
 
-    <group
-      name="Fuel stations"
-      ka.name="ბენზინგასამართი სადგური"
-      ru.name="Автозаправочные станции"
-      icon="https://upload.wikimedia.org/wikipedia/commons/4/4d/Twemoji12_26fd.svg"
-    >
-      <item
-        name="Rompetrol"
-        ka.name="რომპეტროლი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+    <group name="Fuel stations" ka.name="ბენზინგასამართი სადგური" ru.name="Автозаправочные станции" icon="https://upload.wikimedia.org/wikipedia/commons/4/4d/Twemoji12_26fd.svg">
+      <item name="Rompetrol" ka.name="რომპეტროლი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="fuel" />
         <key key="brand" value="რომპეტროლი" />
@@ -2588,12 +2092,7 @@
         <key key="name:en" value="Rompetrol" />
         <reference ref="fuel_station" />
       </item>
-      <item
-        name="Socar"
-        ka.name="სოკარი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Socar" ka.name="სოკარი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="fuel" />
         <key key="brand" value="სოკარი" />
@@ -2608,12 +2107,7 @@
         <key key="name:en" value="Socar" />
         <reference ref="fuel_station" />
       </item>
-      <item
-        name="Wissol"
-        ka.name="ვისოლ"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Wissol" ka.name="ვისოლ" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="fuel" />
         <key key="brand" value="ვისოლ" />
@@ -2629,12 +2123,7 @@
         <key key="name:en" value="Wissol" />
         <reference ref="fuel_station" />
       </item>
-      <item
-        name="Gulf"
-        ka.name="გულფი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Gulf" ka.name="გულფი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="fuel" />
         <key key="brand" value="გულფი" />
@@ -2651,12 +2140,7 @@
         <key key="name:en" value="Gulf" />
         <reference ref="fuel_station" />
       </item>
-      <item
-        name="Connect"
-        ka.name="ქონექთი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Connect" ka.name="ქონექთი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="fuel" />
         <key key="brand" value="ქონექთი" />
@@ -2668,13 +2152,7 @@
         <key key="name:en" value="Connect" />
         <reference ref="fuel_station" />
       </item>
-      <item
-        name="Lukoil"
-        ka.name="ლუკოილი"
-        ru.name="Лукойл"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Lukoil" ka.name="ლუკოილი" ru.name="Лукойл" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="fuel" />
         <key key="brand" value="ლუკოილი" />
@@ -2692,12 +2170,7 @@
         <key key="name:ru" value="Лукойл" />
         <reference ref="fuel_station" />
       </item>
-      <item
-        name="Portal"
-        ka.name="პორტალი"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Portal" ka.name="პორტალი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="fuel" />
         <key key="brand" value="პორტალი" />
@@ -2710,13 +2183,7 @@
         <key key="name:en" value="Portal" />
         <reference ref="fuel_station" />
       </item>
-      <item
-        name="Optima"
-        ka.name="ოპტიმა"
-        ru.name="Оптима"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Optima" ka.name="ოპტიმა" ru.name="Оптима" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="fuel" />
         <key key="brand" value="ოპტიმა" />
@@ -2732,12 +2199,7 @@
         <key key="name:ru" value="Оптима" />
         <reference ref="fuel_station" />
       </item>
-      <item
-        name="E-Space"
-        ka.name="ი-სპეის"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="E-Space" ka.name="ი-სპეის" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="charging_station" />
@@ -2751,11 +2213,7 @@
         <key key="authentication:app" value="yes" />
         <reference ref="charging_station" />
       </item>
-      <item
-        name="EV Georgia"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="EV Georgia" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="charging_station" />
@@ -2769,19 +2227,8 @@
       </item>
     </group>
 
-    <group
-      name="Communication"
-      ka.name="კომუნიკაცია"
-      ru.name="Коммуникация"
-      icon="https://upload.wikimedia.org/wikipedia/commons/a/a0/Twemoji_1f4de.svg"
-    >
-      <item
-        name="Beeline"
-        ka.name="ბილაინი"
-        ru.name="Билайн"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+    <group name="Communication" ka.name="კომუნიკაცია" ru.name="Коммуникация" icon="https://upload.wikimedia.org/wikipedia/commons/a/a0/Twemoji_1f4de.svg">
+      <item name="Beeline" ka.name="ბილაინი" ru.name="Билайн" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="ბილაინი" />
@@ -2807,13 +2254,7 @@
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
       </item>
-      <item
-        name="Silknet"
-        ka.name="სილქნეტი"
-        ru.name="Силкнет"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Silknet" ka.name="სილქნეტი" ru.name="Силкнет" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="სილქნეტი" />
@@ -2841,13 +2282,7 @@
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
       </item>
-      <item
-        name="Magti"
-        ka.name="მაგთი"
-        ru.name="Магти"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Magti" ka.name="მაგთი" ru.name="Магти" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="მაგთი" />
@@ -2873,13 +2308,7 @@
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
       </item>
-      <item
-        name="Cellular antenna (on roof)"
-        ka.name="ფიჭური ანტენა (სახურავზე)"
-        ru.name="Антенна сотовой связи (на крыше)"
-        type="node"
-        preset_name_label="true"
-      >
+      <item name="Cellular antenna (on roof)" ka.name="ფიჭური ანტენა (სახურავზე)" ru.name="Антенна сотовой связи (на крыше)" type="node" preset_name_label="true">
         <space />
         <reference ref="operator" />
         <key key="man_made" value="antenna" />
@@ -2888,13 +2317,7 @@
         <link wiki="Tag:man_made%3Dantenna" />
         <link wiki="Proposed_features/Telecommunications_tower" text="Proposed features/Telecommunications tower" />
       </item>
-      <item
-        name="Cellular tower"
-        ka.name="ფიჭური კოშკი"
-        ru.name="Башня сотовой связи"
-        type="node"
-        preset_name_label="true"
-      >
+      <item name="Cellular tower" ka.name="ფიჭური კოშკი" ru.name="Башня сотовой связи" type="node" preset_name_label="true">
         <space />
         <reference ref="operator" />
         <reference ref="height" />
@@ -2906,26 +2329,10 @@
       </item>
     </group>
 
-    <group
-      name="Government services"
-      ka.name="სახელმწიფო ორგანოები"
-      ru.name="Государственные органы"
-      icon="https://upload.wikimedia.org/wikipedia/commons/d/dd/Emoji_u1f46e.svg"
-    >
-      <item
-        name="Public Service Hall"
-        ka.name="იუსტიციის სახლი"
-        ru.name="Дом Юстиции"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+    <group name="Government services" ka.name="სახელმწიფო ორგანოები" ru.name="Государственные органы" icon="https://upload.wikimedia.org/wikipedia/commons/d/dd/Emoji_u1f46e.svg">
+      <item name="Public Service Hall" ka.name="იუსტიციის სახლი" ru.name="Дом Юстиции" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
-        <combo
-          key="opening_hours"
-          text="Opening Hours"
-          values="Mo-Fr 09:00-18:00; Sa-Su off,Mo-Fr 09:00-18:00; Sa-Su 09:00-17:00"
-          default="Mo-Fr 09:00-18:00; Sa-Su off"
-        />
+        <combo key="opening_hours" text="Opening Hours" values="Mo-Fr 09:00-18:00; Sa-Su off,Mo-Fr 09:00-18:00; Sa-Su 09:00-17:00" default="Mo-Fr 09:00-18:00; Sa-Su off" />
         <key key="office" value="government" />
         <key key="government" value="public_service" />
         <key key="name" value="იუსტიციის სახლი" />
@@ -2949,13 +2356,7 @@
         <reference ref="wheelchair_address" />
         <link wiki="Tag:government%3Dpublic_service" />
       </item>
-      <item
-        name="Revenue Service"
-        ka.name="შემოსავლების სამსახური"
-        ru.name="Налоговая служба"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Revenue Service" ka.name="შემოსავლების სამსახური" ru.name="Налоговая служба" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="office" value="government" />
         <key key="government" value="tax" />
@@ -2973,13 +2374,7 @@
         <reference ref="wheelchair_address" />
         <link wiki="Tag:government%3Dtax" />
       </item>
-      <item
-        name="Patrol Police Departament"
-        ka.name="საპატრულო პოლიციის დეპარტამენტი"
-        ru.name="Департамент патрульной полиции"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="Patrol Police Departament" ka.name="საპატრულო პოლიციის დეპარტამენტი" ru.name="Департамент патрульной полиции" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="name" default="საპატრულო პოლიციი" />
         <combo key="name:ka" default="საპატრულო პოლიციი" />
@@ -3004,26 +2399,10 @@
       </item>
     </group>
 
-    <group
-      name="Post"
-      ka.name="ფოსტა"
-      ru.name="Почта"
-      icon="https://upload.wikimedia.org/wikipedia/commons/d/dc/Twemoji12_2709.svg"
-    >
-      <item
-        name="Georgian Post"
-        ka.name="საქართველოს ფოსტა"
-        ru.name="Почта Грузии"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+    <group name="Post" ka.name="ფოსტა" ru.name="Почта" icon="https://upload.wikimedia.org/wikipedia/commons/d/dc/Twemoji12_2709.svg">
+      <item name="Georgian Post" ka.name="საქართველოს ფოსტა" ru.name="Почта Грузии" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
-        <text
-          key="ref"
-          text="Postcode/Reference"
-          ka.text="საფოსტო ინდექსი"
-          ru.text="Почтовый индекс"
-        />
+        <text key="ref" text="Postcode/Reference" ka.text="საფოსტო ინდექსი" ru.text="Почтовый индекс" />
         <key key="amenity" value="post_office" />
         <key key="brand" value="საქართველოს ფოსტა" />
         <key key="brand:en" value="Georgian Post" />
@@ -3038,22 +2417,12 @@
         <key key="contact:youtube" value="https://youtube.com/channel/UCjI73rVjVyi2AIOMOmguX4A" />
         <key key="contact:website" value="https://gpost.ge" />
         <key key="contact:email" value="info@gpost.ge" />
-        <combo
-          key="contact:phone"
-          text="Phone number"
-          values="+995 32 2240909"
-          default="+995 32 2240909"
-        />
+        <combo key="contact:phone" text="Phone number" values="+995 32 2240909" default="+995 32 2240909" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:amenity%3Dpost_office" />
       </item>
-      <item
-        name="CDEK"
-        ru.name="СДЭК"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+      <item name="CDEK" ru.name="СДЭК" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="brand" value="СДЭК" />
         <key key="brand:en" value="CDEK" />
@@ -3069,11 +2438,7 @@
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dcourier" />
       </item>
-      <item
-        name="USA2GEORGIA"
-        type="node"
-        preset_name_label="true"
-      >
+      <item name="USA2GEORGIA" type="node" preset_name_label="true">
         <space />
         <key key="name" value="USA2GEORGIA" />
         <key key="name:en" value="USA2GEORGIA" />
@@ -3087,12 +2452,7 @@
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dcourier" />
       </item>
-      <item
-        name="Camex"
-        ka.name="კამექსი"
-        type="node"
-        preset_name_label="true"
-      >
+      <item name="Camex" ka.name="კამექსი" type="node" preset_name_label="true">
         <space />
         <key key="name" value="კამექსი" />
         <key key="name:en" value="Camex" />
@@ -3106,29 +2466,11 @@
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dcourier" />
       </item>
-      <item
-        name="Postbox (Georgian Post)"
-        ka.name="საფოსტო ყუთი (საქართველოს ფოსტა)"
-        ru.name="Почтовый ящик (Почта Грузии)"
-        type="node"
-        icon="https://upload.wikimedia.org/wikipedia/commons/8/82/Twemoji_1f4ee.svg"
-        preset_name_label="true"
-      >
+      <item name="Postbox (Georgian Post)" ka.name="საფოსტო ყუთი (საქართველოს ფოსტა)" ru.name="Почтовый ящик (Почта Грузии)" type="node" icon="https://upload.wikimedia.org/wikipedia/commons/8/82/Twemoji_1f4ee.svg" preset_name_label="true">
         <space />
-        <text
-          key="ref"
-          text="Reference number"
-        />
-        <combo
-          key="collection_times"
-          text="Collection times"
-        />
-        <combo
-          key="post_box:type"
-          text="Type"
-          values="pillar,lamp,wall,meter"
-          values_context="post_box"
-        />
+        <text key="ref" text="Reference number" />
+        <combo key="collection_times" text="Collection times" />
+        <combo key="post_box:type" text="Type" values="pillar,lamp,wall,meter" values_context="post_box" />
         <check key="drive_through" text="Drive through" />
         <key key="amenity" value="post_box" />
         <key key="brand" value="საქართველოს ფოსტა" />
@@ -3149,19 +2491,8 @@
       </item>
     </group>
 
-    <group
-      name="Urban units"
-      ka.name="ქალაქის ინფრასტრუქტურა"
-      ru.name="Городская инфраструктура"
-      icon="https://upload.wikimedia.org/wikipedia/commons/c/ce/Fxemoji_u1F3E2.svg"
-    >
-      <item
-        name="Gas substation"
-        ka.name="გაზის ქვესადგური"
-        ru.name="Газорегуляторный пункт"
-        type="node,closedway,multipolygon"
-        preset_name_label="true"
-      >
+    <group name="Urban units" ka.name="ქალაქის ინფრასტრუქტურა" ru.name="Городская инфраструктура" icon="https://upload.wikimedia.org/wikipedia/commons/c/ce/Fxemoji_u1F3E2.svg">
+      <item name="Gas substation" ka.name="გაზის ქვესადგური" ru.name="Газорегуляторный пункт" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <reference ref="operator" />
         <reference ref="ref" />
@@ -3171,14 +2502,7 @@
         <preset_link preset_name="Address" />
         <preset_link preset_name="Building" />
       </item>
-      <item
-        name="Minor power substation (building)"
-        ka.name="სატრანსფორმატორო ქვესადგური (შენობა)"
-        ru.name="Трансформаторная подстанция (ТП, потребительская; здание)"
-        type="node,closedway,multipolygon"
-        icon="https://upload.wikimedia.org/wikipedia/commons/d/d0/Emoji_u26a1.svg"
-        preset_name_label="true"
-      >
+      <item name="Minor power substation (building)" ka.name="სატრანსფორმატორო ქვესადგური (შენობა)" ru.name="Трансформаторная подстанция (ТП, потребительская; здание)" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/d/d0/Emoji_u26a1.svg" preset_name_label="true">
         <space />
         <reference ref="operator" />
         <reference ref="ref" />
@@ -3189,12 +2513,7 @@
         <key key="substation" value="minor_distribution" />
         <preset_link preset_name="Address" />
       </item>
-      <item
-        name="Waste basket"
-        type="node"
-        icon="https://upload.wikimedia.org/wikipedia/commons/6/64/Twemoji12_1f5d1.svg"
-        preset_name_label="true"
-      >
+      <item name="Waste basket" type="node" icon="https://upload.wikimedia.org/wikipedia/commons/6/64/Twemoji12_1f5d1.svg" preset_name_label="true">
         <space />
         <reference ref="operator" />
         <reference ref="access" />
@@ -3203,24 +2522,14 @@
         <key key="waste" value="trash" />
         <reference ref="waste_disposal" />
       </item>
-      <item
-        name="Waste disposal"
-        type="node"
-        icon="https://upload.wikimedia.org/wikipedia/commons/6/64/Twemoji12_1f5d1.svg"
-        preset_name_label="true"
-      >
+      <item name="Waste disposal" type="node" icon="https://upload.wikimedia.org/wikipedia/commons/6/64/Twemoji12_1f5d1.svg" preset_name_label="true">
         <space />
         <key key="access" value="yes" />
         <key key="amenity" value="waste_disposal" />
         <key key="waste" value="trash" />
         <reference ref="waste_disposal" />
       </item>
-      <item
-        name="plastmasa.ge Batumi"
-        type="node"
-        icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg"
-        preset_name_label="true"
-      >
+      <item name="plastmasa.ge Batumi" type="node" icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg" preset_name_label="true">
         <space />
         <reference ref="access" />
         <key key="contact:website" value="https://plastmasa.ge" />
@@ -3232,12 +2541,7 @@
         <key key="recycling_type" value="container" />
         <reference ref="recycling_container" />
       </item>
-      <item
-        name="plastmasa.ge Tbilisi"
-        type="node"
-        icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg"
-        preset_name_label="true"
-      >
+      <item name="plastmasa.ge Tbilisi" type="node" icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg" preset_name_label="true">
         <space />
         <reference ref="access" />
         <key key="contact:website" value="https://plastmasa.ge/" />
@@ -3249,12 +2553,7 @@
         <key key="recycling_type" value="container" />
         <reference ref="recycling_container" />
       </item>
-      <item
-        name="Recycling container"
-        type="node"
-        icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg"
-        preset_name_label="true"
-      >
+      <item name="Recycling container" type="node" icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg" preset_name_label="true">
         <space />
         <reference ref="access" />
         <reference ref="operator" />
@@ -3290,10 +2589,7 @@
         <key key="payment:debit_cards" value="yes" />
       </item>
     </group>
-    <group
-      name="Etc"
-      icon="https://upload.wikimedia.org/wikipedia/commons/b/b6/Twemoji_1f45c.svg"
-    >
+    <group name="Etc" icon="https://upload.wikimedia.org/wikipedia/commons/b/b6/Twemoji_1f45c.svg">
       <item name="Apartment entrance" type="node" preset_name_label="true">
         <space />
         <reference ref="ref" />
