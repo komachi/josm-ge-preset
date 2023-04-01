@@ -2491,6 +2491,87 @@
       </item>
     </group>
 
+    <group name="Insurance companies" ka.name="სადაზღვევო კომპანიებს" ru.name="Страховые компании" icon="https://upload.wikimedia.org/wikipedia/commons/5/5b/Star_of_life2.svg">
+      <item name="Irao" ka.name="ირაო" ru.name="Ирао" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <key key="office" value="insurance" />
+        <key key="name" value="ირაო" />
+        <key key="name:ka" value="ირაო" />
+        <key key="name:en" value="Irao" />
+        <key key="brand" value="ირაო" />
+        <key key="brand:en" value="Irao" />
+        <key key="contact:facebook" value="https://www.facebook.com/IRAO.VIG/" />
+        <key key="contact:website" value="https://irao.ge/" />
+        <key key="contact:email" value="office@irao.ge" />
+        <combo key="contact:phone" text="Phone number" values="+995322949949" default="+995322949949" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:office%insurance" />
+      </item>
+      <item name="Imedi L" ka.name="იმედი L" ru.name="Imedi L" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <key key="office" value="insurance" />
+        <key key="name" value="იმედი L" />
+        <key key="name:ka" value="იმედი L" />
+        <key key="name:en" value="Imedi L" />
+        <key key="brand" value="იმედი L" />
+        <key key="brand:en" value="Imedi L" />
+        <key key="contact:website" value="https://imedil.ge/" />
+        <key key="contact:email" value="info@imedil.ge" />
+        <combo key="contact:phone" text="Phone number" values="+995322922222" default="+995322922222" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:office%insurance" />
+      </item>
+      <item name="Imedi L" ka.name="იმედი L" ru.name="Imedi L" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <key key="office" value="insurance" />
+        <key key="name" value="იმედი L" />
+        <key key="name:ka" value="იმედი L" />
+        <key key="name:en" value="Imedi L" />
+        <key key="brand" value="იმედი L" />
+        <key key="brand:en" value="Imedi L" />
+        <key key="contact:website" value="https://imedil.ge/" />
+        <key key="contact:email" value="info@imedil.ge" />
+        <combo key="contact:phone" text="Phone number" values="+995322922222" default="+995322922222" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:office%insurance" />
+      </item>
+      <item name="Ardi" ka.name="არდი" ru.name="Ardi" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <key key="office" value="insurance" />
+        <key key="name" value="არდი" />
+        <key key="name:ka" value="არდი" />
+        <key key="name:en" value="Ardi" />
+        <key key="brand" value="არდი" />
+        <key key="brand:en" value="Ardi" />
+        <key key="contact:facebook" value="https://www.facebook.com/ardiinsurance" />
+        <key key="contact:website" value="https://www.ardi.ge/" />
+        <key key="contact:email" value="office@ardi.ge" />
+        <combo key="contact:phone" text="Phone number" values="+995322101010" default="+995322101010" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:office%insurance" />
+      </item>
+      <item name="TBC Insurance" ka.name="თიბისი დაზღვევა" ru.name="TBC Insurance" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <key key="office" value="insurance" />
+        <key key="name" value="თიბისი დაზღვევა" />
+        <key key="name:ka" value="თიბისი დაზღვევა" />
+        <key key="name:en" value="TBC Insurance" />
+        <key key="brand" value="თიბისი დაზღვევა" />
+        <key key="brand:en" value="TBC Insurance" />
+        <key key="contact:facebook" value="https://www.facebook.com/tbcinsurance" />
+        <key key="contact:website" value="https://tbcinsurance.ge/" />
+        <key key="contact:email" value="info@tbcinsurance.ge" />
+        <combo key="contact:phone" text="Phone number" values="+995322422222" default="+995322422222" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:office%insurance" />
+      </item>
+    </group>
+
     <group name="Urban units" ka.name="ქალაქის ინფრასტრუქტურა" ru.name="Городская инфраструктура" icon="https://upload.wikimedia.org/wikipedia/commons/c/ce/Fxemoji_u1F3E2.svg">
       <item name="Gas substation" ka.name="გაზის ქვესადგური" ru.name="Газорегуляторный пункт" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
