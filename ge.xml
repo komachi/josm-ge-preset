@@ -2523,21 +2523,6 @@
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%insurance" />
       </item>
-      <item name="Imedi L" ka.name="იმედი L" ru.name="Imedi L" type="node,closedway,multipolygon" preset_name_label="true">
-        <space />
-        <key key="office" value="insurance" />
-        <key key="name" value="იმედი L" />
-        <key key="name:ka" value="იმედი L" />
-        <key key="name:en" value="Imedi L" />
-        <key key="brand" value="იმედი L" />
-        <key key="brand:en" value="Imedi L" />
-        <key key="contact:website" value="https://imedil.ge/" />
-        <key key="contact:email" value="info@imedil.ge" />
-        <combo key="contact:phone" text="Phone number" values="+995322922222" default="+995322922222" />
-        <reference ref="basic_data" />
-        <reference ref="wheelchair_address" />
-        <link wiki="Tag:office%insurance" />
-      </item>
       <item name="Ardi" ka.name="არდი" ru.name="Ardi" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="office" value="insurance" />
