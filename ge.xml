@@ -1084,7 +1084,7 @@
         <key key="contact:facebook" value="https://facebook.com/madartgeorgia" />
         <key key="contact:instagram" value="https://instagram.com/madart_madart" />
         <key key="contact:email" value="sales@madart.ge" />
-        <combo key="contact:phone" text="Phone" default="+995 032 2192919" />
+        <combo key="contact:phone" text="Phone" default="+995 322 192919" />
         <key key="shop" value="pastry" />
         <reference ref="basic_shop" />
       </item>
@@ -1734,7 +1734,7 @@
         <key key="contact:twitter" value="https://twitter.com/CartuBank" />
         <key key="contact:linkedin" value="https://linkedin.com/company/cartu-bank" />
         <key key="contact:email" value="info@cartubank.ge" />
-        <key key="contact:phone" value="+995 032 2008080" />
+        <key key="contact:phone" value="+995 322 008080" />
         <key key="name" value="ბანკი ქართუ" />
         <key key="name:ka" value="ბანკი ქართუ" />
         <key key="name:en" value="Cartu Bank" />
@@ -1845,7 +1845,7 @@
         <key key="contact:email" value="info@oppa.ge" />
         <key key="contact:facebook" value="https://facebook.com/OPPAfintech" />
         <key key="contact:linkedin" value="https://linkedin.com/company/oppaoppa" />
-        <key key="contact:phone" value="+995 032 2203000;+995 032 2244500" />
+        <key key="contact:phone" value="+995 322 203000;+995 322 244500" />
         <key key="operator" value="ოპპა" />
         <key key="operator:en" value="Oppa" />
         <key key="payment:coins" value="no" />
@@ -1978,7 +1978,7 @@
         <key key="contact:twitter" value="https://twitter.com/CartuBank" />
         <key key="contact:linkedin" value="https://linkedin.com/company/cartu-bank" />
         <key key="contact:email" value="info@cartubank.ge" />
-        <key key="contact:phone" value="+995 032 2008080" />
+        <key key="contact:phone" value="+995 322 008080" />
         <key key="operator" value="ბანკი ქართუ" />
         <reference ref="atm" />
       </item>
