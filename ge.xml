@@ -1090,6 +1090,25 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
+      <item name="Gvirila" ka.name="გვირილა" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="გვირილა" />
+        <key key="brand:en" value="Gvirila" />
+        <key key="contact:email" value="info@gvirila.com.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/Gvirila2022" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/%E1%83%92%E1%83%95%E1%83%98%E1%83%A0%E1%83%98%E1%83%9A%E1%83%90-%E2%80%A2-gvirila/" />
+        <key key="name" value="გვირილა" />
+        <key key="name:ka" value="გვირილა" />
+        <key key="name:en" value="Gvirila" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_shop" />
+      </item>
       <item name="Smart" ka.name="სმარტ" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="shop" value="supermarket" />
