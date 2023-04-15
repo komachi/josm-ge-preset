@@ -1051,6 +1051,45 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
+      <item name="Europroduct" ka.name="ევროპროდუქტი" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ევროპროდუქტი" />
+        <key key="brand:en" value="Europroduct" />
+        <key key="contact:phone" value="+995322652545" />
+        <key key="contact:email" value="info@europroduct.ge" />
+        <key key="contact:website" value="https://europroduct.ge" />
+        <key key="contact:instagram" value="https://www.instagram.com/europroduct_market/" />
+        <key key="contact:facebook" value="https://www.facebook.com/EuroproductGeo/" />
+        <key key="name" value="ევროპროდუქტი" />
+        <key key="name:ka" value="ევროპროდუქტი" />
+        <key key="name:en" value="Europroduct" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_shop" />
+      </item>
+      <item name="Universami" ka.name="უნივერსამი" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="უნივერსამი" />
+        <key key="brand:en" value="Universami" />
+        <key key="contact:email" value="info@universami.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/Universami" />
+        <key key="name" value="უნივერსამი" />
+        <key key="name:ka" value="უნივერსამი" />
+        <key key="name:en" value="Universami" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_shop" />
+      </item>
       <item name="Smart" ka.name="სმარტ" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="shop" value="supermarket" />
