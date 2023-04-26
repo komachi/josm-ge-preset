@@ -2412,7 +2412,6 @@
         <key key="operator:type" value="government" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
-        <link wiki="Tag:government%3Dpublic_service" />
       </item>
       <item name="Revenue Service" ka.name="შემოსავლების სამსახური" ru.name="Налоговая служба" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
@@ -2564,7 +2563,7 @@
         <combo key="contact:phone" text="Phone number" values="+995322949949" default="+995322949949" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
-        <link wiki="Tag:office%insurance" />
+        <link wiki="Tag:office%3Dinsurance" />
       </item>
       <item name="Imedi L" ka.name="იმედი L" ru.name="Imedi L" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
@@ -2579,7 +2578,7 @@
         <combo key="contact:phone" text="Phone number" values="+995322922222" default="+995322922222" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
-        <link wiki="Tag:office%insurance" />
+        <link wiki="Tag:office%3Dinsurance" />
       </item>
       <item name="Ardi" ka.name="არდი" ru.name="Ardi" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
@@ -2595,7 +2594,7 @@
         <combo key="contact:phone" text="Phone number" values="+995322101010" default="+995322101010" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
-        <link wiki="Tag:office%insurance" />
+        <link wiki="Tag:office%3Dinsurance" />
       </item>
       <item name="TBC Insurance" ka.name="თიბისი დაზღვევა" ru.name="TBC Insurance" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
@@ -2611,7 +2610,7 @@
         <combo key="contact:phone" text="Phone number" values="+995322422222" default="+995322422222" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
-        <link wiki="Tag:office%insurance" />
+        <link wiki="Tag:office%3Dinsurance" />
       </item>
     </group>
 
