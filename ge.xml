@@ -2286,23 +2286,22 @@
     </group>
 
     <group name="Communication" ka.name="კომუნიკაცია" ru.name="Коммуникация" icon="https://upload.wikimedia.org/wikipedia/commons/a/a0/Twemoji_1f4de.svg">
-      <item name="Beeline" ka.name="ბილაინი" ru.name="Билайн" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Cellfie" ka.name="სელფი" ru.name="Селфи" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
-        <key key="brand" value="ბილაინი" />
-        <key key="brand:en" value="Beeline" />
-        <key key="brand:ru" value="Билайн" />
-        <key key="brand:wikidata" value="Q402880" />
+        <key key="brand" value="სელფი" />
+        <key key="brand:en" value="Cellfie" />
+        <key key="brand:ru" value="Селфи" />
         <key key="operator" value="ვიონი საქართველო" />
         <key key="operator:wikidata" value="Q4044421" />
-        <key key="name" value="ბილაინი" />
-        <key key="name:ka" value="ბილაინი" />
-        <key key="name:en" value="Beeline" />
-        <key key="name:ru" value="Билайн" />
-        <key key="contact:website" value="https://www.beeline.ge" />
-        <key key="contact:facebook" value="https://facebook.com/beeline.ge" />
-        <key key="contact:instagram" value="https://instagram.com/beeline_georgia" />
-        <key key="contact:youtube" value="https://youtube.com/channel/UCQi0s8nhD7c1dOpGwNPnZ5g" />
+        <key key="name" value="სელფი" />
+        <key key="name:ka" value="სელფი" />
+        <key key="name:en" value="Cellfie" />
+        <key key="name:ru" value="Селфи" />
+        <key key="contact:website" value="https://cellfie.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/cellfie.ge" />
+        <key key="contact:instagram" value="https://www.instagram.com/cellfie.ge" />
+        <key key="contact:youtube" value="https://www.youtube.com/@cellfiege" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
