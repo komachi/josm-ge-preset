@@ -484,7 +484,7 @@
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
-        <key key="shop" value="optican" />
+        <key key="shop" value="optician" />
         <reference ref="basic_shop" />
       </item>
       <item name="Optimist" ka.name="ოპტიმისტი" ru.name="Оптимист" type="node,closedway,multipolygon" preset_name_label="true">
@@ -500,7 +500,7 @@
         <key key="contact:website" value="https://optimist.ge" />
         <key key="contact:facebook" value="https://facebook.com/optimistgemini" />
         <key key="contact:email" value="info@geminioptics.ge" />
-        <key key="shop" value="optican" />
+        <key key="shop" value="optician" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
