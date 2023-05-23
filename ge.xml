@@ -260,8 +260,8 @@
     <check key="fuel:octane_95" text="Premium (95)" />
     <check key="fuel:octane_92" text="Regular (92)" />
     <check key="fuel:diesel" text="Diesel" />
-    <check key="fuel:CNG" text="CNG" />
-    <check key="fuel:LPG" text="LPG" />
+    <check key="fuel:cng" text="CNG" />
+    <check key="fuel:lpg" text="LPG" />
   </chunk>
   <chunk id="fuel_station">
     <combo key="opening_hours" text="Opening Hours" values="24/7" />
