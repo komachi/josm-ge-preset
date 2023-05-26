@@ -738,7 +738,7 @@
       <item name="Jibe" ka.name="ჯიბე" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
-        <key key="brand" value="ჯიბე ქეშ & ქერი" />
+        <key key="brand" value="ჯიბე ქეშ &amp; ქერი" />
         <key key="contact:facebook" value="https://www.facebook.com/Jibegeo" />
         <key key="contact:email" value="info@jibe.ge" />
         <key key="name" value="ჯიბე" />
