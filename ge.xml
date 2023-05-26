@@ -370,7 +370,7 @@
         <key key="brand" value="ფარმადეპი" />
         <key key="brand:en" value="Pharmadepot" />
         <key key="brand:ru" value="Фармадепот" />
-        <key key="contact:facebook" value="https://facebook.com/Pharmadepot/" />
+        <key key="contact:facebook" value="https://facebook.com/Pharmadepot" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:american_express" value="yes" />
@@ -413,7 +413,7 @@
         <key key="brand:wikidata" value="Q115971130" />
         <key key="operator:wikidata" value="Q115971130" />
         <key key="contact:email" value="info@gepha.com" />
-        <key key="contact:facebook" value="https://facebook.com/gpcpharmacy/" />
+        <key key="contact:facebook" value="https://facebook.com/gpcpharmacy" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:american_express" value="yes" />
@@ -461,6 +461,26 @@
         <key key="name:ka" value="ჰეკატე" />
         <key key="name:en" value="Hekate" />
         <key key="name:ru" value="Гекате" />
+        <key key="amenity" value="pharmacy" />
+        <key key="healthcare" value="pharmacy" />
+        <reference ref="basic_shop" />
+      </item>
+      <item name="Impulse" ka.name="იმპულსი" ru.name="Импульс" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="იმპულსი" />
+        <key key="brand:en" value="Impulse" />
+        <key key="brand:ru" value="Импульс" />
+        <key key="name" value="იმპულსი" />
+        <key key="name:ka" value="იმპულსი" />
+        <key key="name:en" value="Impulse" />
+        <key key="name:ru" value="Импульс" />
+        <key key="contact:facebook" value="https://www.facebook.com/welcomeimpulsi" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
@@ -692,15 +712,54 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
+      <item name="MacShaurma" ka.name="მაკშაურმა" ru.name="МакШаурма" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="MacShaurma" />
+        <key key="name" value="მაკშაურმა" />
+        <key key="name:ka" value="მაკშაურმა" />
+        <key key="name:en" value="MacShaurma" />
+        <key key="name:ru" value="МакШаурма" />
+        <key key="contact:facebook" value="https://www.facebook.com/macshaurmabatumi" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="takeaway" value="yes" />
+        <key key="delivery" value="yes" />
+        <key key="cuisine" value="shawarma" />
+        <key key="amenity" value="fast_food" />
+        <reference ref="eatery" />
+      </item>
     </group>
 
     <group name="Food shops" ka.name="პროდუქტები" ru.name="Продукты" icon="https://upload.wikimedia.org/wikipedia/commons/9/9f/Twemoji12_1f6d2.svg">
+      <item name="Jibe" ka.name="ჯიბე" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="24/7" />
+        <key key="brand" value="ჯიბე ქეშ & ქერი" />
+        <key key="contact:facebook" value="https://www.facebook.com/Jibegeo" />
+        <key key="contact:email" value="info@jibe.ge" />
+        <key key="name" value="ჯიბე" />
+        <key key="name:ka" value="ჯიბე" />
+        <key key="name:en" value="Jibe" />
+        <key key="name:ru" value="Джибе" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_shop" />
+      </item>
       <item name="Spar" ka.name="სპარი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="SPAR" />
         <key key="brand:wikidata" value="Q610492" />
-        <key key="contact:facebook" value="https://facebook.com/SPARGeorgia/" />
+        <key key="contact:facebook" value="https://facebook.com/SPARGeorgia" />
         <key key="contact:email" value="office@spar-georgia.com" />
         <key key="contact:website" value="https://spargeorgia.com" />
         <key key="name" value="სპარი" />
@@ -749,7 +808,7 @@
         <key key="brand:ru" value="Ори Набиджи" />
         <key key="brand:wikidata" value="Q115949750" />
         <key key="operator:wikidata" value="Q115949750" />
-        <key key="contact:facebook" value="https://facebook.com/2nabijiofficial/" />
+        <key key="contact:facebook" value="https://facebook.com/2nabijiofficial" />
         <key key="contact:linkedin" value="https://linkedin.com/company/2-%E1%83%9C%E1%83%90%E1%83%91%E1%83%98%E1%83%AF%E1%83%98-2-nabiji" />
         <key key="contact:website" value="https://2nabiji.ge" />
         <key key="name" value="ორი ნაბიჯი" />
@@ -1059,8 +1118,8 @@
         <key key="contact:phone" value="+995322652545" />
         <key key="contact:email" value="info@europroduct.ge" />
         <key key="contact:website" value="https://europroduct.ge" />
-        <key key="contact:instagram" value="https://www.instagram.com/europroduct_market/" />
-        <key key="contact:facebook" value="https://www.facebook.com/EuroproductGeo/" />
+        <key key="contact:instagram" value="https://www.instagram.com/europroduct_market" />
+        <key key="contact:facebook" value="https://www.facebook.com/EuroproductGeo" />
         <key key="name" value="ევროპროდუქტი" />
         <key key="name:ka" value="ევროპროდუქტი" />
         <key key="name:en" value="Europroduct" />
@@ -1097,7 +1156,7 @@
         <key key="brand:en" value="Gvirila" />
         <key key="contact:email" value="info@gvirila.com.ge" />
         <key key="contact:facebook" value="https://www.facebook.com/Gvirila2022" />
-        <key key="contact:linkedin" value="https://www.linkedin.com/company/%E1%83%92%E1%83%95%E1%83%98%E1%83%A0%E1%83%98%E1%83%9A%E1%83%90-%E2%80%A2-gvirila/" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/%E1%83%92%E1%83%95%E1%83%98%E1%83%A0%E1%83%98%E1%83%9A%E1%83%90-%E2%80%A2-gvirila" />
         <key key="name" value="გვირილა" />
         <key key="name:ka" value="გვირილა" />
         <key key="name:en" value="Gvirila" />
@@ -2219,7 +2278,7 @@
         <key key="brand:wikidata" value="Q329347" />
         <key key="operator" value="შპს ლუკოილ ჯორჯია" />
         <key key="operator:en" value="Lukoil Georgia" />
-        <key key="contact:website" value="http://www.lukoil.ge/" />
+        <key key="contact:website" value="http://www.lukoil.ge" />
         <key key="contact:facebook" value="https://facebook.com/lukoil.georgia" />
         <key key="contact:email" value="info@lukoil.ge" />
         <key key="name" value="ლუკოილი" />
@@ -2556,8 +2615,8 @@
         <key key="name:en" value="Irao" />
         <key key="brand" value="ირაო" />
         <key key="brand:en" value="Irao" />
-        <key key="contact:facebook" value="https://www.facebook.com/IRAO.VIG/" />
-        <key key="contact:website" value="https://irao.ge/" />
+        <key key="contact:facebook" value="https://www.facebook.com/IRAO.VIG" />
+        <key key="contact:website" value="https://irao.ge" />
         <key key="contact:email" value="office@irao.ge" />
         <combo key="contact:phone" text="Phone number" values="+995322949949" default="+995322949949" />
         <reference ref="basic_data" />
@@ -2572,7 +2631,7 @@
         <key key="name:en" value="Imedi L" />
         <key key="brand" value="იმედი L" />
         <key key="brand:en" value="Imedi L" />
-        <key key="contact:website" value="https://imedil.ge/" />
+        <key key="contact:website" value="https://imedil.ge" />
         <key key="contact:email" value="info@imedil.ge" />
         <combo key="contact:phone" text="Phone number" values="+995322922222" default="+995322922222" />
         <reference ref="basic_data" />
@@ -2588,7 +2647,7 @@
         <key key="brand" value="არდი" />
         <key key="brand:en" value="Ardi" />
         <key key="contact:facebook" value="https://www.facebook.com/ardiinsurance" />
-        <key key="contact:website" value="https://www.ardi.ge/" />
+        <key key="contact:website" value="https://www.ardi.ge" />
         <key key="contact:email" value="office@ardi.ge" />
         <combo key="contact:phone" text="Phone number" values="+995322101010" default="+995322101010" />
         <reference ref="basic_data" />
@@ -2604,7 +2663,7 @@
         <key key="brand" value="თიბისი დაზღვევა" />
         <key key="brand:en" value="TBC Insurance" />
         <key key="contact:facebook" value="https://www.facebook.com/tbcinsurance" />
-        <key key="contact:website" value="https://tbcinsurance.ge/" />
+        <key key="contact:website" value="https://tbcinsurance.ge" />
         <key key="contact:email" value="info@tbcinsurance.ge" />
         <combo key="contact:phone" text="Phone number" values="+995322422222" default="+995322422222" />
         <reference ref="basic_data" />
@@ -2666,7 +2725,7 @@
       <item name="plastmasa.ge Tbilisi" type="node" icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg" preset_name_label="true">
         <space />
         <reference ref="access" />
-        <key key="contact:website" value="https://plastmasa.ge/" />
+        <key key="contact:website" value="https://plastmasa.ge" />
         <key key="contact:phone" value="+995 322 619050" />
         <key key="operator" value="შპს „თბილსერვის ჯგუფი“" />
         <key key="operator:type" value="government" />
