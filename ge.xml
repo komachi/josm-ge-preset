@@ -800,7 +800,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Ori Nabiji" ka.name="ორი ნაბიჯი" ru.name="Ори набиджи" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Ori Nabiji" ka.name="ორი ნაბიჯი" ru.name="Ори набиджи" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ori_Nabiji.jpg/240px-Ori_Nabiji.jpg" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ორი ნაბიჯი" />
@@ -846,12 +846,14 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Magniti" ka.name="მაგნიტი" ru.name="Магнити" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Magniti" ka.name="მაგნიტი" ru.name="Магнити" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/%22Magniti%22_chain_logo.jpg/240px-%22Magniti%22_chain_logo.jpg" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="მაგნიტი" />
         <key key="brand:en" value="Magniti" />
         <key key="brand:ru" value="Магнити" />
+        <key key="brand:wikidata" value="Q118792780" />
+        <key key="operator:wikidata" value="Q118792780" />
         <key key="contact:facebook" value="https://facebook.com/magniti.ge" />
         <key key="contact:linkedin" value="https://linkedin.com/company/magniti" />
         <key key="contact:youtube" value="https://youtube.com/channel/UCXnteLjNLQ7p_A-J25RgMKw" />
@@ -892,12 +894,14 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Goodwill" ka.name="გუდვილი" ru.name="Гудвилл" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Goodwill" ka.name="გუდვილი" ru.name="Гудвилл" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Goodwill_logo.jpg/240px-Goodwill_logo.jpg" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="გუდვილი" />
         <key key="brand:en" value="Goodwill" />
         <key key="brand:ru" value="Гудвилл" />
+        <key key="brand:wikidata" value="Q118799213" />
+        <key key="operator:wikidata" value="Q118799213" />
         <key key="contact:facebook" value="https://facebook.com/GOODWILLHYPERMARKET" />
         <key key="contact:website" value="https://goodwill.ge" />
         <key key="contact:email" value="marketing@goodwill.ge" />
@@ -1048,12 +1052,14 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Willmart" ka.name="ვილმარტი" ru.name="Виллмарт" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Willmart" ka.name="ვილმარტი" ru.name="Виллмарт" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/b/b5/Willmart_Supermarket_Logo_White.png.webp" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ვილმარტი" />
         <key key="brand:en" value="Willmart" />
         <key key="brand:ru" value="Виллмарт" />
+        <key key="brand:wikidata" value="Q118793042" />
+        <key key="operator:wikidata" value="Q118793042" />
         <key key="contact:facebook" value="https://facebook.com/willmartbatumi" />
         <key key="contact:instagram" value="https://instagram.com/willmartbatumi" />
         <key key="contact:website" value="https://willmart.ge" />
