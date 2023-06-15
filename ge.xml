@@ -1052,7 +1052,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Willmart" ka.name="ვილმარტი" ru.name="Виллмарт" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/b/b5/Willmart_Supermarket_Logo_White.png.webp" preset_name_label="true">
+      <item name="Willmart" ka.name="ვილმარტი" ru.name="Виллмарт" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ვილმარტი" />
