@@ -364,10 +364,10 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Pharmadepot" ka.name="ფარმადეპი" ru.name="Фармадепот" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Pharmadepot" ka.name="ფარმადეპო" ru.name="Фармадепот" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
-        <key key="brand" value="ფარმადეპი" />
+        <key key="brand" value="ფარმადეპო" />
         <key key="brand:en" value="Pharmadepot" />
         <key key="brand:ru" value="Фармадепот" />
         <key key="contact:facebook" value="https://facebook.com/Pharmadepot" />
@@ -377,8 +377,8 @@
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
-        <key key="name" value="ფარმადეპი" />
-        <key key="name:ka" value="ფარმადეპი" />
+        <key key="name" value="ფარმადეპო" />
+        <key key="name:ka" value="ფარმადეპო" />
         <key key="name:en" value="Pharmadepot" />
         <key key="name:ru" value="Фармадепот" />
         <key key="amenity" value="pharmacy" />
