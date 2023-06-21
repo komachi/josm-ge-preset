@@ -369,7 +369,9 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ფარმადეპო" />
         <key key="brand:en" value="Pharmadepot" />
-        <key key="brand:ru" value="Фармадепот" />
+        <key key="brand:ru" value="Фармадепо" />
+        <key key="brand:wikidata" value="Q115971332" />
+        <key key="operator:wikidata" value="Q115971332" />
         <key key="contact:facebook" value="https://facebook.com/Pharmadepot" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
