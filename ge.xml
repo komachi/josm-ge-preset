@@ -1616,6 +1616,27 @@
         <key key="shop" value="doityourself" />
         <reference ref="basic_shop" />
       </item>
+      <item name="Mosaic" ka.name="მოზაიკა" ru.name="Мозайка" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="მოზაიკა" />
+        <key key="brand:en" value="Mosaic" />
+        <key key="name" value="მოზაიკა" />
+        <key key="name:ka" value="მოზაიკა" />
+        <key key="name:en" value="Mosaic" />
+        <key key="name:ru" value="Мозайка" />
+        <key key="contact:website" value="http://batumimosaic.ge" />
+        <key key="contact:phone" value="+995577415015" />
+        <key key="contact:email" value="info@batumimosaic.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="cosmetics" />
+        <reference ref="basic_shop" />
+      </item>
     </group>
     <group name="Pets" ka.name="შინაური ცხოველები" ru.name="Питомцы" icon="https://upload.wikimedia.org/wikipedia/commons/1/18/Twemoji12_1f436.svg">
       <item name="Pet Spot" ka.name="პეტ სპოტი" type="node,closedway,multipolygon" preset_name_label="true">
