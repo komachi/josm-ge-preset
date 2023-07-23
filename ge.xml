@@ -387,12 +387,12 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Neopharmi" ka.name="ნეოფარმი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Neopharmi" ka.name="ნეოფარმი" ru.name="Неофарми" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ნეოფარმი" />
         <key key="brand:en" value="Neopharmi" />
-        <key key="brand:ru" value="Неофарм" />
+        <key key="brand:ru" value="Неофарми" />
         <key key="contact:website" value="https://neopharmi.ge" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -402,7 +402,7 @@
         <key key="name" value="ნეოფარმი" />
         <key key="name:ka" value="ნეოფარმი" />
         <key key="name:en" value="Neopharmi" />
-        <key key="name:ru" value="Неофарм" />
+        <key key="name:ru" value="Неофарми" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
@@ -434,6 +434,8 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="იმპექსი" />
         <key key="brand:en" value="Impex" />
+        <key key="brand:ka" value="იმპექსი" />
+        <key key="brand:ru" value="Импекс" />
         <key key="contact:facebook" value="https://facebook.com/ImpexPharmacy" />
         <key key="contact:instagram" value="https://instagram.com/impexpharmacy" />
         <key key="contact:linkedin" value="https://linkedin.com/company/impexpharm" />
@@ -447,22 +449,23 @@
         <key key="name" value="იმპექსი" />
         <key key="name:ka" value="იმპექსი" />
         <key key="name:en" value="Impex" />
+        <key key="name:ru" value="Импекс" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Hekate" ka.name="ჰეკატე" ru.name="Гекате" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Hekate" ka.name="ჰეკატე" ru.name="Хекате" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ჰეკატე" />
         <key key="brand:en" value="Hekate" />
-        <key key="brand:ru" value="Гекате" />
+        <key key="brand:ru" value="Хекате" />
         <key key="contact:website" value="http://hekate.ge" />
         <key key="contact:email" value="info.hekate@mail.ru" />
         <key key="name" value="ჰეკატე" />
         <key key="name:ka" value="ჰეკატე" />
         <key key="name:en" value="Hekate" />
-        <key key="name:ru" value="Гекате" />
+        <key key="name:ru" value="Хекате" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
