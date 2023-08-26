@@ -1712,6 +1712,7 @@
     </group>
 
     <group name="Finance" ka.name="ფინანსები" ru.name="Финансы" icon="https://upload.wikimedia.org/wikipedia/commons/6/64/Emoji_u1f4b0.svg">
+      <!-- Classic banks -->
       <item name="TBC Bank" ru.name="ТиБиСи Банк" ka.name="თიბისი ბანკი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1804,7 +1805,6 @@
         <key key="short_name:ru" value="Кредо" />
         <reference ref="bank_office" />
       </item>
-
       <item name="BasisBank" ka.name="კრედო ბანკი" ru.name="БазисБанк" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1827,7 +1827,6 @@
         <key key="name:ru" value="БазисБанк" />
         <reference ref="bank_office" />
       </item>
-
       <item name="Terabank" ka.name="ტერაბანკი" ru.name="Терабанк" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1848,7 +1847,6 @@
         <key key="name:ru" value="Терабанк" />
         <reference ref="bank_office" />
       </item>
-
       <item name="ProCredit Bank" ka.name="პროკრედიტ ბანკი" ru.name="ПроКредит Банк" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1869,7 +1867,6 @@
         <key key="name:ru" value="ПроКредит Банк" />
         <reference ref="bank_office" />
       </item>
-
       <item name="Cartu Bank" ka.name="ბანკი ქართუ" ru.name="Карту Банк" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1890,8 +1887,7 @@
         <key key="name:ru" value="Карту Банк" />
         <reference ref="bank_office" />
       </item>
-
-      <item name="Ziraat Bank" ka.name="ბანკი ქართუ" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Ziraat Bank" ka.name="ზირაათ ბანკი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
@@ -1902,6 +1898,7 @@
         <key key="brand:tr" value="Ziraat Bankası" />
         <key key="brand:wikidata" value="Q696003" />
         <key key="contact:website" value="https://ziraatbank.ge" />
+        <key key="contact:phone" value="+995322943704" />
         <key key="name" value="ზირაათ ბანკი" />
         <key key="name:ka" value="ზირაათ ბანკი" />
         <key key="name:en" value="Ziraat Bank" />
@@ -1909,7 +1906,6 @@
         <key key="name:tr" value="Ziraat Bankası" />
         <reference ref="bank_office" />
       </item>
-
       <item name="Halyk Bank" ka.name="ხალიკ ბანკი" ru.name="Халык Банк" kk.name="Халық Банкі" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1934,6 +1930,30 @@
         <key key="name:kk" value="Халық Банкі" />
         <reference ref="bank_office" />
       </item>
+      <item name="Re|Bank" ru.name="Ре|Банк" ka.name="რე|ბანკი" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="bank" />
+        <key key="bic" value="PAHAGE22" />
+        <key key="brand" value="რე|ბანკი" />
+        <key key="brand:en" value="Re|Bank" />
+        <key key="brand:ru" value="Ре|Банк" />
+        <key key="contact:phone" value="+995322222525" />
+        <key key="contact:website" value="https://rebank.ge" />
+        <key key="contact:instagram" value="https://www.instagram.com/rebankforchanges" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/rebank-ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/rebank.ge" />
+        <key key="contact:youtube" value="https://www.youtube.com/channel/UCYZ6WinOLhj0a3hru8Yu1IA" />
+        <key key="contact:email" value="info@rebank.ge" />
+        <key key="name" value="რე|ბანკი" />
+        <key key="name:ka" value="რე|ბანკი" />
+        <key key="name:en" value="Re|Bank" />
+        <key key="name:ru" value="Ре|Банк" />
+        <key key="operator" value="პაშა ბანკი საქართველო" />
+        <reference ref="bank_office" />
+      </item>
+
+      <!-- Payboxes -->
       <item name="Bank of Georgia Paybox" ka.name="საქართველოს ბანკის ჩასარიცხი აპარატი" ru.name="Пейбокс Банка Грузии" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="payment_terminal" />
@@ -1967,7 +1987,6 @@
         <key key="payment:cash:EUR" value="yes" />
         <reference ref="paybox" />
       </item>
-
       <item name="Credo Paybox" ka.name="კრედო ბანკის ჩასარიცხი აპარატი" ru.name="Пейбокс Кредо" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="payment_terminal" />
@@ -2004,6 +2023,7 @@
         <reference ref="paybox" />
       </item>
 
+      <!-- ATMs -->
       <item name="Bank of Georgia ATM" ka.name="საქართველოს ბანკის ბანკომატი" ru.name="Банкомат Банка Грузии" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
@@ -2023,7 +2043,6 @@
         <key key="currency:EUR" value="yes" />
         <reference ref="atm" />
       </item>
-
       <item name="TBC ATM" ka.name="თიბისი ბანკის ბანკომატი" ru.name="Банкомат ТиБиСи" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
@@ -2079,9 +2098,16 @@
         <key key="contact:email" value="info@credo.ge" />
         <key key="contact:phone" value="+995 322 424242" />
         <key key="operator" value="კრედო ბანკი" />
+        <key key="cash_in" value="no" />
+        <key key="cash_out" value="yes" />
+        <key key="language:en" value="yes" />
+        <key key="language:ka" value="yes" />
+        <key key="language:ru" value="no" />
+        <key key="currency:GEL" value="yes" />
+        <key key="currency:USD" value="no" />
+        <key key="currency:EUR" value="no" />
         <reference ref="atm" />
       </item>
-
       <item name="BasisBank ATM" ka.name="ბაზისბანკი ბანკომატი" ru.name="Банкомат БазисБанка" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
@@ -2097,9 +2123,16 @@
         <key key="contact:phone" value="+995 322 922922" />
         <key key="operator" value="ბაზისბანკი" />
         <key key="operator:wikidata" value="Q16365625" />
+        <key key="cash_in" value="no" />
+        <key key="cash_out" value="yes" />
+        <key key="language:en" value="yes" />
+        <key key="language:ka" value="yes" />
+        <key key="language:ru" value="no" />
+        <key key="currency:GEL" value="yes" />
+        <key key="currency:USD" value="no" />
+        <key key="currency:EUR" value="no" />
         <reference ref="atm" />
       </item>
-
       <item name="Terabank ATM" ka.name="ტერაბანკი ბანკომატი" ru.name="Банкомат Терабанка" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
@@ -2113,9 +2146,16 @@
         <key key="contact:email" value="info@terabank.ge" />
         <key key="contact:phone" value="+995 322 550000" />
         <key key="operator" value="ტერაბანკი" />
+        <key key="cash_in" value="no" />
+        <key key="cash_out" value="yes" />
+        <key key="language:en" value="yes" />
+        <key key="language:ka" value="yes" />
+        <key key="language:ru" value="no" />
+        <key key="currency:GEL" value="yes" />
+        <key key="currency:USD" value="no" />
+        <key key="currency:EUR" value="no" />
         <reference ref="atm" />
       </item>
-
       <item name="Cartu Bank ATM" ka.name="ბანკი ქართუ ბანკომატი" ru.name="Банкомат Карту Банка" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
@@ -2129,6 +2169,14 @@
         <key key="contact:email" value="info@cartubank.ge" />
         <key key="contact:phone" value="+995 322 008080" />
         <key key="operator" value="ბანკი ქართუ" />
+        <key key="cash_in" value="no" />
+        <key key="cash_out" value="yes" />
+        <key key="language:en" value="yes" />
+        <key key="language:ka" value="yes" />
+        <key key="language:ru" value="no" />
+        <key key="currency:GEL" value="yes" />
+        <key key="currency:USD" value="no" />
+        <key key="currency:EUR" value="no" />
         <reference ref="atm" />
       </item>
       <item name="Halyk Bank ATM" ka.name="ხალიკ ბანკი ბანკომატი" ru.name="Банкомат Халык Банка" type="node,closedway,multipolygon" preset_name_label="true">
@@ -2146,9 +2194,85 @@
         <key key="contact:facebook" value="https://facebook.com/halykbank.ge" />
         <key key="contact:linkedin" value="https://linkedin.com/company/halykbankgeo" />
         <key key="contact:instagram" value="https://instagram.com/halykbankgeo" />
-        <key key="operator" value="ხალიკ ბანკი" />
+        <key key="cash_in" value="no" />
+        <key key="cash_out" value="yes" />
+        <key key="language:en" value="yes" />
+        <key key="language:ka" value="yes" />
+        <key key="language:ru" value="no" />
+        <key key="currency:GEL" value="yes" />
+        <key key="currency:USD" value="no" />
+        <key key="currency:EUR" value="no" />
         <reference ref="atm" />
       </item>
+      <item name="ProCredit Bank ATM" ka.name="პროკრედიტ ბანკი ბანკომატი" ru.name="Банкомат ПроКредит Банка" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <key key="amenity" value="atm" />
+        <key key="brand" value="ProCredit Bank" />
+        <key key="brand:en" value="ProCredit Bank" />
+        <key key="brand:ru" value="ПроКредит Банк" />
+        <key key="brand:wikidata" value="Q1046186" />
+        <key key="operator" value="პროკრედიტ ბანკი" />
+        <key key="contact:phone" value="+995322202222" />
+        <key key="contact:website" value="https://procreditbank.ge" />
+        <key key="contact:facebook" value="https://facebook.com/procreditbankgeorgia" />
+        <key key="contact:instagram" value="https://instagram.com/procreditbankgeorgia" />
+        <key key="cash_in" value="no" />
+        <key key="cash_out" value="yes" />
+        <key key="language:en" value="yes" />
+        <key key="language:ka" value="yes" />
+        <key key="language:ru" value="no" />
+        <key key="currency:GEL" value="yes" />
+        <key key="currency:USD" value="no" />
+        <key key="currency:EUR" value="no" />
+        <reference ref="atm" />
+      </item>
+      <item name="Ziraat Bank ATM" ka.name="ზირაათ ბანკი ბანკომატი" ru.name="Банкомат Зираат Банка" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <key key="amenity" value="atm" />
+        <key key="brand" value="ზირაათ ბანკი" />
+        <key key="brand:en" value="Ziraat Bank" />
+        <key key="brand:ru" value="Зираат Банк" />
+        <key key="brand:tr" value="Ziraat Bankası" />
+        <key key="brand:wikidata" value="Q696003" />
+        <key key="operator" value="ზირაათ ბანკი" />
+        <key key="contact:phone" value="+995322943704" />
+        <key key="contact:website" value="https://ziraatbank.ge" />
+        <key key="cash_in" value="no" />
+        <key key="cash_out" value="yes" />
+        <key key="language:en" value="yes" />
+        <key key="language:ka" value="yes" />
+        <key key="language:ru" value="no" />
+        <key key="currency:GEL" value="yes" />
+        <key key="currency:USD" value="no" />
+        <key key="currency:EUR" value="no" />
+        <reference ref="atm" />
+      </item>
+      <item name="Re|Bank ATM" ka.name="რე|ბანკი ბანკომატი" ru.name="Банкомат Ре|Банка" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <key key="amenity" value="atm" />
+        <key key="brand" value="რე|ბანკი" />
+        <key key="brand:en" value="Re|Bank" />
+        <key key="brand:ru" value="Ре|Банк" />
+        <key key="operator" value="პაშა ბანკი საქართველო" />
+        <key key="contact:phone" value="+995322222525" />
+        <key key="contact:website" value="https://rebank.ge" />
+        <key key="contact:instagram" value="https://www.instagram.com/rebankforchanges" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/rebank-ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/rebank.ge" />
+        <key key="contact:youtube" value="https://www.youtube.com/channel/UCYZ6WinOLhj0a3hru8Yu1IA" />
+        <key key="contact:email" value="info@rebank.ge" />
+        <key key="cash_in" value="no" />
+        <key key="cash_out" value="yes" />
+        <key key="language:en" value="yes" />
+        <key key="language:ka" value="yes" />
+        <key key="language:ru" value="no" />
+        <key key="currency:GEL" value="yes" />
+        <key key="currency:USD" value="no" />
+        <key key="currency:EUR" value="no" />
+        <reference ref="atm" />
+      </item>
+
+      <!-- Crypto finance -->
       <item name="Cryptomat" ka.name="კრიპტომატი" ru.name="Криптомат" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="atm" />
@@ -2204,6 +2328,8 @@
         <key key="currency:DASH" value="yes" />
         <reference ref="crypto_atm" />
       </item>
+
+      <!-- Other financial organisations, such as microfinancial, credit cooperatives, etc -->
       <item name="Bermeli" ru.name="Бермели" ka.name="ბერმელი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -2220,6 +2346,60 @@
         <key key="name:ka" value="ბერმელი" />
         <key key="name:en" value="Bermeli" />
         <key key="name:ru" value="Бермели" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item name="Crystal" ru.name="Кристал" ka.name="კრისტალი" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="bank" />
+        <key key="brand" value="კრისტალი" />
+        <key key="brand:en" value="Crystal" />
+        <key key="brand:ru" value="Кристал" />
+        <key key="contact:website" value="https://crystal.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/CrystalJscMfo" />
+        <key key="contact:youtube" value="https://www.youtube.com/user/MFOCrystal" />
+        <key key="contact:phone" value="+995322022020" />
+        <key key="name" value="კრისტალი" />
+        <key key="name:ka" value="კრისტალი" />
+        <key key="name:en" value="Crystal" />
+        <key key="name:ru" value="Кристал" />
+        <reference ref="bank_office" />
+      </item>
+      <item name="InteliExpress" ru.name="ИнтелиЭкспресс" ka.name="ინტელიექსპრესი" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="money_transfer" />
+        <key key="brand" value="ინტელიექსპრესი" />
+        <key key="brand:en" value="InteliExpress" />
+        <key key="brand:ru" value="ИнтелиЭкспресс" />
+        <key key="contact:website" value="http://ge.inteliexpress.net" />
+        <key key="contact:facebook" value="https://www.facebook.com/InteliExpress" />
+        <key key="contact:email" value="info@intelexpress.ge" />
+        <key key="contact:phone" value="+995322492525" />
+        <key key="name" value="ინტელიექსპრესი" />
+        <key key="name:ka" value="ინტელიექსპრესი" />
+        <key key="name:en" value="InteliExpress" />
+        <key key="name:ru" value="ИнтелиЭкспресс" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item name="Rico Credit" ru.name="Рико Кредит" ka.name="რიკო კრედიტი" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="shop" value="money_lender" />
+        <key key="brand" value="რიკო კრედიტი" />
+        <key key="brand:en" value="Rico Credit" />
+        <key key="brand:ru" value="Рико Кредит" />
+        <key key="contact:website" value="http://www.ricocredit.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/rico.ge" />
+        <key key="contact:instagram" value="https://www.instagram.com/rico_credit" />
+        <key key="contact:email" value="rico@rico.ge" />
+        <key key="contact:phone" value="+995322292929" />
+        <key key="name" value="რიკო კრედიტი" />
+        <key key="name:ka" value="რიკო კრედიტი" />
+        <key key="name:en" value="Rico Credit" />
+        <key key="name:ru" value="Рико Кредит" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
       </item>
