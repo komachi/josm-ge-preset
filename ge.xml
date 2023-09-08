@@ -132,7 +132,9 @@
   <chunk id="crypto_currencies">
     <check key="currency:XBT" text="Bitcoin" />
     <check key="currency:BCH" text="Bitcoin Cash" />
-    <check key="payment:lightning" text="Lightning network" />
+    <check key="payment:lightning" text="Lightning payments accepted" />
+    <check key="payment:lightning_contactless" text="NFC Lightning payments accepted" />
+    <check key="payment:onchain" text="onchain payments accepted" />
     <check key="currency:USDT" text="USDT" />
     <check key="currency:LTC" text="Litecoin" />
     <check key="currency:ETH" text="Ethereum" />
@@ -670,13 +672,13 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
-      <item name="Wendy's" ka.name="ვენდისი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Wendy's" ka.name="ვენდი'ს" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="Wendy's" />
         <key key="brand:wikidata" value="Q550258" />
-        <key key="name" value="ვენდისი" />
-        <key key="name:ka" value="ვენდისი" />
+        <key key="name" value="ვენდი'ს" />
+        <key key="name:ka" value="ვენდი'ს" />
         <key key="name:en" value="Wendy's" />
         <key key="contact:facebook" value="https://facebook.com/WendysGeorgia" />
         <key key="contact:instagram" value="https://instagram.com/wendysgeorgia" />
@@ -1576,6 +1578,27 @@
         <key key="shop" value="variety_store" />
         <reference ref="basic_shop" />
       </item>
+      <item name="Yoyoso" ka.name="იოიოსო" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/4/46/Miniso_logo.svg" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="Yoyoso" />
+        <key key="brand:wikidata" value="Q110227939" />
+        <key key="name" value="იოიოსო" />
+        <key key="name:ka" value="იოიოსო" />
+        <key key="name:en" value="Yoyoso" />
+        <key key="contact:email" value="online@yoyoso.ge" />
+        <key key="contact:phone" value="+995511225533" />
+        <key key="contact:website" value="https://yoyoso.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/yoyoso.geo" />
+        <key key="contact:instagram" value="https://www.instagram.com/yoyoso_georgia" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="variety_store" />
+        <reference ref="basic_shop" />
+      </item>
       <item name="Jysk" ka.name="იუსკ" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1724,6 +1747,11 @@
         <key key="brand:wikidata" value="Q2620975" />
         <key key="operator:wikidata" value="Q2620975" />
         <key key="contact:website" value="https://www.tbcbank.ge" />
+        <key key="contact:phone" value="+995322272727" />
+        <key key="contact:facebook" value="https://www.facebook.com/tbcbank" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/tbc-bank/" />
+        <key key="contact:youtube" value="https://www.youtube.com/user/TBCBankTV" />
+        <key key="contact:twitter" value="https://twitter.com/JSCTBC" />
         <key key="name" value="თიბისი ბანკი" />
         <key key="name:ka" value="თიბისი ბანკი" />
         <key key="name:en" value="TBC Bank" />
@@ -1744,9 +1772,9 @@
         <key key="brand:tr" value="Gürcistan Bankası" />
         <key key="brand:wikidata" value="Q2469733" />
         <key key="operator:wikidata" value="Q2469733" />
+        <key key="contact:phone" value="+995322444444" />
         <key key="contact:website" value="https://bankofgeorgia.ge" />
         <key key="contact:instagram" value="https://instagram.com/bankofgeorgia" />
-        <key key="contact:linkedin" value="https://linkedin.com/company/bank-of-georgia" />
         <key key="contact:linkedin" value="https://linkedin.com/company/bank-of-georgia" />
         <key key="contact:youtube" value="https://youtube.com/user/BankofGeorgiaTV" />
         <key key="contact:email" value="customerservice@bog.ge" />
@@ -1756,6 +1784,25 @@
         <key key="name:ru" value="Банк Грузии" />
         <key key="name:tr" value="Gürcistan Bankası" />
         <key key="short_name:en" value="BoG" />
+        <reference ref="bank_office" />
+      </item>
+      <item name="Express Bank" ru.name="Экспресс Банк" ka.name="ექსპრეს ბანკი" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="bank" />
+        <key key="bic" value="BAGAGE22" />
+        <key key="brand" value="საქართველოს ბანკი" />
+        <key key="brand:en" value="Bank of Georgia" />
+        <key key="brand:ru" value="Банк Грузии" />
+        <key key="brand:tr" value="Gürcistan Bankası" />
+        <key key="brand:wikidata" value="Q2469733" />
+        <key key="operator:wikidata" value="Q2469733" />
+        <key key="contact:website" value="https://expresssesxi.ge" />
+        <key key="contact:phone" value="+995322444444" />
+        <key key="name" value="ექსპრეს ბანკი" />
+        <key key="name:ka" value="ექსპრეს ბანკი" />
+        <key key="name:en" value="Express Bank" />
+        <key key="name:ru" value="Экспресс Банк" />
         <reference ref="bank_office" />
       </item>
       <item name="Liberty" ka.name="ლიბერთი" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1770,7 +1817,7 @@
         <key key="operator:wikidata" value="Q6541585" />
         <key key="contact:website" value="https://libertybank.ge" />
         <key key="contact:email" value="info@lb.ge" />
-        <key key="contact:phone" value="+995 322 555500" />
+        <key key="contact:phone" value="+995322555500" />
         <key key="contact:facebook" value="https://facebook.com/libertybank.ge" />
         <key key="contact:instagram" value="https://instagram.com/liberty_bank_" />
         <key key="contact:linkedin" value="https://linkedin.com/company/libertybankge" />
@@ -1795,7 +1842,7 @@
         <key key="contact:linkedin" value="https://linkedin.com/company/credo-bank" />
         <key key="contact:youtube" value="https://youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
         <key key="contact:email" value="info@credo.ge" />
-        <key key="contact:phone" value="+995 322 424242" />
+        <key key="contact:phone" value="+995322424242" />
         <key key="name" value="კრედო ბანკი" />
         <key key="name:ka" value="კრედო ბანკი" />
         <key key="name:en" value="Credo Bank" />
@@ -1820,7 +1867,7 @@
         <key key="contact:instagram" value="https://instagram.com/basis_bank" />
         <key key="contact:linkedin" value="https://linkedin.com/company/jsc-basisbank" />
         <key key="contact:youtube" value="https://youtube.com/user/basisbankhualing" />
-        <key key="contact:phone" value="+995 32 292 29 22" />
+        <key key="contact:phone" value="+995322922922" />
         <key key="name" value="ბაზისბანკი" />
         <key key="name:ka" value="ბაზისბანკი" />
         <key key="name:en" value="BasisBank" />
@@ -1840,7 +1887,7 @@
         <key key="contact:instagram" value="https://instagram.com/Terabank" />
         <key key="contact:linkedin" value="https://linkedin.com/company/terabank" />
         <key key="contact:email" value="info@terabank.ge" />
-        <key key="contact:phone" value="+995 322 550000" />
+        <key key="contact:phone" value="+995322550000" />
         <key key="name" value="ტერაბანკი" />
         <key key="name:ka" value="ტერაბანკი" />
         <key key="name:en" value="Terabank" />
@@ -1860,7 +1907,7 @@
         <key key="contact:instagram" value="https://instagram.com/procreditbankgeorgia" />
         <!-- <key key="contact:linkedin" value="https://linkedin.com/company/procredit-bank-georgia-%E1%83%9E%E1%83%A0%E1%83%9D%E1%83%99%E1%83%A0%E1%83%94%E1%83%93%E1%83%98%E1%83%A2-%E1%83%91%E1%83%90%E1%83%9C%E1%83%99%E1%83%98-%E1%83%A1%E1%83%90%E1%83%A5%E1%83%90%E1%83%A0%E1%83%97%E1%83%95%E1%83%94%E1%83%9A%E1%83%9D" /> -->
         <key key="contact:email" value="geo.info@procredit-group.com" />
-        <key key="contact:phone" value="+995 322 202222" />
+        <key key="contact:phone" value="+995322202222" />
         <key key="name" value="პროკრედიტ ბანკი" />
         <key key="name:ka" value="პროკრედიტ ბანკი" />
         <key key="name:en" value="ProCredit Bank" />
@@ -1880,7 +1927,7 @@
         <key key="contact:twitter" value="https://twitter.com/CartuBank" />
         <key key="contact:linkedin" value="https://linkedin.com/company/cartu-bank" />
         <key key="contact:email" value="info@cartubank.ge" />
-        <key key="contact:phone" value="+995 322 008080" />
+        <key key="contact:phone" value="+995322008080" />
         <key key="name" value="ბანკი ქართუ" />
         <key key="name:ka" value="ბანკი ქართუ" />
         <key key="name:en" value="Cartu Bank" />
@@ -1919,7 +1966,7 @@
         <key key="operator" value="ხალიკ ბანკი საქართველო" />
         <key key="contact:website" value="https://halykbank.ge" />
         <key key="contact:email" value="info@hbg.ge" />
-        <key key="contact:phone" value="+995 322 240707" />
+        <key key="contact:phone" value="+995322240707" />
         <key key="contact:facebook" value="https://facebook.com/halykbank.ge" />
         <key key="contact:linkedin" value="https://linkedin.com/company/halykbankgeo" />
         <key key="contact:instagram" value="https://instagram.com/halykbankgeo" />
@@ -1952,6 +1999,29 @@
         <key key="operator" value="პაშა ბანკი საქართველო" />
         <reference ref="bank_office" />
       </item>
+      <item name="IsBank" ru.name="ИшБанк" ka.name="იშბანკი" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="amenity" value="bank" />
+        <key key="bic" value="ISBKGE22" />
+        <key key="brand" value="იშბანკი" />
+        <key key="brand:en" value="IsBank" />
+        <key key="brand:ru" value="ИшБанк" />
+        <key key="brand:tr" value="İşBank" />
+        <key key="brand:wikidata" value="Q909613" />
+        <key key="operator" value="სს იშბანკი საქართველო" />
+        <key key="contact:phone" value="+995322442244" />
+        <key key="contact:website" value="http://isbank.ge" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/jsc-isbak-georgia" />
+        <key key="contact:facebook" value="https://www.facebook.com/IsbankGeorgia/" />
+        <key key="contact:email" value="info@isbank.ge" />
+        <key key="contact:email" value="info@rebank.ge" />
+        <key key="name" value="იშბანკი" />
+        <key key="name:en" value="IsBank" />
+        <key key="name:ru" value="ИшБанк" />
+        <key key="name:tr" value="İşBank" />
+        <reference ref="bank_office" />
+      </item>
 
       <!-- Payboxes -->
       <item name="Bank of Georgia Paybox" ka.name="საქართველოს ბანკის ჩასარიცხი აპარატი" ru.name="Пейбокс Банка Грузии" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1962,7 +2032,12 @@
         <key key="brand:ru" value="Банк Грузии" />
         <key key="brand:tr" value="Gürcistan Bankası" />
         <key key="brand:wikidata" value="Q2469733" />
+        <key key="contact:phone" value="+995322444444" />
         <key key="contact:website" value="https://bankofgeorgia.ge" />
+        <key key="contact:instagram" value="https://instagram.com/bankofgeorgia" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/bank-of-georgia" />
+        <key key="contact:youtube" value="https://youtube.com/user/BankofGeorgiaTV" />
+        <key key="contact:email" value="customerservice@bog.ge" />
         <key key="operator" value="საქართველოს ბანკი" />
         <key key="operator:wikidata" value="Q2469733" />
         <key key="payment:coins" value="no" />
@@ -1979,6 +2054,11 @@
         <key key="brand:en" value="TBC Bank" />
         <key key="brand:ru" value="ТиБиСи Банк" />
         <key key="contact:website" value="https://www.tbcbank.ge" />
+        <key key="contact:phone" value="+995322272727" />
+        <key key="contact:facebook" value="https://www.facebook.com/tbcbank" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/tbc-bank/" />
+        <key key="contact:youtube" value="https://www.youtube.com/user/TBCBankTV" />
+        <key key="contact:twitter" value="https://twitter.com/JSCTBC" />
         <key key="operator" value="თიბისი ბანკი" />
         <key key="operator:wikidata" value="Q2620975" />
         <key key="payment:coins" value="no" />
@@ -2032,7 +2112,12 @@
         <key key="brand:ru" value="Банк Грузии" />
         <key key="brand:tr" value="Gürcistan Bankası" />
         <key key="brand:wikidata" value="Q2469733" />
+        <key key="contact:phone" value="+995322444444" />
         <key key="contact:website" value="https://bankofgeorgia.ge" />
+        <key key="contact:instagram" value="https://instagram.com/bankofgeorgia" />
+        <key key="contact:linkedin" value="https://linkedin.com/company/bank-of-georgia" />
+        <key key="contact:youtube" value="https://youtube.com/user/BankofGeorgiaTV" />
+        <key key="contact:email" value="customerservice@bog.ge" />
         <key key="operator:wikidata" value="Q2469733" />
         <key key="operator" value="საქართველოს ბანკი" />
         <key key="cash_out" value="yes" />
@@ -2051,6 +2136,11 @@
         <key key="brand:ru" value="ТиБиСи Банк" />
         <key key="brand:wikidata" value="Q2620975" />
         <key key="contact:website" value="https://www.tbcbank.ge" />
+        <key key="contact:phone" value="+995322272727" />
+        <key key="contact:facebook" value="https://www.facebook.com/tbcbank" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/tbc-bank/" />
+        <key key="contact:youtube" value="https://www.youtube.com/user/TBCBankTV" />
+        <key key="contact:twitter" value="https://twitter.com/JSCTBC" />
         <key key="operator:wikidata" value="Q2620975" />
         <key key="operator" value="თიბისი ბანკი" />
         <key key="cash_out" value="yes" />
@@ -2070,7 +2160,7 @@
         <key key="brand:wikidata" value="Q6541585" />
         <key key="contact:website" value="https://libertybank.ge" />
         <key key="contact:email" value="info@lb.ge" />
-        <key key="contact:phone" value="+995 322 555500" />
+        <key key="contact:phone" value="+995322555500" />
         <key key="contact:facebook" value="https://facebook.com/libertybank.ge" />
         <key key="contact:instagram" value="https://instagram.com/liberty_bank_" />
         <key key="contact:linkedin" value="https://linkedin.com/company/libertybankge" />
@@ -2096,7 +2186,7 @@
         <key key="contact:linkedin" value="https://linkedin.com/company/credo-bank" />
         <key key="contact:youtube" value="https://youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
         <key key="contact:email" value="info@credo.ge" />
-        <key key="contact:phone" value="+995 322 424242" />
+        <key key="contact:phone" value="+995322424242" />
         <key key="operator" value="კრედო ბანკი" />
         <key key="cash_in" value="no" />
         <key key="cash_out" value="yes" />
@@ -2120,7 +2210,7 @@
         <key key="contact:instagram" value="https://instagram.com/basis_bank" />
         <key key="contact:linkedin" value="https://linkedin.com/company/jsc-basisbank" />
         <key key="contact:youtube" value="https://youtube.com/user/basisbankhualing" />
-        <key key="contact:phone" value="+995 322 922922" />
+        <key key="contact:phone" value="+995322922922" />
         <key key="operator" value="ბაზისბანკი" />
         <key key="operator:wikidata" value="Q16365625" />
         <key key="cash_in" value="no" />
@@ -2144,7 +2234,7 @@
         <key key="contact:instagram" value="https://instagram.com/Terabank" />
         <key key="contact:linkedin" value="https://linkedin.com/company/terabank" />
         <key key="contact:email" value="info@terabank.ge" />
-        <key key="contact:phone" value="+995 322 550000" />
+        <key key="contact:phone" value="+995322550000" />
         <key key="operator" value="ტერაბანკი" />
         <key key="cash_in" value="no" />
         <key key="cash_out" value="yes" />
@@ -2167,7 +2257,7 @@
         <key key="contact:twitter" value="https://twitter.com/CartuBank" />
         <key key="contact:linkedin" value="https://linkedin.com/company/cartu-bank" />
         <key key="contact:email" value="info@cartubank.ge" />
-        <key key="contact:phone" value="+995 322 008080" />
+        <key key="contact:phone" value="+995322008080" />
         <key key="operator" value="ბანკი ქართუ" />
         <key key="cash_in" value="no" />
         <key key="cash_out" value="yes" />
@@ -2190,7 +2280,7 @@
         <key key="operator" value="ხალიკ ბანკი საქართველო" />
         <key key="contact:website" value="https://halykbank.ge" />
         <key key="contact:email" value="info@hbg.ge" />
-        <key key="contact:phone" value="+995 322 240707" />
+        <key key="contact:phone" value="+995322240707" />
         <key key="contact:facebook" value="https://facebook.com/halykbank.ge" />
         <key key="contact:linkedin" value="https://linkedin.com/company/halykbankgeo" />
         <key key="contact:instagram" value="https://instagram.com/halykbankgeo" />
@@ -2261,6 +2351,30 @@
         <key key="contact:facebook" value="https://www.facebook.com/rebank.ge" />
         <key key="contact:youtube" value="https://www.youtube.com/channel/UCYZ6WinOLhj0a3hru8Yu1IA" />
         <key key="contact:email" value="info@rebank.ge" />
+        <key key="cash_in" value="no" />
+        <key key="cash_out" value="yes" />
+        <key key="language:en" value="yes" />
+        <key key="language:ka" value="yes" />
+        <key key="language:ru" value="no" />
+        <key key="currency:GEL" value="yes" />
+        <key key="currency:USD" value="no" />
+        <key key="currency:EUR" value="no" />
+        <reference ref="atm" />
+      </item>
+      <item name="IsBank ATM" ka.name="იშბანკი ბანკომატი" ru.name="Банкомат ИшБанка" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <key key="amenity" value="atm" />
+        <key key="brand" value="იშბანკი" />
+        <key key="brand:en" value="IsBank" />
+        <key key="brand:ru" value="ИшБанк" />
+        <key key="brand:tr" value="İşBank" />
+        <key key="brand:wikidata" value="Q909613" />
+        <key key="operator" value="სს იშბანკი საქართველო" />
+        <key key="contact:phone" value="+995322442244" />
+        <key key="contact:website" value="http://isbank.ge" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/jsc-isbak-georgia" />
+        <key key="contact:facebook" value="https://www.facebook.com/IsbankGeorgia/" />
+        <key key="contact:email" value="info@isbank.ge" />
         <key key="cash_in" value="no" />
         <key key="cash_out" value="yes" />
         <key key="language:en" value="yes" />
