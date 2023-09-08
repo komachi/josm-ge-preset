@@ -689,6 +689,14 @@
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
+        <key key="payment:onchain" value="yes" />
+        <key key="currency:XBT" value="yes" />
+        <key key="currency:BCH" value="yes" />
+        <key key="currency:USDT" value="yes" />
+        <key key="currency:LTC" value="yes" />
+        <key key="currency:DASH" value="yes" />
+        <key key="currency:ZEC" value="yes" />
+        <key key="currency:BTG" value="yes" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="cuisine" value="burger" />
@@ -1036,6 +1044,14 @@
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
+        <key key="payment:onchain" value="yes" />
+        <key key="currency:XBT" value="yes" />
+        <key key="currency:BCH" value="yes" />
+        <key key="currency:USDT" value="yes" />
+        <key key="currency:LTC" value="yes" />
+        <key key="currency:DASH" value="yes" />
+        <key key="currency:ZEC" value="yes" />
+        <key key="currency:BTG" value="yes" />
         <reference ref="crypto_currencies" />
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
@@ -1199,6 +1215,14 @@
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
+        <key key="payment:onchain" value="yes" />
+        <key key="currency:XBT" value="yes" />
+        <key key="currency:BCH" value="yes" />
+        <key key="currency:USDT" value="yes" />
+        <key key="currency:LTC" value="yes" />
+        <key key="currency:DASH" value="yes" />
+        <key key="currency:ZEC" value="yes" />
+        <key key="currency:BTG" value="yes" />
         <reference ref="crypto_currencies" />
         <reference ref="basic_shop" />
       </item>
@@ -1431,7 +1455,16 @@
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
+        <key key="payment:onchain" value="yes" />
+        <key key="currency:XBT" value="yes" />
+        <key key="currency:BCH" value="yes" />
+        <key key="currency:USDT" value="yes" />
+        <key key="currency:LTC" value="yes" />
+        <key key="currency:DASH" value="yes" />
+        <key key="currency:ZEC" value="yes" />
+        <key key="currency:BTG" value="yes" />
         <key key="shop" value="electronics" />
+        <reference ref="crypto_currencies" />
         <reference ref="basic_shop" />
       </item>
       <item name="iPlus" ka.name="აიპლიუსი" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1452,6 +1485,14 @@
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
+        <key key="payment:onchain" value="yes" />
+        <key key="currency:XBT" value="yes" />
+        <key key="currency:BCH" value="yes" />
+        <key key="currency:USDT" value="yes" />
+        <key key="currency:LTC" value="yes" />
+        <key key="currency:DASH" value="yes" />
+        <key key="currency:ZEC" value="yes" />
+        <key key="currency:BTG" value="yes" />
         <key key="shop" value="electronics" />
         <reference ref="crypto_currencies" />
         <reference ref="basic_shop" />
@@ -1475,6 +1516,13 @@
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
+        <key key="payment:onchain" value="yes" />
+        <key key="currency:XBT" value="yes" />
+        <key key="currency:USDT" value="yes" />
+        <key key="currency:LTC" value="yes" />
+        <key key="currency:DASH" value="yes" />
+        <key key="currency:ZEC" value="yes" />
+        <key key="currency:BTG" value="yes" />
         <key key="shop" value="electronics" />
         <reference ref="crypto_currencies" />
         <reference ref="basic_shop" />
@@ -1496,6 +1544,14 @@
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
+        <key key="payment:onchain" value="yes" />
+        <key key="currency:XBT" value="yes" />
+        <key key="currency:BCH" value="yes" />
+        <key key="currency:USDT" value="yes" />
+        <key key="currency:LTC" value="yes" />
+        <key key="currency:DASH" value="yes" />
+        <key key="currency:ZEC" value="yes" />
+        <key key="currency:BTG" value="yes" />
         <key key="shop" value="electronics" />
         <reference ref="crypto_currencies" />
         <reference ref="basic_shop" />
