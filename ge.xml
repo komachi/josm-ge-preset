@@ -492,6 +492,93 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
+      <item name="Pharmhouse" ka.name="ფარმსახლი" ru.name="Фармхауз" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="ფარმსახლი" />
+        <key key="brand:en" value="Pharmhouse" />
+        <key key="brand:ru" value="Фармхауз" />
+        <key key="name" value="ფარმსახლი" />
+        <key key="name:ka" value="ფარმსახლი" />
+        <key key="name:en" value="Pharmhouse" />
+        <key key="name:ru" value="Фармхауз" />
+        <key key="contact:website" value="https://pharmhouse.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/pharmsaxli" />
+        <key key="contact:instagram" value="https://www.instagram.com/pharmhouse.pharmacy" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/%E1%83%A4%E1%83%90%E1%83%A0%E1%83%9B%E1%83%90%E1%83%A1%E1%83%90%E1%83%AE%E1%83%9A%E1%83%98" />
+        <combo key="contact:phone" default="+995322470110" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="amenity" value="pharmacy" />
+        <key key="healthcare" value="pharmacy" />
+        <reference ref="basic_shop" />
+      </item>
+      <item name="36.6" ka.name="36.6" ru.name="36.6" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="36.6" />
+        <key key="brand:en" value="36.6" />
+        <key key="brand:ru" value="36.6" />
+        <key key="name" value="36.6" />
+        <key key="name:ka" value="36.6" />
+        <key key="name:en" value="36.6" />
+        <key key="name:ru" value="36.6" />
+        <key key="contact:facebook" value="https://www.facebook.com/aftiaqi36.6" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="amenity" value="pharmacy" />
+        <key key="healthcare" value="pharmacy" />
+        <reference ref="basic_shop" />
+      </item>
+      <item name="Deutsche pharmacy" ka.name="დოიჩე აფთიაქი" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="დოიჩე აფთიაქი" />
+        <key key="brand:en" value="Deutsche pharmacy" />
+        <key key="name" value="დოიჩე აფთიაქი" />
+        <key key="name:ka" value="დოიჩე აფთიაქი" />
+        <key key="name:en" value="Deutsche pharmacy" />
+        <key key="contact:facebook" value="https://www.facebook.com/Deutschepharmacy" />
+        <key key="contact:email" value="info@deutscheprodukte.ge" />
+        <combo key="contact:phone" default="+995571507175" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="amenity" value="pharmacy" />
+        <key key="healthcare" value="pharmacy" />
+        <reference ref="basic_shop" />
+      </item>
+      <item name="Iberipharma" ka.name="იბერიფარმა" ru.name="Иберифарма" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="იბერიფარმა" />
+        <key key="brand:en" value="Iberipharma" />
+        <key key="brand:ru" value="Иберифарма" />
+        <key key="name" value="იბერიფარმა" />
+        <key key="name:ka" value="იბერიფარმა" />
+        <key key="name:en" value="Iberipharma" />
+        <key key="name:ru" value="Иберифарма" />
+        <key key="contact:website" value="https://www.iberipharma.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/IBERIPHARMA" />
+        <key key="contact:email" value="info@iberiplus.ge" />
+        <combo key="contact:phone" default="+995322344088" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="amenity" value="pharmacy" />
+        <key key="healthcare" value="pharmacy" />
+        <reference ref="basic_shop" />
+      </item>
       <item name="Roniko" ka.name="რონიკო" ru.name="Ронико" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -559,6 +646,33 @@
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
         <key key="healthcare" value="sample_collection" />
+        <reference ref="basic_shop" />
+      </item>
+    </group>
+
+    <group name="Entertainment" ka.name="გასართობი" ru.name="Развлечения" icon="https://upload.wikimedia.org/wikipedia/commons/c/c2/Clap_cinema.svg">
+      <item name="Cavea" ka.name="კავეა" ru.name="Кавеа" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="კავეა" />
+        <key key="brand:en" value="Cavea" />
+        <key key="brand:ru" value="Кавеа" />
+        <key key="name" value="კავეა" />
+        <key key="name:ka" value="კავეა" />
+        <key key="name:en" value="Cavea" />
+        <key key="name:ru" value="Кавеа" />
+        <key key="contact:website" value="https://www.cavea.ge" />
+        <key key="contact:email" value="info@cavea.ge" />
+        <key key="contact:phone" value="+995322555000;+995322007007" />
+        <key key="contact:facebook" value="https://www.facebook.com/cavea.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <check key="cinema:3D" text="3D" />
+        <check key="cinema:IMAX" text="IMAX" />
+        <key key="amenity" value="cinema" />
         <reference ref="basic_shop" />
       </item>
     </group>
@@ -1634,7 +1748,7 @@
         <key key="shop" value="variety_store" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Yoyoso" ka.name="იოიოსო" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/4/46/Miniso_logo.svg" preset_name_label="true">
+      <item name="Yoyoso" ka.name="იოიოსო" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="Yoyoso" />
