@@ -314,7 +314,7 @@
   </chunk>
 
   <group name="Georgian POIs" icon="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Georgia.svg">
-    <group name="Pharmacies" ka.name="აფთიაქები" ru.name="Аптеки" icon="https://upload.wikimedia.org/wikipedia/commons/e/e7/Twemoji_1f48a.svg">
+    <group name="Pharmacies" ka.name="აფთიაქები" ru.name="Аптеки" icon="https://upload.wikimedia.org/wikipedia/commons/7/7b/Swiss_pharmacy_logo_%28old%29.svg">
       <item name="PSP" ka.name="პსპ" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
@@ -624,7 +624,7 @@
       </item>
     </group>
 
-    <group name="Healthcare" ka.name="ჯანმრთელობა" ru.name="Здравоохранение" icon="https://upload.wikimedia.org/wikipedia/commons/7/73/Twemoji12_1f3e5.svg">
+    <group name="Healthcare" ka.name="ჯანმრთელობა" ru.name="Здравоохранение" icon="https://upload.wikimedia.org/wikipedia/commons/5/5b/Star_of_life2.svg">
       <item name="Synevo" ka.name="სინევი" ru.name="Синево" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -677,8 +677,8 @@
       </item>
     </group>
 
-    <group name="Eatery" ka.name="საზოგადოებრივი კვება" ru.name="Общепит" icon="https://upload.wikimedia.org/wikipedia/commons/1/1d/Emojione_1F374.svg">
-      <item name="KFC" ka.name="ქიიეფსი" type="node,closedway,multipolygon" preset_name_label="true">
+    <group name="Eatery" ka.name="საზოგადოებრივი კვება" ru.name="Общепит" icon="https://upload.wikimedia.org/wikipedia/commons/c/c6/SymbolCoffeeShop.svg">
+      <item name="KFC" ka.name="ქიიეფსი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/f/ff/Kentucky_Fried_Chicken_201x_logo.svg">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="KFC" />
@@ -699,7 +699,7 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
-      <item name="McDonald's" ka.name="ქიიეფსი" ru.name="Макдональдс" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="McDonald's" ka.name="ქიიეფსი" ru.name="Макдональдс" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/5/50/McDonald%27s_SVG_logo.svg">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="მაკდონალდსი" />
@@ -723,7 +723,7 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
-      <item name="Dunkin' Donuts" ka.name="დანკინ დონათსი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Dunkin' Donuts" ka.name="დანკინ დონათსი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/2/22/Dunkin%27_logo.svg">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="Dunkin' Donuts" />
@@ -744,7 +744,7 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
-      <item name="Subway" ka.name="საბვეი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Subway" ka.name="საბვეი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/5/5c/Subway_2016_logo.svg">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="Subway" />
@@ -765,7 +765,7 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
-      <item name="Burger King" ka.name="ბურგერ კინგი" ru.name="Бургер Кинг" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Burger King" ka.name="ბურგერ კინგი" ru.name="Бургер Кинг" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/c/cc/Burger_King_2020.svg">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="Burger King" />
@@ -786,7 +786,7 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
-      <item name="Wendy's" ka.name="ვენდი'ს" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Wendy's" ka.name="ვენდი'ს" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/6/66/Wendy%27s_logo_2012.svg">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="Wendy's" />
@@ -863,7 +863,7 @@
       </item>
     </group>
 
-    <group name="Food shops" ka.name="პროდუქტები" ru.name="Продукты" icon="https://upload.wikimedia.org/wikipedia/commons/9/9f/Twemoji12_1f6d2.svg">
+    <group name="Food shops" ka.name="პროდუქტები" ru.name="Продукты" icon="https://upload.wikimedia.org/wikipedia/commons/0/07/Shopping_Cart_Flat_Icon_Vector.svg">
       <item name="Jibe" ka.name="ჯიბე" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
@@ -883,7 +883,7 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Spar" ka.name="სპარი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Spar" ka.name="სპარი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/7/71/SPAR_Logo.svg">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="SPAR" />
@@ -1422,7 +1422,7 @@
 
     </group>
 
-    <group name="Shops" ka.name="მაღაზიები" ru.name="Магазины" icon="https://upload.wikimedia.org/wikipedia/commons/5/59/Twemoji12_1f6cd.svg">
+    <group name="Shops" ka.name="მაღაზიები" ru.name="Магазины" icon="https://upload.wikimedia.org/wikipedia/commons/f/f9/T-shirt_silhouette.svg">
       <item name="Clean House" ka.name="სუფთა სახლი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1689,7 +1689,7 @@
         <key key="shop" value="books" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Bata" ka.name="ბატა" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Bata" ka.name="ბატა" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/3/3e/Bata.svg">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="Bata" />
@@ -1834,7 +1834,7 @@
         <reference ref="basic_shop" />
       </item>
     </group>
-    <group name="Pets" ka.name="შინაური ცხოველები" ru.name="Питомцы" icon="https://upload.wikimedia.org/wikipedia/commons/1/18/Twemoji12_1f436.svg">
+    <group name="Pets" ka.name="შინაური ცხოველები" ru.name="Питомцы" icon="https://upload.wikimedia.org/wikipedia/commons/0/04/Ionicons_paw-outline.svg">
       <item name="Pet Spot" ka.name="პეტ სპოტი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -2064,7 +2064,7 @@
         <key key="name:ru" value="Терабанк" />
         <reference ref="bank_office" />
       </item>
-      <item name="ProCredit Bank" ka.name="პროკრედიტ ბანკი" ru.name="ПроКредит Банк" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="ProCredit Bank" ka.name="პროკრედიტ ბანკი" ru.name="ПроКредит Банк" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_ProCredit_Bank.svg">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
@@ -2104,7 +2104,7 @@
         <key key="name:ru" value="Карту Банк" />
         <reference ref="bank_office" />
       </item>
-      <item name="Ziraat Bank" ka.name="ზირაათ ბანკი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Ziraat Bank" ka.name="ზირაათ ბანკი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/1/1c/TC_ZiraatBank.svg">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
@@ -2169,7 +2169,7 @@
         <key key="operator" value="პაშა ბანკი საქართველო" />
         <reference ref="bank_office" />
       </item>
-      <item name="IsBank" ru.name="ИшБанк" ka.name="იშბანკი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="IsBank" ru.name="ИшБанк" ka.name="იშბანკი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/e/ef/Isbank_logo.svg">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
@@ -2464,7 +2464,7 @@
         <key key="currency:EUR" value="no" />
         <reference ref="atm" />
       </item>
-      <item name="ProCredit Bank ATM" ka.name="პროკრედიტ ბანკი ბანკომატი" ru.name="Банкомат ПроКредит Банка" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="ProCredit Bank ATM" ka.name="პროკრედიტ ბანკი ბანკომატი" ru.name="Банкомат ПроКредит Банка" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_ProCredit_Bank.svg">
         <space />
         <key key="amenity" value="atm" />
         <key key="brand" value="ProCredit Bank" />
@@ -2486,7 +2486,7 @@
         <key key="currency:EUR" value="no" />
         <reference ref="atm" />
       </item>
-      <item name="Ziraat Bank ATM" ka.name="ზირაათ ბანკი ბანკომატი" ru.name="Банкомат Зираат Банка" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Ziraat Bank ATM" ka.name="ზირაათ ბანკი ბანკომატი" ru.name="Банкомат Зираат Банка" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/1/1c/TC_ZiraatBank.svg">
         <space />
         <key key="amenity" value="atm" />
         <key key="brand" value="ზირაათ ბანკი" />
@@ -2531,7 +2531,7 @@
         <key key="currency:EUR" value="no" />
         <reference ref="atm" />
       </item>
-      <item name="IsBank ATM" ka.name="იშბანკი ბანკომატი" ru.name="Банкомат ИшБанка" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="IsBank ATM" ka.name="იშბანკი ბანკომატი" ru.name="Банкомат ИшБанка" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/e/ef/Isbank_logo.svg">
         <space />
         <key key="amenity" value="atm" />
         <key key="brand" value="იშბანკი" />
@@ -2689,7 +2689,7 @@
       </item>
     </group>
 
-    <group name="Fuel stations" ka.name="ბენზინგასამართი სადგური" ru.name="Автозаправочные станции" icon="https://upload.wikimedia.org/wikipedia/commons/4/4d/Twemoji12_26fd.svg">
+    <group name="Fuel stations" ka.name="ბენზინგასამართი სადგური" ru.name="Автозаправочные станции" icon="https://upload.wikimedia.org/wikipedia/commons/5/57/Noto_Emoji_Oreo_26fd.svg">
       <item name="Rompetrol" ka.name="რომპეტროლი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="fuel" />
@@ -2736,7 +2736,7 @@
         <key key="name:en" value="Wissol" />
         <reference ref="fuel_station" />
       </item>
-      <item name="Gulf" ka.name="გულფი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Gulf" ka.name="გულფი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulf_Oil_logo.svg">
         <space />
         <key key="amenity" value="fuel" />
         <key key="brand" value="გულფი" />
@@ -2840,7 +2840,7 @@
       </item>
     </group>
 
-    <group name="Communication" ka.name="კომუნიკაცია" ru.name="Коммуникация" icon="https://upload.wikimedia.org/wikipedia/commons/a/a0/Twemoji_1f4de.svg">
+    <group name="Communication" ka.name="კომუნიკაცია" ru.name="Коммуникация" icon="https://upload.wikimedia.org/wikipedia/commons/4/49/Phone_rounded.svg">
       <item name="Cellfie" ka.name="სელფი" ru.name="Селфи" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -2941,7 +2941,7 @@
       </item>
     </group>
 
-    <group name="Government services" ka.name="სახელმწიფო ორგანოები" ru.name="Государственные органы" icon="https://upload.wikimedia.org/wikipedia/commons/d/dd/Emoji_u1f46e.svg">
+    <group name="Government services" ka.name="სახელმწიფო ორგანოები" ru.name="Государственные органы" icon="https://upload.wikimedia.org/wikipedia/commons/9/9e/P_Washington%2C_D.C..svg">
       <item name="Public Service Hall" ka.name="იუსტიციის სახლი" ru.name="Дом Юстиции" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="Mo-Fr 09:00-18:00; Sa-Su off,Mo-Fr 09:00-18:00; Sa-Su 09:00-17:00" default="Mo-Fr 09:00-18:00; Sa-Su off" />
@@ -3010,7 +3010,7 @@
       </item>
     </group>
 
-    <group name="Post" ka.name="ფოსტა" ru.name="Почта" icon="https://upload.wikimedia.org/wikipedia/commons/d/dc/Twemoji12_2709.svg">
+    <group name="Post" ka.name="ფოსტა" ru.name="Почта" icon="https://upload.wikimedia.org/wikipedia/commons/5/55/Yandex_Mail_icon.svg">
       <item name="Georgian Post" ka.name="საქართველოს ფოსტა" ru.name="Почта Грузии" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <text key="ref" text="Postcode/Reference" ka.text="საფოსტო ინდექსი" ru.text="Почтовый индекс" />
@@ -3102,7 +3102,7 @@
       </item>
     </group>
 
-    <group name="Insurance companies" ka.name="სადაზღვევო კომპანიებს" ru.name="Страховые компании" icon="https://upload.wikimedia.org/wikipedia/commons/5/5b/Star_of_life2.svg">
+    <group name="Insurance companies" ka.name="სადაზღვევო კომპანიებს" ru.name="Страховые компании">
       <item name="Irao" ka.name="ირაო" ru.name="Ирао" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="office" value="insurance" />
@@ -3168,7 +3168,7 @@
       </item>
     </group>
 
-    <group name="Urban units" ka.name="ქალაქის ინფრასტრუქტურა" ru.name="Городская инфраструктура" icon="https://upload.wikimedia.org/wikipedia/commons/c/ce/Fxemoji_u1F3E2.svg">
+    <group name="Urban units" ka.name="ქალაქის ინფრასტრუქტურა" ru.name="Городская инфраструктура" icon="https://upload.wikimedia.org/wikipedia/commons/7/70/DIN_4844-2_Warnung_vor_gef_el_Spannung_D-W008.svg">
       <item name="Gas substation" ka.name="გაზის ქვესადგური" ru.name="Газорегуляторный пункт" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <reference ref="operator" />
@@ -3266,7 +3266,7 @@
         <key key="payment:debit_cards" value="yes" />
       </item>
     </group>
-    <group name="Etc" icon="https://upload.wikimedia.org/wikipedia/commons/b/b6/Twemoji_1f45c.svg">
+    <group name="Etc">
       <item name="Apartment entrance" type="node" preset_name_label="true">
         <space />
         <reference ref="ref" />
