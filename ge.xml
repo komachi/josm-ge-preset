@@ -183,6 +183,7 @@
     <check key="payment:mastercard" text="Mastercard" />
     <check key="payment:visa" text="Visa" />
     <check key="payment:american_express" text="American Express" />
+    <check key="payment:unionpay" text="UnionPay" />
     <check key="payment:credit_cards" text="Credit cards" />
     <check key="payment:debit_cards" text="Debit cards" />
     <check key="payment:contactless" text="Contactless" />
