@@ -1956,7 +1956,7 @@
         <key key="short_name:en" value="BoG" />
         <reference ref="bank_office" />
       </item>
-      <item name="Express Bank" ru.name="Экспресс Банк" ka.name="ექსპრეს ბანკი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Bank of Georgia Express (form. Express Bank)" ru.name="Банк Грузии Экспресс (бывш. Экспресс Банк)" ka.name="საქართველოს ბანკი ექსპრესი  (სოფ. ექსპრეს ბანკი)" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
         <key key="amenity" value="bank" />
@@ -1969,10 +1969,10 @@
         <key key="operator:wikidata" value="Q2469733" />
         <key key="contact:website" value="https://expresssesxi.ge" />
         <key key="contact:phone" value="+995322444444" />
-        <key key="name" value="ექსპრეს ბანკი" />
-        <key key="name:ka" value="ექსპრეს ბანკი" />
-        <key key="name:en" value="Express Bank" />
-        <key key="name:ru" value="Экспресс Банк" />
+        <key key="name" value="საქართველოს ბანკი ექსპრესი" />
+        <key key="name:ka" value="საქართველოს ბანკი ექსპრესი" />
+        <key key="name:en" value="Bank of Georgia Express" />
+        <key key="name:ru" value="Банк Грузии Экспресс" />
         <reference ref="bank_office" />
       </item>
       <item name="Liberty" ka.name="ლიბერთი" type="node,closedway,multipolygon" preset_name_label="true">
