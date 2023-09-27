@@ -842,6 +842,29 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
+      <item name="Tolia" ka.name="თოლია" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="თოლია" />
+        <key key="brand:en" value="Tolia" />
+        <key key="name" value="თოლია" />
+        <key key="name:ka" value="თოლია" />
+        <key key="name:en" value="Tolia" />
+        <key key="contact:facebook" value="https://www.facebook.com/toliaicecream" />
+        <key key="contact:twitter" value="https://twitter.com/toliaicecream" />
+        <key key="contact:instagram" value="https://www.instagram.com/toliaicecream" />
+        <key key="contact:youtube" value="https://www.youtube.com/channel/UCy6AYGSp9OZ0PuVGH3YQVOA" />
+        <key key="contact:email" value="info@tolia.ge" />
+        <key key="contact:website" value="https://tolia.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="takeaway" value="only" />
+        <key key="amenity" value="ice_cream" />
+        <reference ref="eatery" />
+      </item>
       <item name="MacShaurma" ka.name="მაკშაურმა" ru.name="МакШаурма" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1835,6 +1858,7 @@
         <reference ref="basic_shop" />
       </item>
     </group>
+
     <group name="Pets" ka.name="შინაური ცხოველები" ru.name="Питомцы" icon="https://upload.wikimedia.org/wikipedia/commons/0/04/Ionicons_paw-outline.svg">
       <item name="Pet Spot" ka.name="პეტ სპოტი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
@@ -1900,6 +1924,26 @@
         <combo key="contact:phone" text="Phone" default="+995 598 469926" />
         <key key="contact:email" value="info@zoohub.com.ge" />
         <key key="contact:facebook" value="https://facebook.com/zoohub" />
+        <key key="shop" value="pet" />
+        <reference ref="basic_shop" />
+      </item>
+      <item name="ZooLife" ka.name="ზოოლაიფი" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="ზოოლაიფი" />
+        <key key="brand:en" value="ZooLife" />
+        <key key="name" value="ზოოლაიფი" />
+        <key key="name:ka" value="ზოოლაიფი" />
+        <key key="name:en" value="ZooLife" />
+        <key key="contact:website" value="https://zoolife.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=100063596333301" />
+        <key key="contact:email" value="geozoolife@gmail.com" />
+        <key key="contact:phone" value="+995577122778" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
         <key key="shop" value="pet" />
         <reference ref="basic_shop" />
       </item>
@@ -2813,6 +2857,51 @@
         <key key="name:ru" value="Оптима" />
         <reference ref="fuel_station" />
       </item>
+      <item name="Neogas" ka.name="ნეოგაზი" ru.name="Неогаз" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <key key="amenity" value="fuel" />
+        <key key="brand" value="ნეოგაზი " />
+        <key key="brand:en" value="Neogas" />
+        <key key="brand:ru" value="Неогаз" />
+        <key key="contact:facebook" value="https://www.facebook.com/neogas.ge" />
+        <key key="contact:youtube" value="https://www.youtube.com/channel/UCaOfEP6vI8GnayYTRKB3lww" />
+        <key key="contact:website" value="https://neogas.ge" />
+        <key key="contact:email" value="info@neogas.ge" />
+        <key key="contact:phone" value="+995322471616" />
+        <key key="name" value="ნეოგაზი " />
+        <key key="name:ka" value="ნეოგაზი " />
+        <key key="name:en" value="Neogas" />
+        <key key="name:ru" value="Неогаз" />
+        <reference ref="fuel_station" />
+      </item>
+      <item name="Gama" ka.name="გამა" ru.name="Гама" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <key key="amenity" value="fuel" />
+        <key key="brand" value="გამა" />
+        <key key="brand:en" value="Gama" />
+        <key key="brand:ru" value="Гама" />
+        <key key="contact:website" value="http://gamagas.ge" />
+        <key key="contact:email" value="info@gamagas.ge" />
+        <key key="contact:phone" value="+995322242590" />
+        <key key="name" value="გამა" />
+        <key key="name:ka" value="გამა" />
+        <key key="name:en" value="Gama" />
+        <key key="name:ru" value="Гама" />
+        <reference ref="fuel_station" />
+      </item>
+      <item name="AutoLPGas" ka.name="AutoLPGas" ru.name="AutoLPGas" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <key key="amenity" value="fuel" />
+        <key key="brand" value="AutoLPGas" />
+        <key key="brand:en" value="AutoLPGas" />
+        <key key="contact:website" value="https://lpgauto.ge" />
+        <key key="contact:email" value="info@lpgauto.ge" />
+        <key key="contact:phone" value="+995599528000" />
+        <key key="contact:facebook" value="https://www.facebook.com/autolpgas" />
+        <key key="name" value="AutoLPGas" />
+        <key key="name:en" value="AutoLPGas" />
+        <reference ref="fuel_station" />
+      </item>
       <item name="E-Space" ka.name="ი-სპეის" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -3266,7 +3355,48 @@
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
       </item>
+      <item name="MS+" ka.name="მს+" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <reference ref="ref" />
+        <reference ref="operator" />
+        <reference ref="brand" />
+        <key key="brand" value="მს+" />
+        <key key="brand:en" value="MS+" />
+        <key key="shop" value="ticket" />
+        <key key="tickets:public_transport" value="only" />
+        <key key="operator" value="მეტრო სერვის +" />
+        <key key="operator:type" value="government" />
+        <key key="contact:email" value="info@msplus.ge" />
+        <key key="contact:phone" value="+995322444001" />
+        <key key="contact:website" value="https://www.msplus.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/metroserviceplus" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="office" value="telecommunication" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+      </item>
+      <item name="Telmico" ka.name="თელმიკო" ru.name="Телмико" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <key key="office" value="energy_supplier" />
+        <key key="name" value="თელმიკო" />
+        <key key="name:ka" value="თელმიკო" />
+        <key key="name:en" value="Telmico" />
+        <key key="name:ru" value="Телмико" />
+        <key key="brand" value="თელმიკო" />
+        <key key="brand:en" value="Telmico" />
+        <key key="contact:website" value="https://www.telmico.ge/" />
+        <key key="contact:email" value="info@telmico.ge" />
+        <key key="contact:phone" value="+995325000777" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:office%3energy_supplier" />
+      </item>
     </group>
+
     <group name="Etc">
       <item name="Apartment entrance" type="node" preset_name_label="true">
         <space />
