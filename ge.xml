@@ -3357,9 +3357,8 @@
       </item>
       <item name="MS+" ka.name="მს+" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
-        <reference ref="ref" />
-        <reference ref="operator" />
-        <reference ref="brand" />
+        <key key="name" value="მს+" />
+        <key key="name:en" value="MS+" />
         <key key="brand" value="მს+" />
         <key key="brand:en" value="MS+" />
         <key key="shop" value="ticket" />
@@ -3375,9 +3374,9 @@
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
-        <key key="office" value="telecommunication" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
+        <link wiki="Tag:shop%3ticket" />
       </item>
       <item name="Telmico" ka.name="თელმიკო" ru.name="Телмико" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
