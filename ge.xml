@@ -885,6 +885,26 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
+      <item name="Tashir Pizza" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/f/ff/Kentucky_Fried_Chicken_201x_logo.svg">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="Tashir Pizza" />
+        <key key="brand:wikidata" value="Q118347431" />
+        <key key="name" value="Tashir Pizza" />
+        <key key="contact:facebook" value="https://www.facebook.com/tashirpizzageorgia" />
+        <key key="contact:phone" value="+995322971111" />
+        <key key="contact:email" value="info@tashirgroup.am" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="takeaway" value="yes" />
+        <key key="delivery" value="yes" />
+        <key key="cuisine" value="pizza" />
+        <key key="amenity" value="fast_food" />
+        <reference ref="eatery" />
+      </item>
     </group>
 
     <group name="Food shops" ka.name="პროდუქტები" ru.name="Продукты" icon="https://upload.wikimedia.org/wikipedia/commons/0/07/Shopping_Cart_Flat_Icon_Vector.svg">
@@ -1443,7 +1463,26 @@
         <key key="shop" value="supermarket" />
         <reference ref="basic_shop" />
       </item>
-
+      <item name="Belmart" ka.name="ბელმარტი" ru.name="Белмарт" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" values="10:00-22:00" />
+        <key key="brand" value="ბელმარტი" />
+        <key key="brand:en" value="Belmart" />
+        <key key="brand:ru" value="Белмарт" />
+        <key key="contact:facebook" value="https://www.facebook.com/belmartstore" />
+        <key key="name" value="ბელმარტი" />
+        <key key="name:ka" value="ბელმარტი" />
+        <key key="name:en" value="Belmart" />
+        <key key="name:ru" value="Белмарт" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="supermarket" />
+        <reference ref="basic_shop" />
+      </item>
     </group>
 
     <group name="Shops" ka.name="მაღაზიები" ru.name="Магазины" icon="https://upload.wikimedia.org/wikipedia/commons/f/f9/T-shirt_silhouette.svg">
