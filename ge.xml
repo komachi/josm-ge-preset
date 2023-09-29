@@ -3415,7 +3415,7 @@
         <key key="payment:contactless" value="yes" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
-        <link wiki="Tag:shop%3ticket" />
+        <link wiki="Tag:shop=ticket" />
       </item>
       <item name="Telmico" ka.name="თელმიკო" ru.name="Телмико" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
@@ -3431,7 +3431,7 @@
         <key key="contact:phone" value="+995325000777" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
-        <link wiki="Tag:office%3energy_supplier" />
+        <link wiki="Tag:office=energy_supplier" />
       </item>
     </group>
 
