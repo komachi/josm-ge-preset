@@ -3484,6 +3484,27 @@
       </item>
     </group>
 
+    <!-- <group name="Gambling" ka.name="აზარტული თამაშები" ru.name="Азартные игры" icon="https://upload.wikimedia.org/wikipedia/commons/c/c4/2-Dice-Icon.svg">
+      <item name="Adjarabet" ka.name="აჭარაბეთი" type="node,closedway,multipolygon" preset_name_label="true">
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="აჭარაბეთი" />
+        <key key="brand:en" value="Adjarabet" />
+        <key key="name" value="აჭარაბეთი" />
+        <key key="name:ka" value="აჭარაბეთი" />
+        <key key="name:en" value="Adjarabet" />
+        <key key="contact:phone" value="+995322223388" />
+        <key key="contact:website" value="https://www.adjarabet.com" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:american_express" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="amenity" value="casino" />
+        <reference ref="basic_shop" />
+      </item>
+    </group> -->
+
     <group name="Etc">
       <item name="Apartment entrance" type="node" preset_name_label="true">
         <space />
