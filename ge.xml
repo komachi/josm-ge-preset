@@ -1559,6 +1559,7 @@
         <reference ref="basic_shop" />
       </item>
 
+      <!-- Electronics stores -->
       <item name="Zoommer" ka.name="ზუმერი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1783,7 +1784,6 @@
         <reference ref="basic_shop" />
       </item>
 
-
       <item name="Biblus" ka.name="ბიბლუსი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1804,7 +1804,7 @@
         <reference ref="basic_shop" />
       </item>
 
-
+      <!-- Clothing stores -->
       <item name="Bata" ka.name="ბატა" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/3/3e/Bata.svg">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1844,7 +1844,7 @@
         <reference ref="clothes_list" />
       </item>
 
-
+      <!-- Variety stores -->
       <item name="Miniso" ka.name="მინისო" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/4/46/Miniso_logo.svg" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1924,7 +1924,6 @@
         <key key="shop" value="variety_store" />
         <reference ref="basic_shop" />
       </item>
-
 
       <item name="Jysk" ka.name="იუსკ" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
