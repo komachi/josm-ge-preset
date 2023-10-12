@@ -1625,6 +1625,30 @@
         <key key="shop" value="electronics" />
         <reference ref="basic_shop" />
       </item>
+      <item name="Mi Store" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="Mi Store" />
+        <key key="brand:en" value="Mi Store" />
+        <key key="brand:ka" value="მისთორი" />
+        <key key="name" value="Mi Store" />
+        <key key="name:en" value="Mi Store" />
+        <key key="name:ka" value="მისთორი" />
+        <key key="contact:website" value="https://mistore.ge/" />
+        <key key="contact:tiktok" value="https://www.tiktok.com/@mistore.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/mistoregeorgia" />
+        <key key="contact:instagram" value="https://www.instagram.com/mistore_xiaomi_authorised" />
+        <key key="contact:youtube" value="https://www.youtube.com/@xiaomimistore4703" />
+        <key key="contact:phone" value="+995322500570" />
+        <key key="contact:email" value="info@mistore.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="electronics" />
+        <reference ref="basic_shop" />
+      </item>
       <item name="Metromart" ka.name="მეტრომარტი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
