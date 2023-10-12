@@ -1782,6 +1782,8 @@
         <reference ref="crypto_currencies" />
         <reference ref="basic_shop" />
       </item>
+
+
       <item name="Biblus" ka.name="ბიბლუსი" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1801,6 +1803,8 @@
         <key key="shop" value="books" />
         <reference ref="basic_shop" />
       </item>
+
+
       <item name="Bata" ka.name="ბატა" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/3/3e/Bata.svg">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1839,6 +1843,8 @@
         <reference ref="basic_shop" />
         <reference ref="clothes_list" />
       </item>
+
+
       <item name="Miniso" ka.name="მინისო" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/4/46/Miniso_logo.svg" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
@@ -1881,6 +1887,45 @@
         <key key="shop" value="variety_store" />
         <reference ref="basic_shop" />
       </item>
+      <item name="OnePrice" ka.name="ვანპრაისი" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="OnePrice" />
+        <key key="brand:wikidata" value="Q122641630" />
+        <key key="name" value="ვანპრაისი" />
+        <key key="name:ka" value="ვანპრაისი" />
+        <key key="name:en" value="OnePrice" />
+        <key key="operator" value="OnePrice Georgia" />
+        <key key="contact:website" value="http://www.oneprice.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/OnePrice.Georgia" />
+        <key key="contact:instagram" value="https://www.instagram.com/onepricegeorgia/" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="variety_store" />
+        <reference ref="basic_shop" />
+      </item>
+      <item name="Fix Price" ka.name="ფიქს პრაისი" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="Fix Price" />
+        <key key="brand:wikidata" value="Q4038791" />
+        <key key="name" value="ფიქს პრაისი" />
+        <key key="name:ka" value="ფიქს პრაისი" />
+        <key key="name:en" value="ფიქს პრაისი" />
+        <key key="contact:instagram" value="https://www.instagram.com/fixprice.georgia" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="shop" value="variety_store" />
+        <reference ref="basic_shop" />
+      </item>
+
+
       <item name="Jysk" ka.name="იუსკ" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
