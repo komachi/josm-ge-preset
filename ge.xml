@@ -847,9 +847,11 @@
         <combo key="opening_hours" text="Opening Hours" />
         <key key="brand" value="თოლია" />
         <key key="brand:en" value="Tolia" />
+        <key key="brand:ru" value="Толия" />
         <key key="name" value="თოლია" />
         <key key="name:ka" value="თოლია" />
         <key key="name:en" value="Tolia" />
+        <key key="name:ru" value="Толия" />
         <key key="contact:facebook" value="https://www.facebook.com/toliaicecream" />
         <key key="contact:twitter" value="https://twitter.com/toliaicecream" />
         <key key="contact:instagram" value="https://www.instagram.com/toliaicecream" />
@@ -903,6 +905,53 @@
         <key key="delivery" value="yes" />
         <key key="cuisine" value="pizza" />
         <key key="amenity" value="fast_food" />
+        <reference ref="eatery" />
+      </item>
+      <item name="Luca Polare" ka.name="ლუქა პოლარე" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="ლუქა პოლარე" />
+        <key key="brand:en" value="Luca Polare" />
+        <key key="brand:ru" value="Лука Поларе" />
+        <key key="name" value="ლუქა პოლარე" />
+        <key key="name:ka" value="ლუქა პოლარე" />
+        <key key="name:en" value="Luca Polare" />
+        <key key="name:ru" value="Лука Поларе" />
+        <key key="contact:phone" value="+995322380802" />
+        <key key="contact:facebook" value="https://www.facebook.com/LucaPolareOriginal" />
+        <key key="contact:instagram" value="https://www.instagram.com/lucapolare" />
+        <key key="contact:email" value="info@lucapolare.com" />
+        <key key="contact:website" value="https://www.lucapolare.com" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="amenity" value="ice_cream" />
+        <reference ref="eatery" />
+      </item>
+      <item name="Meama Collect" type="node,closedway,multipolygon" preset_name_label="true">
+        <space />
+        <combo key="opening_hours" text="Opening Hours" />
+        <key key="brand" value="მეამა" />
+        <key key="brand:en" value="Meama" />
+        <key key="brand:ru" value="Меама" />
+        <key key="name" value="Meama Collect" />
+        <key key="contact:facebook" value="https://www.facebook.com/IloveMeama" />
+        <key key="contact:twitter" value="https://twitter.com/Meamacoffee" />
+        <key key="contact:instagram" value="https://www.instagram.com/meama" />
+        <key key="contact:youtube" value="https://www.youtube.com/@Meama" />
+        <key key="contact:email" value="info@meama.ge" />
+        <key key="contact:website" value="https://meama.ge" />
+        <key key="payment:visa" value="yes" />
+        <key key="payment:mastercard" value="yes" />
+        <key key="payment:credit_cards" value="yes" />
+        <key key="payment:debit_cards" value="yes" />
+        <key key="payment:contactless" value="yes" />
+        <key key="cuisine" value="coffee_shop" />
+        <key key="coffee:brand" value="Meama" />
+        <key key="takeaway" value="only" />
+        <key key="amenity" value="cafe" />
         <reference ref="eatery" />
       </item>
     </group>
@@ -2899,7 +2948,7 @@
       <item name="Neogas" ka.name="ნეოგაზი" ru.name="Неогаз" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="amenity" value="fuel" />
-        <key key="brand" value="ნეოგაზი " />
+        <key key="brand" value="ნეოგაზი" />
         <key key="brand:en" value="Neogas" />
         <key key="brand:ru" value="Неогаз" />
         <key key="contact:facebook" value="https://www.facebook.com/neogas.ge" />
@@ -2907,8 +2956,8 @@
         <key key="contact:website" value="https://neogas.ge" />
         <key key="contact:email" value="info@neogas.ge" />
         <key key="contact:phone" value="+995322471616" />
-        <key key="name" value="ნეოგაზი " />
-        <key key="name:ka" value="ნეოგაზი " />
+        <key key="name" value="ნეოგაზი" />
+        <key key="name:ka" value="ნეოგაზი" />
         <key key="name:en" value="Neogas" />
         <key key="name:ru" value="Неогаз" />
         <reference ref="fuel_station" />
