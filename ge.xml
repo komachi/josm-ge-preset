@@ -2313,7 +2313,7 @@
         </item>
       </group>
 
-      <group name="Toys" ka.name="სათამაშოები" ru.name="Игрушки" icon="https://upload.wikimedia.org/wikipedia/commons/8/8d/Book_X.svg">
+      <group name="Toys" ka.name="სათამაშოები" ru.name="Игрушки" icon="https://upload.wikimedia.org/wikipedia/commons/d/d6/Spinning_top.svg">
         <item name="Chita" ka.name="ჭიტა" type="node,closedway,multipolygon" preset_name_label="true">
           <space />
           <combo key="opening_hours" text="Opening Hours" />
