@@ -2454,6 +2454,38 @@
           <key key="shop" value="books" />
           <reference ref="basic_shop" />
         </item>
+        <item name="Sulakauri" ka.name="სულაკაური" type="node,closedway,multipolygon" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" />
+          <key key="brand" value="სულაკაური" />
+          <key key="brand:en" value="Sulakauri" />
+          <key key="name" value="სულაკაური" />
+          <key key="name:ka" value="სულაკაური" />
+          <key key="name:en" value="Sulakauri" />
+          <key key="contact:website" value="https://www.sulakauri.ge" />
+          <key key="contact:email" value="info@sulakauri.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/sulakauripublishing" />
+          <key key="contact:instagram" value="https://www.instagram.com/sulakauri_publishing" />
+          <key key="contact:linkedin" value="https://www.linkedin.com/company/sulakauri-publishing" />
+          <key key="contact:phone" value="+995 32 291 11 65;+995 32 291 09 54" />
+          <key key="contact:twitter" value="https://twitter.com/sulakauripub" />
+          <key key="contact:youtube" value="https://www.youtube.com/user/Sulakauripublishing" />
+          <key key="payment:visa" value="yes" />
+          <key key="payment:mastercard" value="yes" />
+          <key key="payment:credit_cards" value="yes" />
+          <key key="payment:debit_cards" value="yes" />
+          <key key="payment:contactless" value="yes" />
+          <key key="payment:cash" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:unionpay" value="yes" />
+          <key key="payment:diners_club" value="yes" />
+          <key key="payment:discover_card" value="yes" />
+          <key key="payment:jcb" value="yes"/>
+          <key key="payment:apple_pay" value="yes" />
+          <key key="payment:google_pay" value="yes" />
+          <key key="shop" value="books" />
+          <reference ref="basic_shop" />
+        </item>
       </group>
 
       <group name="Clothes" ka.name="ქსოვილი" ru.name="Одежда" icon="https://upload.wikimedia.org/wikipedia/commons/f/f9/T-shirt_silhouette.svg">
