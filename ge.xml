@@ -442,7 +442,7 @@
         <key key="contact:facebook" value="https://facebook.com/ImpexPharmacy" />
         <key key="contact:instagram" value="https://instagram.com/impexpharmacy" />
         <key key="contact:linkedin" value="https://linkedin.com/company/impexpharm" />
-        <combo key="contact:phone" default="+995 322 313100" />
+        <combo key="contact:phone" default="+995 32 231 3100" />
         <key key="contact:email" value="office@myimpex.ge" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -507,7 +507,7 @@
         <key key="contact:facebook" value="https://www.facebook.com/pharmsaxli" />
         <key key="contact:instagram" value="https://www.instagram.com/pharmhouse.pharmacy" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/%E1%83%A4%E1%83%90%E1%83%A0%E1%83%9B%E1%83%90%E1%83%A1%E1%83%90%E1%83%AE%E1%83%9A%E1%83%98" />
-        <combo key="contact:phone" default="+995322470110" />
+        <combo key="contact:phone" default="+995 32 247 0110" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
@@ -547,7 +547,7 @@
         <key key="name:en" value="Deutsche pharmacy" />
         <key key="contact:facebook" value="https://www.facebook.com/Deutschepharmacy" />
         <key key="contact:email" value="info@deutscheprodukte.ge" />
-        <combo key="contact:phone" default="+995571507175" />
+        <combo key="contact:phone" default="+995 571 50 7175" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
@@ -570,7 +570,7 @@
         <key key="contact:website" value="https://www.iberipharma.ge" />
         <key key="contact:facebook" value="https://www.facebook.com/IBERIPHARMA" />
         <key key="contact:email" value="info@iberiplus.ge" />
-        <combo key="contact:phone" default="+995322344088" />
+        <combo key="contact:phone" default="+995 32 234 4088" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
@@ -638,7 +638,7 @@
         <key key="name:ru" value="Синево" />
         <key key="contact:website" value="https://synevo.ge" />
         <key key="contact:email" value="info@synevo.ge" />
-        <key key="contact:phone" value="+995 322 393833;+995 322 800111" />
+        <key key="contact:phone" value="+995 32 239 3833;+995 32 280 0111" />
         <key key="contact:linkedin" value="https://linkedin.com/company/synevo-georgia" />
         <key key="contact:facebook" value="https://facebook.com/synevolabs" />
         <key key="payment:visa" value="yes" />
@@ -664,7 +664,7 @@
         <key key="name:ru" value="Кавеа" />
         <key key="contact:website" value="https://www.cavea.ge" />
         <key key="contact:email" value="info@cavea.ge" />
-        <key key="contact:phone" value="+995322555000;+995322007007" />
+        <key key="contact:phone" value="+995 32 255 5000;+995 32 200 7007" />
         <key key="contact:facebook" value="https://www.facebook.com/cavea.ge" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -830,7 +830,7 @@
         <key key="contact:facebook" value="https://facebook.com/skajuicebar" />
         <key key="contact:instagram" value="https://instagram.com/ska_juicebar" />
         <key key="contact:email" value="tako@skagroup.ge" />
-        <key key="contact:phone" value="+995 599 877461" />
+        <key key="contact:phone" value="+995 599 87 7461" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
@@ -894,7 +894,7 @@
         <key key="brand:wikidata" value="Q118347431" />
         <key key="name" value="Tashir Pizza" />
         <key key="contact:facebook" value="https://www.facebook.com/tashirpizzageorgia" />
-        <key key="contact:phone" value="+995322971111" />
+        <key key="contact:phone" value="+995 32 297 1111" />
         <key key="contact:email" value="info@tashirgroup.am" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -917,7 +917,7 @@
         <key key="name:ka" value="ლუქა პოლარე" />
         <key key="name:en" value="Luca Polare" />
         <key key="name:ru" value="Лука Поларе" />
-        <key key="contact:phone" value="+995322380802" />
+        <key key="contact:phone" value="+995 32 238 0802" />
         <key key="contact:facebook" value="https://www.facebook.com/LucaPolareOriginal" />
         <key key="contact:instagram" value="https://www.instagram.com/lucapolare" />
         <key key="contact:email" value="info@lucapolare.com" />
@@ -1312,7 +1312,7 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="გლობალ პროდუქტი" />
         <key key="brand:en" value="Global Products" />
-        <key key="contact:phone" value="+995 551 771717" />
+        <key key="contact:phone" value="+995 551 77 1717" />
         <key key="contact:email" value="info@globalproducts.ge" />
         <key key="contact:website" value="https://www.globalproducts.ge" />
         <key key="contact:facebook" value="https://facebook.com/globalproducts.supermarket" />
@@ -1351,7 +1351,7 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="ევროპროდუქტი" />
         <key key="brand:en" value="Europroduct" />
-        <key key="contact:phone" value="+995322652545" />
+        <key key="contact:phone" value="+995 32 265 2545" />
         <key key="contact:email" value="info@europroduct.ge" />
         <key key="contact:website" value="https://europroduct.ge" />
         <key key="contact:instagram" value="https://www.instagram.com/europroduct_market" />
@@ -1445,7 +1445,7 @@
         <key key="contact:facebook" value="https://facebook.com/madartgeorgia" />
         <key key="contact:instagram" value="https://instagram.com/madart_madart" />
         <key key="contact:email" value="sales@madart.ge" />
-        <combo key="contact:phone" text="Phone" default="+995 322 192919" />
+        <combo key="contact:phone" text="Phone" default="+995 32 219 2919" />
         <key key="shop" value="pastry" />
         <reference ref="basic_shop" />
       </item>
@@ -1639,7 +1639,7 @@
         <key key="contact:facebook" value="https://www.facebook.com/mistoregeorgia" />
         <key key="contact:instagram" value="https://www.instagram.com/mistore_xiaomi_authorised" />
         <key key="contact:youtube" value="https://www.youtube.com/@xiaomimistore4703" />
-        <key key="contact:phone" value="+995322500570" />
+        <key key="contact:phone" value="+995 32 250 0570" />
         <key key="contact:email" value="info@mistore.ge" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -1789,7 +1789,7 @@
         <key key="contact:website" value="https://technoboom.ge" />
         <key key="contact:youtube" value="https://youtube.com/@technoboom6869" />
         <key key="contact:email" value="info@technoboom.ge" />
-        <combo key="contact:phone" text="Phone" default="+995 322 430102" />
+        <combo key="contact:phone" text="Phone" default="+995 32 243 0102" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
@@ -1899,7 +1899,7 @@
         <key key="name:ka" value="იოიოსო" />
         <key key="name:en" value="Yoyoso" />
         <key key="contact:email" value="online@yoyoso.ge" />
-        <key key="contact:phone" value="+995511225533" />
+        <key key="contact:phone" value="+995 511 22 5533" />
         <key key="contact:website" value="https://yoyoso.ge" />
         <key key="contact:facebook" value="https://www.facebook.com/yoyoso.geo" />
         <key key="contact:instagram" value="https://www.instagram.com/yoyoso_georgia" />
@@ -2002,7 +2002,7 @@
         <key key="name:en" value="Mosaic" />
         <key key="name:ru" value="Мозайка" />
         <key key="contact:website" value="http://batumimosaic.ge" />
-        <key key="contact:phone" value="+995577415015" />
+        <key key="contact:phone" value="+995 577 41 5015" />
         <key key="contact:email" value="info@batumimosaic.ge" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
@@ -2077,7 +2077,7 @@
         <key key="name" value="ზოოჰაბი" />
         <key key="name:ka" value="ზოოჰაბი" />
         <key key="name:en" value="Zoohub" />
-        <combo key="contact:phone" text="Phone" default="+995 598 469926" />
+        <combo key="contact:phone" text="Phone" default="+995 598 46 9926" />
         <key key="contact:email" value="info@zoohub.com.ge" />
         <key key="contact:facebook" value="https://facebook.com/zoohub" />
         <key key="shop" value="pet" />
@@ -2094,7 +2094,7 @@
         <key key="contact:website" value="https://zoolife.ge" />
         <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=100063596333301" />
         <key key="contact:email" value="geozoolife@gmail.com" />
-        <key key="contact:phone" value="+995577122778" />
+        <key key="contact:phone" value="+995 577 12 2778" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
         <key key="payment:credit_cards" value="yes" />
@@ -2118,7 +2118,7 @@
         <key key="brand:wikidata" value="Q2620975" />
         <key key="operator:wikidata" value="Q2620975" />
         <key key="contact:website" value="https://www.tbcbank.ge" />
-        <key key="contact:phone" value="+995322272727" />
+        <key key="contact:phone" value="+995 32 227 2727" />
         <key key="contact:facebook" value="https://www.facebook.com/tbcbank" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/tbc-bank/" />
         <key key="contact:youtube" value="https://www.youtube.com/user/TBCBankTV" />
@@ -2143,7 +2143,7 @@
         <key key="brand:tr" value="Gürcistan Bankası" />
         <key key="brand:wikidata" value="Q2469733" />
         <key key="operator:wikidata" value="Q2469733" />
-        <key key="contact:phone" value="+995322444444" />
+        <key key="contact:phone" value="+995 32 244 4444" />
         <key key="contact:website" value="https://bankofgeorgia.ge" />
         <key key="contact:instagram" value="https://instagram.com/bankofgeorgia" />
         <key key="contact:linkedin" value="https://linkedin.com/company/bank-of-georgia" />
@@ -2169,7 +2169,7 @@
         <key key="brand:wikidata" value="Q2469733" />
         <key key="operator:wikidata" value="Q2469733" />
         <key key="contact:website" value="https://expresssesxi.ge" />
-        <key key="contact:phone" value="+995322444444" />
+        <key key="contact:phone" value="+995 32 244 4444" />
         <key key="name" value="საქართველოს ბანკი ექსპრესი" />
         <key key="name:ka" value="საქართველოს ბანკი ექსპრესი" />
         <key key="name:en" value="Bank of Georgia Express" />
@@ -2188,7 +2188,7 @@
         <key key="operator:wikidata" value="Q6541585" />
         <key key="contact:website" value="https://libertybank.ge" />
         <key key="contact:email" value="info@lb.ge" />
-        <key key="contact:phone" value="+995322555500" />
+        <key key="contact:phone" value="+995 32 255 5500" />
         <key key="contact:facebook" value="https://facebook.com/libertybank.ge" />
         <key key="contact:instagram" value="https://instagram.com/liberty_bank_" />
         <key key="contact:linkedin" value="https://linkedin.com/company/libertybankge" />
@@ -2213,7 +2213,7 @@
         <key key="contact:linkedin" value="https://linkedin.com/company/credo-bank" />
         <key key="contact:youtube" value="https://youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
         <key key="contact:email" value="info@credo.ge" />
-        <key key="contact:phone" value="+995322424242" />
+        <key key="contact:phone" value="+995 32 242 4242" />
         <key key="name" value="კრედო ბანკი" />
         <key key="name:ka" value="კრედო ბანკი" />
         <key key="name:en" value="Credo Bank" />
@@ -2238,7 +2238,7 @@
         <key key="contact:instagram" value="https://instagram.com/basis_bank" />
         <key key="contact:linkedin" value="https://linkedin.com/company/jsc-basisbank" />
         <key key="contact:youtube" value="https://youtube.com/user/basisbankhualing" />
-        <key key="contact:phone" value="+995322922922" />
+        <key key="contact:phone" value="+995 32 292 2922" />
         <key key="name" value="ბაზისბანკი" />
         <key key="name:ka" value="ბაზისბანკი" />
         <key key="name:en" value="BasisBank" />
@@ -2258,7 +2258,7 @@
         <key key="contact:instagram" value="https://instagram.com/Terabank" />
         <key key="contact:linkedin" value="https://linkedin.com/company/terabank" />
         <key key="contact:email" value="info@terabank.ge" />
-        <key key="contact:phone" value="+995322550000" />
+        <key key="contact:phone" value="+995 32 255 0000" />
         <key key="name" value="ტერაბანკი" />
         <key key="name:ka" value="ტერაბანკი" />
         <key key="name:en" value="Terabank" />
@@ -2278,7 +2278,7 @@
         <key key="contact:instagram" value="https://instagram.com/procreditbankgeorgia" />
         <!-- <key key="contact:linkedin" value="https://linkedin.com/company/procredit-bank-georgia-%E1%83%9E%E1%83%A0%E1%83%9D%E1%83%99%E1%83%A0%E1%83%94%E1%83%93%E1%83%98%E1%83%A2-%E1%83%91%E1%83%90%E1%83%9C%E1%83%99%E1%83%98-%E1%83%A1%E1%83%90%E1%83%A5%E1%83%90%E1%83%A0%E1%83%97%E1%83%95%E1%83%94%E1%83%9A%E1%83%9D" /> -->
         <key key="contact:email" value="geo.info@procredit-group.com" />
-        <key key="contact:phone" value="+995322202222" />
+        <key key="contact:phone" value="+995 32 220 2222" />
         <key key="name" value="პროკრედიტ ბანკი" />
         <key key="name:ka" value="პროკრედიტ ბანკი" />
         <key key="name:en" value="ProCredit Bank" />
@@ -2298,7 +2298,7 @@
         <key key="contact:twitter" value="https://twitter.com/CartuBank" />
         <key key="contact:linkedin" value="https://linkedin.com/company/cartu-bank" />
         <key key="contact:email" value="info@cartubank.ge" />
-        <key key="contact:phone" value="+995322008080" />
+        <key key="contact:phone" value="+995 32 200 8080" />
         <key key="name" value="ბანკი ქართუ" />
         <key key="name:ka" value="ბანკი ქართუ" />
         <key key="name:en" value="Cartu Bank" />
@@ -2316,7 +2316,7 @@
         <key key="brand:tr" value="Ziraat Bankası" />
         <key key="brand:wikidata" value="Q696003" />
         <key key="contact:website" value="https://ziraatbank.ge" />
-        <key key="contact:phone" value="+995322943704" />
+        <key key="contact:phone" value="+995 32 294 3704" />
         <key key="name" value="ზირაათ ბანკი" />
         <key key="name:ka" value="ზირაათ ბანკი" />
         <key key="name:en" value="Ziraat Bank" />
@@ -2337,7 +2337,7 @@
         <key key="operator" value="ხალიკ ბანკი საქართველო" />
         <key key="contact:website" value="https://halykbank.ge" />
         <key key="contact:email" value="info@hbg.ge" />
-        <key key="contact:phone" value="+995322240707" />
+        <key key="contact:phone" value="+995 32 224 0707" />
         <key key="contact:facebook" value="https://facebook.com/halykbank.ge" />
         <key key="contact:linkedin" value="https://linkedin.com/company/halykbankgeo" />
         <key key="contact:instagram" value="https://instagram.com/halykbankgeo" />
@@ -2356,7 +2356,7 @@
         <key key="brand" value="რე|ბანკი" />
         <key key="brand:en" value="Re|Bank" />
         <key key="brand:ru" value="Ре|Банк" />
-        <key key="contact:phone" value="+995322222525" />
+        <key key="contact:phone" value="+995 32 222 2525" />
         <key key="contact:website" value="https://rebank.ge" />
         <key key="contact:instagram" value="https://www.instagram.com/rebankforchanges" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/rebank-ge" />
@@ -2381,7 +2381,7 @@
         <key key="brand:tr" value="İşBank" />
         <key key="brand:wikidata" value="Q909613" />
         <key key="operator" value="სს იშბანკი საქართველო" />
-        <key key="contact:phone" value="+995322442244" />
+        <key key="contact:phone" value="+995 32 244 2244" />
         <key key="contact:website" value="http://isbank.ge" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/jsc-isbak-georgia" />
         <key key="contact:facebook" value="https://www.facebook.com/IsbankGeorgia/" />
@@ -2403,7 +2403,7 @@
         <key key="brand:ru" value="Банк Грузии" />
         <key key="brand:tr" value="Gürcistan Bankası" />
         <key key="brand:wikidata" value="Q2469733" />
-        <key key="contact:phone" value="+995322444444" />
+        <key key="contact:phone" value="+995 32 244 4444" />
         <key key="contact:website" value="https://bankofgeorgia.ge" />
         <key key="contact:instagram" value="https://instagram.com/bankofgeorgia" />
         <key key="contact:linkedin" value="https://linkedin.com/company/bank-of-georgia" />
@@ -2425,7 +2425,7 @@
         <key key="brand:en" value="TBC Bank" />
         <key key="brand:ru" value="ТиБиСи Банк" />
         <key key="contact:website" value="https://www.tbcbank.ge" />
-        <key key="contact:phone" value="+995322272727" />
+        <key key="contact:phone" value="+995 32 227 2727" />
         <key key="contact:facebook" value="https://www.facebook.com/tbcbank" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/tbc-bank/" />
         <key key="contact:youtube" value="https://www.youtube.com/user/TBCBankTV" />
@@ -2450,7 +2450,7 @@
         <key key="contact:linkedin" value="https://linkedin.com/company/credo-bank" />
         <key key="contact:youtube" value="https://youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
         <key key="contact:email" value="info@credo.ge" />
-        <key key="contact:phone" value="+995 322 424242" />
+        <key key="contact:phone" value="+995 32 242 4242" />
         <key key="operator" value="კრედო ბანკი" />
         <key key="payment:coins" value="no" />
         <key key="payment:cash" value="yes" />
@@ -2464,7 +2464,7 @@
         <key key="contact:email" value="info@oppa.ge" />
         <key key="contact:facebook" value="https://facebook.com/OPPAfintech" />
         <key key="contact:linkedin" value="https://linkedin.com/company/oppaoppa" />
-        <key key="contact:phone" value="+995 322 203000;+995 322 244500" />
+        <key key="contact:phone" value="+995 32 220 3000;+995 32 224 4500" />
         <key key="operator" value="ოპპა" />
         <key key="operator:en" value="Oppa" />
         <key key="payment:coins" value="no" />
@@ -2483,7 +2483,7 @@
         <key key="brand:ru" value="Банк Грузии" />
         <key key="brand:tr" value="Gürcistan Bankası" />
         <key key="brand:wikidata" value="Q2469733" />
-        <key key="contact:phone" value="+995322444444" />
+        <key key="contact:phone" value="+995 32 244 4444" />
         <key key="contact:website" value="https://bankofgeorgia.ge" />
         <key key="contact:instagram" value="https://instagram.com/bankofgeorgia" />
         <key key="contact:linkedin" value="https://linkedin.com/company/bank-of-georgia" />
@@ -2507,7 +2507,7 @@
         <key key="brand:ru" value="ТиБиСи Банк" />
         <key key="brand:wikidata" value="Q2620975" />
         <key key="contact:website" value="https://www.tbcbank.ge" />
-        <key key="contact:phone" value="+995322272727" />
+        <key key="contact:phone" value="+995 32 227 2727" />
         <key key="contact:facebook" value="https://www.facebook.com/tbcbank" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/tbc-bank/" />
         <key key="contact:youtube" value="https://www.youtube.com/user/TBCBankTV" />
@@ -2531,7 +2531,7 @@
         <key key="brand:wikidata" value="Q6541585" />
         <key key="contact:website" value="https://libertybank.ge" />
         <key key="contact:email" value="info@lb.ge" />
-        <key key="contact:phone" value="+995322555500" />
+        <key key="contact:phone" value="+995 32 255 5500" />
         <key key="contact:facebook" value="https://facebook.com/libertybank.ge" />
         <key key="contact:instagram" value="https://instagram.com/liberty_bank_" />
         <key key="contact:linkedin" value="https://linkedin.com/company/libertybankge" />
@@ -2557,7 +2557,7 @@
         <key key="contact:linkedin" value="https://linkedin.com/company/credo-bank" />
         <key key="contact:youtube" value="https://youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
         <key key="contact:email" value="info@credo.ge" />
-        <key key="contact:phone" value="+995322424242" />
+        <key key="contact:phone" value="+995 32 242 4242" />
         <key key="operator" value="კრედო ბანკი" />
         <key key="cash_in" value="no" />
         <key key="cash_out" value="yes" />
@@ -2581,7 +2581,7 @@
         <key key="contact:instagram" value="https://instagram.com/basis_bank" />
         <key key="contact:linkedin" value="https://linkedin.com/company/jsc-basisbank" />
         <key key="contact:youtube" value="https://youtube.com/user/basisbankhualing" />
-        <key key="contact:phone" value="+995322922922" />
+        <key key="contact:phone" value="+995 32 292 2922" />
         <key key="operator" value="ბაზისბანკი" />
         <key key="operator:wikidata" value="Q16365625" />
         <key key="cash_in" value="no" />
@@ -2605,7 +2605,7 @@
         <key key="contact:instagram" value="https://instagram.com/Terabank" />
         <key key="contact:linkedin" value="https://linkedin.com/company/terabank" />
         <key key="contact:email" value="info@terabank.ge" />
-        <key key="contact:phone" value="+995322550000" />
+        <key key="contact:phone" value="+995 32 255 0000" />
         <key key="operator" value="ტერაბანკი" />
         <key key="cash_in" value="no" />
         <key key="cash_out" value="yes" />
@@ -2628,7 +2628,7 @@
         <key key="contact:twitter" value="https://twitter.com/CartuBank" />
         <key key="contact:linkedin" value="https://linkedin.com/company/cartu-bank" />
         <key key="contact:email" value="info@cartubank.ge" />
-        <key key="contact:phone" value="+995322008080" />
+        <key key="contact:phone" value="+995 32 200 8080" />
         <key key="operator" value="ბანკი ქართუ" />
         <key key="cash_in" value="no" />
         <key key="cash_out" value="yes" />
@@ -2651,7 +2651,7 @@
         <key key="operator" value="ხალიკ ბანკი საქართველო" />
         <key key="contact:website" value="https://halykbank.ge" />
         <key key="contact:email" value="info@hbg.ge" />
-        <key key="contact:phone" value="+995322240707" />
+        <key key="contact:phone" value="+995 32 224 0707" />
         <key key="contact:facebook" value="https://facebook.com/halykbank.ge" />
         <key key="contact:linkedin" value="https://linkedin.com/company/halykbankgeo" />
         <key key="contact:instagram" value="https://instagram.com/halykbankgeo" />
@@ -2673,7 +2673,7 @@
         <key key="brand:ru" value="ПроКредит Банк" />
         <key key="brand:wikidata" value="Q1046186" />
         <key key="operator" value="პროკრედიტ ბანკი" />
-        <key key="contact:phone" value="+995322202222" />
+        <key key="contact:phone" value="+995 32 220 2222" />
         <key key="contact:website" value="https://procreditbank.ge" />
         <key key="contact:facebook" value="https://facebook.com/procreditbankgeorgia" />
         <key key="contact:instagram" value="https://instagram.com/procreditbankgeorgia" />
@@ -2696,7 +2696,7 @@
         <key key="brand:tr" value="Ziraat Bankası" />
         <key key="brand:wikidata" value="Q696003" />
         <key key="operator" value="ზირაათ ბანკი" />
-        <key key="contact:phone" value="+995322943704" />
+        <key key="contact:phone" value="+995 32 294 3704" />
         <key key="contact:website" value="https://ziraatbank.ge" />
         <key key="cash_in" value="no" />
         <key key="cash_out" value="yes" />
@@ -2715,7 +2715,7 @@
         <key key="brand:en" value="Re|Bank" />
         <key key="brand:ru" value="Ре|Банк" />
         <key key="operator" value="პაშა ბანკი საქართველო" />
-        <key key="contact:phone" value="+995322222525" />
+        <key key="contact:phone" value="+995 32 222 2525" />
         <key key="contact:website" value="https://rebank.ge" />
         <key key="contact:instagram" value="https://www.instagram.com/rebankforchanges" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/rebank-ge" />
@@ -2741,7 +2741,7 @@
         <key key="brand:tr" value="İşBank" />
         <key key="brand:wikidata" value="Q909613" />
         <key key="operator" value="სს იშბანკი საქართველო" />
-        <key key="contact:phone" value="+995322442244" />
+        <key key="contact:phone" value="+995 32 244 2244" />
         <key key="contact:website" value="http://isbank.ge" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/jsc-isbak-georgia" />
         <key key="contact:facebook" value="https://www.facebook.com/IsbankGeorgia/" />
@@ -2764,7 +2764,7 @@
         <key key="brand" value="კრიპტომატი" />
         <key key="brand:en" value="Cryptomat" />
         <key key="brand:ru" value="Криптомат" />
-        <key key="contact:phone" value="+995 322 880770" />
+        <key key="contact:phone" value="+995 32 288 0770" />
         <key key="contact:email" value="support@cryptomat.com" />
         <key key="contact:website" value="https://cryptomat.com" />
         <key key="contact:facebook" value="https://facebook.com/CryptomatGeo" />
@@ -2787,7 +2787,7 @@
         <key key="amenity" value="atm" />
         <key key="brand" value="BitXChange" />
         <key key="operator" value="BitXChange" />
-        <key key="contact:phone" value="+995 322 114118" />
+        <key key="contact:phone" value="+995 32 211 4118" />
         <key key="contact:email" value="support@bitxchan.ge" />
         <key key="contact:website" value="https://bxc.ge" />
         <key key="contact:facebook" value="https://facebook.com/bxc.ge" />
@@ -2826,7 +2826,7 @@
         <key key="contact:website" value="https://bermeli.ge" />
         <key key="contact:facebook" value="https://facebook.com/MikrosapinansoOrganizatsiaBermeli" />
         <key key="contact:email" value="info@bermeli.ge" />
-        <key key="contact:phone" value="+995 568 700300" />
+        <key key="contact:phone" value="+995 568 70 0300" />
         <key key="name" value="ბერმელი" />
         <key key="name:ka" value="ბერმელი" />
         <key key="name:en" value="Bermeli" />
@@ -2844,7 +2844,7 @@
         <key key="contact:website" value="https://crystal.ge" />
         <key key="contact:facebook" value="https://www.facebook.com/CrystalJscMfo" />
         <key key="contact:youtube" value="https://www.youtube.com/user/MFOCrystal" />
-        <key key="contact:phone" value="+995322022020" />
+        <key key="contact:phone" value="+995 32 202 2020" />
         <key key="name" value="კრისტალი" />
         <key key="name:ka" value="კრისტალი" />
         <key key="name:en" value="Crystal" />
@@ -2861,7 +2861,7 @@
         <key key="contact:website" value="http://ge.inteliexpress.net" />
         <key key="contact:facebook" value="https://www.facebook.com/InteliExpress" />
         <key key="contact:email" value="info@intelexpress.ge" />
-        <key key="contact:phone" value="+995322492525" />
+        <key key="contact:phone" value="+995 32 249 2525" />
         <key key="name" value="ინტელიექსპრესი" />
         <key key="name:ka" value="ინტელიექსპრესი" />
         <key key="name:en" value="InteliExpress" />
@@ -2880,7 +2880,7 @@
         <key key="contact:facebook" value="https://www.facebook.com/rico.ge" />
         <key key="contact:instagram" value="https://www.instagram.com/rico_credit" />
         <key key="contact:email" value="rico@rico.ge" />
-        <key key="contact:phone" value="+995322292929" />
+        <key key="contact:phone" value="+995 32 229 2929" />
         <key key="name" value="რიკო კრედიტი" />
         <key key="name:ka" value="რიკო კრედიტი" />
         <key key="name:en" value="Rico Credit" />
@@ -2899,7 +2899,7 @@
         <key key="brand:wikidata" value="Q1788862" />
         <key key="contact:website" value="https://www.rompetrol.ge" />
         <key key="contact:facebook" value="https://facebook.com/RompetrolGeorgiaLtd" />
-        <combo key="contact:phone" text="Phone" default="+995 322 240444" />
+        <combo key="contact:phone" text="Phone" default="+995 32 224 0444" />
         <key key="contact:email" value="officege@rompetrol.com" />
         <key key="name" value="რომპეტროლი" />
         <key key="name:ka" value="რომპეტროლი" />
@@ -3023,7 +3023,7 @@
         <key key="contact:youtube" value="https://www.youtube.com/channel/UCaOfEP6vI8GnayYTRKB3lww" />
         <key key="contact:website" value="https://neogas.ge" />
         <key key="contact:email" value="info@neogas.ge" />
-        <key key="contact:phone" value="+995322471616" />
+        <key key="contact:phone" value="+995 32 247 1616" />
         <key key="name" value="ნეოგაზი" />
         <key key="name:ka" value="ნეოგაზი" />
         <key key="name:en" value="Neogas" />
@@ -3038,7 +3038,7 @@
         <key key="brand:ru" value="Гама" />
         <key key="contact:website" value="http://gamagas.ge" />
         <key key="contact:email" value="info@gamagas.ge" />
-        <key key="contact:phone" value="+995322242590" />
+        <key key="contact:phone" value="+995 32 224 2590" />
         <key key="name" value="გამა" />
         <key key="name:ka" value="გამა" />
         <key key="name:en" value="Gama" />
@@ -3052,7 +3052,7 @@
         <key key="brand:en" value="AutoLPGas" />
         <key key="contact:website" value="https://lpgauto.ge" />
         <key key="contact:email" value="info@lpgauto.ge" />
-        <key key="contact:phone" value="+995599528000" />
+        <key key="contact:phone" value="+995 599 52 8000" />
         <key key="contact:facebook" value="https://www.facebook.com/autolpgas" />
         <key key="name" value="AutoLPGas" />
         <key key="name:en" value="AutoLPGas" />
@@ -3068,7 +3068,7 @@
         <key key="contact:facebook" value="https://facebook.com/espace.ge" />
         <key key="contact:linkedin" value="https://linkedin.com/company/ltd-e-space" />
         <key key="contact:email" value="info@e-space.ge" />
-        <key key="contact:phone" value="+995 322 433473" />
+        <key key="contact:phone" value="+995 32 243 3473" />
         <key key="authentication:app" value="yes" />
         <reference ref="charging_station" />
       </item>
@@ -3080,7 +3080,7 @@
         <key key="operator:en" value="ElectroUA Georgia" />
         <key key="contact:website" value="https://ev-georgia.net" />
         <key key="contact:email" value="info@ev-georgia.net" />
-        <key key="contact:phone" value="+995 514070033" />
+        <key key="contact:phone" value="+995 514 07 0033" />
         <key key="contact:telegram" value="https://t.me/EVGeorgia_bot" />
         <reference ref="charging_station" />
       </item>
@@ -3248,7 +3248,7 @@
         <key key="operator:type" value="government" />
         <key key="contact:facebook" value="https://facebook.com/policeofgeorgia" />
         <key key="contact:website" value="https://police.ge" />
-        <combo key="contact:phone" text="Phone" default="+995 322 414242" />
+        <combo key="contact:phone" text="Phone" default="+995 32 241 4242" />
         <combo key="contact:email" text="Email" default="patrolinfo@mia.gov.ge" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -3274,7 +3274,7 @@
         <key key="contact:youtube" value="https://youtube.com/channel/UCjI73rVjVyi2AIOMOmguX4A" />
         <key key="contact:website" value="https://gpost.ge" />
         <key key="contact:email" value="info@gpost.ge" />
-        <combo key="contact:phone" text="Phone number" values="+995 32 2240909" default="+995 32 2240909" />
+        <combo key="contact:phone" text="Phone number" values="+995 32 224 0909" default="+995 32 224 0909" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:amenity%3Dpost_office" />
@@ -3341,7 +3341,7 @@
         <key key="contact:facebook" value="https://facebook.com/gpost.ge" />
         <key key="contact:linkedin" value="https://linkedin.com/company/georgian-post" />
         <key key="contact:youtube" value="https://youtube.com/channel/UCjI73rVjVyi2AIOMOmguX4A" />
-        <key key="contact:phone" value="+995 32 2240909" />
+        <key key="contact:phone" value="+995 32 224 0909" />
         <key key="contact:website" value="https://gpost.ge" />
         <key key="contact:email" value="info@gpost.ge" />
         <link wiki="Tag:amenity%3Dpost_box" />
@@ -3360,7 +3360,7 @@
         <key key="contact:facebook" value="https://www.facebook.com/IRAO.VIG" />
         <key key="contact:website" value="https://irao.ge" />
         <key key="contact:email" value="office@irao.ge" />
-        <combo key="contact:phone" text="Phone number" values="+995322949949" default="+995322949949" />
+        <combo key="contact:phone" text="Phone number" values="+995 32 294 9949" default="+995 32 294 9949" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dinsurance" />
@@ -3375,7 +3375,7 @@
         <key key="brand:en" value="Imedi L" />
         <key key="contact:website" value="https://imedil.ge" />
         <key key="contact:email" value="info@imedil.ge" />
-        <combo key="contact:phone" text="Phone number" values="+995322922222" default="+995322922222" />
+        <combo key="contact:phone" text="Phone number" values="+995 32 292 2222" default="+995 32 292 2222" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dinsurance" />
@@ -3391,7 +3391,7 @@
         <key key="contact:facebook" value="https://www.facebook.com/ardiinsurance" />
         <key key="contact:website" value="https://www.ardi.ge" />
         <key key="contact:email" value="office@ardi.ge" />
-        <combo key="contact:phone" text="Phone number" values="+995322101010" default="+995322101010" />
+        <combo key="contact:phone" text="Phone number" values="+995 32 210 1010" default="+995 32 210 1010" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dinsurance" />
@@ -3407,7 +3407,7 @@
         <key key="contact:facebook" value="https://www.facebook.com/tbcinsurance" />
         <key key="contact:website" value="https://tbcinsurance.ge" />
         <key key="contact:email" value="info@tbcinsurance.ge" />
-        <combo key="contact:phone" text="Phone number" values="+995322422222" default="+995322422222" />
+        <combo key="contact:phone" text="Phone number" values="+995 32 242 2222" default="+995 32 242 2222" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dinsurance" />
@@ -3456,7 +3456,7 @@
         <space />
         <reference ref="access" />
         <key key="contact:website" value="https://plastmasa.ge" />
-        <key key="contact:phone" value="+995 577 495959" />
+        <key key="contact:phone" value="+995 577 49 5959" />
         <key key="operator" value="შპს „ბათუმის სანდასუფთავება“" />
         <key key="operator:type" value="government" />
         <key key="access" value="yes" />
@@ -3468,7 +3468,7 @@
         <space />
         <reference ref="access" />
         <key key="contact:website" value="https://plastmasa.ge" />
-        <key key="contact:phone" value="+995 322 619050" />
+        <key key="contact:phone" value="+995 32 261 9050" />
         <key key="operator" value="შპს „თბილსერვის ჯგუფი“" />
         <key key="operator:type" value="government" />
         <key key="access" value="yes" />
@@ -3500,7 +3500,7 @@
         <key key="operator" value="შპს „ბათუმის ავტოტრანსპორტი“" />
         <key key="operator:type" value="government" />
         <key key="contact:email" value="support@batumvelo.ge" />
-        <key key="contact:phone" value="+995577377676" />
+        <key key="contact:phone" value="+995 577 37 7676" />
         <key key="contact:website" value="https://batumvelo.ge" />
         <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=100090979308798" />
         <key key="fee" value="yes" />
@@ -3522,7 +3522,7 @@
         <key key="operator" value="მეტრო სერვის +" />
         <key key="operator:type" value="government" />
         <key key="contact:email" value="info@msplus.ge" />
-        <key key="contact:phone" value="+995322444001" />
+        <key key="contact:phone" value="+995 32 244 4001" />
         <key key="contact:website" value="https://www.msplus.ge" />
         <key key="contact:facebook" value="https://www.facebook.com/metroserviceplus" />
         <key key="payment:visa" value="yes" />
@@ -3545,7 +3545,7 @@
         <key key="brand:en" value="Telmico" />
         <key key="contact:website" value="https://www.telmico.ge/" />
         <key key="contact:email" value="info@telmico.ge" />
-        <key key="contact:phone" value="+995325000777" />
+        <key key="contact:phone" value="+995 32 500 0777" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office=energy_supplier" />
@@ -3560,7 +3560,7 @@
         <key key="name" value="აჭარაბეთი" />
         <key key="name:ka" value="აჭარაბეთი" />
         <key key="name:en" value="Adjarabet" />
-        <key key="contact:phone" value="+995322223388" />
+        <key key="contact:phone" value="+995 32 222 3388" />
         <key key="contact:website" value="https://www.adjarabet.com" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
