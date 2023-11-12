@@ -2311,6 +2311,32 @@
           <reference ref="crypto_currencies" />
           <reference ref="basic_shop" />
         </item>
+        <item name="Beko" type="node,closedway,multipolygon" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" />
+          <key key="brand" value="Beko" />
+          <key key="brand:wikidata" value="Q631792" />
+          <key key="name" value="Beko" />
+          <key key="contact:website" value="https://www.beko.com/ge-ka" />
+          <key key="contact:facebook" value="https://www.facebook.com/BekoGeo" />
+          <key key="contact:phone" value="+995 32 215 50 50" />
+          <key key="contact:email" value="info@beko.com.ge" />
+          <key key="payment:visa" value="yes" />
+          <key key="payment:mastercard" value="yes" />
+          <key key="payment:credit_cards" value="yes" />
+          <key key="payment:debit_cards" value="yes" />
+          <key key="payment:contactless" value="yes" />
+          <key key="payment:cash" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:unionpay" value="yes" />
+          <key key="payment:diners_club" value="yes" />
+          <key key="payment:discover_card" value="yes" />
+          <key key="payment:jcb" value="yes"/>
+          <key key="payment:apple_pay" value="yes" />
+          <key key="payment:google_pay" value="yes" />
+          <key key="shop" value="appliance" />
+          <reference ref="basic_shop" />
+        </item>
       </group>
 
       <group name="Toys" ka.name="სათამაშოები" ru.name="Игрушки" icon="https://upload.wikimedia.org/wikipedia/commons/d/d6/Spinning_top.svg">
