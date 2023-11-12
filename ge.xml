@@ -2426,93 +2426,6 @@
         </item>
       </group>
 
-      <group name="Toys" ka.name="სათამაშოები" ru.name="Игрушки" icon="https://upload.wikimedia.org/wikipedia/commons/d/d6/Spinning_top.svg">
-        <item name="Chita" ka.name="ჭიტა" type="node,closedway,multipolygon" preset_name_label="true">
-          <space />
-          <combo key="opening_hours" text="Opening Hours" />
-          <key key="brand" value="ჭიტა" />
-          <key key="brand:en" value="Chita" />
-          <key key="name" value="ჭიტა" />
-          <key key="name:ka" value="ჭიტა" />
-          <key key="name:en" value="Chita" />
-          <key key="contact:phone" value="+995 32 238 08 22" />
-          <key key="contact:website" value="https://chita.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/chita.ge" />
-          <key key="contact:instagram" value="https://www.instagram.com/chitastore" />
-          <key key="contact:tiktok" value="https://www.tiktok.com/@chitastore" />
-          <key key="payment:visa" value="yes" />
-          <key key="payment:mastercard" value="yes" />
-          <key key="payment:credit_cards" value="yes" />
-          <key key="payment:debit_cards" value="yes" />
-          <key key="payment:contactless" value="yes" />
-          <key key="payment:cash" value="yes" />
-          <key key="payment:american_express" value="yes" />
-          <key key="payment:unionpay" value="yes" />
-          <key key="payment:diners_club" value="yes" />
-          <key key="payment:discover_card" value="yes" />
-          <key key="payment:jcb" value="yes"/>
-          <key key="payment:apple_pay" value="yes" />
-          <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="toys" />
-          <reference ref="basic_shop" />
-        </item>
-        <item name="Pepela" ka.name="პეპელა" type="node,closedway,multipolygon" preset_name_label="true">
-          <space />
-          <combo key="opening_hours" text="Opening Hours" />
-          <key key="brand" value="პეპელა" />
-          <key key="brand:en" value="Pepela" />
-          <key key="name" value="პეპელა" />
-          <key key="name:ka" value="პეპელა" />
-          <key key="name:en" value="Pepela" />
-          <key key="contact:phone" value="+995 32 388 85 98" />
-          <key key="contact:website" value="https://pepela.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/PepelaToys" />
-          <key key="contact:email" value="contact@pepela.ge" />
-          <key key="payment:visa" value="yes" />
-          <key key="payment:mastercard" value="yes" />
-          <key key="payment:credit_cards" value="yes" />
-          <key key="payment:debit_cards" value="yes" />
-          <key key="payment:contactless" value="yes" />
-          <key key="payment:cash" value="yes" />
-          <key key="payment:american_express" value="yes" />
-          <key key="payment:unionpay" value="yes" />
-          <key key="payment:diners_club" value="yes" />
-          <key key="payment:discover_card" value="yes" />
-          <key key="payment:jcb" value="yes"/>
-          <key key="payment:apple_pay" value="yes" />
-          <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="toys" />
-          <reference ref="basic_shop" />
-        </item>
-        <item name="XS Toys" ka.name="XS სათამაშოები" type="node,closedway,multipolygon" preset_name_label="true">
-          <space />
-          <combo key="opening_hours" text="Opening Hours" />
-          <key key="brand" value="XS სათამაშოები" />
-          <key key="brand:en" value="XS Toys" />
-          <key key="name" value="XS სათამაშოები" />
-          <key key="name:ka" value="XS სათამაშოები" />
-          <key key="name:en" value="XS Toys" />
-          <key key="contact:website" value="https://xstoys.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/XSToys" />
-          <key key="contact:email" value="info@anvol.ge" />
-          <key key="payment:visa" value="yes" />
-          <key key="payment:mastercard" value="yes" />
-          <key key="payment:credit_cards" value="yes" />
-          <key key="payment:debit_cards" value="yes" />
-          <key key="payment:contactless" value="yes" />
-          <key key="payment:cash" value="yes" />
-          <key key="payment:american_express" value="yes" />
-          <key key="payment:unionpay" value="yes" />
-          <key key="payment:diners_club" value="yes" />
-          <key key="payment:discover_card" value="yes" />
-          <key key="payment:jcb" value="yes"/>
-          <key key="payment:apple_pay" value="yes" />
-          <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="toys" />
-          <reference ref="basic_shop" />
-        </item>
-      </group>
-
       <group name="Books" ka.name="წიგნები" ru.name="Книги" icon="https://upload.wikimedia.org/wikipedia/commons/8/8d/Book_X.svg">
         <item name="Biblus" ka.name="ბიბლუსი" type="node,closedway,multipolygon" preset_name_label="true">
           <space />
@@ -2525,6 +2438,38 @@
           <key key="contact:website" value="https://biblusi.ge" />
           <key key="contact:facebook" value="https://facebook.com/biblusi.ge" />
           <key key="contact:linkedin" value="https://linkedin.com/company/biblusi" />
+          <key key="payment:visa" value="yes" />
+          <key key="payment:mastercard" value="yes" />
+          <key key="payment:credit_cards" value="yes" />
+          <key key="payment:debit_cards" value="yes" />
+          <key key="payment:contactless" value="yes" />
+          <key key="payment:cash" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:unionpay" value="yes" />
+          <key key="payment:diners_club" value="yes" />
+          <key key="payment:discover_card" value="yes" />
+          <key key="payment:jcb" value="yes"/>
+          <key key="payment:apple_pay" value="yes" />
+          <key key="payment:google_pay" value="yes" />
+          <key key="shop" value="books" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Sulakauri" ka.name="სულაკაური" type="node,closedway,multipolygon" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" />
+          <key key="brand" value="სულაკაური" />
+          <key key="brand:en" value="Sulakauri" />
+          <key key="name" value="სულაკაური" />
+          <key key="name:ka" value="სულაკაური" />
+          <key key="name:en" value="Sulakauri" />
+          <key key="contact:website" value="https://www.sulakauri.ge" />
+          <key key="contact:email" value="info@sulakauri.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/sulakauripublishing" />
+          <key key="contact:instagram" value="https://www.instagram.com/sulakauri_publishing" />
+          <key key="contact:linkedin" value="https://www.linkedin.com/company/sulakauri-publishing" />
+          <key key="contact:phone" value="+995 32 291 11 65;+995 32 291 09 54" />
+          <key key="contact:twitter" value="https://twitter.com/sulakauripub" />
+          <key key="contact:youtube" value="https://www.youtube.com/user/Sulakauripublishing" />
           <key key="payment:visa" value="yes" />
           <key key="payment:mastercard" value="yes" />
           <key key="payment:credit_cards" value="yes" />
