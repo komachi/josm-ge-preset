@@ -1178,26 +1178,16 @@
         <key key="amenity" value="cafe" />
         <reference ref="eatery" />
       </item>
-    </group>
-
-    <group name="Shops" ka.name="მაღაზიები" ru.name="Магазины" icon="https://upload.wikimedia.org/wikipedia/commons/f/f9/T-shirt_silhouette.svg">
-      <item name="Clean House" ka.name="სუფთა სახლი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Usta Dönerci" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/f/ff/Kentucky_Fried_Chicken_201x_logo.svg">
         <space />
         <combo key="opening_hours" text="Opening Hours" />
-        <key key="brand" value="სუფთა სახლი" />
-        <key key="brand:en" value="Clean House" />
-        <key key="name" value="სუფთა სახლი" />
-        <key key="name:ka" value="სუფთა სახლი" />
-        <key key="name:en" value="Clean House" />
-        <key key="alt_name:en" value="Supta Sakhli" />
-        <key key="contact:website" value="https://ch.ge" />
-        <key key="contact:facebook" value="https://facebook.com/suftasakhli" />
-        <key key="contact:instagram" value="https://instagram.com/supta_sakhli" />
-        <key key="contact:linkedin" value="https://linkedin.com/company/%E1%83%A1%E1%83%A3%E1%83%A4%E1%83%97%E1%83%90-%E1%83%A1%E1%83%90%E1%83%AE%E1%83%9A%E1%83%98" />
-        <key key="contact:email" value="contact@ch.ge" />
+        <key key="brand" value="Usta Dönerci" />
+        <key key="name" value="Usta Dönerci" />
+        <key key="contact:facebook" value="https://www.facebook.com/ustadonerci.turkiye/" />
+        <key key="contact:website" value="https://www.ustadonerci.com" />
+        <key key="contact:email" value="donerci.usta@gmail.com" />
         <key key="payment:visa" value="yes" />
         <key key="payment:mastercard" value="yes" />
-        <key key="payment:american_express" value="yes" />
         <key key="payment:credit_cards" value="yes" />
         <key key="payment:debit_cards" value="yes" />
         <key key="payment:contactless" value="yes" />
@@ -1209,11 +1199,151 @@
         <key key="payment:jcb" value="yes"/>
         <key key="payment:apple_pay" value="yes" />
         <key key="payment:google_pay" value="yes" />
-        <key key="shop" value="chemist" />
-        <reference ref="basic_shop" />
+        <key key="takeaway" value="yes" />
+        <key key="delivery" value="yes" />
+        <key key="cuisine" value="turkish" />
+        <key key="amenity" value="fast_food" />
+        <reference ref="eatery" />
       </item>
+    </group>
 
-      <group name="Food shops" ka.name="პროდუქტები" ru.name="Продукты" icon="https://upload.wikimedia.org/wikipedia/commons/0/07/Shopping_Cart_Flat_Icon_Vector.svg">
+    <group name="Shops" ka.name="მაღაზიები" ru.name="Магазины" icon="https://upload.wikimedia.org/wikipedia/commons/f/f9/T-shirt_silhouette.svg">
+
+      <group name="Cosmetics and Chemistry" ka.name="კოსმეტიკა და საყოფაცხოვრებო ქიმიკატები" ru.name="Косметика и бытовая химия" icon="https://upload.wikimedia.org/wikipedia/commons/9/96/Perfume_%28966%29_-_The_Noun_Project.svg">
+        <item name="Clean House" ka.name="სუფთა სახლი" type="node,closedway,multipolygon" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" />
+          <key key="brand" value="სუფთა სახლი" />
+          <key key="brand:en" value="Clean House" />
+          <key key="name" value="სუფთა სახლი" />
+          <key key="name:ka" value="სუფთა სახლი" />
+          <key key="name:en" value="Clean House" />
+          <key key="name:ru" value="Чистый Дом" />
+          <key key="alt_name:en" value="Supta Sakhli" />
+          <key key="alt_name:ru" value="Супта Сахли" />
+          <key key="contact:website" value="https://ch.ge" />
+          <key key="contact:facebook" value="https://facebook.com/suftasakhli" />
+          <key key="contact:instagram" value="https://instagram.com/supta_sakhli" />
+          <key key="contact:linkedin" value="https://linkedin.com/company/%E1%83%A1%E1%83%A3%E1%83%A4%E1%83%97%E1%83%90-%E1%83%A1%E1%83%90%E1%83%AE%E1%83%9A%E1%83%98" />
+          <key key="contact:email" value="contact@ch.ge" />
+          <key key="payment:visa" value="yes" />
+          <key key="payment:mastercard" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:credit_cards" value="yes" />
+          <key key="payment:debit_cards" value="yes" />
+          <key key="payment:contactless" value="yes" />
+          <key key="payment:cash" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:unionpay" value="yes" />
+          <key key="payment:diners_club" value="yes" />
+          <key key="payment:discover_card" value="yes" />
+          <key key="payment:jcb" value="yes"/>
+          <key key="payment:apple_pay" value="yes" />
+          <key key="payment:google_pay" value="yes" />
+          <key key="shop" value="chemist" />
+          <reference ref="basic_shop" />
+        </item>
+
+        <item name="Ici Paris" ka.name="ისი პარი" ru.name="Иси Пари" type="node,closedway,multipolygon" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" />
+          <key key="brand" value="ისი პარი" />
+          <key key="brand:en" value="Ici Paris" />
+          <key key="brand:en" value="Иси Пари" />
+          <key key="name" value="ისი პარი" />
+          <key key="name:ka" value="ისი პარი" />
+          <key key="name:en" value="Ici Paris" />
+          <key key="name:ru" value="Иси Пари" />
+          <key key="contact:website" value="https://www.iciparis.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/OFFICIAL.ICIPARIS" />
+          <key key="contact:instagram" value="https://www.instagram.com/iciparisofficial" />
+          <key key="contact:youtube" value="https://www.youtube.com/channel/UCE-IyL0u5twGKPdqTEIJEbw" />
+          <key key="contact:phone" value=" +995 32 220 17 18" />
+          <key key="contact:email" value="info@iciparis.ge" />
+          <key key="payment:visa" value="yes" />
+          <key key="payment:mastercard" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:credit_cards" value="yes" />
+          <key key="payment:debit_cards" value="yes" />
+          <key key="payment:contactless" value="yes" />
+          <key key="payment:cash" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:unionpay" value="yes" />
+          <key key="payment:diners_club" value="yes" />
+          <key key="payment:discover_card" value="yes" />
+          <key key="payment:jcb" value="yes"/>
+          <key key="payment:apple_pay" value="yes" />
+          <key key="payment:google_pay" value="yes" />
+          <key key="shop" value="cosmetics" />
+          <reference ref="basic_shop" />
+        </item>
+
+        <item name="Voulez-Vous" ka.name="ვულე ვუ" ru.name="Вуле Ву" type="node,closedway,multipolygon" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" />
+          <key key="brand" value="ვულე ვუ" />
+          <key key="brand:en" value="Voulez-Vous" />
+          <key key="brand:en" value="Вуле Ву" />
+          <key key="name" value="ვულე ვუ" />
+          <key key="name:ka" value="ვულე ვუ" />
+          <key key="name:en" value="Voulez-Vous" />
+          <key key="name:ru" value="Вуле Ву" />
+          <key key="contact:website" value="https://voulez-vous.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/VoulezVous.Perfumery" />
+          <key key="contact:instagram" value="https://www.instagram.com/voulez_vous_perfumery" />
+          <key key="contact:youtube" value="https://www.youtube.com/@voulez-vous3795" />
+          <key key="contact:phone" value="+995 32 237 22 72" />
+          <key key="contact:email" value="info@voulez-vous.ge" />
+          <key key="payment:visa" value="yes" />
+          <key key="payment:mastercard" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:credit_cards" value="yes" />
+          <key key="payment:debit_cards" value="yes" />
+          <key key="payment:contactless" value="yes" />
+          <key key="payment:cash" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:unionpay" value="yes" />
+          <key key="payment:diners_club" value="yes" />
+          <key key="payment:discover_card" value="yes" />
+          <key key="payment:jcb" value="yes"/>
+          <key key="payment:apple_pay" value="yes" />
+          <key key="payment:google_pay" value="yes" />
+          <key key="shop" value="cosmetics" />
+          <reference ref="basic_shop" />
+        </item>
+
+        <item name="Mosaic" ka.name="მოზაიკა" ru.name="Мозайка" type="node,closedway,multipolygon" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" />
+          <key key="brand" value="მოზაიკა" />
+          <key key="brand:en" value="Mosaic" />
+          <key key="name" value="მოზაიკა" />
+          <key key="name:ka" value="მოზაიკა" />
+          <key key="name:en" value="Mosaic" />
+          <key key="name:ru" value="Мозайка" />
+          <key key="contact:website" value="http://batumimosaic.ge" />
+          <key key="contact:phone" value="+995 577 41 50 15" />
+          <key key="contact:email" value="info@batumimosaic.ge" />
+          <key key="payment:visa" value="yes" />
+          <key key="payment:mastercard" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:credit_cards" value="yes" />
+          <key key="payment:debit_cards" value="yes" />
+          <key key="payment:contactless" value="yes" />
+          <key key="payment:cash" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:unionpay" value="yes" />
+          <key key="payment:diners_club" value="yes" />
+          <key key="payment:discover_card" value="yes" />
+          <key key="payment:jcb" value="yes"/>
+          <key key="payment:apple_pay" value="yes" />
+          <key key="payment:google_pay" value="yes" />
+          <key key="shop" value="cosmetics" />
+          <reference ref="basic_shop" />
+        </item>
+      </group>
+
+      <group name="Food shops" ka.name="პროდუქტები" ru.name="Продукты" icon="https://upload.wikimedia.org/wikipedia/commons/d/df/Shopping_cart_icon.svg">
         <item name="Jibe" ka.name="ჯიბე" type="node,closedway,multipolygon" preset_name_label="true">
           <space />
           <combo key="opening_hours" text="Opening Hours" values="24/7" />
@@ -1266,7 +1396,7 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
         <item name="Nikora" ka.name="ნიკორა" ru.name="Никора" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1300,7 +1430,7 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
         <item name="Ori Nabiji" ka.name="ორი ნაბიჯი" ru.name="Ори набиджи" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ori_Nabiji.jpg/240px-Ori_Nabiji.jpg" preset_name_label="true">
@@ -1335,7 +1465,7 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
         <item name="Billion" ka.name="ბილიონი" ru.name="Биллиони" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1362,7 +1492,7 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
         <item name="Magniti" ka.name="მაგნიტი" ru.name="Магнити" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/%22Magniti%22_chain_logo.jpg/240px-%22Magniti%22_chain_logo.jpg" preset_name_label="true">
@@ -1396,7 +1526,7 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
         <item name="Nazilbe" ka.name="ნაზილბე" ru.name="Назилбе" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1426,7 +1556,7 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
         <item name="Goodwill" ka.name="გუდვილი" ru.name="Гудвилл" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Goodwill_logo.jpg/240px-Goodwill_logo.jpg" preset_name_label="true">
@@ -1525,6 +1655,41 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
+          <key key="shop" value="convenience" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Carrefour Market" ka.name="კარფური მარკეტი" ru.name="Карфур Маркет" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/5/5b/Carrefour_logo.svg" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" values="24/7" />
+          <key key="brand" value="Carrefour" />
+          <key key="brand:en" value="Carrefour" />
+          <key key="brand:ru" value="Карфур" />
+          <key key="brand:wikidata" value="Q217599" />
+          <key key="operator" value="შპს მაჯიდ ალ ფუტაიმ ჰიპერმარკეტს ჯორჯია" />
+          <key key="contact:twitter" value="https://twitter.com/carrefourge" />
+          <key key="contact:youtube" value="https://youtube.com/channel/UCQ7aPJ3odUD15oPgBrqhEtA" />
+          <key key="contact:instagram" value="https://instagram.com/carrefour_georgia" />
+          <key key="contact:facebook" value="https://facebook.com/carrefourgeorgia" />
+          <key key="contact:website" value="https://www.carrefour.ge" />
+          <key key="contact:email" value="mobappgeo@mafcarrefour.com" />
+          <key key="name" value="კარფური მარკეტი" />
+          <key key="name:ka" value="კარფური მარკეტი" />
+          <key key="name:en" value="Carrefour Market" />
+          <key key="name:ru" value="Карфур Маркет" />
+          <key key="payment:visa" value="yes" />
+          <key key="payment:mastercard" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:credit_cards" value="yes" />
+          <key key="payment:debit_cards" value="yes" />
+          <key key="payment:contactless" value="yes" />
+          <key key="payment:cash" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:unionpay" value="yes" />
+          <key key="payment:diners_club" value="yes" />
+          <key key="payment:discover_card" value="yes" />
+          <key key="payment:jcb" value="yes"/>
+          <key key="payment:apple_pay" value="yes" />
+          <key key="payment:google_pay" value="yes" />
           <key key="shop" value="supermarket" />
           <reference ref="basic_shop" />
         </item>
@@ -1553,7 +1718,7 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
         <item name="Zgapari" ka.name="ზღაპარი" ru.name="Згапари" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1583,7 +1748,7 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
         <item name="Fresco" ka.name="ფრესკო" ru.name="Фреско" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1648,7 +1813,7 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
         <item name="Willmart" ka.name="ვილმარტი" ru.name="Виллмарт" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1710,7 +1875,7 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
         <item name="Daily" ka.name="დეილი" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1736,7 +1901,7 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
         <item name="Europroduct" ka.name="ევროპროდუქტი" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1765,7 +1930,7 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
         <item name="Universami" ka.name="უნივერსამი" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1791,7 +1956,7 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
         <item name="Gvirila" ka.name="გვირილა" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1818,12 +1983,12 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
         <item name="Smart" ka.name="სმარტ" type="node,closedway,multipolygon" preset_name_label="true">
           <space />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <combo key="opening_hours" text="Opening Hours" values="24/7" />
           <key key="brand" value="სმარტ" />
           <key key="brand:en" value="Smart" />
@@ -1950,7 +2115,7 @@
           <key key="name" value="ექსპრეს ქსელი" />
           <key key="name:ka" value="ექსპრეს ქსელი" />
           <key key="name:en" value="Express Chain" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
         <item name="Belmart" ka.name="ბელმარტი" ru.name="Белмарт" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1978,7 +2143,7 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
       </group>
@@ -2337,6 +2502,35 @@
           <key key="shop" value="appliance" />
           <reference ref="basic_shop" />
         </item>
+        <item name="Kontakt Home" ka.name="კონტაქტ ჰოუმი" type="node,closedway,multipolygon" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" />
+          <key key="brand" value="კონტაქტ ჰოუმი" />
+          <key key="brand:en" value="Kontakt Home" />
+          <key key="name" value="კონტაქტ ჰოუმი" />
+          <key key="name:ka" value="კონტაქტ ჰოუმი" />
+          <key key="name:en" value="Kontakt Home" />
+          <key key="contact:website" value="https://kontakt.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/kontakthomegeo" />
+          <key key="contact:instagram" value="https://www.instagram.com/kontakt.ge" />
+          <key key="contact:phone" value="+995 32 360 60 60" />
+          <key key="payment:visa" value="yes" />
+          <key key="payment:mastercard" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:credit_cards" value="yes" />
+          <key key="payment:debit_cards" value="yes" />
+          <key key="payment:contactless" value="yes" />
+          <key key="payment:cash" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:unionpay" value="yes" />
+          <key key="payment:diners_club" value="yes" />
+          <key key="payment:discover_card" value="yes" />
+          <key key="payment:jcb" value="yes"/>
+          <key key="payment:apple_pay" value="yes" />
+          <key key="payment:google_pay" value="yes" />
+          <key key="shop" value="electronics" />
+          <reference ref="basic_shop" />
+        </item>
       </group>
 
       <group name="Toys" ka.name="სათამაშოები" ru.name="Игрушки" icon="https://upload.wikimedia.org/wikipedia/commons/d/d6/Spinning_top.svg">
@@ -2486,6 +2680,34 @@
           <key key="shop" value="books" />
           <reference ref="basic_shop" />
         </item>
+        <item name="Prospero's Books" ka.name="პროსპეროს წიგნები" type="node,closedway,multipolygon" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" />
+          <key key="brand" value="პროსპეროს წიგნები" />
+          <key key="brand:en" value="Prospero's Books" />
+          <key key="name" value="პროსპეროს წიგნები" />
+          <key key="name:ka" value="პროსპეროს წიგნები" />
+          <key key="name:en" value="Prospero's Books" />
+          <key key="contact:website" value="https://prosperosbookshop.com" />
+          <key key="contact:facebook" value="https://www.facebook.com/prosperosbooks" />
+          <key key="contact:phone" value="+995 32 292 35 92" />
+          <key key="contact:email" value="info@prosperosbookshop.com" />
+          <key key="payment:visa" value="yes" />
+          <key key="payment:mastercard" value="yes" />
+          <key key="payment:credit_cards" value="yes" />
+          <key key="payment:debit_cards" value="yes" />
+          <key key="payment:contactless" value="yes" />
+          <key key="payment:cash" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:unionpay" value="yes" />
+          <key key="payment:diners_club" value="yes" />
+          <key key="payment:discover_card" value="yes" />
+          <key key="payment:jcb" value="yes"/>
+          <key key="payment:apple_pay" value="yes" />
+          <key key="payment:google_pay" value="yes" />
+          <key key="shop" value="books" />
+          <reference ref="basic_shop" />
+        </item>
       </group>
 
       <group name="Clothes" ka.name="ქსოვილი" ru.name="Одежда" icon="https://upload.wikimedia.org/wikipedia/commons/f/f9/T-shirt_silhouette.svg">
@@ -2543,9 +2765,37 @@
           <reference ref="basic_shop" />
           <reference ref="clothes_list" />
         </item>
+        <item name="navne" ka.name="ნავნე" type="node,closedway,multipolygon" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" />
+          <key key="brand" value="ნავნე" />
+          <key key="brand:en" value="navne" />
+          <key key="name" value="ნავნე" />
+          <key key="name:ka" value="ნავნე" />
+          <key key="name:en" value="navne" />
+          <key key="contact:facebook" value="https://www.facebook.com/www.navne.ge" />
+          <key key="contact:email" value="info@navne.ge" />
+          <key key="contact:phone" value="+995 32 264 60 60" />
+          <key key="payment:visa" value="yes" />
+          <key key="payment:mastercard" value="yes" />
+          <key key="payment:credit_cards" value="yes" />
+          <key key="payment:debit_cards" value="yes" />
+          <key key="payment:contactless" value="yes" />
+          <key key="payment:cash" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:unionpay" value="yes" />
+          <key key="payment:diners_club" value="yes" />
+          <key key="payment:discover_card" value="yes" />
+          <key key="payment:jcb" value="yes"/>
+          <key key="payment:apple_pay" value="yes" />
+          <key key="payment:google_pay" value="yes" />
+          <key key="shop" value="clothes" />
+          <reference ref="basic_shop" />
+          <reference ref="clothes_list" />
+        </item>
       </group>
 
-      <group name="Variety stores" ka.name="ჯიშის მაღაზიები" ru.name="Универмаги" icon="https://upload.wikimedia.org/wikipedia/commons/9/91/Shiny_Coin_Icon.svg">
+      <group name="Variety stores and Houseware" ka.name="ჯიშის მაღაზიები" ru.name="Универмаги" icon="https://upload.wikimedia.org/wikipedia/commons/9/91/Shiny_Coin_Icon.svg">
         <item name="Miniso" ka.name="მინისო" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/4/46/Miniso_logo.svg" preset_name_label="true">
           <space />
           <combo key="opening_hours" text="Opening Hours" />
@@ -2639,7 +2889,7 @@
           <key key="brand:wikidata" value="Q4038791" />
           <key key="name" value="ფიქს პრაისი" />
           <key key="name:ka" value="ფიქს პრაისი" />
-          <key key="name:en" value="ფიქს პრაისი" />
+          <key key="name:en" value="Fix Price" />
           <key key="contact:instagram" value="https://www.instagram.com/fixprice.georgia" />
           <key key="payment:visa" value="yes" />
           <key key="payment:mastercard" value="yes" />
@@ -2655,6 +2905,61 @@
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
           <key key="shop" value="variety_store" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Super" ka.name="სუპერი" type="node,closedway,multipolygon" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" />
+          <key key="brand" value="სუპერი" />
+          <key key="brand:en" value="Super" />
+          <key key="name" value="სუპერი" />
+          <key key="name:ka" value="სუპერი" />
+          <key key="name:en" value="Super" />
+          <key key="contact:website" value="https://superstore.ge" />
+          <key key="contact:email" value="info@superstore.ge" />
+          <key key="contact:instagram" value="https://www.instagram.com/superstoregeorgia" />
+          <key key="contact:facebook" value="https://www.facebook.com/SuperStoreGeorgia" />
+          <key key="payment:visa" value="yes" />
+          <key key="payment:mastercard" value="yes" />
+          <key key="payment:credit_cards" value="yes" />
+          <key key="payment:debit_cards" value="yes" />
+          <key key="payment:contactless" value="yes" />
+          <key key="payment:cash" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:unionpay" value="yes" />
+          <key key="payment:diners_club" value="yes" />
+          <key key="payment:discover_card" value="yes" />
+          <key key="payment:jcb" value="yes"/>
+          <key key="payment:apple_pay" value="yes" />
+          <key key="payment:google_pay" value="yes" />
+          <key key="shop" value="houseware" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Home" ka.name="ჰოუმ" type="node,closedway,multipolygon" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" />
+          <key key="brand" value="ჰოუმ" />
+          <key key="brand:en" value="Home" />
+          <key key="name" value="ჰოუმ" />
+          <key key="name:ka" value="ჰოუმ" />
+          <key key="name:en" value="Home" />
+          <key key="contact:phone" value="+995 551 16 77 41" />
+          <key key="contact:email" value="info@ltdhome.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/ltdhome" />
+          <key key="payment:visa" value="yes" />
+          <key key="payment:mastercard" value="yes" />
+          <key key="payment:credit_cards" value="yes" />
+          <key key="payment:debit_cards" value="yes" />
+          <key key="payment:contactless" value="yes" />
+          <key key="payment:cash" value="yes" />
+          <key key="payment:american_express" value="yes" />
+          <key key="payment:unionpay" value="yes" />
+          <key key="payment:diners_club" value="yes" />
+          <key key="payment:discover_card" value="yes" />
+          <key key="payment:jcb" value="yes"/>
+          <key key="payment:apple_pay" value="yes" />
+          <key key="payment:google_pay" value="yes" />
+          <key key="shop" value="houseware" />
           <reference ref="basic_shop" />
         </item>
       </group>
@@ -2685,7 +2990,7 @@
           <key key="payment:jcb" value="yes"/>
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="variety_store" />
+          <key key="shop" value="furniture" />
           <reference ref="basic_shop" />
         </item>
         <item name="Gorgia" ka.name="გორგია" ru.name="Горгиа" type="node,closedway,multipolygon" preset_name_label="true">
@@ -2717,38 +3022,6 @@
           <key key="payment:apple_pay" value="yes" />
           <key key="payment:google_pay" value="yes" />
           <key key="shop" value="doityourself" />
-          <reference ref="basic_shop" />
-        </item>
-      </group>
-
-      <group name="Cosmetics" ka.name="კოსმეტიკა" ru.name="Косметика" icon="https://upload.wikimedia.org/wikipedia/commons/4/46/Noto_Emoji_Oreo_1f485.svg">
-        <item name="Mosaic" ka.name="მოზაიკა" ru.name="Мозайка" type="node,closedway,multipolygon" preset_name_label="true">
-          <space />
-          <combo key="opening_hours" text="Opening Hours" />
-          <key key="brand" value="მოზაიკა" />
-          <key key="brand:en" value="Mosaic" />
-          <key key="name" value="მოზაიკა" />
-          <key key="name:ka" value="მოზაიკა" />
-          <key key="name:en" value="Mosaic" />
-          <key key="name:ru" value="Мозайка" />
-          <key key="contact:website" value="http://batumimosaic.ge" />
-          <key key="contact:phone" value="+995 577 41 50 15" />
-          <key key="contact:email" value="info@batumimosaic.ge" />
-          <key key="payment:visa" value="yes" />
-          <key key="payment:mastercard" value="yes" />
-          <key key="payment:american_express" value="yes" />
-          <key key="payment:credit_cards" value="yes" />
-          <key key="payment:debit_cards" value="yes" />
-          <key key="payment:contactless" value="yes" />
-          <key key="payment:cash" value="yes" />
-          <key key="payment:american_express" value="yes" />
-          <key key="payment:unionpay" value="yes" />
-          <key key="payment:diners_club" value="yes" />
-          <key key="payment:discover_card" value="yes" />
-          <key key="payment:jcb" value="yes"/>
-          <key key="payment:apple_pay" value="yes" />
-          <key key="payment:google_pay" value="yes" />
-          <key key="shop" value="cosmetics" />
           <reference ref="basic_shop" />
         </item>
       </group>
@@ -2937,6 +3210,29 @@
           <key key="name:ka" value="საქართველოს ბანკი ექსპრესი" />
           <key key="name:en" value="Bank of Georgia Express" />
           <key key="name:ru" value="Банк Грузии Экспресс" />
+          <reference ref="bank_office" />
+        </item>
+        <item name="Solo" ru.name="Соло" ka.name="სოლო" type="node,closedway,multipolygon" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" />
+          <key key="amenity" value="bank" />
+          <key key="bic" value="BAGAGE22" />
+          <key key="brand" value="საქართველოს ბანკი" />
+          <key key="brand:en" value="Bank of Georgia" />
+          <key key="brand:ru" value="Банк Грузии" />
+          <key key="brand:tr" value="Gürcistan Bankası" />
+          <key key="brand:wikidata" value="Q2469733" />
+          <key key="operator:wikidata" value="Q2469733" />
+          <key key="contact:phone" value="+995 32 244 44 00" />
+          <key key="contact:website" value="https://solo.ge" />
+          <key key="contact:instagram" value="https://www.instagram.com/solo_ge/" />
+          <key key="contact:facebook" value="https://www.facebook.com/www.SOLO.ge" />
+          <key key="contact:youtube" value="https://www.youtube.com/channel/UCazxChwPkbV_lCxelYITnNg" />
+          <key key="contact:email" value="solo@bog.ge" />
+          <key key="name" value="სოლო" />
+          <key key="name:ka" value="სოლო" />
+          <key key="name:en" value="Solo" />
+          <key key="name:ru" value="Соло" />
           <reference ref="bank_office" />
         </item>
         <item name="Liberty" ka.name="ლიბერთი" type="node,closedway,multipolygon" preset_name_label="true">
@@ -3640,6 +3936,7 @@
           <space />
           <combo key="opening_hours" text="Opening Hours" />
           <key key="shop" value="money_lender" />
+          <key key="amenity" value="bureau_de_change" />
           <key key="brand" value="რიკო კრედიტი" />
           <key key="brand:en" value="Rico Credit" />
           <key key="brand:ru" value="Рико Кредит" />
@@ -3652,6 +3949,45 @@
           <key key="name:ka" value="რიკო კრედიტი" />
           <key key="name:en" value="Rico Credit" />
           <key key="name:ru" value="Рико Кредит" />
+          <reference ref="basic_data" />
+          <reference ref="wheelchair_address" />
+        </item>
+        <item name="Swiss Capital" ru.name="Свис Капитал" ka.name="სვის კაპიტალი" type="node,closedway,multipolygon" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" />
+          <key key="shop" value="money_lender" />
+          <key key="amenity" value="bureau_de_change" />
+          <key key="brand" value="სვის კაპიტალი" />
+          <key key="brand:en" value="Swiss Capital" />
+          <key key="brand:ru" value="Свис Капитал" />
+          <key key="contact:website" value="https://swisscapital.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/swisscapital" />
+          <key key="contact:youtube" value="https://www.youtube.com/channel/UCpxxR2NbIH_uJQD7XLKIEdw" />
+          <key key="contact:email" value="rico@rico.ge" />
+          <key key="contact:phone" value="+995 32 230 03 00" />
+          <key key="name" value="სვის კაპიტალი" />
+          <key key="name:ka" value="სვის კაპიტალი" />
+          <key key="name:en" value="Swiss Capital" />
+          <key key="name:ru" value="Свис Капитал" />
+          <reference ref="basic_data" />
+          <reference ref="wheelchair_address" />
+        </item>
+        <item name="Valuto" ru.name="Валюто" ka.name="ვალუტო" type="node,closedway,multipolygon" preset_name_label="true">
+          <space />
+          <combo key="opening_hours" text="Opening Hours" />
+          <key key="amenity" value="bureau_de_change" />
+          <key key="brand" value="თიბისი ბანკი" />
+          <key key="brand:en" value="TBC Bank" />
+          <key key="brand:ru" value="ТиБиСи Банк" />
+          <key key="brand:wikidata" value="Q2620975" />
+          <key key="contact:website" value="https://www.valuto.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/valutoge" />
+          <key key="contact:email" value="info@valuto.ge" />
+          <key key="contact:phone" value="+995 32 224 27 27" />
+          <key key="name" value="ვალუტო" />
+          <key key="name:ka" value="ვალუტო" />
+          <key key="name:en" value="Valuto" />
+          <key key="name:ru" value="Валюто" />
           <reference ref="basic_data" />
           <reference ref="wheelchair_address" />
         </item>
@@ -4087,11 +4423,11 @@
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dcourier" />
       </item>
-      <item name="USA2GEORGIA Office" type="node" preset_name_label="true">
+      <item name="USA2Georgia Office" type="node" preset_name_label="true">
         <space />
-        <key key="name" value="USA2GEORGIA" />
-        <key key="name:en" value="USA2GEORGIA" />
-        <key key="brand" value="USA2GEORGIA" />
+        <key key="name" value="USA2Georgia" />
+        <key key="name:en" value="USA2Georgia" />
+        <key key="brand" value="USA2Georgia" />
         <key key="contact:website" value="https://usa2georgia.com" />
         <key key="contact:instagram" value="https://instagram.com/usa2georgia.com_" />
         <key key="contact:facebook" value="https://facebook.com/USA2GEORGIACOM" />
@@ -4101,14 +4437,13 @@
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dcourier" />
       </item>
-      <item name="USA2GEORGIA Parcel Locker" type="node" preset_name_label="true">
+      <item name="Locker.ge Parcel Locker" type="node" preset_name_label="true">
         <space />
-        <key key="name" value="USA2GEORGIA" />
-        <key key="name:en" value="USA2GEORGIA" />
-        <key key="brand" value="USA2GEORGIA" />
-        <key key="contact:website" value="https://usa2georgia.com" />
-        <key key="contact:instagram" value="https://instagram.com/usa2georgia.com_" />
-        <key key="contact:facebook" value="https://facebook.com/USA2GEORGIACOM" />
+        <key key="name" value="Locker.ge" />
+        <key key="name:en" value="Locker.ge" />
+        <key key="brand" value="Locker.ge" />
+        <key key="contact:website" value="https://www.locker.ge" />
+        <key key="contact:phone" value="+995 32 242 11 99" />
         <key key="contact:email" value="sales@usa2georgia.com" />
         <key key="amenity" value="parcel_locker" />
         <reference ref="basic_data" />
