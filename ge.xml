@@ -493,7 +493,7 @@
         <key key="contact:facebook" value="https://facebook.com/ImpexPharmacy" />
         <key key="contact:instagram" value="https://instagram.com/impexpharmacy" />
         <key key="contact:linkedin" value="https://linkedin.com/company/impexpharm" />
-        <key key="contact:phone" default="+995 32 231 31 00" />
+        <key key="contact:phone" value="+995 32 231 31 00" />
         <key key="contact:email" value="office@myimpex.ge" />
         <key key="name" value="იმპექსი" />
         <key key="name:ka" value="იმპექსი" />
@@ -542,7 +542,7 @@
         <key key="contact:facebook" value="https://www.facebook.com/pharmsaxli" />
         <key key="contact:instagram" value="https://www.instagram.com/pharmhouse.pharmacy" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/%E1%83%A4%E1%83%90%E1%83%A0%E1%83%9B%E1%83%90%E1%83%A1%E1%83%90%E1%83%AE%E1%83%9A%E1%83%98" />
-        <key key="contact:phone" default="+995 32 247 01 10" />
+        <key key="contact:phone" value="+995 32 247 01 10" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
@@ -584,7 +584,7 @@
         <key key="contact:website" value="https://www.iberipharma.ge" />
         <key key="contact:facebook" value="https://www.facebook.com/IBERIPHARMA" />
         <key key="contact:email" value="info@iberiplus.ge" />
-        <key key="contact:phone" default="+995 32 234 40 88" />
+        <key key="contact:phone" value="+995 32 234 40 88" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
