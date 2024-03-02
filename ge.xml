@@ -58,10 +58,7 @@
     <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
   </chunk>
   <chunk id="contacts">
-    <reference ref="website" />
     <reference ref="phone" />
-    <reference ref="email" />
-    <reference ref="social" />
   </chunk>
   <chunk id="basic_data">
     <reference ref="opening_hours" />
@@ -251,6 +248,7 @@
       <check key="payment:diners_club" text="Dinners Club" default="on" />
       <check key="payment:discover_card" text="Discover Card" default="on" />
       <check key="payment:jcb" text="JCB" default="on" />
+      <check key="payment:mir" text="Mir" default="off" />
       <check key="payment:apple_pay" text="Apple Pay" default="on" />
       <check key="payment:google_pay" text="Google Pay" default="on" />
       <check key="payment:alipay" text="AliPay" default="off" />
@@ -1064,7 +1062,7 @@
           <key key="shop" value="supermarket" />
           <reference ref="basic_shop" />
         </item>
-        <item name="Carrefour" ka.name="კარფური" ru.name="Карфур" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/5/5b/Carrefour_logo.svg" preset_name_label="true">
+        <item name="Carrefour" ka.name="კარფური" ru.name="Карфур" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="Carrefour" />
           <key key="brand:en" value="Carrefour" />
           <key key="brand:ru" value="Карфур" />
@@ -1083,7 +1081,7 @@
           <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
-        <item name="Carrefour Market" ka.name="კარფური მარკეტი" ru.name="Карфур Маркет" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/5/5b/Carrefour_logo.svg" preset_name_label="true">
+        <item name="Carrefour Market" ka.name="კარფური მარკეტი" ru.name="Карфур Маркет" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="Carrefour" />
           <key key="brand:en" value="Carrefour" />
           <key key="brand:ru" value="Карфур" />
@@ -1261,14 +1259,14 @@
           <key key="shop" value="pastry" />
           <reference ref="basic_shop" />
         </item>
-        <item name="Alcorium" ka.name="ალქორიუმი" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="ალქორიუმი" />
+        <item name="Alcorium" ka.name="ალკორიუმი" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="ალკორიუმი" />
           <key key="brand:en" value="Alcorium" />
           <key key="contact:email" value="info@alcorium-store.ge" />
           <key key="contact:website" value="https://alcorium-store.ge" />
           <key key="contact:facebook" value="https://facebook.com/alcorium" />
-          <key key="name" value="ალქორიუმი" />
-          <key key="name:ka" value="ალქორიუმი" />
+          <key key="name" value="ალკორიუმი" />
+          <key key="name:ka" value="ალკორიუმი" />
           <key key="name:en" value="Alcorium" />
           <key key="drink:chacha" value="retail" />
           <key key="drink:beer" value="retail" />
