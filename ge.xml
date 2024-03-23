@@ -251,10 +251,26 @@
       <check key="payment:mir" text="Mir" default="off" />
       <check key="payment:apple_pay" text="Apple Pay" default="on" />
       <check key="payment:google_pay" text="Google Pay" default="on" />
+      <check key="payment:samsung_pay" text="Samsung Pay" default="on" />
       <check key="payment:alipay" text="AliPay" default="off" />
-      <check key="payment:samsung_pay" text="Samsung Pay" default="off" />
     </checkgroup>
   </chunk>
+  <chunk id="default_payments">
+    <key key="payment:cash" value="yes" />
+    <key key="payment:credit_cards" value="yes" />
+    <key key="payment:debit_cards" value="yes" />
+    <key key="payment:contactless" value="yes" />
+    <key key="payment:mastercard" value="yes" />
+    <key key="payment:visa" value="yes" />
+    <key key="payment:american_express" value="yes" />
+    <key key="payment:unionpay" value="yes" />
+    <key key="payment:diners_club" value="yes" />
+    <key key="payment:discover_card" value="yes" />
+    <key key="payment:jcb" value="yes"/>
+    <key key="payment:apple_pay" value="yes" />
+    <key key="payment:google_pay" value="yes" />
+  </chunk>
+
   <chunk id="drink_values">
     <list_entry value="yes" />
     <list_entry value="retail" />
@@ -352,6 +368,7 @@
     <reference ref="gas" />
     <space />
     <reference ref="payment" />
+    <reference ref="default_payments" />
   </chunk>
   <chunk id="charging_station">
     <reference ref="opening_hours_24_7" />
@@ -366,6 +383,7 @@
     <reference ref="wheelchair_address" />
     <space />
     <reference ref="payment" />
+    <reference ref="default_payments" />
   </chunk>
   <chunk id="eatery">
     <reference ref="basic_shop" />
@@ -761,6 +779,7 @@
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="amenity" value="fast_food" />
+        <reference ref="crypto_currencies_thru_citypay_io" />
         <reference ref="eatery" />
       </item>
       <item name="Tolia" ka.name="თოლია" type="node,closedway,multipolygon" preset_name_label="true">
@@ -850,6 +869,24 @@
         <key key="delivery" value="yes" />
         <key key="cuisine" value="turkish" />
         <key key="amenity" value="fast_food" />
+        <reference ref="eatery" />
+      </item>
+      <item name="Entrée" ka.name="ანტრე" ru.name="Антре" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="brand" value="ანტრე" />
+        <key key="brand:en" value="Entrée" />
+        <key key="brand:ru" value="Антре" />
+        <key key="name" value="ანტრე" />
+        <key key="name:en" value="Entrée" />
+        <key key="name:ka" value="ანტრე" />
+        <key key="name:ru" value="Антре" />
+        <key key="contact:facebook" value="https://www.facebook.com/entree.ge" />
+        <key key="contact:instagram" value="https://www.instagram.com/entree_ge" />
+        <key key="contact:mobile" value="+995 595 90 71 80" />
+        <key key="contact:website" value="https://entree.ge" />
+        <key key="cuisine" value="coffee_shop" />
+        <key key="coffee:brand" value="Meama" />
+        <key key="amenity" value="cafe" />
+        <key key="shop" value="pastry" />
         <reference ref="eatery" />
       </item>
     </group>
@@ -1316,6 +1353,21 @@
           <key key="name:en" value="Belmart" />
           <key key="name:ru" value="Белмарт" />
           <key key="shop" value="convenience" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Vake" ka.name="ვაკე" ru.name="Ваке" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="ვაკე" />
+          <key key="brand:en" value="Vake" />
+          <key key="brand:ru" value="Ваке" />
+          <key key="contact:facebook" value="https://www.facebook.com/vakeproducts/" />
+          <key key="contact:phone" value="+995 32 222 65 04" />
+          <key key="contact:email" value="info@vake.ge" />
+          <key key="contact:website" value="http://vake.ge" />
+          <key key="name" value="ვაკე" />
+          <key key="name:ka" value="ვაკე" />
+          <key key="name:en" value="Vake" />
+          <key key="name:ru" value="Ваке" />
+          <key key="shop" value="deli" />
           <reference ref="basic_shop" />
         </item>
       </group>
@@ -2582,6 +2634,10 @@
           <key key="name:ka" value="ვალუტო" />
           <key key="name:en" value="Valuto" />
           <key key="name:ru" value="Валюто" />
+          <key key="currency:GEL" value="yes" />
+          <key key="currency:USD" value="yes" />
+          <key key="currency:EUR" value="yes" />
+          <key key="currency:RUB" value="yes" />
           <reference ref="basic_data" />
           <reference ref="wheelchair_address" />
         </item>
@@ -2630,6 +2686,7 @@
         <key key="name" value="ვისოლ" />
         <key key="name:ka" value="ვისოლ" />
         <key key="name:en" value="Wissol" />
+        <reference ref="crypto_currencies_thru_citypay_io" />
         <reference ref="fuel_station" />
       </item>
       <item name="Gulf" ka.name="გულფი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulf_Oil_logo.svg">
