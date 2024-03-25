@@ -63,18 +63,10 @@
   <chunk id="basic_data">
     <reference ref="opening_hours" />
     <space />
-    <reference ref="name" />
-    <space />
-    <reference ref="brand" />
-    <space />
     <reference ref="contacts" />
   </chunk>
   <chunk id="basic_data_24_7">
     <reference ref="opening_hours_24_7" />
-    <space />
-    <reference ref="name" />
-    <space />
-    <reference ref="brand" />
     <space />
     <reference ref="contacts" />
   </chunk>
@@ -167,16 +159,16 @@
     </checkgroup>
   </chunk>
   <chunk id="crypto_currencies_thru_citypay_io">
-    <checkgroup columns="3">
-      <check key="payment:onchain" text="onchain payments accepted" default="on" />
-      <check key="currency:XBT" text="Bitcoin" default="on" />
-      <check key="currency:BCH" text="Bitcoin Cash" default="on" />
-      <check key="currency:USDT" text="USDT" default="on" />
-      <check key="currency:LTC" text="Litecoin" default="on" />
-      <check key="currency:DASH" text="Dash" default="on" />
-      <check key="currency:ZEC" text="Zcash" default="on" />
-      <check key="currency:BTG" text="Bitcoin Gold" default="on" />
-    </checkgroup>
+    <reference ref="crypto_currencies" />
+
+    <key key="payment:onchain" value="yes" />
+    <key key="currency:XBT" value="yes" />
+    <key key="currency:BCH" value="yes" />
+    <key key="currency:USDT" value="yes" />
+    <key key="currency:LTC" value="yes" />
+    <key key="currency:DASH" value="yes" />
+    <key key="currency:ZEC" value="yes" />
+    <key key="currency:BTG" value="yes" />
   </chunk>
   <chunk id="atm">
     <reference ref="opening_hours_24_7" />
@@ -256,6 +248,8 @@
     </checkgroup>
   </chunk>
   <chunk id="default_payments">
+    <reference ref="payment" />
+
     <key key="payment:cash" value="yes" />
     <key key="payment:credit_cards" value="yes" />
     <key key="payment:debit_cards" value="yes" />
@@ -367,7 +361,6 @@
     <space />
     <reference ref="gas" />
     <space />
-    <reference ref="payment" />
     <reference ref="default_payments" />
   </chunk>
   <chunk id="charging_station">
@@ -382,7 +375,6 @@
     <space />
     <reference ref="wheelchair_address" />
     <space />
-    <reference ref="payment" />
     <reference ref="default_payments" />
   </chunk>
   <chunk id="eatery">
@@ -2599,6 +2591,7 @@
           <key key="name:ka" value="რიკო კრედიტი" />
           <key key="name:en" value="Rico Credit" />
           <key key="name:ru" value="Рико Кредит" />
+          <reference ref="full_currencies" />
           <reference ref="basic_data" />
           <reference ref="wheelchair_address" />
         </item>
@@ -2617,6 +2610,7 @@
           <key key="name:ka" value="სვის კაპიტალი" />
           <key key="name:en" value="Swiss Capital" />
           <key key="name:ru" value="Свис Капитал" />
+          <reference ref="full_currencies" />
           <reference ref="basic_data" />
           <reference ref="wheelchair_address" />
         </item>
@@ -2638,6 +2632,7 @@
           <key key="currency:USD" value="yes" />
           <key key="currency:EUR" value="yes" />
           <key key="currency:RUB" value="yes" />
+          <reference ref="full_currencies" />
           <reference ref="basic_data" />
           <reference ref="wheelchair_address" />
         </item>
