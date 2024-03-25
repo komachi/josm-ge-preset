@@ -875,10 +875,36 @@
         <key key="contact:instagram" value="https://www.instagram.com/entree_ge" />
         <key key="contact:mobile" value="+995 595 90 71 80" />
         <key key="contact:website" value="https://entree.ge" />
-        <key key="cuisine" value="coffee_shop" />
-        <key key="coffee:brand" value="Meama" />
         <key key="amenity" value="cafe" />
         <key key="shop" value="pastry" />
+        <key key="cuisine" value="cake;coffee;pastry;sandwich;tea" />
+        <reference ref="eatery" />
+      </item>
+      <item name="Di Roma" ka.name="დი რომა" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="name" value="დი რომა" />
+        <key key="name:ka" value="დი რომა" />
+        <key key="name:en" value="Di Roma" />
+        <key key="name:ru" value="Ди Рома" />
+        <key key="contact:facebook" value="https://www.facebook.com/pizzadiroma.ge/" />
+        <key key="contact:mobile" value="+995 579 88 00 52" />
+        <key key="contact:email" value="info@pizzadiroma.ge" />
+        <key key="takeaway" value="yes" />
+        <key key="delivery" value="yes" />
+        <key key="cuisine" value="pizza;italian" />
+        <key key="amenity" value="cafe" />
+        <reference ref="eatery" />
+      </item>
+      <item name="Degusto" ka.name="დეგუსტო" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="name" value="დეგუსტო" />
+        <key key="name:ka" value="დეგუსტო" />
+        <key key="name:en" value="Degusto" />
+        <key key="name:ru" value="Дегусто" />
+        <key key="contact:facebook" value="https://www.facebook.com/Degusto.ge/" />
+        <key key="takeaway" value="yes" />
+        <key key="delivery" value="yes" />
+        <key key="cuisine" value="georgian" />
+        <key key="amenity" value="fast_food" />
+        <key key="fast_food" value="cafeteria" />
         <reference ref="eatery" />
       </item>
     </group>
