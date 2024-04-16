@@ -942,7 +942,7 @@
           <key key="contact:facebook" value="https://www.facebook.com/OFFICIAL.ICIPARIS" />
           <key key="contact:instagram" value="https://www.instagram.com/iciparisofficial" />
           <key key="contact:youtube" value="https://www.youtube.com/channel/UCE-IyL0u5twGKPdqTEIJEbw" />
-          <key key="contact:phone" value=" +995 32 220 17 18" />
+          <key key="contact:phone" value="+995 32 220 17 18" />
           <key key="contact:email" value="info@iciparis.ge" />
           <key key="shop" value="cosmetics" />
           <reference ref="basic_shop" />
