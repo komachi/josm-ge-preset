@@ -265,6 +265,12 @@
     <key key="payment:apple_pay" value="yes" />
     <key key="payment:google_pay" value="yes" />
   </chunk>
+  <chunk id="duty_free_assistance">
+    <reference ref="payment" />
+
+    <key key="duty_free" value="refund" />
+    <key key="duty_free:refund:general_assistance" value="yes" />
+  </chunk>
 
   <chunk id="drink_values">
     <list_entry value="yes" />
@@ -1405,6 +1411,7 @@
           <key key="contact:youtube" value="https://youtube.com/user/WwwZoommerGe" />
           <key key="contact:email" value="info@zoommer.ge" />
           <key key="shop" value="electronics" />
+          <reference ref="duty_free_assistance" />
           <reference ref="basic_shop" />
         </item>
         <item name="Alta" ka.name="ალტა" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1417,6 +1424,7 @@
           <key key="contact:facebook" value="https://facebook.com/alta.ge" />
           <key key="contact:linkedin" value="https://linkedin.com/company/altaofficial" />
           <key key="shop" value="electronics" />
+          <reference ref="duty_free_assistance" />
           <reference ref="basic_shop" />
         </item>
         <item name="Elit Electronics" ka.name="ელიტ ელექტრონიქსი" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1433,6 +1441,7 @@
           <key key="contact:youtube" value="https://youtube.com/c/EeGeElitElectronics" />
           <key key="contact:linkedin" value="https://linkedin.com/company/elit-electronics" />
           <key key="shop" value="electronics" />
+          <reference ref="duty_free_assistance" />
           <reference ref="basic_shop" />
         </item>
         <item name="Mi Store" type="node,closedway,multipolygon" preset_name_label="true">
