@@ -161,6 +161,7 @@
   <chunk id="crypto_currencies_thru_citypay_io">
     <reference ref="crypto_currencies" />
 
+    <key key="payment:lightning" value="yes" />
     <key key="payment:onchain" value="yes" />
     <key key="currency:XBT" value="yes" />
     <key key="currency:BCH" value="yes" />
