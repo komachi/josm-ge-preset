@@ -2720,9 +2720,9 @@
         <reference ref="crypto_currencies_thru_citypay_io" />
         <reference ref="fuel_station" />
       </item>
-      <item name="Gulf" ka.name="გულფი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulf_Oil_logo.svg">
+      <item name="Gulf" ka.name="გალფი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulf_Oil_logo.svg">
         <key key="amenity" value="fuel" />
-        <key key="brand" value="გულფი" />
+        <key key="brand" value="გალფი" />
         <key key="brand:en" value="Gulf" />
         <key key="brand:wikidata" value="Q5617505" />
         <key key="operator" value="სან პეტროლიუმ ჯორჯია" />
@@ -2731,8 +2731,8 @@
         <key key="contact:facebook" value="https://facebook.com/gulfge" />
         <key key="contact:twitter" value="https://twitter.com/GulfGe" />
         <key key="contact:youtube" value="https://youtube.com/user/GulfGe" />
-        <key key="name" value="გულფი" />
-        <key key="name:ka" value="გულფი" />
+        <key key="name" value="გალფი" />
+        <key key="name:ka" value="გალფი" />
         <key key="name:en" value="Gulf" />
         <reference ref="fuel_station" />
       </item>
