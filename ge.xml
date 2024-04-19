@@ -633,6 +633,22 @@
         <key key="shop" value="optician" />
         <reference ref="basic_shop" />
       </item>
+      <item name="Kenari" ka.name="კენარი" ru.name="Кенари" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="brand" value="კენარი" />
+        <key key="brand:en" value="Kenari" />
+        <key key="brand:ru" value="Кенари" />
+        <key key="name" value="კენარი" />
+        <key key="name:ka" value="კენარი" />
+        <key key="name:en" value="Kenari" />
+        <key key="name:ru" value="Кенари" />
+        <key key="contact:website" value="https://kenari.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/kenarioptica" />
+        <key key="contact:instagram" value="https://www.instagram.com/kenarioptics" />
+        <key key="contact:phone" value="+995 32 230 79 50" />
+        <key key="contact:email" value="kenari@kenari.ge" />
+        <key key="shop" value="optician" />
+        <reference ref="basic_shop" />
+      </item>
     </group>
 
     <group name="Healthcare" ka.name="ჯანმრთელობა" ru.name="Здравоохранение" icon="https://upload.wikimedia.org/wikipedia/commons/5/5b/Star_of_life2.svg">
@@ -861,6 +877,8 @@
       <item name="Usta Dönerci" type="node,closedway,multipolygon" preset_name_label="true">
         <key key="brand" value="Usta Dönerci" />
         <key key="name" value="Usta Dönerci" />
+        <key key="name:tr" value="Usta Dönerci" />
+        <key key="name:ru" value="Уста Дёнерджи" />
         <key key="contact:facebook" value="https://www.facebook.com/ustadonerci.turkiye/" />
         <key key="contact:website" value="https://www.ustadonerci.com" />
         <key key="contact:email" value="donerci.usta@gmail.com" />
@@ -988,7 +1006,17 @@
       </group>
 
       <group name="Food shops" ka.name="პროდუქტები" ru.name="Продукты" icon="https://upload.wikimedia.org/wikipedia/commons/d/df/Shopping_cart_icon.svg">
-        <item name="Jibe" ka.name="ჯიბე" type="node,closedway,multipolygon" preset_name_label="true">
+        <item name="Way Mart" ka.name="ვეი მარტი" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="ვეი მარტი" />
+          <key key="contact:facebook" value="https://www.facebook.com/WayMartGeorgia/" />
+          <key key="name" value="ვეი მარტი" />
+          <key key="name:ka" value="ვეი მარტი" />
+          <key key="name:en" value="Way Mart" />
+          <key key="name:ru" value="Вэй Март" />
+          <key key="shop" value="convenience" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Jibe" ka.name="ჯიბე" ru.name="Джибе" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="ჯიბე ქეშ &amp; ქერი" />
           <key key="contact:facebook" value="https://www.facebook.com/Jibegeo" />
           <key key="contact:email" value="info@jibe.ge" />
@@ -999,7 +1027,7 @@
           <key key="shop" value="supermarket" />
           <reference ref="basic_shop" />
         </item>
-        <item name="Spar" ka.name="სპარი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/7/71/SPAR_Logo.svg">
+        <item name="Spar" ka.name="სპარი" ru.name="Спар" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/7/71/SPAR_Logo.svg">
           <key key="brand" value="SPAR" />
           <key key="brand:wikidata" value="Q610492" />
           <key key="contact:facebook" value="https://facebook.com/SPARGeorgia" />
@@ -1008,6 +1036,7 @@
           <key key="name" value="სპარი" />
           <key key="name:ka" value="სპარი" />
           <key key="name:en" value="Spar" />
+          <key key="name:ru" value="Спар" />
           <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
@@ -1143,6 +1172,25 @@
           <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
+        <item name="Carrefour City" ka.name="კარფური სითი" ru.name="Карфур Сити" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="Carrefour" />
+          <key key="brand:en" value="Carrefour" />
+          <key key="brand:ru" value="Карфур" />
+          <key key="brand:wikidata" value="Q217599" />
+          <key key="operator" value="შპს მაჯიდ ალ ფუტაიმ ჰიპერმარკეტს ჯორჯია" />
+          <key key="contact:twitter" value="https://twitter.com/carrefourge" />
+          <key key="contact:youtube" value="https://youtube.com/channel/UCQ7aPJ3odUD15oPgBrqhEtA" />
+          <key key="contact:instagram" value="https://instagram.com/carrefour_georgia" />
+          <key key="contact:facebook" value="https://facebook.com/carrefourgeorgia" />
+          <key key="contact:website" value="https://www.carrefour.ge" />
+          <key key="contact:email" value="mobappgeo@mafcarrefour.com" />
+          <key key="name" value="კარფური სითი" />
+          <key key="name:ka" value="კარფური სითი" />
+          <key key="name:en" value="Carrefour City" />
+          <key key="name:ru" value="Карфур Сити" />
+          <key key="shop" value="convenience" />
+          <reference ref="basic_shop" />
+        </item>
         <item name="Carrefour Market" ka.name="კარფური მარკეტი" ru.name="Карфур Маркет" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="Carrefour" />
           <key key="brand:en" value="Carrefour" />
@@ -1231,9 +1279,11 @@
           <key key="shop" value="supermarket" />
           <reference ref="basic_shop" />
         </item>
-        <item name="Global Products" ka.name="გლობალ პროდუქტი" type="node,closedway,multipolygon" preset_name_label="true">
+        <item name="Global Products" ka.name="გლობალ პროდუქტი" ru.name="Глобал Продукти" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="გლობალ პროდუქტი" />
           <key key="brand:en" value="Global Products" />
+          <key key="brand:ka" value="გლობალ პროდუქტი" />
+          <key key="brand:ru" value="Глобал Продукти" />
           <key key="contact:mobile" value="+995 551 77 17 17" />
           <key key="contact:email" value="info@globalproducts.ge" />
           <key key="contact:website" value="https://www.globalproducts.ge" />
@@ -1242,23 +1292,29 @@
           <key key="name" value="გლობალ პროდუქტი" />
           <key key="name:ka" value="გლობალ პროდუქტი" />
           <key key="name:en" value="Global Products" />
+          <key key="name:ru" value="Глобал Продукти" />
           <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
-        <item name="Daily" ka.name="დეილი" type="node,closedway,multipolygon" preset_name_label="true">
+        <item name="Daily" ka.name="დეილი" ru.name="Дейли" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="დეილი" />
           <key key="brand:en" value="Daily" />
+          <key key="brand:ka" value="დეილი" />
+          <key key="brand:ru" value="Дейли" />
           <key key="contact:instagram" value="https://instagram.com/dailysupermarket" />
           <key key="contact:linkedin" value="https://linkedin.com/company/daily-grocery" />
           <key key="name" value="დეილი" />
           <key key="name:ka" value="დეილი" />
           <key key="name:en" value="Daily" />
+          <key key="name:ru" value="Дейли" />
           <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
-        <item name="Europroduct" ka.name="ევროპროდუქტი" type="node,closedway,multipolygon" preset_name_label="true">
+        <item name="Europroduct" ka.name="ევროპროდუქტი" ru.name="Европродукти" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="ევროპროდუქტი" />
           <key key="brand:en" value="Europroduct" />
+          <key key="brand:ka" value="ევროპროდუქტი" />
+          <key key="brand:ru" value="Европродукти" />
           <key key="contact:phone" value="+995 32 265 25 45" />
           <key key="contact:email" value="info@europroduct.ge" />
           <key key="contact:website" value="https://europroduct.ge" />
@@ -1267,36 +1323,44 @@
           <key key="name" value="ევროპროდუქტი" />
           <key key="name:ka" value="ევროპროდუქტი" />
           <key key="name:en" value="Europroduct" />
+          <key key="name:ru" value="Европродукти" />
           <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
-        <item name="Universami" ka.name="უნივერსამი" type="node,closedway,multipolygon" preset_name_label="true">
+        <item name="Universami" ka.name="უნივერსამი" ru.name="Универсами" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="უნივერსამი" />
           <key key="brand:en" value="Universami" />
+          <key key="brand:ka" value="უნივერსამი" />
+          <key key="brand:ru" value="Универсами" />
           <key key="contact:email" value="info@universami.ge" />
           <key key="contact:facebook" value="https://www.facebook.com/Universami" />
           <key key="name" value="უნივერსამი" />
           <key key="name:ka" value="უნივერსამი" />
           <key key="name:en" value="Universami" />
+          <key key="name:ru" value="Универсами" />
           <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
-        <item name="Gvirila" ka.name="გვირილა" type="node,closedway,multipolygon" preset_name_label="true">
+        <item name="Gvirila" ka.name="გვირილა" ru.name="Гвирила" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="გვირილა" />
+          <key key="brand:ka" value="გვირილა" />
           <key key="brand:en" value="Gvirila" />
+          <key key="brand:ru" value="Гвирила" />
           <key key="contact:email" value="info@gvirila.com.ge" />
           <key key="contact:facebook" value="https://www.facebook.com/Gvirila2022" />
           <key key="contact:linkedin" value="https://www.linkedin.com/company/%E1%83%92%E1%83%95%E1%83%98%E1%83%A0%E1%83%98%E1%83%9A%E1%83%90-%E2%80%A2-gvirila" />
           <key key="name" value="გვირილა" />
           <key key="name:ka" value="გვირილა" />
           <key key="name:en" value="Gvirila" />
+          <key key="name:ru" value="Гвирила" />
           <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
-        <item name="Smart" ka.name="სმარტი" type="node,closedway,multipolygon" preset_name_label="true">
+        <item name="Smart" ka.name="სმარტი" ru.name="Смарт" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="shop" value="convenience" />
           <key key="brand" value="სმარტი" />
           <key key="brand:en" value="Smart" />
+          <key key="brand:ru" value="Смарт" />
           <key key="contact:website" value="http://www.smart.ge" />
           <key key="contact:email" value="hotline@smart.ge" />
           <key key="contact:facebook" value="https://facebook.com/SmartSupermarkets" />
@@ -1304,15 +1368,18 @@
           <key key="name" value="სმარტი" />
           <key key="name:ka" value="სმარტი" />
           <key key="name:en" value="Smart" />
+          <key key="name:ru" value="Смарт" />
           <reference ref="crypto_currencies_thru_citypay_io" />
           <reference ref="basic_shop" />
         </item>
-        <item name="Madart" ka.name="მადარტი" type="node,closedway,multipolygon" preset_name_label="true">
+        <item name="Madart" ka.name="მადარტი" ru.name="Мадарт" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="მადარტი" />
           <key key="brand:en" value="Madart" />
+          <key key="brand:ru" value="Мадарт" />
           <key key="name" value="მადარტი" />
           <key key="name:ka" value="მადარტი" />
           <key key="name:en" value="Madart" />
+          <key key="name:ru" value="Мадарт" />
           <key key="contact:website" value="https://madart.ge" />
           <key key="contact:facebook" value="https://facebook.com/madartgeorgia" />
           <key key="contact:instagram" value="https://instagram.com/madart_madart" />
@@ -1321,15 +1388,17 @@
           <key key="shop" value="pastry" />
           <reference ref="basic_shop" />
         </item>
-        <item name="Alcorium" ka.name="ალკორიუმი" type="node,closedway,multipolygon" preset_name_label="true">
+        <item name="Alcorium" ka.name="ალკორიუმი" ru.name="Алкориум" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="ალკორიუმი" />
           <key key="brand:en" value="Alcorium" />
+          <key key="brand:ru" value="Алкориум" />
           <key key="contact:email" value="info@alcorium-store.ge" />
           <key key="contact:website" value="https://alcorium-store.ge" />
           <key key="contact:facebook" value="https://facebook.com/alcorium" />
           <key key="name" value="ალკორიუმი" />
           <key key="name:ka" value="ალკორიუმი" />
           <key key="name:en" value="Alcorium" />
+          <key key="name:ru" value="Алкориум" />
           <key key="drink:chacha" value="retail" />
           <key key="drink:beer" value="retail" />
           <key key="drink:wine" value="retail" />
@@ -1348,12 +1417,14 @@
         <item name="Noste" ka.name="ნოსტე" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="ნოსტე" />
           <key key="brand:en" value="Noste" />
+          <key key="brand:ru" value="Носте" />
           <key key="contact:email" value="info@gpp.ge" />
           <key key="contact:website" value="http://gpp.ge" />
           <key key="contact:facebook" value="https://facebook.com/Nostechicken" />
           <key key="name" value="ნოსტე" />
           <key key="name:ka" value="ნოსტე" />
           <key key="name:en" value="Noste" />
+          <key key="name:ru" value="Носте" />
           <key key="shop" value="butcher" />
           <key key="butcher" value="poultry" />
           <reference ref="basic_shop" />
@@ -1361,9 +1432,11 @@
         <item name="Express Chain" ka.name="ექსპრეს ქსელი" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="ექსპრეს ქსელი" />
           <key key="brand:en" value="Express Chain" />
+          <key key="brand:ru" value="Экспрес Ксели" />
           <key key="name" value="ექსპრეს ქსელი" />
           <key key="name:ka" value="ექსპრეს ქსელი" />
           <key key="name:en" value="Express Chain" />
+          <key key="name:ru" value="Экспрес Ксели" />
           <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
@@ -1393,6 +1466,24 @@
           <key key="name:en" value="Vake" />
           <key key="name:ru" value="Ваке" />
           <key key="shop" value="deli" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Meama" ka.name="მეამა" ru.name="Меама" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="მეამა" />
+          <key key="brand:en" value="Meama" />
+          <key key="brand:ru" value="Меама" />
+          <key key="contact:facebook" value="https://www.facebook.com/IloveMeama" />
+          <key key="contact:twitter" value="https://twitter.com/Meamacoffee" />
+          <key key="contact:instagram" value="https://www.instagram.com/meama" />
+          <key key="contact:youtube" value="https://www.youtube.com/@Meama" />
+          <key key="contact:email" value="info@meama.ge" />
+          <key key="contact:website" value="https://meama.ge" />
+          <key key="name" value="მეამა" />
+          <key key="name:ka" value="მეამა" />
+          <key key="name:en" value="Meama" />
+          <key key="name:ru" value="Меама" />
+          <key key="shop" value="coffee" />
+          <reference ref="crypto_currencies_thru_citypay_io" />
           <reference ref="basic_shop" />
         </item>
       </group>
@@ -1569,6 +1660,22 @@
           <key key="shop" value="electronics" />
           <reference ref="basic_shop" />
         </item>
+        <item name="iSpace" ka.name="აისფეისი" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="iSpace" />
+          <key key="brand:en" value="iSpace" />
+          <key key="brand:ka" value="აისფეისი" />
+          <key key="name" value="iSpace" />
+          <key key="name:en" value="iSpace" />
+          <key key="name:ka" value="აისფეისი" />
+          <key key="contact:website" value="https://ispace.ge/" />
+          <key key="contact:email" value="info@iSpace.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/iSpace.ge" />
+          <key key="contact:instagram" value="https://www.instagram.com/ispace.ge/" />
+          <key key="contact:phone" value="+995 32 223 53 23" />
+          <key key="contact:email" value="info@mistore.ge" />
+          <key key="shop" value="electronics" />
+          <reference ref="basic_shop" />
+        </item>
       </group>
 
       <group name="Toys" ka.name="სათამაშოები" ru.name="Игрушки" icon="https://upload.wikimedia.org/wikipedia/commons/d/d6/Spinning_top.svg">
@@ -1609,6 +1716,19 @@
           <key key="contact:facebook" value="https://www.facebook.com/XSToys" />
           <key key="contact:email" value="info@anvol.ge" />
           <key key="shop" value="toys" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="KuraKura" ka.name="კურაკურა" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="კურაკურა" />
+          <key key="brand:en" value="KuraKura" />
+          <key key="name" value="კურაკურა" />
+          <key key="name:ka" value="კურაკურა" />
+          <key key="name:en" value="KuraKura" />
+          <key key="contact:website" value="https://kura-kura.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/kurakuratbilisi" />
+          <key key="contact:mobile" value="+995 577 14 46 77" />
+          <key key="contact:email" value="kuragifts@gmail.com" />
+          <key key="shop" value="games" />
           <reference ref="basic_shop" />
         </item>
       </group>
@@ -1696,6 +1816,17 @@
           <reference ref="basic_shop" />
           <reference ref="clothes_list" />
         </item>
+        <item name="OVS" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="OVS" />
+          <key key="brand:wikidata" value="Q2042514" />
+          <key key="name" value="OVS" />
+          <key key="contact:facebook" value="https://www.facebook.com/OvsGeorgia/" />
+          <key key="contact:email" value="info@gtex.ge" />
+          <key key="contact:phone" value="+995 32 290 33 34" />
+          <key key="shop" value="clothes" />
+          <reference ref="basic_shop" />
+          <reference ref="clothes_list" />
+        </item>
       </group>
 
       <group name="Variety stores and Houseware" ka.name="ჯიშის მაღაზიები" ru.name="Универмаги" icon="https://upload.wikimedia.org/wikipedia/commons/9/91/Shiny_Coin_Icon.svg">
@@ -1773,6 +1904,18 @@
           <key key="contact:email" value="info@ltdhome.ge" />
           <key key="contact:facebook" value="https://www.facebook.com/ltdhome" />
           <key key="shop" value="houseware" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Manamo Home" ka.name="მანამო ჰოუმი" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="მანამო ჰოუმი" />
+          <key key="brand:en" value="Manamo Home" />
+          <key key="name" value="მანამო ჰოუმი" />
+          <key key="name:ka" value="მანამო ჰოუმი" />
+          <key key="name:en" value="Manamo Home" />
+          <key key="contact:phone" value="+995 32 256 04 04" />
+          <key key="contact:email" value="estore@manamohome.com" />
+          <key key="contact:website" value="https://manamohome.com" />
+          <key key="shop" value="household_linen" />
           <reference ref="basic_shop" />
         </item>
       </group>
