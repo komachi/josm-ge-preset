@@ -423,7 +423,7 @@
 
   <group name="Georgian POIs" icon="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Georgia.svg">
     <group name="Pharmacies" ka.name="აფთიაქები" ru.name="Аптеки" icon="https://upload.wikimedia.org/wikipedia/commons/7/7b/Swiss_pharmacy_logo_%28old%29.svg">
-      <item name="PSP" ka.name="პსპ" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="PSP" ka.name="პსპ" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/psp.png">
         <key key="brand" value="პსპ" />
         <key key="brand:wikidata" value="Q115970964" />
         <key key="operator:wikidata" value="Q115970964" />
@@ -439,7 +439,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Aversi" ka.name="ავერსი" ru.name="Аверси" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Aversi" ka.name="ავერსი" ru.name="Аверси" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/aversi.jpg">
         <key key="brand" value="ავერსი" />
         <key key="brand:en" value="Aversi" />
         <key key="brand:ru" value="Аверси" />
@@ -458,7 +458,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Pharmadepot" ka.name="ფარმადეპო" ru.name="Фармадепот" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Pharmadepot" ka.name="ფარმადეპო" ru.name="Фармадепот" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/pharmadepot.png">
         <key key="brand" value="ფარმადეპო" />
         <key key="brand:en" value="Pharmadepot" />
         <key key="brand:ru" value="Фармадепо" />
@@ -473,7 +473,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Neopharmi" ka.name="ნეოფარმი" ru.name="Неофарми" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Neopharmi" ka.name="ნეოფარმი" ru.name="Неофарми" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/neopharmi.png">
         <key key="brand" value="ნეოფარმი" />
         <key key="brand:en" value="Neopharmi" />
         <key key="brand:ru" value="Неофарми" />
@@ -486,7 +486,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item name="GPC" ka.name="ჯპს" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="GPC" ka.name="ჯპს" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/gpc.jpg">
         <key key="brand" value="ჯპს" />
         <key key="brand:en" value="GPC" />
         <key key="brand:wikidata" value="Q115971130" />
@@ -500,7 +500,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Impex" ka.name="იმპექსი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Impex" ka.name="იმპექსი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/impex.png">
         <key key="brand" value="იმპექსი" />
         <key key="brand:en" value="Impex" />
         <key key="brand:ka" value="იმპექსი" />
@@ -518,7 +518,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Hekate" ka.name="ჰეკატე" ru.name="Хекате" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Hekate" ka.name="ჰეკატე" ru.name="Хекате" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/hekate.png">
         <key key="brand" value="ჰეკატე" />
         <key key="brand:en" value="Hekate" />
         <key key="brand:ru" value="Хекате" />
@@ -532,7 +532,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Impulse" ka.name="იმპულსი" ru.name="Импульс" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Impulse" ka.name="იმპულსი" ru.name="Импульс" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/impulsi.jpg">
         <key key="brand" value="იმპულსი" />
         <key key="brand:en" value="Impulse" />
         <key key="brand:ru" value="Импульс" />
@@ -545,7 +545,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Pharmhouse" ka.name="ფარმსახლი" ru.name="Фармхауз" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Pharmhouse" ka.name="ფარმსახლი" ru.name="Фармхауз" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/pharmhouse.jpg">
         <key key="brand" value="ფარმსახლი" />
         <key key="brand:en" value="Pharmhouse" />
         <key key="brand:ru" value="Фармхауз" />
@@ -562,7 +562,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item name="36.6" ka.name="36.6" ru.name="36.6" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="36.6" ka.name="36.6" ru.name="36.6" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/366.jpg">
         <key key="brand" value="36.6" />
         <key key="brand:en" value="36.6" />
         <key key="brand:ru" value="36.6" />
@@ -575,7 +575,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Deutsche pharmacy" ka.name="დოიჩე აფთიაქი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Deutsche pharmacy" ka.name="დოიჩე აფთიაქი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/deutsche.jpg">
         <key key="brand" value="დოიჩე აფთიაქი" />
         <key key="brand:en" value="Deutsche pharmacy" />
         <key key="name" value="დოიჩე აფთიაქი" />
@@ -588,7 +588,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Iberipharma" ka.name="იბერიფარმა" ru.name="Иберифарма" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Iberipharma" ka.name="იბერიფარმა" ru.name="Иберифарма" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/iberia.jpg">
         <key key="brand" value="იბერიფარმა" />
         <key key="brand:en" value="Iberipharma" />
         <key key="brand:ru" value="Иберифарма" />
@@ -604,7 +604,7 @@
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Roniko" ka.name="რონიკო" ru.name="Ронико" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Roniko" ka.name="რონიკო" ru.name="Ронико" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/roniko.jpg">
         <key key="brand" value="რონიკო" />
         <key key="brand:en" value="Roniko" />
         <key key="brand:ru" value="Ронико" />
@@ -619,7 +619,7 @@
         <key key="shop" value="optician" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Optimist" ka.name="ოპტიმისტი" ru.name="Оптимист" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Optimist" ka.name="ოპტიმისტი" ru.name="Оптимист" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/optimist.jpg">
         <key key="brand" value="ოპტიმისტი" />
         <key key="brand:en" value="Optimist" />
         <key key="brand:ru" value="Оптимист" />
@@ -633,7 +633,7 @@
         <key key="shop" value="optician" />
         <reference ref="basic_shop" />
       </item>
-      <item name="Kenari" ka.name="კენარი" ru.name="Кенари" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Kenari" ka.name="კენარი" ru.name="Кенари" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/kenari.jpg">
         <key key="brand" value="კენარი" />
         <key key="brand:en" value="Kenari" />
         <key key="brand:ru" value="Кенари" />

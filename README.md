@@ -2,6 +2,11 @@
 
 [OpenStreetMap](https://openstreetmap.org) [tagging preset](https://josm.openstreetmap.de/wiki/Presets) for 🇬🇪 [Georgian](https://en.wikipedia.org/wiki/Georgia_(country)) POIs. Works with [JOSM](https://josm.openstreetmap.de) and [Vespucci](https://vespucci.io).
 
+
+**!!!Warning!!!**
+
+Repository's license doesn't spread on logos of POIs. They can be under protection. Represented here only as examples
+
 ## Installation
 
 ### JOSM
