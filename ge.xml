@@ -1501,6 +1501,7 @@
           <key key="contact:twitter" value="https://twitter.com/Zoommer_tweets" />
           <key key="contact:youtube" value="https://youtube.com/user/WwwZoommerGe" />
           <key key="contact:email" value="info@zoommer.ge" />
+          <key key="contact:phone" value="+995 32 260 30 60" />
           <key key="shop" value="electronics" />
           <reference ref="duty_free_assistance" />
           <reference ref="basic_shop" />
@@ -1514,6 +1515,11 @@
           <key key="contact:website" value="https://alta.ge" />
           <key key="contact:facebook" value="https://facebook.com/alta.ge" />
           <key key="contact:linkedin" value="https://linkedin.com/company/altaofficial" />
+          <key key="contact:tiktok" value="https://tiktok.com/@alta.ge" />
+          <key key="contact:youtube" value="https://youtube.com/@AltaOfficial" />
+          <key key="contact:instagram" value="https://www.instagram.com/alta.ge" />
+          <key key="contact:phone" value="+995 32 238 00 38" />
+          <key key="contact:email" value="retail@alta.ge" />
           <key key="shop" value="electronics" />
           <reference ref="duty_free_assistance" />
           <reference ref="basic_shop" />
@@ -1524,6 +1530,7 @@
           <key key="name" value="ელიტ ელექტრონიქსი" />
           <key key="name:ka" value="ელიტ ელექტრონიქსი" />
           <key key="name:en" value="Elit Electronics" />
+          <key key="contact:phone" value="+995 32 248 48 48" />
           <key key="contact:email" value="info@ee.ge" />
           <key key="contact:website" value="https://ee.ge" />
           <key key="contact:facebook" value="https://facebook.com/ElitElectronics" />
@@ -1561,6 +1568,7 @@
           <key key="contact:website" value="https://metromart.ge" />
           <key key="contact:email" value="info@metromart.ge" />
           <key key="contact:facebook" value="https://facebook.com/Metromarti" />
+          <key key="contact:phone" value="+995 32 200 05 55" />
           <key key="shop" value="electronics" />
           <reference ref="basic_shop" />
         </item>
@@ -1572,6 +1580,7 @@
           <key key="name:en" value="Unicom" />
           <key key="contact:website" value="https://unicom.ge" />
           <key key="contact:email" value="info@unicom.ge" />
+          <key key="contact:phone" value="+995 32 215 20 15" />
           <key key="shop" value="electronics" />
           <reference ref="basic_shop" />
         </item>
