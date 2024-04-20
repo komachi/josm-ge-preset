@@ -1681,7 +1681,6 @@
           <key key="contact:facebook" value="https://www.facebook.com/iSpace.ge" />
           <key key="contact:instagram" value="https://www.instagram.com/ispace.ge/" />
           <key key="contact:phone" value="+995 32 223 53 23" />
-          <key key="contact:email" value="info@mistore.ge" />
           <key key="shop" value="electronics" />
           <reference ref="basic_shop" />
         </item>
