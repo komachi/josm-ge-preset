@@ -815,6 +815,19 @@
         <key key="amenity" value="ice_cream" />
         <reference ref="eatery" />
       </item>
+      <item name="Baskin Robbins" ka.name="ბასკინ რობინსი" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="brand" value="Baskin-Robbins" />
+        <key key="brand:wikidata" value="Q584601" />
+        <key key="name" value="ბასკინ რობინსი" />
+        <key key="name:ka" value="ბასკინ რობინსი" />
+        <key key="name:en" value="Baskin Robbins" />
+        <key key="name:ru" value="Баскин Роббинс" />
+        <key key="contact:facebook" value="https://www.facebook.com/BaskinRobbinsGeorgia/" />
+        <key key="contact:mobile" value="+995 577 10 58 94" />
+        <key key="takeaway" value="only" />
+        <key key="amenity" value="ice_cream" />
+        <reference ref="eatery" />
+      </item>
       <item name="MacShaurma" ka.name="მაკშაურმა" ru.name="МакШаурма" type="node,closedway,multipolygon" preset_name_label="true">
         <key key="brand" value="MacShaurma" />
         <key key="name" value="მაკშაურმა" />
@@ -1834,6 +1847,17 @@
           <key key="shop" value="clothes" />
           <reference ref="basic_shop" />
           <reference ref="clothes_list" />
+        </item>
+        <item name="FLO" ka.name="ფლო" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="FLO" />
+          <key key="brand:wikidata" value="Q61994802" />
+          <key key="name" value="ფლო" />
+          <key key="name:ka" value="ფლო" />
+          <key key="name:en" value="FLO" />
+          <key key="contact:website" value="https://www.flo.com.tr" />
+          <key key="contact:facebook" value="https://www.facebook.com/FLOShoesGeorgia" />
+          <key key="shop" value="shoes" />
+          <reference ref="basic_shop" />
         </item>
       </group>
 
@@ -2940,6 +2964,17 @@
         <key key="name:ka" value="ოპტიმა" />
         <key key="name:en" value="Optima" />
         <key key="name:ru" value="Оптима" />
+        <reference ref="fuel_station" />
+      </item>
+      <item name="Ekopetrol" ka.name="ეკოპეტროლი" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="amenity" value="fuel" />
+        <key key="brand" value="ეკოპეტროლი" />
+        <key key="brand:en" value="Ekopetrol" />
+        <key key="contact:website" value="https://ekopetrol.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/EkopertolGeorgia" />
+        <key key="name" value="ეკოპეტროლი" />
+        <key key="name:ka" value="ეკოპეტროლი" />
+        <key key="name:en" value="Ekopetrol" />
         <reference ref="fuel_station" />
       </item>
       <item name="Neogas" ka.name="ნეოგაზი" ru.name="Неогаз" type="node,closedway,multipolygon" preset_name_label="true">
