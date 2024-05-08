@@ -2851,7 +2851,7 @@
     </group>
 
     <group name="Fuel stations" ka.name="ბენზინგასამართი სადგური" ru.name="Автозаправочные станции" icon="https://upload.wikimedia.org/wikipedia/commons/5/57/Noto_Emoji_Oreo_26fd.svg">
-      <item name="Rompetrol" ka.name="რომპეტროლი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Rompetrol" ka.name="რომპეტროლი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/rompetrol.jpg">
         <key key="amenity" value="fuel" />
         <key key="brand" value="რომპეტროლი" />
         <key key="brand:en" value="Rompetrol" />
@@ -2865,7 +2865,7 @@
         <key key="name:en" value="Rompetrol" />
         <reference ref="fuel_station" />
       </item>
-      <item name="Socar" ka.name="სოკარი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Socar" ka.name="სოკარი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/socar.jpg">
         <key key="amenity" value="fuel" />
         <key key="brand" value="სოკარი" />
         <key key="brand:en" value="Socar" />
@@ -2879,7 +2879,7 @@
         <key key="name:en" value="Socar" />
         <reference ref="fuel_station" />
       </item>
-      <item name="Wissol" ka.name="ვისოლ" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Wissol" ka.name="ვისოლ" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/wissol.jpg">
         <key key="amenity" value="fuel" />
         <key key="brand" value="ვისოლ" />
         <key key="brand:en" value="WISSOL" />
@@ -2911,7 +2911,7 @@
         <key key="name:en" value="Gulf" />
         <reference ref="fuel_station" />
       </item>
-      <item name="Connect" ka.name="ქონექთი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Connect" ka.name="ქონექთი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/connect.jpg">
         <key key="amenity" value="fuel" />
         <key key="brand" value="ქონექთი" />
         <key key="brand:en" value="Connect" />
@@ -2922,7 +2922,7 @@
         <key key="name:en" value="Connect" />
         <reference ref="fuel_station" />
       </item>
-      <item name="Lukoil" ka.name="ლუკოილი" ru.name="Лукойл" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Lukoil" ka.name="ლუკოილი" ru.name="Лукойл" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/lukoil.jpg">
         <key key="amenity" value="fuel" />
         <key key="brand" value="ლუკოილი" />
         <key key="brand:en" value="Lukoil" />
@@ -2939,7 +2939,7 @@
         <key key="name:ru" value="Лукойл" />
         <reference ref="fuel_station" />
       </item>
-      <item name="Portal" ka.name="პორტალი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Portal" ka.name="პორტალი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/portal.jpg">
         <key key="amenity" value="fuel" />
         <key key="brand" value="პორტალი" />
         <key key="brand:en" value="Portal" />
@@ -2951,7 +2951,7 @@
         <key key="name:en" value="Portal" />
         <reference ref="fuel_station" />
       </item>
-      <item name="Optima" ka.name="ოპტიმა" ru.name="Оптима" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Optima" ka.name="ოპტიმა" ru.name="Оптима" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/optima.jpg">
         <key key="amenity" value="fuel" />
         <key key="brand" value="ოპტიმა" />
         <key key="brand:en" value="Optima" />
@@ -2966,7 +2966,7 @@
         <key key="name:ru" value="Оптима" />
         <reference ref="fuel_station" />
       </item>
-      <item name="Ekopetrol" ka.name="ეკოპეტროლი" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Ekopetrol" ka.name="ეკოპეტროლი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/ekopetrol.jpg">
         <key key="amenity" value="fuel" />
         <key key="brand" value="ეკოპეტროლი" />
         <key key="brand:en" value="Ekopetrol" />
@@ -2977,7 +2977,7 @@
         <key key="name:en" value="Ekopetrol" />
         <reference ref="fuel_station" />
       </item>
-      <item name="Neogas" ka.name="ნეოგაზი" ru.name="Неогаз" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Neogas" ka.name="ნეოგაზი" ru.name="Неогаз" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/neogas.jpg">
         <key key="amenity" value="fuel" />
         <key key="brand" value="ნეოგაზი" />
         <key key="brand:en" value="Neogas" />
@@ -2993,7 +2993,7 @@
         <key key="name:ru" value="Неогаз" />
         <reference ref="fuel_station" />
       </item>
-      <item name="Gama" ka.name="გამა" ru.name="Гама" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Gama" ka.name="გამა" ru.name="Гама" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/gamagas.jpg">
         <key key="amenity" value="fuel" />
         <key key="brand" value="გამა" />
         <key key="brand:en" value="Gama" />
@@ -3007,7 +3007,7 @@
         <key key="name:ru" value="Гама" />
         <reference ref="fuel_station" />
       </item>
-      <item name="AutoLPGas" ka.name="AutoLPGas" ru.name="AutoLPGas" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="AutoLPGas" ka.name="AutoLPGas" ru.name="AutoLPGas" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/autolpgas.jpg">
         <key key="amenity" value="fuel" />
         <key key="brand" value="AutoLPGas" />
         <key key="brand:en" value="AutoLPGas" />
@@ -3019,7 +3019,7 @@
         <key key="name:en" value="AutoLPGas" />
         <reference ref="fuel_station" />
       </item>
-      <item name="E-Space" ka.name="ი-სპეის" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="E-Space" ka.name="ი-სპეის" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/espace.jpg">
         <key key="amenity" value="charging_station" />
         <key key="brand" value="ი-სპეის" />
         <key key="brand:en" value="E-Space" />
@@ -3031,7 +3031,7 @@
         <key key="authentication:app" value="yes" />
         <reference ref="charging_station" />
       </item>
-      <item name="EV Georgia" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="EV Georgia" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/evgeorgia.jpg">
         <key key="amenity" value="charging_station" />
         <key key="brand" value="EV Georgia" />
         <key key="operator:en" value="ElectroUA Georgia" />
