@@ -22,3 +22,11 @@ Repository's license doesn't spread on logos of POIs. They can be under protecti
 2. Paste this into `URL` field `https://raw.githubusercontent.com/komachi/josm-ge-preset/main/ge.xml`
 3. Press `OK`
 4. Enable added preset with checkmark
+
+## Merging with the Name Suggestion Index
+
+1. Fetch the [Name Suggestion Index](https://github.com/osmlab/name-suggestion-index). We'll assume it's in `../name-suggestion-index`, i.e. `cd ..; git clone https://github.com/osmlab/name-suggestion-index` .
+2. Install `python3` (if not installed)
+3. `python3 ./toNSI.py ../name-suggestion-index < ge.xml`
+4. Install `nodejs` (if not installed)
+5. `cd ../name-suggestion-index; npm run build`
