@@ -667,13 +667,13 @@
     </group>
 
     <group name="Healthcare" ka.name="ჯანმრთელობა" ru.name="Здравоохранение" icon="https://upload.wikimedia.org/wikipedia/commons/5/5b/Star_of_life2.svg">
-      <item name="Synevo" ka.name="სინევი" ru.name="Синево" type="node,closedway,multipolygon" preset_name_label="true">
-        <key key="brand" value="Synevo" />
-        <key key="brand:ka" value="Synevo" />
+      <item name="Synevo" ka.name="სინევო" ru.name="Синево" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="brand" value="სინევო" />
+        <key key="brand:ka" value="სინევო" />
         <key key="brand:en" value="Synevo" />
         <key key="brand:ru" value="Синево" />
-        <key key="name" value="სინევი" />
-        <key key="name:ka" value="სინევი" />
+        <key key="name" value="სინევო" />
+        <key key="name:ka" value="სინევო" />
         <key key="name:en" value="Synevo" />
         <key key="name:ru" value="Синево" />
         <key key="contact:website" value="https://synevo.ge" />
@@ -709,8 +709,8 @@
 
     <group name="Cafes and Restaraunts" ka.name="საზოგადოებრივი კვება" ru.name="Общепит" icon="https://upload.wikimedia.org/wikipedia/commons/c/c6/SymbolCoffeeShop.svg">
       <item name="KFC" ka.name="ქიიეფსი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/f/ff/Kentucky_Fried_Chicken_201x_logo.svg">
-        <key key="brand" value="KFC" />
-        <key key="brand:ka" value="KFC" />
+        <key key="brand" value="კეი ეფ სი" />
+        <key key="brand:ka" value="კეი ეფ სი" />
         <key key="brand:wikidata" value="Q524757" />
         <key key="name" value="კეი ეფ სი" />
         <key key="name:ka" value="კეი ეფ სი" />
@@ -742,8 +742,8 @@
         <reference ref="eatery" />
       </item>
       <item name="Dunkin' Donuts" ka.name="დანკინ დონათსი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/2/22/Dunkin%27_logo.svg">
-        <key key="brand" value="Dunkin' Donuts" />
-        <key key="brand:ka" value="Dunkin' Donuts" />
+        <key key="brand" value="დანკინ დონათსი" />
+        <key key="brand:ka" value="დანკინ დონათსი" />
         <key key="brand:wikidata" value="Q847743" />
         <key key="name" value="დანკინ დონათსი" />
         <key key="name:ka" value="დანკინ დონათსი" />
@@ -757,8 +757,8 @@
         <reference ref="eatery" />
       </item>
       <item name="Subway" ka.name="საბვეი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/5/5c/Subway_2016_logo.svg">
-        <key key="brand" value="Subway" />
-        <key key="brand:ka" value="Subway" />
+        <key key="brand" value="საბვეი" />
+        <key key="brand:ka" value="საბვეი" />
         <key key="brand:wikidata" value="Q244457" />
         <key key="name" value="საბვეი" />
         <key key="name:ka" value="საბვეი" />
@@ -772,8 +772,8 @@
         <reference ref="eatery" />
       </item>
       <item name="Burger King" ka.name="ბურგერ კინგი" ru.name="Бургер Кинг" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/c/cc/Burger_King_2020.svg">
-        <key key="brand" value="Burger King" />
-        <key key="brand:ka" value="Burger King" />
+        <key key="brand" value="ბურგერ კინგი" />
+        <key key="brand:ka" value="ბურგერ კინგი" />
         <key key="brand:wikidata" value="Q177054" />
         <key key="name" value="ბურგერ კინგი" />
         <key key="name:ka" value="ბურგერ კინგი" />
@@ -787,8 +787,8 @@
         <reference ref="eatery" />
       </item>
       <item name="Wendy's" ka.name="ვენდი'ს" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/6/66/Wendy%27s_logo_2012.svg">
-        <key key="brand" value="Wendy's" />
-        <key key="brand:ka" value="Wendy's" />
+        <key key="brand" value="ვენდი'ს" />
+        <key key="brand:ka" value="ვენდი'ს" />
         <key key="brand:wikidata" value="Q550258" />
         <key key="name" value="ვენდი'ს" />
         <key key="name:ka" value="ვენდი'ს" />
@@ -841,8 +841,8 @@
         <reference ref="eatery" />
       </item>
       <item name="Baskin Robbins" ka.name="ბასკინ რობინსი" type="node,closedway,multipolygon" preset_name_label="true">
-        <key key="brand" value="Baskin-Robbins" />
-        <key key="brand:ka" value="Baskin-Robbins" />
+        <key key="brand" value="ბასკინ რობინსი" />
+        <key key="brand:ka" value="ბასკინ რობინსი" />
         <key key="brand:wikidata" value="Q584601" />
         <key key="name" value="ბასკინ რობინსი" />
         <key key="name:ka" value="ბასკინ რობინსი" />
@@ -855,8 +855,8 @@
         <reference ref="eatery" />
       </item>
       <item name="MacShaurma" ka.name="მაკშაურმა" ru.name="МакШаурма" type="node,closedway,multipolygon" preset_name_label="true">
-        <key key="brand" value="MacShaurma" />
-        <key key="brand:ka" value="MacShaurma" />
+        <key key="brand" value="მაკშაურმა" />
+        <key key="brand:ka" value="მაკშაურმა" />
         <key key="name" value="მაკშაურმა" />
         <key key="name:ka" value="მაკშაურმა" />
         <key key="name:en" value="MacShaurma" />
@@ -905,8 +905,8 @@
         <key key="brand:ka" value="მეამა" />
         <key key="brand:en" value="Meama" />
         <key key="brand:ru" value="Меама" />
-        <key key="name:ka" value="Meama Collect" />
-        <key key="name" value="Meama Collect" />
+        <key key="name:ka" value="მეამა" />
+        <key key="name" value="მეამა" />
         <key key="contact:facebook" value="https://www.facebook.com/IloveMeama" />
         <key key="contact:twitter" value="https://twitter.com/Meamacoffee" />
         <key key="contact:instagram" value="https://www.instagram.com/meama" />
@@ -958,6 +958,10 @@
         <key key="name:ka" value="დი რომა" />
         <key key="name:en" value="Di Roma" />
         <key key="name:ru" value="Ди Рома" />
+        <key key="brand" value="დი რომა" />
+        <key key="brand:ka" value="დი რომა" />
+        <key key="brand:en" value="Di Roma" />
+        <key key="brand:ru" value="Ди Рома" />
         <key key="contact:facebook" value="https://www.facebook.com/pizzadiroma.ge/" />
         <key key="contact:mobile" value="+995 579 88 00 52" />
         <key key="contact:email" value="info@pizzadiroma.ge" />
@@ -972,6 +976,10 @@
         <key key="name:ka" value="დეგუსტო" />
         <key key="name:en" value="Degusto" />
         <key key="name:ru" value="Дегусто" />
+        <key key="brand" value="დეგუსტო" />
+        <key key="brand:ka" value="დეგუსტო" />
+        <key key="brand:en" value="Degusto" />
+        <key key="brand:ru" value="Дегусто" />
         <key key="contact:facebook" value="https://www.facebook.com/Degusto.ge/" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
@@ -1082,8 +1090,8 @@
           <reference ref="basic_shop" />
         </item>
         <item name="Spar" ka.name="სპარი" ru.name="Спар" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/7/71/SPAR_Logo.svg">
-          <key key="brand" value="SPAR" />
-          <key key="brand:ka" value="SPAR" />
+          <key key="brand" value="სპარი" />
+          <key key="brand:ka" value="სპარი" />
           <key key="brand:wikidata" value="Q610492" />
           <key key="contact:facebook" value="https://facebook.com/SPARGeorgia" />
           <key key="contact:email" value="office@spar-georgia.com" />
@@ -1216,8 +1224,8 @@
           <reference ref="basic_shop" />
         </item>
         <item name="Carrefour" ka.name="კარფური" ru.name="Карфур" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="Carrefour" />
-          <key key="brand:ka" value="Carrefour" />
+          <key key="brand" value="კარფური" />
+          <key key="brand:ka" value="კარფური" />
           <key key="brand:en" value="Carrefour" />
           <key key="brand:ru" value="Карфур" />
           <key key="brand:wikidata" value="Q217599" />
@@ -1237,8 +1245,8 @@
           <reference ref="basic_shop" />
         </item>
         <item name="Carrefour City" ka.name="კარფური სითი" ru.name="Карфур Сити" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="Carrefour" />
-          <key key="brand:ka" value="Carrefour" />
+          <key key="brand" value="კარფური" />
+          <key key="brand:ka" value="კარფური" />
           <key key="brand:en" value="Carrefour" />
           <key key="brand:ru" value="Карфур" />
           <key key="brand:wikidata" value="Q217599" />
@@ -1258,8 +1266,8 @@
           <reference ref="basic_shop" />
         </item>
         <item name="Carrefour Market" ka.name="კარფური მარკეტი" ru.name="Карфур Маркет" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="Carrefour" />
-          <key key="brand:ka" value="Carrefour" />
+          <key key="brand" value="კარფური" />
+          <key key="brand:ka" value="კარფური" />
           <key key="brand:en" value="Carrefour" />
           <key key="brand:ru" value="Карфур" />
           <key key="brand:wikidata" value="Q217599" />
@@ -1627,10 +1635,10 @@
           <reference ref="basic_shop" />
         </item>
         <item name="Mi Store" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="Mi Store" />
+          <key key="brand" value="მისთორი" />
           <key key="brand:en" value="Mi Store" />
           <key key="brand:ka" value="მისთორი" />
-          <key key="name" value="Mi Store" />
+          <key key="name" value="მისთორი" />
           <key key="name:en" value="Mi Store" />
           <key key="name:ka" value="მისთორი" />
           <key key="contact:website" value="https://mistore.ge/" />
@@ -1763,10 +1771,10 @@
           <reference ref="basic_shop" />
         </item>
         <item name="iSpace" ka.name="აისფეისი" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="iSpace" />
+          <key key="brand" value="აისფეისი" />
           <key key="brand:en" value="iSpace" />
           <key key="brand:ka" value="აისფეისი" />
-          <key key="name" value="iSpace" />
+          <key key="name" value="აისფეისი" />
           <key key="name:en" value="iSpace" />
           <key key="name:ka" value="აისფეისი" />
           <key key="contact:website" value="https://ispace.ge/" />
@@ -1888,8 +1896,8 @@
 
       <group name="Clothes" ka.name="ქსოვილი" ru.name="Одежда" icon="https://upload.wikimedia.org/wikipedia/commons/f/f9/T-shirt_silhouette.svg">
         <item name="Bata" ka.name="ბატა" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/3/3e/Bata.svg">
-          <key key="brand" value="Bata" />
-          <key key="brand:ka" value="Bata" />
+          <key key="brand" value="ბატა" />
+          <key key="brand:ka" value="ბატა" />
           <key key="brand:wikidata" value="Q688082" />
           <key key="name" value="ბატა" />
           <key key="name:ka" value="ბატა" />
@@ -1900,8 +1908,8 @@
           <reference ref="basic_shop" />
         </item>
         <item name="LC Waikiki" ka.name="ელსი ვაიქიქი" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="LC Waikiki" />
-          <key key="brand:ka" value="LC Waikiki" />
+          <key key="brand" value="ელსი ვაიკიკი" />
+          <key key="brand:ka" value="ელსი ვაიკიკი" />
           <key key="brand:wikidata" value="Q3205965" />
           <key key="name" value="ელსი ვაიკიკი" />
           <key key="name:ka" value="ელსი ვაიკიკი" />
@@ -1941,8 +1949,8 @@
           <reference ref="clothes_list" />
         </item>
         <item name="FLO" ka.name="ფლო" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="FLO" />
-          <key key="brand:ka" value="FLO" />
+          <key key="brand" value="ფლო" />
+          <key key="brand:ka" value="ფლო" />
           <key key="brand:wikidata" value="Q61994802" />
           <key key="name" value="ფლო" />
           <key key="name:ka" value="ფლო" />
@@ -1956,15 +1964,14 @@
 
       <group name="Variety stores and Houseware" ka.name="ჯიშის მაღაზიები" ru.name="Универмаги" icon="https://upload.wikimedia.org/wikipedia/commons/9/91/Shiny_Coin_Icon.svg">
         <item name="Miniso" ka.name="მინისო" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/4/46/Miniso_logo.svg" preset_name_label="true">
-          <key key="brand" value="Miniso" />
-          <key key="brand:ka" value="Miniso" />
+          <key key="brand" value="მინისო" />
+          <key key="brand:ka" value="მინისო" />
           <key key="brand:wikidata" value="Q20732498" />
           <key key="name" value="მინისო" />
           <key key="name:ka" value="მინისო" />
           <key key="name:en" value="Miniso" />
-          <key key="operator:ka" value="Miniso Georgia" />
-          <key key="operator" value="Miniso Georgia" />
-          <key key="contact:website" value="https://miniso.ge" />
+          <key key="operator" value="მინისო საქართველი" />
+          <key key="operator:ka" value="მინისო საქართველი" /><key key="contact:website" value="https://miniso.ge" />
           <key key="contact:facebook" value="https://facebook.com/minisogeorgia" />
           <key key="contact:instagram" value="https://instagram.com/miniso_georgia" />
           <key key="contact:linkedin" value="https://linkedin.com/company/miniso-georgia" />
@@ -1972,8 +1979,8 @@
           <reference ref="basic_shop" />
         </item>
         <item name="Yoyoso" ka.name="იოიოსო" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="Yoyoso" />
-          <key key="brand:ka" value="Yoyoso" />
+          <key key="brand" value="იოიოსო" />
+          <key key="brand:ka" value="იოიოსო" />
           <key key="brand:wikidata" value="Q110227939" />
           <key key="name" value="იოიოსო" />
           <key key="name:ka" value="იოიოსო" />
@@ -1987,23 +1994,22 @@
           <reference ref="basic_shop" />
         </item>
         <item name="OnePrice" ka.name="ვანპრაისი" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="OnePrice" />
-          <key key="brand:ka" value="OnePrice" />
+          <key key="brand" value="ვანპრაისი" />
+          <key key="brand:ka" value="ვანპრაისი" />
           <key key="brand:wikidata" value="Q122641630" />
           <key key="name" value="ვანპრაისი" />
           <key key="name:ka" value="ვანპრაისი" />
           <key key="name:en" value="OnePrice" />
-          <key key="operator:ka" value="OnePrice Georgia" />
-          <key key="operator" value="OnePrice Georgia" />
-          <key key="contact:website" value="http://www.oneprice.ge" />
+          <key key="operator" value="ვანპრაისი საქართველო" />
+          <key key="operator:ka" value="ვანპრაისი საქართველო" /><key key="contact:website" value="http://www.oneprice.ge" />
           <key key="contact:facebook" value="https://www.facebook.com/OnePrice.Georgia" />
           <key key="contact:instagram" value="https://www.instagram.com/onepricegeorgia/" />
           <key key="shop" value="variety_store" />
           <reference ref="basic_shop" />
         </item>
         <item name="Fix Price" ka.name="ფიქს პრაისი" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="Fix Price" />
-          <key key="brand:ka" value="Fix Price" />
+          <key key="brand" value="ფიქს პრაისი" />
+          <key key="brand:ka" value="ფიქს პრაისი" />
           <key key="brand:wikidata" value="Q4038791" />
           <key key="name" value="ფიქს პრაისი" />
           <key key="name:ka" value="ფიქს პრაისი" />
@@ -2056,8 +2062,8 @@
 
       <group name="DIY" ka.name="სამშენებლო მაღაზიები" ru.name="Строительные" icon="https://upload.wikimedia.org/wikipedia/commons/d/d2/Map_icons_by_Scott_de_Jonge_-_hardware-store.svg">
         <item name="Jysk" ka.name="იუსკ" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="JYSK" />
-          <key key="brand:ka" value="JYSK" />
+          <key key="brand" value="იუსკ" />
+          <key key="brand:ka" value="იუსკ" />
           <key key="brand:wikidata" value="Q138913" />
           <key key="name" value="იუსკ" />
           <key key="name:ka" value="იუსკ" />
@@ -2335,8 +2341,8 @@
         <item name="ProCredit Bank" ka.name="პროკრედიტ ბანკი" ru.name="ПроКредит Банк" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_ProCredit_Bank.svg">
           <key key="amenity" value="bank" />
           <key key="bic" value="MIBGGE22" />
-          <key key="brand" value="ProCredit Bank" />
-          <key key="brand:ka" value="ProCredit Bank" />
+          <key key="brand" value="პროკრედიტ ბანკი" />
+          <key key="brand:ka" value="პროკრედიტ ბანკი" />
           <key key="brand:en" value="ProCredit Bank" />
           <key key="brand:ru" value="ПроКредит Банк" />
           <key key="contact:website" value="https://procreditbank.ge" />
@@ -2719,8 +2725,8 @@
         </item>
         <item name="Halyk Bank ATM" ka.name="ხალიკ ბანკი ბანკომატი" ru.name="Банкомат Халык Банка" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="amenity" value="atm" />
-          <key key="brand" value="Halyk Bank" />
-          <key key="brand:ka" value="Halyk Bank" />
+          <key key="brand" value="ხალიკ ბანკი საქართველო" />
+          <key key="brand:ka" value="ხალიკ ბანკი საქართველო" />
           <key key="brand:en" value="Halyk Bank" />
           <key key="brand:ru" value="Халык Банк" />
           <key key="brand:kk" value="Халық Банкі" />
@@ -2745,8 +2751,8 @@
         </item>
         <item name="ProCredit Bank ATM" ka.name="პროკრედიტ ბანკი ბანკომატი" ru.name="Банкомат ПроКредит Банка" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_ProCredit_Bank.svg">
           <key key="amenity" value="atm" />
-          <key key="brand" value="ProCredit Bank" />
-          <key key="brand:ka" value="ProCredit Bank" />
+          <key key="brand" value="პროკრედიტ ბანკი" />
+          <key key="brand:ka" value="პროკრედიტ ბანკი" />
           <key key="brand:en" value="ProCredit Bank" />
           <key key="brand:ru" value="ПроКредит Банк" />
           <key key="brand:wikidata" value="Q1046186" />
@@ -3278,8 +3284,8 @@
         <key key="brand:ka" value="მაგთი" />
         <key key="brand:en" value="Magti" />
         <key key="brand:ru" value="Магти" />
-        <key key="operator:ka" value="MagtiCom" />
-        <key key="operator" value="MagtiCom" />
+        <key key="operator" value="მაგთი" />
+        <key key="operator:ka" value="მაგთი" />
         <key key="operator:wikidata" value="Q6732495" />
         <key key="name" value="მაგთი" />
         <key key="name:ka" value="მაგთი" />
@@ -3683,6 +3689,9 @@
         <key key="brand" value="თელმიკო" />
         <key key="brand:ka" value="თელმიკო" />
         <key key="brand:en" value="Telmico" />
+        <key key="operator" value="თელმიკო" />
+        <key key="operator:ka" value="თელმიკო" />
+        <key key="operator:en" value="Telmico" />
         <key key="contact:website" value="https://www.telmico.ge/" />
         <key key="contact:email" value="info@telmico.ge" />
         <key key="contact:phone" value="+995 32 500 07 77" />
