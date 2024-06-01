@@ -1454,6 +1454,22 @@
           <reference ref="crypto_currencies_thru_citypay_io" />
           <reference ref="basic_shop" />
         </item>
+        <item name="Madagoni" ka.name="მადაგონი" ru.name="Мадагони" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="მადაგონი" />
+          <key key="brand:en" value="Madagoni" />
+          <key key="brand:ka" value="მადაგონი" />
+          <key key="brand:ru" value="Мадагони" />
+          <key key="contact:phone" value="+995 34 128 02 80" />
+          <key key="contact:website" value="https://www.madagoni.ge" />
+          <key key="contact:instagram" value="https://www.instagram.com/madagonisupermarket" />
+          <key key="contact:facebook" value="https://www.facebook.com/madagonimadagoni" />
+          <key key="name" value="მადაგონი" />
+          <key key="name:ka" value="მადაგონი" />
+          <key key="name:en" value="Madagoni" />
+          <key key="name:ru" value="Мадагони" />
+          <key key="shop" value="convenience" />
+          <reference ref="basic_shop" />
+        </item>
         <item name="Madart" ka.name="მადარტი" ru.name="Мадарт" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="მადარტი" />
           <key key="brand:ka" value="მადარტი" />
@@ -1483,6 +1499,33 @@
           <key key="name:ka" value="ალკორიუმი" />
           <key key="name:en" value="Alcorium" />
           <key key="name:ru" value="Алкориум" />
+          <key key="drink:chacha" value="retail" />
+          <key key="drink:beer" value="retail" />
+          <key key="drink:wine" value="retail" />
+          <key key="drink:sparkling_wine" value="retail" />
+          <key key="drink:whisky" value="retail" />
+          <key key="drink:vodka" value="retail" />
+          <key key="drink:cider" value="retail" />
+          <key key="drink:gin" value="retail" />
+          <key key="drink:rum" value="retail" />
+          <key key="drink:congac" value="retail" />
+          <key key="drink:tequila" value="retail" />
+          <key key="drink:liquor" value="retail" />
+          <key key="shop" value="alcohol" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Smugglers" ka.name="სმაგლერსი" ru.name="Смаглерс" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="სმაგლერსი" />
+          <key key="brand:ka" value="სმაგლერსი" />
+          <key key="brand:en" value="Smugglers" />
+          <key key="brand:ru" value="Смаглерс" />
+          <key key="contact:email" value="info@smugglers.ge" />
+          <key key="contact:website" value="http://smugglers.com.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/smugglers.stores" />
+          <key key="name" value="სმაგლერსი" />
+          <key key="name:ka" value="სმაგლერსი" />
+          <key key="name:en" value="Smugglers" />
+          <key key="name:ru" value="Смаглерс" />
           <key key="drink:chacha" value="retail" />
           <key key="drink:beer" value="retail" />
           <key key="drink:wine" value="retail" />
@@ -1959,6 +2002,48 @@
           <key key="contact:facebook" value="https://www.facebook.com/FLOShoesGeorgia" />
           <key key="shop" value="shoes" />
           <reference ref="basic_shop" />
+        </item>
+        <item name="TopSport" ka.name="ტოპსპორტი" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="ტოპსპორტი" />
+          <key key="brand:ka" value="ტოპსპორტი" />
+          <key key="brand:en" value="TopSport" />
+          <key key="name" value="ტოპსპორტი" />
+          <key key="name:ka" value="ტოპსპორტი" />
+          <key key="name:en" value="TopSport" />
+          <key key="contact:facebook" value="https://www.facebook.com/TOPSPORTGEORGIA" />
+          <key key="contact:email" value="info@tgl.ge" />
+          <key key="contact:phone" value="+995 32 205 21 20" />
+          <key key="contact:website" value="https://topsport.ge" />
+          <key key="shop" value="clothes" />
+          <key key="clothes" value="sports" />
+          <reference ref="basic_shop" />
+          <reference ref="clothes_list" />
+        </item>
+        <item name="Corso Italia" ka.name="კორსო იტალია" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="კორსო იტალია" />
+          <key key="brand:ka" value="კორსო იტალია" />
+          <key key="name" value="კორსო იტალია" />
+          <key key="name:ka" value="კორსო იტალია" />
+          <key key="name:en" value="Corso Italia" />
+          <key key="operator" value="ICR Trade" />
+          <key key="contact:website" value="http://icrcorp.ge/brands/footwear/corso-italia" />
+          <key key="contact:facebook" value="https://www.facebook.com/CorsoItaliaShoes" />
+          <key key="shop" value="shoes" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Okaïdi" ka.name="ოკაიდი" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="ოკაიდი" />
+          <key key="brand:ka" value="ოკაიდი" />
+          <key key="brand:en" value="Okaïdi" />
+          <key key="name" value="ოკაიდი" />
+          <key key="name:ka" value="ოკაიდი" />
+          <key key="name:en" value="Okaïdi" />
+          <key key="operator" value="ICR Trade" />
+          <key key="contact:facebook" value="https://www.facebook.com/OkaidiGeorgia" />
+          <key key="contact:website" value="https://okaidi.ge" />
+          <key key="shop" value="clothes" />
+          <reference ref="basic_shop" />
+          <reference ref="clothes_list" />
         </item>
       </group>
 
@@ -3504,11 +3589,31 @@
     </group>
 
     <group name="Insurance companies" ka.name="სადაზღვევო კომპანიებს" ru.name="Страховые компании">
+      <item name="GPI" ka.name="ჯი პი აი" ru.name="ДжиПиАй" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="office" value="insurance" />
+        <key key="name" value="ჯი პი აი" />
+        <key key="name:ka" value="ჯი პი აი" />
+        <key key="name:en" value="GPI" />
+        <key key="name:ru" value="ДжиПиАй" />
+        <key key="brand" value="ჯი პი აი" />
+        <key key="brand:ka" value="ჯი პი აი" />
+        <key key="brand:en" value="GPI" />
+        <key key="contact:youtube" value="https://www.youtube.com/channel/UCqpS3isySBNBRInCrFm5gLw" />
+        <key key="contact:linkedin" value="https://www.linkedin.com/company/gpih-vig" />
+        <key key="contact:facebook" value="https://www.facebook.com/gpiholdinginsurance" />
+        <key key="contact:website" value="https://www.gpih.ge" />
+        <key key="contact:email" value="info@gpih.ge" />
+        <key key="contact:phone" value="+995 32 250 51 11" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:office%3Dinsurance" />
+      </item>
       <item name="Irao" ka.name="ირაო" ru.name="Ирао" type="node,closedway,multipolygon" preset_name_label="true">
         <key key="office" value="insurance" />
         <key key="name" value="ირაო" />
         <key key="name:ka" value="ირაო" />
         <key key="name:en" value="Irao" />
+        <key key="name:ru" value="Ирао" />
         <key key="brand" value="ირაო" />
         <key key="brand:ka" value="ირაო" />
         <key key="brand:en" value="Irao" />
@@ -3520,11 +3625,12 @@
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dinsurance" />
       </item>
-      <item name="Imedi L" ka.name="იმედი L" ru.name="Imedi L" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Imedi L" ka.name="იმედი L" ru.name="Имеди Л" type="node,closedway,multipolygon" preset_name_label="true">
         <key key="office" value="insurance" />
         <key key="name" value="იმედი L" />
         <key key="name:ka" value="იმედი L" />
         <key key="name:en" value="Imedi L" />
+        <key key="name:ru" value="Имеди Л" />
         <key key="brand" value="იმედი L" />
         <key key="brand:ka" value="იმედი L" />
         <key key="brand:en" value="Imedi L" />
@@ -3535,11 +3641,12 @@
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dinsurance" />
       </item>
-      <item name="Ardi" ka.name="არდი" ru.name="Ardi" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Ardi" ka.name="არდი" ru.name="Арди" type="node,closedway,multipolygon" preset_name_label="true">
         <key key="office" value="insurance" />
         <key key="name" value="არდი" />
         <key key="name:ka" value="არდი" />
         <key key="name:en" value="Ardi" />
+        <key key="name:ru" value="Арди" />
         <key key="brand" value="არდი" />
         <key key="brand:ka" value="არდი" />
         <key key="brand:en" value="Ardi" />
@@ -3551,11 +3658,12 @@
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dinsurance" />
       </item>
-      <item name="TBC Insurance" ka.name="თიბისი დაზღვევა" ru.name="TBC Insurance" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="TBC Insurance" ka.name="თიბისი დაზღვევა" ru.name="ТиБиСи Дазгвева" type="node,closedway,multipolygon" preset_name_label="true">
         <key key="office" value="insurance" />
         <key key="name" value="თიბისი დაზღვევა" />
         <key key="name:ka" value="თიბისი დაზღვევა" />
         <key key="name:en" value="TBC Insurance" />
+        <key key="name:ru" value="ТиБиСи Дазгвева" />
         <key key="brand" value="თიბისი დაზღვევა" />
         <key key="brand:ka" value="თიბისი დაზღვევა" />
         <key key="brand:en" value="TBC Insurance" />
