@@ -900,13 +900,15 @@
         <key key="amenity" value="ice_cream" />
         <reference ref="eatery" />
       </item>
-      <item name="Meama Collect" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Meama Collect" ka.name="მეამა ქოლექთი" ru.name="Меама Коллект" type="node,closedway,multipolygon" preset_name_label="true">
         <key key="brand" value="მეამა" />
         <key key="brand:ka" value="მეამა" />
         <key key="brand:en" value="Meama" />
         <key key="brand:ru" value="Меама" />
-        <key key="name:ka" value="მეამა" />
-        <key key="name" value="მეამა" />
+        <key key="name" value="მეამა ქოლექთი" />
+        <key key="name:ka" value="მეამა ქოლექთი" />
+        <key key="name:en" value="Meama Collect" />
+        <key key="name:ru" value="Меама Коллект" />
         <key key="contact:facebook" value="https://www.facebook.com/IloveMeama" />
         <key key="contact:twitter" value="https://twitter.com/Meamacoffee" />
         <key key="contact:instagram" value="https://www.instagram.com/meama" />
