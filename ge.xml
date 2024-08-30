@@ -267,8 +267,6 @@
     <key key="payment:google_pay" value="yes" />
   </chunk>
   <chunk id="duty_free_assistance">
-    <reference ref="payment" />
-
     <key key="duty_free" value="refund" />
     <key key="duty_free:refund:general_assistance" value="yes" />
   </chunk>
@@ -1017,7 +1015,7 @@
           <key key="brand" value="ისი პარი" />
           <key key="brand:ka" value="ისი პარი" />
           <key key="brand:en" value="Ici Paris" />
-          <key key="brand:en" value="Иси Пари" />
+          <key key="brand:ru" value="Иси Пари" />
           <key key="name" value="ისი პარი" />
           <key key="name:ka" value="ისი პარი" />
           <key key="name:en" value="Ici Paris" />
@@ -1036,7 +1034,7 @@
           <key key="brand" value="ვულე ვუ" />
           <key key="brand:ka" value="ვულე ვუ" />
           <key key="brand:en" value="Voulez-Vous" />
-          <key key="brand:en" value="Вуле Ву" />
+          <key key="brand:ru" value="Вуле Ву" />
           <key key="name" value="ვულე ვუ" />
           <key key="name:ka" value="ვულე ვუ" />
           <key key="name:en" value="Voulez-Vous" />
@@ -2361,7 +2359,6 @@
           <key key="name:ka" value="ლიბერთი" />
           <key key="name:en" value="Liberty" />
           <key key="name:ru" value="Либерти" />
-          <check key="atm" text="ATM" ka.text="ბანკომატი" ru.text="Банкомат" />
           <reference ref="bank_office" />
         </item>
         <item name="Credo Bank" ka.name="კრედო ბანკი" ru.name="Кредо Банк" type="node,closedway,multipolygon" preset_name_label="true">
@@ -2545,7 +2542,6 @@
           <key key="contact:facebook" value="https://www.facebook.com/IsbankGeorgia/" />
           <key key="contact:email" value="info@isbank.ge" />
           <key key="name:ka" value="იშბანკი" />
-          <key key="contact:email" value="info@rebank.ge" />
           <key key="name" value="იშბანკი" />
           <key key="name:en" value="IsBank" />
           <key key="name:ru" value="ИшБанк" />
