@@ -988,6 +988,21 @@
         <key key="fast_food" value="cafeteria" />
         <reference ref="eatery" />
       </item>
+      <item name="Tempo" ka.name="ტემპო" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="brand" value="ტემპო" />
+        <key key="brand:ka" value="ტემპო" />
+        <key key="brand:en" value="Tempo" />
+        <key key="name" value="ტემპო" />
+        <key key="name:ka" value="ტემპო" />
+        <key key="name:en" value="Tempo" />
+        <key key="name:ru" value="Темпо" />
+        <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=100094852352863" />
+        <key key="contact:instagram" value="https://www.instagram.com/tempo_geo" />
+        <key key="cuisine" value="coffee_shop;sandwich" />
+        <key key="takeaway" value="only" />
+        <key key="amenity" value="fast_food" />
+        <reference ref="eatery" />
+      </item>
     </group>
 
     <group name="Shops" ka.name="მაღაზიები" ru.name="Магазины" icon="https://upload.wikimedia.org/wikipedia/commons/f/f9/T-shirt_silhouette.svg">
@@ -1086,7 +1101,7 @@
           <key key="name:ka" value="ჯიბე" />
           <key key="name:en" value="Jibe" />
           <key key="name:ru" value="Джибе" />
-          <key key="shop" value="supermarket" />
+          <key key="shop" value="wholesale" />
           <reference ref="basic_shop" />
         </item>
         <item name="Spar" ka.name="სპარი" ru.name="Спар" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/7/71/SPAR_Logo.svg">
@@ -1616,6 +1631,23 @@
           <key key="name:ru" value="Меама" />
           <key key="shop" value="coffee" />
           <reference ref="crypto_currencies_thru_citypay_io" />
+          <reference ref="basic_shop" />
+        </item>
+
+        <!-- Regional chains -->
+        <!-- Kutaisi -->
+        <item name="Family" ka.name="ფემილი" ru.name="Фэмили" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="ფემილი" />
+          <key key="brand:ka" value="ფემილი" />
+          <key key="brand:en" value="Family" />
+          <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=100063663874411" />
+          <key key="contact:email" value="marketfamily87@gmail.com" />
+          <key key="contact:phone" value="+995 431 30 06 00" />
+          <key key="name" value="ფემილი" />
+          <key key="name:ka" value="ფემილი" />
+          <key key="name:en" value="Family" />
+          <key key="name:ru" value="Фэмили" />
+          <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
       </group>
@@ -2615,6 +2647,26 @@
           <key key="payment:cash" value="yes" />
           <reference ref="paybox" />
         </item>
+        <item name="Liberty 365 Paybox" ka.name="ლიბერთი 365-ის ჩასარიცხი აპარატი" ru.name="Пейбокс Либерти 365" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="amenity" value="payment_terminal" />
+          <key key="brand" value="ლიბერთი" />
+          <key key="brand:ka" value="ლიბერთი" />
+          <key key="brand:en" value="Liberty" />
+          <key key="brand:ru" value="Либерти" />
+          <key key="brand:wikidata" value="Q6541585" />
+          <key key="operator:wikidata" value="Q6541585" />
+          <key key="contact:website" value="https://libertybank.ge" />
+          <key key="contact:email" value="info@lb.ge" />
+          <key key="contact:phone" value="+995 32 255 55 00" />
+          <key key="contact:facebook" value="https://facebook.com/libertybank.ge" />
+          <key key="contact:instagram" value="https://instagram.com/liberty_bank_" />
+          <key key="contact:linkedin" value="https://linkedin.com/company/libertybankge" />
+          <key key="operator:ka" value="ლიბერთი" />
+          <key key="operator" value="ლიბერთი" />
+          <key key="payment:coins" value="yes" />
+          <key key="payment:cash" value="yes" />
+          <reference ref="paybox" />
+        </item>
         <item name="Oppa" ka.name="ოპპა" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="amenity" value="payment_terminal" />
           <key key="brand" value="ოპპა" />
@@ -2627,10 +2679,25 @@
           <key key="operator:ka" value="ოპპა" />
           <key key="operator" value="ოპპა" />
           <key key="operator:en" value="Oppa" />
-          <key key="payment:coins" value="no" />
+          <key key="payment:coins" value="yes" />
           <key key="payment:cash" value="yes" />
-          <key key="payment:cash:USD" value="yes" />
-          <key key="payment:cash:EUR" value="yes" />
+          <reference ref="paybox" />
+        </item>
+        <item name="Cryptal" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="amenity" value="payment_terminal" />
+          <key key="brand" value="Cryptal" />
+          <key key="brand:en" value="Cryptal" />
+          <key key="contact:email" value="support@cryptal.com" />
+          <key key="contact:facebook" value="https://www.facebook.com/Cryptalexchange" />
+          <key key="contact:linkedin" value="https://www.linkedin.com/company/cryptalexchange" />
+          <key key="contact:tiktok" value="https://www.tiktok.com/@cryptal.com" />
+          <key key="contact:telegram" value="https://t.me/clCryptalGlobalFriends" />
+          <key key="contact:twitter" value="https://x.com/cryptalexchange" />
+          <key key="contact:phone" value="+995 322 053 253" />
+          <key key="operator" value="Cryptal" />
+          <key key="operator:en" value="Cryptal" />
+          <key key="payment:coins" value="yes" />
+          <key key="payment:cash" value="yes" />
           <reference ref="paybox" />
         </item>
       </group>
