@@ -578,6 +578,8 @@
         <key key="name:ka" value="36.6" />
         <key key="name:en" value="36.6" />
         <key key="name:ru" value="36.6" />
+        <key key="brand:wikidata" value="Q226889" />
+        <key key="operator:wikidata" value="Q226889" />
         <key key="contact:facebook" value="https://www.facebook.com/aftiaqi36.6" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
@@ -674,6 +676,8 @@
         <key key="name:ka" value="სინევო" />
         <key key="name:en" value="Synevo" />
         <key key="name:ru" value="Синево" />
+        <key key="brand:wikidata" value="Q117891346" />
+        <key key="operator:wikidata" value="Q117891346" />
         <key key="contact:website" value="https://synevo.ge" />
         <key key="contact:email" value="info@synevo.ge" />
         <key key="contact:phone" value="+995 32 239 38 33;+995 32 280 01 11" />
@@ -694,6 +698,8 @@
         <key key="name:ka" value="კავეა" />
         <key key="name:en" value="Cavea" />
         <key key="name:ru" value="Кавеа" />
+        <key key="brand:wikidata" value="Q112120623" />
+        <key key="operator:wikidata" value="Q112120623" />
         <key key="contact:website" value="https://www.cavea.ge" />
         <key key="contact:email" value="info@cavea.ge" />
         <key key="contact:phone" value="+995 32 255 50 00;+995 32 200 70 07" />
@@ -907,6 +913,7 @@
         <key key="name:ka" value="მეამა ქოლექთი" />
         <key key="name:en" value="Meama Collect" />
         <key key="name:ru" value="Меама Коллект" />
+        <key key="operator:wikidata" value="Q99850395" />
         <key key="contact:facebook" value="https://www.facebook.com/IloveMeama" />
         <key key="contact:twitter" value="https://twitter.com/Meamacoffee" />
         <key key="contact:instagram" value="https://www.instagram.com/meama" />
@@ -926,6 +933,8 @@
         <key key="name" value="Usta Dönerci" />
         <key key="name:tr" value="Usta Dönerci" />
         <key key="name:ru" value="Уста Дёнерджи" />
+        <key key="brand:wikidata" value="Q126723224" />
+        <key key="operator:wikidata" value="Q126723224" />
         <key key="contact:facebook" value="https://www.facebook.com/ustadonerci.turkiye/" />
         <key key="contact:website" value="https://www.ustadonerci.com" />
         <key key="contact:email" value="donerci.usta@gmail.com" />
@@ -1619,6 +1628,8 @@
           <key key="brand:ka" value="მეამა" />
           <key key="brand:en" value="Meama" />
           <key key="brand:ru" value="Меама" />
+          <key key="brand:wikidata" value="Q99850395" />
+          <key key="operator:wikidata" value="Q99850395" />
           <key key="contact:facebook" value="https://www.facebook.com/IloveMeama" />
           <key key="contact:twitter" value="https://twitter.com/Meamacoffee" />
           <key key="contact:instagram" value="https://www.instagram.com/meama" />
@@ -2463,6 +2474,8 @@
           <key key="brand:ka" value="პროკრედიტ ბანკი" />
           <key key="brand:en" value="ProCredit Bank" />
           <key key="brand:ru" value="ПроКредит Банк" />
+          <key key="brand:wikidata" value="Q122763256" />
+          <key key="operator:wikidata" value="Q122763256" />
           <key key="contact:website" value="https://procreditbank.ge" />
           <key key="contact:facebook" value="https://facebook.com/procreditbankgeorgia" />
           <key key="contact:instagram" value="https://instagram.com/procreditbankgeorgia" />
@@ -2481,6 +2494,8 @@
           <key key="brand:ka" value="ბანკი ქართუ" />
           <key key="brand:en" value="Cartu Bank" />
           <key key="brand:ru" value="Карту Банк" />
+          <key key="brand:wikidata" value="Q25541238" />
+          <key key="operator:wikidata" value="Q25541238" />
           <key key="contact:website" value="https://cartubank.ge" />
           <key key="contact:facebook" value="https://facebook.com/cartubank" />
           <key key="contact:twitter" value="https://twitter.com/CartuBank" />
