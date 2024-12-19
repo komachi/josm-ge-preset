@@ -3,7 +3,7 @@ import sys
 import fileinput
 import os
 import json
-# import re
+import re
 
 commonEntryKeys = { "locationSet": {"include": ["ge"]} }
 
@@ -48,12 +48,12 @@ def generate_tag_type_map(nsi_tree):
                     m[(key, value)] = "both"
     return m
 
-# def contains_georgian(text):
-#     # Define the regular expression pattern for Georgian script
-#     georgian_pattern = re.compile(r'[\u10A0-\u10FF\u2D00-\u2D2F0-9."" -]+')
+def contains_georgian(text):
+    # Define the regular expression pattern for Georgian script
+    georgian_pattern = re.compile(r'[\u10A0-\u10FF\u2D00-\u2D2F0-9."" -]+')
     
-#     # Search for the pattern in the input text
-#     return georgian_pattern.match(text)
+    # Search for the pattern in the input text
+    return georgian_pattern.match(text)
 
 def good(text):
     sys.stderr.write("\033[0;32m%s\033[0m\n" % text)
@@ -80,6 +80,7 @@ def handle_group(nsi_tree, group, parent_fallback_type=None, tag_type_cache=None
 
         # ==== Used for xml fixup ====
         # This is really really bad, but I'm lazy and it works-ish
+
         # for key in keys:
 
         #     some_kartuli_name = None
