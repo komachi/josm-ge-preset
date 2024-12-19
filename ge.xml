@@ -1043,6 +1043,7 @@
         <item name="Jibe" ka.name="ჯიბე" ru.name="Джибе" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="ჯიბე ქეშ &amp; ქერი" />
           <key key="brand:ka" value="ჯიბე ქეშ &amp; ქერი" />
+          <key key="brand:wikidata" value="Q131469968" />
           <key key="contact:facebook" value="https://www.facebook.com/Jibegeo" />
           <key key="name" value="ჯიბე" />
           <key key="name:ka" value="ჯიბე" />
@@ -1128,7 +1129,7 @@
           <key key="brand:en" value="Nazilbe" />
           <key key="brand:ru" value="Назилбе" />
           <key key="brand:wikidata" value="Q131469970" />
-          <key key="contact:facebook" value="https://facebook.com/profile.php?id=100057598083303" />
+          <key key="contact:facebook" value="https://facebook.com/people/Nazilbe-ნაზილბე/100057598083303/" />
           <key key="contact:linkedin" value="https://linkedin.com/company/nazilbe" />
           <key key="contact:website" value="https://nazilbe.ge" />
           <key key="name" value="ნაზილბე" />
@@ -1577,7 +1578,7 @@
           <key key="brand:ka" value="ფემილი" />
           <key key="brand:en" value="Family" />
           <key key="brand:wikidata" value="Q131469990" />
-          <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=100063663874411" />
+          <key key="contact:facebook" value="https://www.facebook.com/people/Family-Supermarket-მაღაზიათა-ქსელი-ფემილი/100063663874411/" />
           <key key="contact:email" value="marketfamily87@gmail.com" />
           <key key="contact:phone" value="+995 431 30 06 00" />
           <key key="name" value="ფემილი" />
@@ -1850,6 +1851,7 @@
           <key key="name" value="XS სათამაშოები" />
           <key key="name:ka" value="XS სათამაშოები" />
           <key key="name:en" value="XS Toys" />
+          <key key="brand:wikidata" value="Q131470006" />
           <key key="contact:website" value="https://xstoys.ge" />
           <key key="contact:facebook" value="https://www.facebook.com/XSToys" />
           <key key="contact:email" value="info@anvol.ge" />
@@ -1914,6 +1916,7 @@
           <key key="name" value="პროსპეროს წიგნები" />
           <key key="name:ka" value="პროსპეროს წიგნები" />
           <key key="name:en" value="Prospero's Books" />
+          <key key="brand:wikidata" value="Q131470010" />
           <key key="contact:website" value="https://prosperosbookshop.com" />
           <key key="contact:facebook" value="https://www.facebook.com/prosperosbooks" />
           <key key="contact:phone" value="+995 32 292 35 92" />
@@ -2028,6 +2031,7 @@
           <key key="name:ka" value="ოკაიდი" />
           <key key="name:en" value="Okaïdi" />
           <key key="operator" value="ICR Trade" />
+          <key key="brand:wikidata" value="Q131470014" />
           <key key="contact:facebook" value="https://www.facebook.com/OkaidiGeorgia" />
           <key key="contact:website" value="https://okaidi.ge" />
           <key key="shop" value="clothes" />
@@ -2239,7 +2243,7 @@
           <key key="name:en" value="ZooLife" />
           <key key="brand:wikidata" value="Q131470023" />
           <key key="contact:website" value="https://zoolife.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=100063596333301" />
+          <key key="contact:facebook" value="https://www.facebook.com/people/ZooLife-ზოოლაიფი/100063596333301/" />
           <key key="contact:email" value="geozoolife@gmail.com" />
           <key key="contact:mobile" value="+995 577 12 27 78" />
           <key key="shop" value="pet" />
@@ -2514,6 +2518,7 @@
           <key key="brand:ka" value="რე|ბანკი" />
           <key key="brand:en" value="Re|Bank" />
           <key key="brand:ru" value="Ре|Банк" />
+          <key key="brand:wikidata" value="Q131470027" />
           <key key="contact:phone" value="+995 32 222 25 25" />
           <key key="contact:website" value="https://rebank.ge" />
           <key key="contact:instagram" value="https://www.instagram.com/rebankforchanges" />
