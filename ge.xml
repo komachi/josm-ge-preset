@@ -3678,6 +3678,8 @@
         <key key="brand" value="ჯი პი აი" />
         <key key="brand:ka" value="ჯი პი აი" />
         <key key="brand:en" value="GPI" />
+        <key key="brand:wikidata" value="Q131470042" />
+        <key key="operator:wikidata" value="Q131470042" />
         <key key="contact:youtube" value="https://www.youtube.com/channel/UCqpS3isySBNBRInCrFm5gLw" />
         <key key="contact:linkedin" value="https://www.linkedin.com/company/gpih-vig" />
         <key key="contact:facebook" value="https://www.facebook.com/gpiholdinginsurance" />
@@ -3714,6 +3716,8 @@
         <key key="brand" value="იმედი L" />
         <key key="brand:ka" value="იმედი L" />
         <key key="brand:en" value="Imedi L" />
+        <key key="brand:wikidata" value="Q131470044" />
+        <key key="operator:wikidata" value="Q131470044" />
         <key key="contact:website" value="https://imedil.ge" />
         <key key="contact:email" value="info@imedil.ge" />
         <key key="contact:phone" value="+995 32 292 22 22" />
@@ -3747,6 +3751,7 @@
         <key key="brand" value="თიბისი დაზღვევა" />
         <key key="brand:ka" value="თიბისი დაზღვევა" />
         <key key="brand:en" value="TBC Insurance" />
+        <key key="brand:wikidata" value="Q131470046" />
         <key key="contact:facebook" value="https://www.facebook.com/tbcinsurance" />
         <key key="contact:website" value="https://tbcinsurance.ge" />
         <key key="contact:email" value="info@tbcinsurance.ge" />
