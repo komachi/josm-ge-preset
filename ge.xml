@@ -580,7 +580,7 @@
         <key key="name:en" value="36.6" />
         <key key="name:ru" value="36.6" />
         <key key="contact:facebook" value="https://www.facebook.com/aftiaqi36.6" />
-        <key key="brand:wikidata" value="Q131746590">
+        <key key="brand:wikidata" value="Q131746590" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
