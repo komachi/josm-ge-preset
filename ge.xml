@@ -2757,7 +2757,7 @@
           <key key="payment:cash" value="yes" />
           <reference ref="paybox" />
         </item>
-        <item name="PayBox" ka.name="ფეიბოქსი" type="node" preset_name_label="true">
+        <item name="PayBox" ka.name="ფეიბოქსი" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="amenity" value="payment_terminal" />
           <key key="brand" value="ფეიბოქსი" />
           <key key="brand:ka" value="ფეიბოქსი" />
