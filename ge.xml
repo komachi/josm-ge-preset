@@ -2757,14 +2757,15 @@
           <key key="payment:cash" value="yes" />
           <reference ref="paybox" />
         </item>
-        <item name="Oppa" ka.name="ოპპა" type="node,closedway,multipolygon" preset_name_label="true">
+        <item name="PayBox" ka.name="ფეიბოქსი" type="node" preset_name_label="true">
           <key key="amenity" value="payment_terminal" />
-          <key key="brand" value="ოპპა" />
-          <key key="brand:ka" value="ოპპა" />
-          <key key="brand:en" value="Oppa" />
+          <key key="brand" value="ფეიბოქსი" />
+          <key key="brand:ka" value="ფეიბოქსი" />
+          <key key="brand:en" value="PayBox" />
+          <key key="brand:wikidata" value="Q132183551" />
           <key key="contact:email" value="info@oppa.ge" />
-          <key key="contact:facebook" value="https://facebook.com/OPPAfintech" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/oppaoppa" />
+          <key key="contact:facebook" value="https://www.facebook.com/PayBoxTerminals" />
+          <key key="contact:instagram" value="https://www.instagram.com/payboxterminals/" />
           <key key="contact:phone" value="+995 32 220 30 00;+995 32 224 45 00" />
           <key key="operator:ka" value="ოპპა" />
           <key key="operator" value="ოპპა" />
