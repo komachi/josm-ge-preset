@@ -2762,6 +2762,7 @@
           <key key="brand" value="ფეიბოქსი" />
           <key key="brand:ka" value="ფეიბოქსი" />
           <key key="brand:en" value="PayBox" />
+          <key key="brand:wikidata" value="Q132183551" />
           <key key="contact:email" value="info@oppa.ge" />
           <key key="contact:facebook" value="https://www.facebook.com/PayBoxTerminals" />
           <key key="contact:instagram" value="https://www.instagram.com/payboxterminals/" />
