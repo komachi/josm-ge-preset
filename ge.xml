@@ -1025,6 +1025,23 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
+      <item name="Shaurma Club" ka.name="შაურმა ქლაბი" ru.name="Шаурма Клаб" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="brand" value="შაურმა ქლაბი" />
+        <key key="brand:ka" value="შაურმა ქლაბი" />
+        <key key="brand:wikidata" value="Q133886965" />
+        <key key="name" value="შაურმა ქლაბი" />
+        <key key="name:ka" value="შაურმა ქლაბი" />
+        <key key="name:en" value="Shaurma Club" />
+        <key key="name:ru" value="Шаурма Клаб" />
+        <key key="contact:facebook" value="https://www.facebook.com/ShaurmaClubb" />
+        <key key="contact:website" value="https://shaurmaclub.ge" />
+        <key key="contact:instagram" value="https://www.instagram.com/shaurmaclubb" />
+        <key key="takeaway" value="yes" />
+        <key key="delivery" value="yes" />
+        <key key="cuisine" value="shawarma" />
+        <key key="amenity" value="fast_food" />
+        <reference ref="eatery" />
+      </item>
     </group>
 
     <group name="Shops" ka.name="მაღაზიები" ru.name="Магазины" icon="https://upload.wikimedia.org/wikipedia/commons/f/f9/T-shirt_silhouette.svg">
@@ -1523,6 +1540,23 @@
           <key key="name:ka" value="მადაგონი" />
           <key key="name:en" value="Madagoni" />
           <key key="name:ru" value="Мадагони" />
+          <key key="shop" value="convenience" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Kalata" ka.name="კალათა" ru.name="Калата" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="კალათა" />
+          <key key="brand:ka" value="კალათა" />
+          <key key="brand:en" value="Kalata" />
+          <key key="brand:ru" value="Калата" />
+          <key key="contact:facebook" value="https://www.facebook.com/Kalata.market" />
+          <key key="contact:instagram" value="https://www.instagram.com/kalata.supermarket" />
+          <key key="contact:website" value="https://kalata.ge" />
+          <key key="contact:mobile" value="+995 599 00 00 00" />
+          <key key="brand:wikidata" value="Q133886762" />
+          <key key="name" value="კალათა" />
+          <key key="name:ka" value="კალათა" />
+          <key key="name:en" value="Kalata" />
+          <key key="name:ru" value="Калата" />
           <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
@@ -3731,6 +3765,40 @@
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dcourier" />
+      </item>
+      <item name="Inex" ka.name="ინექს" type="node" preset_name_label="true">
+        <key key="name" value="ინექს" />
+        <key key="name:ka" value="ინექს" />
+        <key key="name:en" value="Inex" />
+        <key key="brand:ka" value="ინექს" />
+        <key key="brand" value="ინექს" />
+        <key key="brand:en" value="Inex" />
+        <key key="brand:wikidata" value="Q133886939" />
+        <key key="contact:website" value="https://inex.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/InexGroup" />
+        <key key="contact:phone" value="+995 32 249 26 26" />
+        <key key="office" value="courier" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:office=courier" />
+      </item>
+      <item name="Wildberries" ka.name="ვაილდბერიზი" ru.name="Вайлдбериз" type="node" preset_name_label="true">
+        <key key="name" value="ვაილდბერიზი" />
+        <key key="name:ka" value="ვაილდბერიზი" />
+        <key key="name:en" value="Wildberries" />
+        <key key="name:ru" value="Вайлдбериз" />
+        <key key="brand:ka" value="ვაილდბერიზი" />
+        <key key="brand" value="Wildberries" />
+        <key key="brand:en" value="Wildberries" />
+        <key key="brand:wikidata" value="Q24933714" />
+        <key key="brand:wikipedia" value="ru:Wildberries" />
+        <key key="contact:website" value="https://www.wildberries.ge" />
+        <key key="contact:email" value="hotline@wildberries.ge" />
+        <key key="contact:telegram" value="WB_Hotline_GE_bot" />
+        <key key="shop" value="outpost" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:shop=outpost" />
       </item>
       <item name="Postbox (Georgian Post)" ka.name="საფოსტო ყუთი (საქართველოს ფოსტა)" ru.name="Почтовый ящик (Почта Грузии)" type="node" icon="https://upload.wikimedia.org/wikipedia/commons/8/82/Twemoji_1f4ee.svg" preset_name_label="true">
         <text key="ref" text="Reference number" />
