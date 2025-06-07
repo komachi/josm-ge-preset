@@ -812,6 +812,47 @@
         <reference ref="crypto_currencies_thru_citypay_io" />
         <reference ref="eatery" />
       </item>
+      <item name="Domino's Pizza" ka.name="დომინო'ს პიცა" ru.name="Домино'с Пицца" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/3/3e/Domino's_pizza_logo.svg">
+        <key key="brand" value="დომინო'ს პიცა" />
+        <key key="brand:ka" value="დომინო'ს პიცა" />
+        <key key="brand:en" value="Domino's Pizza" />
+        <key key="brand:ru" value="Домино'с Пицца" />
+        <key key="brand:wikidata" value="Q839466" />
+        <key key="name" value="დომინო'ს პიცა" />
+        <key key="name:ka" value="დომინო'ს პიცა" />
+        <key key="name:en" value="Domino's Pizza" />
+        <key key="name:ru" value="Домино'с Пицца" />
+        <key key="contact:website" value="https://dominospizza.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/dominosgeorgia" />
+        <key key="contact:instagram" value="https://www.instagram.com/dominos_geo" />
+        <key key="contact:email" value="info@dominospizza.ge" />
+        <key key="contact:phone" value="+995 32 299 88 88" />
+        <key key="takeaway" value="yes" />
+        <key key="delivery" value="yes" />
+        <key key="cuisine" value="pizza" />
+        <key key="amenity" value="fast_food" />
+        <reference ref="eatery" />
+      </item>
+      <item name="Dodo Pizza" ka.name="დოდო პიცა" ru.name="Додо Пицца" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="brand" value="დოდო პიცა" />
+        <key key="brand:ka" value="დოდო პიცა" />
+        <key key="brand:en" value="Dodo Pizza" />
+        <key key="brand:ru" value="Додо Пицца" />
+        <key key="brand:wikidata" value="Q61949318" />
+        <key key="name" value="დოდო პიცა" />
+        <key key="name:ka" value="დოდო პიცა" />
+        <key key="name:en" value="Dodo Pizza" />
+        <key key="name:ru" value="Додо Пицца" />
+        <key key="contact:website" value="https://dodopizza.ge" />
+        <key key="contact:instagram" value="https://www.instagram.com/dodopizza.georgia" />
+        <key key="contact:email" value="feedback@dodopizza.ge" />
+        <key key="contact:mobile" value="+995 579 18 52 25" />
+        <key key="takeaway" value="yes" />
+        <key key="delivery" value="yes" />
+        <key key="cuisine" value="pizza" />
+        <key key="amenity" value="fast_food" />
+        <reference ref="eatery" />
+      </item>
       <item name="Ska Juice Bar" ka.name="ვსკა ჯუს ბარი" type="node,closedway,multipolygon" preset_name_label="true">
         <key key="brand" value="სკა ჯუს ბარი" />
         <key key="brand:ka" value="სკა ჯუს ბარი" />
@@ -1042,6 +1083,26 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
+      <item name="August" ka.name="აუგუსტი" ru.name="Август" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="brand" value="აუგუსტი" />
+        <key key="brand:ka" value="აუგუსტი" />
+        <key key="brand:en" value="August" />
+        <key key="brand:ru" value="Август" />
+        <key key="name" value="აუგუსტი" />
+        <key key="name:en" value="August" />
+        <key key="name:ka" value="აუგუსტი" />
+        <key key="name:ru" value="Август" />
+        <key key="contact:email" value="info@august.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/Augustbakery.ge" />
+        <key key="contact:instagram" value="https://www.instagram.com/augustbakery_" />
+        <key key="contact:mobile" value="+995 598 10 41 70" />
+        <key key="contact:website" value="https://www.august.ge" />
+        <key key="brand:wikidata" value="Q134732257" />
+        <key key="amenity" value="cafe" />
+        <key key="shop" value="pastry" />
+        <key key="cuisine" value="cake;coffee;pastry;sandwich;tea" />
+        <reference ref="eatery" />
+      </item>
     </group>
 
     <group name="Shops" ka.name="მაღაზიები" ru.name="Магазины" icon="https://upload.wikimedia.org/wikipedia/commons/f/f9/T-shirt_silhouette.svg">
@@ -1065,7 +1126,6 @@
           <key key="shop" value="chemist" />
           <reference ref="basic_shop" />
         </item>
-
         <item name="Ici Paris" ka.name="ისი პარი" ru.name="Иси Пари" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="ისი პარი" />
           <key key="brand:ka" value="ისი პარი" />
@@ -1085,7 +1145,6 @@
           <key key="shop" value="cosmetics" />
           <reference ref="basic_shop" />
         </item>
-
         <item name="Voulez-Vous" ka.name="ვულე ვუ" ru.name="Вуле Ву" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="ვულე ვუ" />
           <key key="brand:ka" value="ვულე ვუ" />
@@ -1105,7 +1164,6 @@
           <key key="shop" value="cosmetics" />
           <reference ref="basic_shop" />
         </item>
-
         <item name="Mosaic" ka.name="მოზაიკა" ru.name="Мозайка" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="მოზაიკა" />
           <key key="brand:ka" value="მოზაიკა" />
@@ -1118,6 +1176,21 @@
           <key key="contact:mobile" value="+995 577 41 50 15" />
           <key key="contact:email" value="info@batumimosaic.ge" />
           <key key="brand:wikidata" value="Q131469965" />
+          <key key="shop" value="cosmetics" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Lutecia" ka.name="ლუტეცია" ru.name="Лютеция" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="ლუტეცია" />
+          <key key="brand:ka" value="ლუტეცია" />
+          <key key="brand:en" value="Lutecia" />
+          <key key="name" value="ლუტეცია" />
+          <key key="name:ka" value="ლუტეცია" />
+          <key key="name:en" value="Lutecia" />
+          <key key="name:ru" value="Лютеция" />
+          <key key="contact:website" value="https://www.lutecia.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/lutecia.official" />
+          <key key="contact:instagram" value="https://www.instagram.com/lutecia.official" />
+          <key key="brand:wikidata" value="Q134732306" />
           <key key="shop" value="cosmetics" />
           <reference ref="basic_shop" />
         </item>
@@ -1427,23 +1500,6 @@
           <key key="shop" value="supermarket" />
           <reference ref="basic_shop" />
         </item>
-        <item name="Global Products" ka.name="გლობალ პროდუქტი" ru.name="Глобал Продукти" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="გლობალ პროდუქტი" />
-          <key key="brand:en" value="Global Products" />
-          <key key="brand:ka" value="გლობალ პროდუქტი" />
-          <key key="brand:ru" value="Глобал Продукти" />
-          <key key="contact:mobile" value="+995 551 77 17 17" />
-          <key key="contact:email" value="info@globalproducts.ge" />
-          <key key="contact:website" value="https://www.globalproducts.ge" />
-          <key key="contact:facebook" value="https://facebook.com/globalproducts.supermarket" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/global-products-distribution" />
-          <key key="name" value="გლობალ პროდუქტი" />
-          <key key="name:ka" value="გლობალ პროდუქტი" />
-          <key key="name:en" value="Global Products" />
-          <key key="name:ru" value="Глобал Продукти" />
-          <key key="shop" value="convenience" />
-          <reference ref="basic_shop" />
-        </item>
         <item name="Daily" ka.name="დეილი" ru.name="Дейли" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="დეილი" />
           <key key="brand:en" value="Daily" />
@@ -1651,6 +1707,23 @@
           <key key="butcher" value="poultry" />
           <reference ref="basic_shop" />
         </item>
+        <item name="Biu Biu" ka.name="ბიუ ბიუ" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="ბიუ ბიუ" />
+          <key key="brand:ka" value="ბიუ ბიუ" />
+          <key key="brand:en" value="Biu Biu" />
+          <key key="brand:ru" value="Биу Биу" />
+          <key key="brand:wikidata" value="Q128032103" />
+          <key key="contact:email" value="info@gpp.ge" />
+          <key key="contact:website" value=" https://www.biubiu.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/biubiu.ge" />
+          <key key="name" value="ბიუ ბიუ" />
+          <key key="name:ka" value="ბიუ ბიუ" />
+          <key key="name:en" value="Biu Biu" />
+          <key key="name:ru" value="Биу Биу" />
+          <key key="shop" value="butcher" />
+          <key key="butcher" value="poultry" />
+          <reference ref="basic_shop" />
+        </item>
         <item name="Express Chain" ka.name="ექსპრეს ქსელი" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="ექსპრეს ქსელი" />
           <key key="brand:ka" value="ექსპრეს ქსელი" />
@@ -1675,6 +1748,25 @@
           <key key="name:ka" value="ბელმარტი" />
           <key key="name:en" value="Belmart" />
           <key key="name:ru" value="Белмарт" />
+          <key key="shop" value="convenience" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Belarusian House" ka.name="ბელორუსული სახლი" ru.name="Беларуский Дом" type="node,closedway,multipolygon" preset_name_label="true">
+          <combo key="opening_hours" text="Opening Hours" values="09:30-21:30" />
+          <key key="brand:ka" value="ბელორუსული სახლი" />
+          <key key="brand" value="ბელორუსული სახლი" />
+          <key key="brand:en" value="Belarusian House" />
+          <key key="brand:ru" value="Беларуский Дом" />
+          <key key="brand:wikidata" value="Q134732277" />
+          <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=61575496730552" />
+          <key key="contact:instagram" value="https://www.instagram.com/belarusianhouse.official" />
+          <key key="contact:email" value="cdcompany08@gmail.com" />
+          <key key="contact:website" value="https://belarusianhouse.ge" />
+          <key key="contact:mobile" value="+995 599 50 85 23" />
+          <key key="name" value="ბელორუსული სახლი" />
+          <key key="name:ka" value="ბელორუსული სახლი" />
+          <key key="name:en" value="Belarusian House" />
+          <key key="name:ru" value="Беларуский Дом" />
           <key key="shop" value="convenience" />
           <reference ref="basic_shop" />
         </item>
@@ -3781,6 +3873,25 @@
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office=courier" />
+      </item>
+      <item name="Delivo" ru.name="Деливо" ka.name="დელივო" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="brand" value="დელივო" />
+        <key key="name:ka" value="დელივო" />
+        <key key="brand:en" value="Delivo" />
+        <key key="brand:ru" value="Деливо" />
+        <key key="name" value="დელივო" />
+        <key key="name:ka" value="დელივო" />
+        <key key="name:en" value="Delivo" />
+        <key key="name:ru" value="Деливо" />
+        <key key="brand:wikidata" value="Q134732414" />
+        <key key="contact:website" value="https://delivo.ge" />
+        <key key="contact:email" value="info@delivo.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=100092410068179" />
+        <key key="contact:phone" value="+995 32 500 00 10" />
+        <key key="office" value="courier" />
+        <reference ref="basic_data" />
+        <reference ref="wheelchair_address" />
+        <link wiki="Tag:office%3Dcourier" />
       </item>
       <item name="Wildberries" ka.name="ვაილდბერიზი" ru.name="Вайлдбериз" type="node" preset_name_label="true">
         <key key="name" value="ვაილდბერიზი" />
