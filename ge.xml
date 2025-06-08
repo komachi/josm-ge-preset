@@ -1103,6 +1103,24 @@
         <key key="cuisine" value="cake;coffee;pastry;sandwich;tea" />
         <reference ref="eatery" />
       </item>
+      <item name="Marge" ka.name="მარგე" ru.name="Марге" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="brand" value="მარგე" />
+        <key key="brand:ka" value="მარგე" />
+        <key key="brand:en" value="Marge" />
+        <key key="brand:ru" value="Марге" />
+        <key key="brand:wikidata" value="Q134735223" />
+        <key key="name" value="მარგე" />
+        <key key="name:ka" value="მარგე" />
+        <key key="name:en" value="Marge" />
+        <key key="name:ru" value="Марге" />
+        <key key="contact:facebook" value="https://www.facebook.com/margefastfood" />
+        <key key="contact:phone" value="+995 32 220 72 07" />
+        <key key="takeaway" value="yes" />
+        <key key="delivery" value="yes" />
+        <key key="cuisine" value="shawarma" />
+        <key key="amenity" value="fast_food" />
+        <reference ref="eatery" />
+      </item>
     </group>
 
     <group name="Shops" ka.name="მაღაზიები" ru.name="Магазины" icon="https://upload.wikimedia.org/wikipedia/commons/f/f9/T-shirt_silhouette.svg">
@@ -1808,6 +1826,22 @@
           <reference ref="crypto_currencies_thru_citypay_io" />
           <reference ref="basic_shop" />
         </item>
+        <item name="Tortini" ka.name="ტორტინი" ru.name="Тортини" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="ტორტინი" />
+          <key key="brand:ka" value="ტორტინი" />
+          <key key="brand:en" value="Tortini" />
+          <key key="brand:ru" value="Тортини" />
+          <key key="name" value="ტორტინი" />
+          <key key="name:ka" value="ტორტინი" />
+          <key key="name:en" value="Tortini" />
+          <key key="name:ru" value="Тортини" />
+          <key key="brand:wikidata" value="Q134735289" />
+          <key key="contact:facebook" value="https://www.facebook.com/tortini.ge" />
+          <key key="contact:email" value="food7.saburtalo@gmail.com" />
+          <key key="contact:phone" value="+995 32 256 00 21" />
+          <key key="shop" value="pastry" />
+          <reference ref="basic_shop" />
+        </item>
 
         <!-- Regional chains -->
         <!-- Kutaisi -->
@@ -2485,6 +2519,41 @@
           <key key="contact:email" value="geozoolife@gmail.com" />
           <key key="contact:mobile" value="+995 577 12 27 78" />
           <key key="shop" value="pet" />
+          <reference ref="basic_shop" />
+        </item>
+      </group>
+
+      <group name="Auto" ka.name="ავტო" ru.name="Авто" icon="https://upload.wikimedia.org/wikipedia/commons/6/62/Big_guy_637's_Car_icon.svg">
+        <item name="Amboli" ka.name="ამბოლი" ru.name="Амболи" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="ამბოლი" />
+          <key key="brand:ka" value="ამბოლი" />
+          <key key="brand:en" value="Amboli" />
+          <key key="brand:ru" value="Амболи" />
+          <key key="name" value="ამბოლი" />
+          <key key="name:ka" value="ამბოლი" />
+          <key key="name:en" value="Amboli" />
+          <key key="name:ru" value="Амболи" />
+          <key key="brand:wikidata" value="Q134735780" />
+          <key key="contact:website" value="https://amboli.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/amboli.ge" />
+          <key key="contact:instagram" value="https://www.instagram.com/amboli_ge" />
+          <key key="shop" value="car_parts" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Greenway" ka.name="გრინვეი" ru.name="Гринвей" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="გრინვეი" />
+          <key key="brand:ka" value="გრინვეი" />
+          <key key="brand:en" value="Greenway" />
+          <key key="brand:ru" value="Гринвей" />
+          <key key="name" value="გრინვეი" />
+          <key key="name:ka" value="გრინვეი" />
+          <key key="name:en" value="Greenway" />
+          <key key="name:ru" value="Гринвей" />
+          <key key="brand:wikidata" value="Q134735986" />
+          <key key="contact:website" value="https://greenway.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/umartivesad.ge" />
+          <key key="contact:phone" value="+995 32 299 77 77" />
+          <key key="amenity" value="vehicle_inspection" />
           <reference ref="basic_shop" />
         </item>
       </group>
@@ -3214,6 +3283,30 @@
           <key key="currency:EUR" value="no" />
           <reference ref="atm" />
         </item>
+        <item name="Rico ATM" ru.name="Банкомат Рико" ka.name="რიკო ბანკომატი" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="shop" value="money_lender" />
+          <key key="amenity" value="bureau_de_change" />
+          <key key="brand" value="რიკო კრედიტი" />
+          <key key="brand:ka" value="რიკო კრედიტი" />
+          <key key="brand:en" value="Rico Credit" />
+          <key key="brand:ru" value="Рико Кредит" />
+          <key key="brand:wikidata" value="Q134736471" />
+          <key key="operator" value="რიკო კრედიტი" />
+          <key key="operator:wikidata" value="Q134736471" />
+          <key key="contact:website" value="http://www.ricocredit.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/rico.ge" />
+          <key key="contact:instagram" value="https://www.instagram.com/rico_credit" />
+          <key key="contact:email" value="rico@rico.ge" />
+          <key key="contact:phone" value="+995 32 229 29 29" />
+          <key key="cash_in" value="no" />
+          <key key="cash_out" value="yes" />
+          <key key="language:en" value="yes" />
+          <key key="language:ka" value="yes" />
+          <key key="currency:GEL" value="yes" />
+          <reference ref="full_currencies" />
+          <reference ref="basic_data" />
+          <reference ref="wheelchair_address" />
+        </item>
       </group>
 
       <group name="Crypto" ka.name="კრიპტო" ru.name="Крипто">
@@ -3358,7 +3451,6 @@
           <key key="contact:website" value="https://swisscapital.ge" />
           <key key="contact:facebook" value="https://www.facebook.com/swisscapital" />
           <key key="contact:youtube" value="https://www.youtube.com/channel/UCpxxR2NbIH_uJQD7XLKIEdw" />
-          <key key="contact:email" value="rico@rico.ge" />
           <key key="contact:phone" value="+995 32 230 03 00" />
           <key key="name" value="სვის კაპიტალი" />
           <key key="name:ka" value="სვის კაპიტალი" />
