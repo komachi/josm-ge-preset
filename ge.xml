@@ -3334,19 +3334,17 @@
           <key key="currency:LTC" value="yes" />
           <reference ref="crypto_atm" />
         </item>
-        <item name="BitXChange" type="node,closedway,multipolygon" preset_name_label="true">
+        <item name="Blockchain.ge" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="amenity" value="atm" />
-          <key key="brand" value="BitXChange" />
-          <key key="brand:ka" value="BitXChange" />
-          <key key="operator:ka" value="BitXChange" />
-          <key key="operator" value="BitXChange" />
-          <key key="contact:phone" value="+995 32 211 41 18" />
-          <key key="contact:email" value="support@bitxchan.ge" />
-          <key key="contact:website" value="https://bxc.ge" />
-          <key key="contact:facebook" value="https://facebook.com/bxc.ge" />
-          <key key="contact:instagram" value="https://instagram.com/bxc.ge" />
-          <key key="contact:twitter" value="https://twitter.com/bxc_atm" />
-          <key key="contact:telegram" value="https://t.me/bitxchan_ge" />
+          <key key="brand" value="Blockchain.ge" />
+          <key key="brand:ka" value="Blockchain.ge" />
+          <key key="operator:ka" value="Blockchain.ge" />
+          <key key="operator" value="Blockchain.ge" />
+          <key key="contact:email" value="support@blockchain.ge" />
+          <key key="contact:website" value="https://blockchain.ge" />
+          <key key="contact:facebook" value="https://facebook.com/people/Blockchainge/61567175421402/" />
+          <key key="contact:instagram" value="https://instagram.com/blockchain.ge" />
+          <key key="contact:telegram" value="https://t.me/blockchain_ge" />
           <key key="cash_in" value="yes" />
           <key key="payment:credit_cards" value="no" />
           <key key="payment:debit_cards" value="no" />
