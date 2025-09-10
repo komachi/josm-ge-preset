@@ -3728,15 +3728,15 @@
         <key key="name:ru" value="Топичи" />
         <reference ref="fuel_station" />
       </item>
-      <item name="M-Oil" ka.name="მ-ოილ" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="M-Oil" ka.name="მ-ოილი" type="node,closedway,multipolygon" preset_name_label="true">
         <key key="amenity" value="fuel" />
-        <key key="brand" value="მ-ოილ" />
-        <key key="brand:ka" value="მ-ოილ" />
+        <key key="brand" value="მ-ოილი" />
+        <key key="brand:ka" value="მ-ოილი" />
         <key key="brand:en" value="M-Oil" />
         <key key="contact:mobile" value="+995 598 58 84 84" />
         <key key="contact:email" value="Tariel591007755@gmail.com" />
-        <key key="name" value="მ-ოილ" />
-        <key key="name:ka" value="მ-ოილ" />
+        <key key="name" value="მ-ოილი" />
+        <key key="name:ka" value="მ-ოილი" />
         <key key="name:en" value="M-Oil" />
         <key key="name:ru" value="М-Ойл" />
         <reference ref="fuel_station" />
