@@ -3498,6 +3498,7 @@
         <key key="name" value="რომპეტროლი" />
         <key key="name:ka" value="რომპეტროლი" />
         <key key="name:en" value="Rompetrol" />
+        <key key="name:ru" value="Ромпетрол" />
         <reference ref="fuel_station" />
       </item>
       <item name="Socar" ka.name="სოკარი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/socar.jpg">
@@ -3514,6 +3515,7 @@
         <key key="name" value="სოკარი" />
         <key key="name:ka" value="სოკარი" />
         <key key="name:en" value="Socar" />
+        <key key="name:ru" value="Сокар" />
         <reference ref="fuel_station" />
       </item>
       <item name="Wissol" ka.name="ვისოლ" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/wissol.jpg">
@@ -3531,6 +3533,7 @@
         <key key="name" value="ვისოლ" />
         <key key="name:ka" value="ვისოლ" />
         <key key="name:en" value="Wissol" />
+        <key key="name:ru" value="Виссол" />
         <reference ref="crypto_currencies_thru_citypay_io" />
         <reference ref="fuel_station" />
       </item>
@@ -3550,6 +3553,7 @@
         <key key="name" value="გალფი" />
         <key key="name:ka" value="გალფი" />
         <key key="name:en" value="Gulf" />
+        <key key="name:ru" value="Галф" />
         <reference ref="fuel_station" />
       </item>
       <item name="Connect" ka.name="ქონექთი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/connect.jpg">
@@ -3563,6 +3567,7 @@
         <key key="name" value="ქონექთი" />
         <key key="name:ka" value="ქონექთი" />
         <key key="name:en" value="Connect" />
+        <key key="name:ru" value="Коннект" />
         <reference ref="fuel_station" />
       </item>
       <item name="Lukoil" ka.name="ლუკოილი" ru.name="Лукойл" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/lukoil.jpg">
@@ -3596,6 +3601,7 @@
         <key key="name" value="პორტალი" />
         <key key="name:ka" value="პორტალი" />
         <key key="name:en" value="Portal" />
+        <key key="name:ru" value="Портал" />
         <reference ref="fuel_station" />
       </item>
       <item name="Optima" ka.name="ოპტიმა" ru.name="Оптима" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/optima.jpg">
@@ -3626,6 +3632,7 @@
         <key key="name" value="ეკოპეტროლი" />
         <key key="name:ka" value="ეკოპეტროლი" />
         <key key="name:en" value="Ekopetrol" />
+        <key key="name:ru" value="Экопетрол" />
         <reference ref="fuel_station" />
       </item>
       <item name="Neogas" ka.name="ნეოგაზი" ru.name="Неогаз" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/neogas.jpg">
@@ -3677,6 +3684,8 @@
         <key key="name:en" value="AutoLPGas" />
         <reference ref="fuel_station" />
       </item>
+
+      <!-- Electro chargers -->
       <item name="E-Space" ka.name="ი-სპეის" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/espace.jpg">
         <key key="amenity" value="charging_station" />
         <key key="brand" value="ი-სპეის" />
@@ -3702,6 +3711,35 @@
         <key key="contact:mobile" value="+995 514 07 00 33" />
         <key key="contact:telegram" value="https://t.me/EVGeorgia_bot" />
         <reference ref="charging_station" />
+      </item>
+
+      <!-- Regional networks -->
+      <item name="Topichi" ka.name="თოფიჩი" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="amenity" value="fuel" />
+        <key key="brand" value="თოფიჩი" />
+        <key key="brand:ka" value="თოფიჩი" />
+        <key key="brand:en" value="Topichi" />
+        <key key="contact:facebook" value="https://www.facebook.com/topichi7" />
+        <key key="contact:mobile" value="+995 598 89 88 22" />
+        <key key="contact:email" value="qvasiyma1@gmail.com" />
+        <key key="name" value="თოფიჩი" />
+        <key key="name:ka" value="თოფიჩი" />
+        <key key="name:en" value="Topichi" />
+        <key key="name:ru" value="Топичи" />
+        <reference ref="fuel_station" />
+      </item>
+      <item name="M-Oil" ka.name="მ-ოილ" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="amenity" value="fuel" />
+        <key key="brand" value="მ-ოილ" />
+        <key key="brand:ka" value="მ-ოილ" />
+        <key key="brand:en" value="M-Oil" />
+        <key key="contact:mobile" value="+995 598 58 84 84" />
+        <key key="contact:email" value="Tariel591007755@gmail.com" />
+        <key key="name" value="მ-ოილ" />
+        <key key="name:ka" value="მ-ოილ" />
+        <key key="name:en" value="M-Oil" />
+        <key key="name:ru" value="М-Ойл" />
+        <reference ref="fuel_station" />
       </item>
     </group>
 
