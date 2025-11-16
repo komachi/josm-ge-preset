@@ -1701,63 +1701,7 @@
           <key key="shop" value="pastry" />
           <reference ref="basic_shop" />
         </item>
-        <item name="Alcorium" ka.name="ალკორიუმი" ru.name="Алкориум" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="ალკორიუმი" />
-          <key key="brand:ka" value="ალკორიუმი" />
-          <key key="brand:en" value="Alcorium" />
-          <key key="brand:ru" value="Алкориум" />
-          <key key="brand:wikidata" value="Q131469985" />
-          <key key="contact:email" value="info@alcorium-store.ge" />
-          <key key="contact:website" value="https://alcorium-store.ge" />
-          <key key="contact:facebook" value="https://facebook.com/alcorium" />
-          <key key="name" value="ალკორიუმი" />
-          <key key="name:ka" value="ალკორიუმი" />
-          <key key="name:en" value="Alcorium" />
-          <key key="name:ru" value="Алкориум" />
-          <key key="drink:chacha" value="retail" />
-          <key key="drink:beer" value="retail" />
-          <key key="drink:wine" value="retail" />
-          <key key="drink:sparkling_wine" value="retail" />
-          <key key="drink:whisky" value="retail" />
-          <key key="drink:vodka" value="retail" />
-          <key key="drink:cider" value="retail" />
-          <key key="drink:gin" value="retail" />
-          <key key="drink:rum" value="retail" />
-          <key key="drink:congac" value="retail" />
-          <key key="drink:tequila" value="retail" />
-          <key key="drink:liquor" value="retail" />
-          <key key="shop" value="alcohol" />
-          <reference ref="crypto_currencies_thru_citypay_io" />
-          <reference ref="basic_shop" />
-        </item>
-        <item name="Smugglers" ka.name="სმაგლერსი" ru.name="Смаглерс" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="სმაგლერსი" />
-          <key key="brand:ka" value="სმაგლერსი" />
-          <key key="brand:en" value="Smugglers" />
-          <key key="brand:ru" value="Смаглерс" />
-          <key key="brand:wikidata" value="Q131469986" />
-          <key key="contact:email" value="info@smugglers.ge" />
-          <key key="contact:website" value="http://smugglers.com.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/smugglers.stores" />
-          <key key="name" value="სმაგლერსი" />
-          <key key="name:ka" value="სმაგლერსი" />
-          <key key="name:en" value="Smugglers" />
-          <key key="name:ru" value="Смаглерс" />
-          <key key="drink:chacha" value="retail" />
-          <key key="drink:beer" value="retail" />
-          <key key="drink:wine" value="retail" />
-          <key key="drink:sparkling_wine" value="retail" />
-          <key key="drink:whisky" value="retail" />
-          <key key="drink:vodka" value="retail" />
-          <key key="drink:cider" value="retail" />
-          <key key="drink:gin" value="retail" />
-          <key key="drink:rum" value="retail" />
-          <key key="drink:congac" value="retail" />
-          <key key="drink:tequila" value="retail" />
-          <key key="drink:liquor" value="retail" />
-          <key key="shop" value="alcohol" />
-          <reference ref="basic_shop" />
-        </item>
+
         <item name="Noste" ka.name="ნოსტე" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="ნოსტე" />
           <key key="brand:ka" value="ნოსტე" />
@@ -1923,6 +1867,101 @@
           <key key="name:en" value="Family" />
           <key key="name:ru" value="Фэмили" />
           <key key="shop" value="convenience" />
+          <reference ref="basic_shop" />
+        </item>
+      </group>
+
+      <group name="Alcohol" ka.name="ალკოჰოლი" ru.name="Алкоголь" icon="https://upload.wikimedia.org/wikipedia/commons/c/c4/Wine-bottle_-_Delapouite_-_game-icons.svg">
+        <item name="Alcorium" ka.name="ალკორიუმი" ru.name="Алкориум" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="ალკორიუმი" />
+          <key key="brand:ka" value="ალკორიუმი" />
+          <key key="brand:en" value="Alcorium" />
+          <key key="brand:ru" value="Алкориум" />
+          <key key="brand:wikidata" value="Q131469985" />
+          <key key="contact:email" value="info@alcorium-store.ge" />
+          <key key="contact:website" value="https://alcorium-store.ge" />
+          <key key="contact:facebook" value="https://facebook.com/alcorium" />
+          <key key="name" value="ალკორიუმი" />
+          <key key="name:ka" value="ალკორიუმი" />
+          <key key="name:en" value="Alcorium" />
+          <key key="name:ru" value="Алкориум" />
+          <key key="drink:chacha" value="retail" />
+          <key key="drink:beer" value="retail" />
+          <key key="drink:wine" value="retail" />
+          <key key="drink:sparkling_wine" value="retail" />
+          <key key="drink:whisky" value="retail" />
+          <key key="drink:vodka" value="retail" />
+          <key key="drink:cider" value="retail" />
+          <key key="drink:gin" value="retail" />
+          <key key="drink:rum" value="retail" />
+          <key key="drink:congac" value="retail" />
+          <key key="drink:tequila" value="retail" />
+          <key key="drink:liquor" value="retail" />
+          <key key="shop" value="alcohol" />
+          <reference ref="crypto_currencies_thru_citypay_io" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Smugglers" ka.name="სმაგლერსი" ru.name="Смаглерс" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="სმაგლერსი" />
+          <key key="brand:ka" value="სმაგლერსი" />
+          <key key="brand:en" value="Smugglers" />
+          <key key="brand:ru" value="Смаглерс" />
+          <key key="brand:wikidata" value="Q131469986" />
+          <key key="contact:email" value="info@smugglers.ge" />
+          <key key="contact:website" value="http://smugglers.com.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/smugglers.stores" />
+          <key key="name" value="სმაგლერსი" />
+          <key key="name:ka" value="სმაგლერსი" />
+          <key key="name:en" value="Smugglers" />
+          <key key="name:ru" value="Смаглерс" />
+          <key key="drink:chacha" value="retail" />
+          <key key="drink:beer" value="retail" />
+          <key key="drink:wine" value="retail" />
+          <key key="drink:sparkling_wine" value="retail" />
+          <key key="drink:whisky" value="retail" />
+          <key key="drink:vodka" value="retail" />
+          <key key="drink:cider" value="retail" />
+          <key key="drink:gin" value="retail" />
+          <key key="drink:rum" value="retail" />
+          <key key="drink:congac" value="retail" />
+          <key key="drink:tequila" value="retail" />
+          <key key="drink:liquor" value="retail" />
+          <key key="shop" value="alcohol" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Zgva Ludi" ka.name="ზღვა ლუდი" ru.name="Згва Луди" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="ზღვა ლუდი" />
+          <key key="brand:ka" value="ზღვა ლუდი" />
+          <key key="brand:en" value="Zgva Ludi" />
+          <key key="brand:wikidata" value="Q136806338" />
+          <key key="contact:email" value="franch@zgvaludi.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/zgvaludi" />
+          <key key="contact:instagram" value="https://www.instagram.com/zgvaludi" />
+          <key key="contact:phone" value="+995 571 81 77 77" />
+          <key key="contact:telegram" value="https://t.me/zgvaludi_bot" />
+          <key key="contact:website" value="https://franshiza.zgvaludi.ge" />
+          <key key="name" value="ზღვა ლუდი" />
+          <key key="name:ka" value="ზღვა ლუდი" />
+          <key key="name:en" value="Zgva Ludi" />
+          <key key="name:ru" value="Згва Луди" />
+          <key key="drink:beer" value="retail" />
+          <key key="shop" value="alcohol" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="8000 Vintages" ka.name="8000 მოსავალი" ru.name="8000 Винтажей" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="8000 მოსავალი" />
+          <key key="brand:ka" value="8000 მოსავალი" />
+          <key key="brand:en" value="8000 Vintages" />
+          <key key="brand:wikidata" value="Q136806379" />
+          <key key="contact:email" value="info@8000vintages.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/8000mosavali" />
+          <key key="contact:phone" value="+995 32 288 00 11" />
+          <key key="contact:website" value="https://www.8000vintages.ge" />
+          <key key="name" value="8000 მოსავალი" />
+          <key key="name:ka" value="8000 მოსავალი" />
+          <key key="name:en" value="8000 Vintages" />
+          <key key="name:ru" value="8000 Винтажей" />
+          <key key="shop" value="wine" />
           <reference ref="basic_shop" />
         </item>
       </group>
