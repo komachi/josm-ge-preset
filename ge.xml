@@ -742,7 +742,7 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
-      <item name="McDonald's" ka.name="ქიიეფსი" ru.name="Макдональдс" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/5/50/McDonald%27s_SVG_logo.svg">
+      <item name="McDonald's" ka.name="მაკდონალდსი" ru.name="Макдональдс" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/5/50/McDonald%27s_SVG_logo.svg">
         <key key="brand" value="მაკდონალდსი" />
         <key key="brand:ka" value="მაკდონალდსი" />
         <key key="brand:en" value="McDonald's" />
@@ -1129,6 +1129,46 @@
         <key key="delivery" value="yes" />
         <key key="cuisine" value="shawarma" />
         <key key="amenity" value="fast_food" />
+        <reference ref="eatery" />
+      </item>
+      <item name="Pizza Hut" ka.name="პიცა ჰატი" ru.name="Пицца Хат" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="brand" value="პიცა ჰატი" />
+        <key key="brand:ka" value="პიცა ჰატი" />
+        <key key="brand:en" value="Pizza Hut" />
+        <key key="brand:ru" value="Пицца Хат" />
+        <key key="brand:wikidata" value="Q191615" />
+        <key key="name" value="პიცა ჰატი" />
+        <key key="name:ka" value="პიცა ჰატი" />
+        <key key="name:en" value="Pizza Hut" />
+        <key key="name:ru" value="Пицца Хат" />
+        <key key="contact:instagram" value="https://www.instagram.com/pizzahut.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/p/Pizza-Hut-Georgia-61551897867194" />
+        <key key="contact:email" value="pizzahutge@gmail.com" />
+        <key key="contact:phone" value="+995 511 56 07 11" />
+        <key key="takeaway" value="yes" />
+        <key key="delivery" value="yes" />
+        <key key="cuisine" value="pizza" />
+        <key key="amenity" value="fast_food" />
+        <reference ref="eatery" />
+      </item>
+      <item name="QooQy" ka.name="ქუქი" ru.name="Куки" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="brand" value="ქუქი" />
+        <key key="brand:ka" value="ქუქი" />
+        <key key="brand:en" value="QooQy" />
+        <key key="brand:ru" value="Куки" />
+        <key key="name" value="ქუქი" />
+        <key key="name:en" value="QooQy" />
+        <key key="name:ka" value="ქუქი" />
+        <key key="name:ru" value="Куки" />
+        <key key="contact:email" value="team@QooQyBakery.ge" />
+        <key key="contact:facebook" value="https://www.facebook.com/QooQyBakery" />
+        <key key="contact:instagram" value="https://www.instagram.com/qooqybakery" />
+        <key key="contact:phone" value="+995 32 288 74 87" />
+        <key key="contact:website" value="https://www.qooqybakery.ge" />
+        <key key="brand:wikidata" value="Q136806219" />
+        <key key="amenity" value="cafe" />
+        <key key="shop" value="pastry" />
+        <key key="cuisine" value="cake;coffee;pastry;tea" />
         <reference ref="eatery" />
       </item>
     </group>
@@ -1849,6 +1889,22 @@
           <key key="contact:email" value="food7.saburtalo@gmail.com" />
           <key key="contact:phone" value="+995 32 256 00 21" />
           <key key="shop" value="pastry" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Sisauri" ka.name="სისაური" ru.name="Меама" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="სისაური" />
+          <key key="brand:ka" value="სისაური" />
+          <key key="brand:en" value="Sisauri" />
+          <key key="brand:ru" value="Сисаури" />
+          <key key="brand:wikidata" value="Q136806161" />
+          <key key="contact:facebook" value="https://www.facebook.com/sisaurigrinders" />
+          <key key="contact:phone" value="+995 32 388 81 82" />
+          <key key="contact:email" value="sisaurigrinders@gmail.com" />
+          <key key="name" value="სისაური" />
+          <key key="name:ka" value="სისაური" />
+          <key key="name:en" value="Sisauri" />
+          <key key="name:ru" value="Сисаури" />
+          <key key="shop" value="coffee" />
           <reference ref="basic_shop" />
         </item>
 
