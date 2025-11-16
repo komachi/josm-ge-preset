@@ -172,6 +172,15 @@
     <key key="currency:ZEC" value="yes" />
     <key key="currency:BTG" value="yes" />
   </chunk>
+  <chunk id="crypto_currencies_thru_keepz">
+    <reference ref="crypto_currencies" />
+
+    <key key="payment:lightning" value="yes" />
+    <key key="payment:onchain" value="yes" />
+    <key key="currency:XBT" value="yes" />
+    <key key="currency:USDT" value="yes" />
+    <key key="currency:ETH" value="yes" />
+  </chunk>
   <chunk id="atm">
     <reference ref="opening_hours_24_7" />
     <reference ref="contacts" />
@@ -499,6 +508,7 @@
         <key key="name:en" value="GPC" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
+        <reference ref="crypto_currencies_thru_keepz" />
         <reference ref="basic_shop" />
       </item>
       <item name="Impex" ka.name="იმპექსი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/pharmacies/impex.png">
@@ -1482,7 +1492,6 @@
           <key key="name:ka" value="ფრესკო" />
           <key key="name:en" value="Fresco" />
           <key key="name:ru" value="Фреско" />
-          <reference ref="crypto_currencies_thru_citypay_io" />
           <key key="shop" value="supermarket" />
           <reference ref="basic_shop" />
         </item>
@@ -1678,6 +1687,7 @@
           <key key="drink:tequila" value="retail" />
           <key key="drink:liquor" value="retail" />
           <key key="shop" value="alcohol" />
+          <reference ref="crypto_currencies_thru_citypay_io" />
           <reference ref="basic_shop" />
         </item>
         <item name="Smugglers" ka.name="სმაგლერსი" ru.name="Смаглерс" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1823,7 +1833,6 @@
           <key key="name:en" value="Meama" />
           <key key="name:ru" value="Меама" />
           <key key="shop" value="coffee" />
-          <reference ref="crypto_currencies_thru_citypay_io" />
           <reference ref="basic_shop" />
         </item>
         <item name="Tortini" ka.name="ტორტინი" ru.name="Тортини" type="node,closedway,multipolygon" preset_name_label="true">
@@ -1953,6 +1962,7 @@
           <key key="contact:facebook" value="https://facebook.com/Metromarti" />
           <key key="contact:phone" value="+995 32 200 05 55" />
           <key key="shop" value="electronics" />
+          <reference ref="crypto_currencies_thru_citypay_io" />
           <reference ref="basic_shop" />
         </item>
         <item name="Unicom" ka.name="უნიკომი" type="node,closedway,multipolygon" preset_name_label="true">
@@ -2019,7 +2029,6 @@
           <key key="contact:linkedin" value="https://linkedin.com/company/megatechnica" />
           <key key="contact:email" value="info@megatechnica.ge" />
           <key key="shop" value="electronics" />
-          <reference ref="crypto_currencies_thru_citypay_io" />
           <reference ref="basic_shop" />
         </item>
         <item name="Techno Boom" ka.name="ტექნო ბუმი" type="node,closedway,multipolygon" preset_name_label="true">
@@ -2035,7 +2044,6 @@
           <key key="contact:email" value="info@technoboom.ge" />
           <key key="contact:phone" value="+995 32 243 01 02" />
           <key key="shop" value="electronics" />
-          <reference ref="crypto_currencies_thru_citypay_io" />
           <reference ref="basic_shop" />
         </item>
         <item name="Beko" type="node,closedway,multipolygon" preset_name_label="true">
@@ -3534,7 +3542,7 @@
         <key key="name:ka" value="ვისოლ" />
         <key key="name:en" value="Wissol" />
         <key key="name:ru" value="Виссол" />
-        <reference ref="crypto_currencies_thru_citypay_io" />
+        <reference ref="crypto_currencies_thru_keepz" />
         <reference ref="fuel_station" />
       </item>
       <item name="Gulf" ka.name="გალფი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulf_Oil_logo.svg">
@@ -4119,6 +4127,7 @@
         <key key="contact:phone" value="+995 32 292 22 22" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
+        <reference ref="crypto_currencies_thru_citypay_io" />
         <link wiki="Tag:office%3Dinsurance" />
       </item>
       <item name="Ardi" ka.name="არდი" ru.name="Арди" type="node,closedway,multipolygon" preset_name_label="true">
