@@ -2204,6 +2204,35 @@
           <key key="shop" value="books" />
           <reference ref="basic_shop" />
         </item>
+        <item name="Libra" ka.name="ლიბრა" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="ლიბრა" />
+          <key key="brand:ka" value="ლიბრა" />
+          <key key="brand:en" value="Libra" />
+          <key key="name" value="ლიბრა" />
+          <key key="name:ka" value="ლიბრა" />
+          <key key="name:en" value="Libra" />
+          <key key="brand:wikidata" value="Q136806056" />
+          <key key="contact:facebook" value="https://www.facebook.com/librastores" />
+          <key key="contact:phone" value="+995 32 294 52 00" />
+          <key key="contact:email" value="librawignebi@gmail.com" />
+          <key key="shop" value="books" />
+          <reference ref="basic_shop" />
+        </item>
+        <item name="Santa Esperansa" ka.name="სანტა ესპერანსა" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="სანტა ესპერანსა" />
+          <key key="brand:ka" value="სანტა ესპერანსა" />
+          <key key="brand:en" value="Santa Esperansa" />
+          <key key="name" value="სანტა ესპერანსა" />
+          <key key="name:ka" value="სანტა ესპერანსა" />
+          <key key="name:en" value="Santa Esperansa" />
+          <key key="brand:wikidata" value="Q136806077" />
+          <key key="contact:facebook" value="https://www.facebook.com/santabooks" />
+          <key key="contact:phone" value="+995 32 288 08 21" />
+          <key key="contact:email" value="books@santaesperanza.ge" />
+          <key key="contact:website" value="https://www.santaesperanza.ge" />
+          <key key="shop" value="books" />
+          <reference ref="basic_shop" />
+        </item>
       </group>
 
       <group name="Clothes" ka.name="ქსოვილი" ru.name="Одежда" icon="https://upload.wikimedia.org/wikipedia/commons/f/f9/T-shirt_silhouette.svg">
