@@ -27,7 +27,7 @@
     <combo key="contact:telegram" text="Telegram" />
     <combo key="contact:linkedin" text="LinkedIn" />
     <combo key="contact:youtube" text="YouTube" />
-    <combo key="contact:twitter" text="Twitter" />
+    <combo key="contact:twitter" text="X (former Twitter)" />
   </chunk>
   <chunk id="operator">
     <combo key="operator" text="Operator" />
@@ -604,7 +604,7 @@
         <key key="name:en" value="Deutsche pharmacy" />
         <key key="contact:facebook" value="https://www.facebook.com/Deutschepharmacy" />
         <key key="contact:email" value="info@deutscheprodukte.ge" />
-        <key key="contact:mobile" value="+995 571 50 71 75" />
+        <key key="contact:phone" value="+995 571 50 71 75" />
         <key key="brand:wikidata" value="Q131469947" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
@@ -760,13 +760,16 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
-      <item name="Dunkin' Donuts" ka.name="დანკინ დონათსი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/2/22/Dunkin%27_logo.svg">
+      <item name="Dunkin" ka.name="დანკინ" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/2/22/Dunkin%27_logo.svg">
         <key key="brand" value="დანკინ დონათსი" />
         <key key="brand:ka" value="დანკინ დონათსი" />
         <key key="brand:wikidata" value="Q847743" />
-        <key key="name" value="დანკინ დონათსი" />
-        <key key="name:ka" value="დანკინ დონათსი" />
-        <key key="name:en" value="Dunkin' Donuts" />
+        <key key="alt_name" value="დანკინ დონათსი" />
+        <key key="alt_name:ka" value="დანკინ დონათსი" />
+        <key key="alt_name:en" value="Dunkin' Donuts" />
+        <key key="name" value="დანკინ" />
+        <key key="name:ka" value="დანკინ" />
+        <key key="name:en" value="Dunkin'" />
         <key key="contact:website" value="https://dd.ge" />
         <key key="contact:facebook" value="https://facebook.com/dunkindonutsgeo" />
         <key key="takeaway" value="yes" />
@@ -856,7 +859,7 @@
         <key key="contact:website" value="https://dodopizza.ge" />
         <key key="contact:instagram" value="https://www.instagram.com/dodopizza.georgia" />
         <key key="contact:email" value="feedback@dodopizza.ge" />
-        <key key="contact:mobile" value="+995 579 18 52 25" />
+        <key key="contact:phone" value="+995 579 18 52 25" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="cuisine" value="pizza" />
@@ -873,7 +876,7 @@
         <key key="contact:facebook" value="https://facebook.com/skajuicebar" />
         <key key="contact:instagram" value="https://instagram.com/ska_juicebar" />
         <key key="contact:email" value="tako@skagroup.ge" />
-        <key key="contact:mobile" value="+995 599 87 74 61" />
+        <key key="contact:phone" value="+995 599 87 74 61" />
         <key key="brand:wikidata" value="Q131469954" />
         <key key="cuisine" value="juice;smoothie;sandwich" />
         <key key="takeaway" value="yes" />
@@ -911,7 +914,7 @@
         <key key="name:en" value="Baskin Robbins" />
         <key key="name:ru" value="Баскин Роббинс" />
         <key key="contact:facebook" value="https://www.facebook.com/BaskinRobbinsGeorgia/" />
-        <key key="contact:mobile" value="+995 577 10 58 94" />
+        <key key="contact:phone" value="+995 577 10 58 94" />
         <key key="takeaway" value="only" />
         <key key="amenity" value="ice_cream" />
         <reference ref="eatery" />
@@ -946,13 +949,13 @@
         <key key="amenity" value="fast_food" />
         <reference ref="eatery" />
       </item>
-      <item name="Luca Polare" ka.name="ლუქა პოლარე" type="node,closedway,multipolygon" preset_name_label="true">
-        <key key="brand" value="ლუქა პოლარე" />
-        <key key="brand:ka" value="ლუქა პოლარე" />
+      <item name="Luca Polare" ka.name="ლუკა პოლარე" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="brand" value="ლუკა პოლარე" />
+        <key key="brand:ka" value="ლუკა პოლარე" />
         <key key="brand:en" value="Luca Polare" />
         <key key="brand:ru" value="Лука Поларе" />
-        <key key="name" value="ლუქა პოლარე" />
-        <key key="name:ka" value="ლუქა პოლარე" />
+        <key key="name" value="ლუკა პოლარე" />
+        <key key="name:ka" value="ლუკა პოლარე" />
         <key key="name:en" value="Luca Polare" />
         <key key="name:ru" value="Лука Поларе" />
         <key key="contact:phone" value="+995 32 238 08 02" />
@@ -1015,7 +1018,7 @@
         <key key="name:ru" value="Антре" />
         <key key="contact:facebook" value="https://www.facebook.com/entree.ge" />
         <key key="contact:instagram" value="https://www.instagram.com/entree_ge" />
-        <key key="contact:mobile" value="+995 595 90 71 80" />
+        <key key="contact:phone" value="+995 595 90 71 80" />
         <key key="contact:website" value="https://entree.ge" />
         <key key="brand:wikidata" value="Q131469958" />
         <key key="amenity" value="cafe" />
@@ -1033,7 +1036,7 @@
         <key key="brand:en" value="Di Roma" />
         <key key="brand:ru" value="Ди Рома" />
         <key key="contact:facebook" value="https://www.facebook.com/pizzadiroma.ge/" />
-        <key key="contact:mobile" value="+995 579 88 00 52" />
+        <key key="contact:phone" value="+995 579 88 00 52" />
         <key key="contact:email" value="info@pizzadiroma.ge" />
         <key key="brand:wikidata" value="Q131469959" />
         <key key="takeaway" value="yes" />
@@ -1105,7 +1108,7 @@
         <key key="contact:email" value="info@august.ge" />
         <key key="contact:facebook" value="https://www.facebook.com/Augustbakery.ge" />
         <key key="contact:instagram" value="https://www.instagram.com/augustbakery_" />
-        <key key="contact:mobile" value="+995 598 10 41 70" />
+        <key key="contact:phone" value="+995 598 10 41 70" />
         <key key="contact:website" value="https://www.august.ge" />
         <key key="brand:wikidata" value="Q134732257" />
         <key key="amenity" value="cafe" />
@@ -1241,7 +1244,7 @@
           <key key="name:en" value="Mosaic" />
           <key key="name:ru" value="Мозайка" />
           <key key="contact:website" value="http://batumimosaic.ge" />
-          <key key="contact:mobile" value="+995 577 41 50 15" />
+          <key key="contact:phone" value="+995 577 41 50 15" />
           <key key="contact:email" value="info@batumimosaic.ge" />
           <key key="brand:wikidata" value="Q131469965" />
           <key key="shop" value="cosmetics" />
@@ -1674,7 +1677,7 @@
           <key key="contact:facebook" value="https://www.facebook.com/Kalata.market" />
           <key key="contact:instagram" value="https://www.instagram.com/kalata.supermarket" />
           <key key="contact:website" value="https://kalata.ge" />
-          <key key="contact:mobile" value="+995 599 00 00 00" />
+          <key key="contact:phone" value="+995 599 00 00 00" />
           <key key="brand:wikidata" value="Q133886762" />
           <key key="name" value="კალათა" />
           <key key="name:ka" value="კალათა" />
@@ -1774,7 +1777,7 @@
           <key key="contact:instagram" value="https://www.instagram.com/belarusianhouse.official" />
           <key key="contact:email" value="cdcompany08@gmail.com" />
           <key key="contact:website" value="https://belarusianhouse.ge" />
-          <key key="contact:mobile" value="+995 599 50 85 23" />
+          <key key="contact:phone" value="+995 599 50 85 23" />
           <key key="name" value="ბელორუსული სახლი" />
           <key key="name:ka" value="ბელორუსული სახლი" />
           <key key="name:en" value="Belarusian House" />
@@ -2243,7 +2246,7 @@
           <key key="brand:wikidata" value="Q131470007" />
           <key key="contact:website" value="https://kura-kura.ge" />
           <key key="contact:facebook" value="https://www.facebook.com/kurakuratbilisi" />
-          <key key="contact:mobile" value="+995 577 14 46 77" />
+          <key key="contact:phone" value="+995 577 14 46 77" />
           <key key="contact:email" value="kuragifts@gmail.com" />
           <key key="shop" value="games" />
           <reference ref="basic_shop" />
@@ -2469,7 +2472,7 @@
           <key key="name:ka" value="იოიოსო" />
           <key key="name:en" value="Yoyoso" />
           <key key="contact:email" value="online@yoyoso.ge" />
-          <key key="contact:mobile" value="+995 511 22 55 33" />
+          <key key="contact:phone" value="+995 511 22 55 33" />
           <key key="contact:website" value="https://yoyoso.ge" />
           <key key="contact:facebook" value="https://www.facebook.com/yoyoso.geo" />
           <key key="contact:instagram" value="https://www.instagram.com/yoyoso_georgia" />
@@ -2525,7 +2528,7 @@
           <key key="name:ka" value="ჰოუმ" />
           <key key="name:en" value="Home" />
           <key key="brand:wikidata" value="Q131470016" />
-          <key key="contact:mobile" value="+995 551 16 77 41" />
+          <key key="contact:phone" value="+995 551 16 77 41" />
           <key key="contact:email" value="info@ltdhome.ge" />
           <key key="contact:facebook" value="https://www.facebook.com/ltdhome" />
           <key key="shop" value="houseware" />
@@ -2632,7 +2635,7 @@
           <key key="name:ka" value="ზოოჰაბი" />
           <key key="name:en" value="Zoohub" />
           <key key="brand:wikidata" value="Q131470022" />
-          <key key="contact:mobile" value="+995 598 46 99 26" />
+          <key key="contact:phone" value="+995 598 46 99 26" />
           <key key="contact:email" value="info@zoohub.com.ge" />
           <key key="contact:facebook" value="https://facebook.com/zoohub" />
           <key key="shop" value="pet" />
@@ -2649,7 +2652,7 @@
           <key key="contact:website" value="https://zoolife.ge" />
           <key key="contact:facebook" value="https://www.facebook.com/people/ZooLife-ზოოლაიფი/100063596333301/" />
           <key key="contact:email" value="geozoolife@gmail.com" />
-          <key key="contact:mobile" value="+995 577 12 27 78" />
+          <key key="contact:phone" value="+995 577 12 27 78" />
           <key key="shop" value="pet" />
           <reference ref="basic_shop" />
         </item>
@@ -3016,7 +3019,7 @@
           <key key="operator:ka" value="საქართველოს ბანკი" />
           <key key="operator" value="საქართველოს ბანკი" />
           <key key="operator:wikidata" value="Q2469733" />
-          <key key="payment:coins" value="no" />
+          <key key="payment:coins" value="yes" />
           <key key="payment:cash" value="yes" />
           <key key="payment:cash:USD" value="yes" />
           <key key="payment:cash:EUR" value="yes" />
@@ -3038,7 +3041,7 @@
           <key key="operator:ka" value="თიბისი ბანკი" />
           <key key="operator" value="თიბისი ბანკი" />
           <key key="operator:wikidata" value="Q2620975" />
-          <key key="payment:coins" value="no" />
+          <key key="payment:coins" value="yes" />
           <key key="payment:cash" value="yes" />
           <key key="payment:cash:USD" value="yes" />
           <key key="payment:cash:EUR" value="yes" />
@@ -3060,7 +3063,7 @@
           <key key="contact:phone" value="+995 32 242 42 42" />
           <key key="operator:ka" value="კრედო ბანკი" />
           <key key="operator" value="კრედო ბანკი" />
-          <key key="payment:coins" value="no" />
+          <key key="payment:coins" value="yes" />
           <key key="payment:cash" value="yes" />
           <reference ref="paybox" />
         </item>
@@ -3510,7 +3513,7 @@
           <key key="contact:website" value="https://bermeli.ge" />
           <key key="contact:facebook" value="https://facebook.com/MikrosapinansoOrganizatsiaBermeli" />
           <key key="contact:email" value="info@bermeli.ge" />
-          <key key="contact:mobile" value="+995 568 70 03 00" />
+          <key key="contact:phone" value="+995 568 70 03 00" />
           <key key="name" value="ბერმელი" />
           <key key="name:ka" value="ბერმელი" />
           <key key="name:en" value="Bermeli" />
@@ -3571,21 +3574,21 @@
           <reference ref="basic_data" />
           <reference ref="wheelchair_address" />
         </item>
-        <item name="Swiss Capital" ru.name="Свис Капитал" ka.name="სვის კაპიტალი" type="node,closedway,multipolygon" preset_name_label="true">
+        <item name="Scapp" ru.name="Скапп" ka.name="სკაპი" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="shop" value="money_lender" />
           <key key="amenity" value="bureau_de_change" />
-          <key key="brand" value="სვის კაპიტალი" />
-          <key key="brand:ka" value="სვის კაპიტალი" />
-          <key key="brand:en" value="Swiss Capital" />
-          <key key="brand:ru" value="Свис Капитал" />
-          <key key="contact:website" value="https://swisscapital.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/swisscapital" />
+          <key key="brand" value="სკაპი" />
+          <key key="brand:ka" value="სკაპი" />
+          <key key="brand:en" value="Scapp" />
+          <key key="brand:ru" value="Скапп" />
+          <key key="contact:website" value="https://scapp.ge" />
+          <key key="contact:facebook" value="https://www.facebook.com/scapp.ge" />
           <key key="contact:youtube" value="https://www.youtube.com/channel/UCpxxR2NbIH_uJQD7XLKIEdw" />
           <key key="contact:phone" value="+995 32 230 03 00" />
-          <key key="name" value="სვის კაპიტალი" />
-          <key key="name:ka" value="სვის კაპიტალი" />
-          <key key="name:en" value="Swiss Capital" />
-          <key key="name:ru" value="Свис Капитал" />
+          <key key="name" value="სკაპი" />
+          <key key="name:ka" value="სკაპი" />
+          <key key="name:en" value="Scapp" />
+          <key key="name:ru" value="Скапп" />
           <reference ref="full_currencies" />
           <reference ref="basic_data" />
           <reference ref="wheelchair_address" />
@@ -3650,20 +3653,20 @@
         <key key="name:ru" value="Сокар" />
         <reference ref="fuel_station" />
       </item>
-      <item name="Wissol" ka.name="ვისოლ" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/wissol.jpg">
+      <item name="Wissol" ka.name="ვისოლი" type="node,closedway,multipolygon" preset_name_label="true" icon="https://raw.githubusercontent.com/komachi/josm-ge-preset/main/logos/gasstations/wissol.jpg">
         <key key="amenity" value="fuel" />
-        <key key="brand" value="ვისოლ" />
-        <key key="brand:ka" value="ვისოლ" />
+        <key key="brand" value="ვისოლი" />
+        <key key="brand:ka" value="ვისოლი" />
         <key key="brand:en" value="WISSOL" />
         <key key="brand:wikidata" value="Q8027737" />
         <key key="operator:wikidata" value="Q8027737" />
-        <key key="operator:ka" value="ვისოლ პეტროლიუმ ჯორჯია" />
-        <key key="operator" value="ვისოლ პეტროლიუმ ჯორჯია" />
+        <key key="operator:ka" value="ვისოლი პეტროლიუმ ჯორჯია" />
+        <key key="operator" value="ვისოლი პეტროლიუმ ჯორჯია" />
         <key key="operator:en" value="Wissol Petroleum Georgia" />
         <key key="contact:website" value="http://wissol.ge" />
         <key key="contact:email" value="office@wissol.ge" />
-        <key key="name" value="ვისოლ" />
-        <key key="name:ka" value="ვისოლ" />
+        <key key="name" value="ვისოლი" />
+        <key key="name:ka" value="ვისოლი" />
         <key key="name:en" value="Wissol" />
         <key key="name:ru" value="Виссол" />
         <reference ref="crypto_currencies_thru_keepz" />
@@ -3809,7 +3812,7 @@
         <key key="brand:wikidata" value="Q131470035" />
         <key key="contact:website" value="https://lpgauto.ge" />
         <key key="contact:email" value="info@lpgauto.ge" />
-        <key key="contact:mobile" value="+995 599 52 80 00" />
+        <key key="contact:phone" value="+995 599 52 80 00" />
         <key key="contact:facebook" value="https://www.facebook.com/autolpgas" />
         <key key="name:ka" value="AutoLPGas" />
         <key key="name" value="AutoLPGas" />
@@ -3840,8 +3843,41 @@
         <key key="brand:wikidata" value="Q131470037" />
         <key key="contact:website" value="https://ev-georgia.net" />
         <key key="contact:email" value="info@ev-georgia.net" />
-        <key key="contact:mobile" value="+995 514 07 00 33" />
+        <key key="contact:phone" value="+995 514 07 00 33" />
         <key key="contact:telegram" value="https://t.me/EVGeorgia_bot" />
+        <reference ref="charging_station" />
+      </item>
+      <item name="MartEV" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="amenity" value="charging_station" />
+        <key key="brand" value="MartEV" />
+        <key key="brand:wikidata" value="Q138332705" />
+        <key key="contact:website" value="https://martev.io" />
+        <key key="contact:facebook" value="https://www.facebook.com/people/%E1%83%9B%E1%83%90%E1%83%A0%E1%83%A2%E1%83%98%E1%83%95%E1%83%98-Martev-Charging-Station/61566349196128" />
+        <key key="contact:instagram" value="https://www.instagram.com/martev_chargingstation" />
+        <key key="contact:email" value="info@martev.io" />
+        <key key="contact:phone" value="+995 32 205 34 53" />
+        <key key="authentication:app" value="yes" />
+        <reference ref="charging_station" />
+      </item>
+      <item name="EV Power" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="amenity" value="charging_station" />
+        <key key="brand" value="EV Power" />
+        <key key="brand:wikidata" value="Q138339918" />
+        <key key="contact:website" value="https://www.evpower.ge" />
+        <key key="contact:email" value="info@evpower.ge" />
+        <key key="contact:phone" value="+995 32 208 88 09" />
+        <key key="authentication:app" value="yes" />
+        <reference ref="charging_station" />
+      </item>
+      <item name="Da-Tene" ka.name="და-ტენე" type="node,closedway,multipolygon" preset_name_label="true">
+        <key key="amenity" value="charging_station" />
+        <key key="brand" value="და-ტენე" />
+        <key key="brand:ka" value="და-ტენე" />
+        <key key="brand:en" value="Da-Tene" />
+        <key key="brand:wikidata" value="Q138339944" />
+        <key key="contact:website" value="https://da-tene.com" />
+        <key key="contact:instagram" value="https://www.instagram.com/datene__" />
+        <key key="authentication:app" value="yes" />
         <reference ref="charging_station" />
       </item>
 
@@ -3852,7 +3888,7 @@
         <key key="brand:ka" value="თოფიჩი" />
         <key key="brand:en" value="Topichi" />
         <key key="contact:facebook" value="https://www.facebook.com/topichi7" />
-        <key key="contact:mobile" value="+995 598 89 88 22" />
+        <key key="contact:phone" value="+995 598 89 88 22" />
         <key key="contact:email" value="qvasiyma1@gmail.com" />
         <key key="name" value="თოფიჩი" />
         <key key="name:ka" value="თოფიჩი" />
@@ -3865,7 +3901,7 @@
         <key key="brand" value="მ-ოილი" />
         <key key="brand:ka" value="მ-ოილი" />
         <key key="brand:en" value="M-Oil" />
-        <key key="contact:mobile" value="+995 598 58 84 84" />
+        <key key="contact:phone" value="+995 598 58 84 84" />
         <key key="contact:email" value="Tariel591007755@gmail.com" />
         <key key="name" value="მ-ოილი" />
         <key key="name:ka" value="მ-ოილი" />
@@ -4329,7 +4365,7 @@
       <item name="plastmasa.ge Batumi" type="node" icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg" preset_name_label="true">
         <reference ref="access" />
         <key key="contact:website" value="https://plastmasa.ge" />
-        <key key="contact:mobile" value="+995 577 49 59 59" />
+        <key key="contact:phone" value="+995 577 49 59 59" />
         <key key="operator:ka" value="შპს „ბათუმის სანდასუფთავება“" />
         <key key="operator" value="შპს „ბათუმის სანდასუფთავება“" />
         <key key="operator:type" value="government" />
@@ -4375,7 +4411,7 @@
         <key key="operator" value="შპს „ბათუმის ავტოტრანსპორტი“" />
         <key key="operator:type" value="government" />
         <key key="contact:email" value="support@batumvelo.ge" />
-        <key key="contact:mobile" value="+995 577 37 76 76" />
+        <key key="contact:phone" value="+995 577 37 76 76" />
         <key key="contact:website" value="https://batumvelo.ge" />
         <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=100090979308798" />
         <key key="fee" value="yes" />
