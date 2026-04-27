@@ -77,8 +77,15 @@ def match_values(name1, value1, name2, value2) -> Generator[Issue]:
 
 def check_wikidata_tag(wd: dict, item, key: str, lang: str) -> Generator[Issue]:
     for k in filter(lambda x: x.attrib["key"] == key, item.findall("josm:key", ns)):
-        if "labels" in wd and lang in wd["labels"]:
-            yield from issues_with_tag(k, match_values(f"{wd["id"]} wikidata label for language {lang}", wd["labels"][lang], f"key {key}", k.attrib["value"]))
+        name = k.attrib["value"]
+        if not (
+            "labels" not in wd or lang not in wd["labels"] or name == wd["labels"][lang]
+            or "aliases" not in wd or lang not in wd["aliases"] or name in wd["aliases"][lang]
+            ):
+                yield Issue(
+                            f"{key} ({name}) is neither a label ({wd.get("labels", {}).get(lang, "<no label>")}) nor an alias ({", ".join(wd.get("aliases", {}).get(lang, []))}) of wikidata item {wd["id"]} in language {lang}",
+                            tag = item,
+                        )
 
 def check_wikidata_family(item: Element, tag_family: str):
     qid = item_tags(item).get(f"{tag_family}:wikidata", None)
