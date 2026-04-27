@@ -83,7 +83,7 @@ def check_wikidata_tag(wd: dict, item, key: str, lang: str) -> Generator[Issue]:
             or "aliases" not in wd or lang not in wd["aliases"] or name in wd["aliases"][lang]
             ):
                 yield Issue(
-                            f"{key} ({name}) is neither a label ({wd.get("labels", {}).get(lang, "<no label>")}) nor an alias ({", ".join(wd.get("aliases", {}).get(lang, []))}) of wikidata item {wd["id"]} in language {lang}",
+                            f"{key} ({name}) is neither a label ({wd.get("labels", {}).get(lang, "<no label>")}) nor an alias ({", ".join(wd.get("aliases", {}).get(lang, []))}) of wikidata item {wd["id"]} in language {lang}; are you sure {key}={wd["id"]} is the correct tag?",
                             tag = item,
                         )
 
