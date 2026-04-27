@@ -2144,7 +2144,7 @@
           <reference ref="basic_shop" />
         </item>
         <item name="Beko" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="Beko" />
+          <key key="brand" value="ბეკო" />
           <key key="brand:ka" value="ბეკო" />
           <key key="brand:wikidata" value="Q631792" />
           <key key="contact:website" value="https://www.beko.com/ge-ka" />
@@ -3334,7 +3334,7 @@
           <key key="brand:ka" value="პროკრედიტ ბანკი" />
           <key key="brand:en" value="ProCredit Bank" />
           <key key="brand:ru" value="ПроКредит Банк" />
-          <key key="brand:wikidata" value="Q1046186" />
+          <key key="brand:wikidata" value="Q122763256" />
           <key key="operator:ka" value="პროკრედიტ ბანკი" />
           <key key="operator" value="პროკრედიტ ბანკი" />
           <key key="contact:phone" value="+995 32 220 22 22" />
