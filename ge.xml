@@ -712,7 +712,7 @@
         <key key="name:ka" value="კავეა" />
         <key key="name:en" value="Cavea" />
         <key key="name:ru" value="Кавеа" />
-        <key key="brand:wikidata" value="Q112120623" />
+        <key key="brand:wikidata" value="Q139575363" />
         <key key="contact:website" value="https://www.cavea.ge" />
         <key key="contact:email" value="info@cavea.ge" />
         <key key="contact:phone" value="+995 32 255 50 00;+995 32 200 70 07" />
@@ -2145,10 +2145,8 @@
         </item>
         <item name="Beko" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="Beko" />
-          <key key="brand:ka" value="Beko" />
+          <key key="brand:ka" value="ბეკო" />
           <key key="brand:wikidata" value="Q631792" />
-          <key key="name:ka" value="Beko" />
-          <key key="name" value="Beko" />
           <key key="contact:website" value="https://www.beko.com/ge-ka" />
           <key key="contact:facebook" value="https://www.facebook.com/BekoGeo" />
           <key key="contact:phone" value="+995 32 215 50 50" />
@@ -2163,7 +2161,7 @@
           <key key="name" value="კონტაქტ ჰოუმი" />
           <key key="name:ka" value="კონტაქტ ჰოუმი" />
           <key key="name:en" value="Kontakt Home" />
-          <key key="brand:wikidata" value="Q131470001" />
+          <key key="brand:wikidata" value="Q139575016" />
           <key key="contact:website" value="https://kontakt.ge" />
           <key key="contact:facebook" value="https://www.facebook.com/kontakthomegeo" />
           <key key="contact:instagram" value="https://www.instagram.com/kontakt.ge" />
@@ -2566,8 +2564,8 @@
           <key key="brand" value="იუსკ" />
           <key key="brand:ka" value="იუსკ" />
           <key key="brand:wikidata" value="Q138913" />
-          <key key="name" value="იუსკ" />
-          <key key="name:ka" value="იუსკ" />
+          <key key="name" value="იუსკი" />
+          <key key="name:ka" value="იუსკი" />
           <key key="name:en" value="Jysk" />
           <key key="contact:website" value="https://jysk.ge" />
           <key key="contact:facebook" value="https://facebook.com/JYSKGeorgia" />
@@ -2840,8 +2838,8 @@
           <key key="bic" value="CBASGE22" />
           <key key="brand" value="ბაზისბანკი" />
           <key key="brand:ka" value="ბაზისბანკი" />
-          <key key="brand:en" value="BasisBank" />
-          <key key="brand:ru" value="БазисБанк" />
+          <key key="brand:en" value="Basisbank" />
+          <key key="brand:ru" value="Базисбанк" />
           <key key="brand:wikidata" value="Q16365625" />
           <key key="contact:website" value="https://bb.ge" />
           <key key="contact:facebook" value="https://facebook.com/Basisbank" />
@@ -3895,6 +3893,7 @@
         <key key="brand" value="თოფიჩი" />
         <key key="brand:ka" value="თოფიჩი" />
         <key key="brand:en" value="Topichi" />
+        <key key="brand:wikidata" value="Q139574879" />
         <key key="contact:facebook" value="https://www.facebook.com/topichi7" />
         <key key="contact:phone" value="+995 598 89 88 22" />
         <key key="contact:email" value="qvasiyma1@gmail.com" />
@@ -3909,6 +3908,7 @@
         <key key="brand" value="მ-ოილი" />
         <key key="brand:ka" value="მ-ოილი" />
         <key key="brand:en" value="M-Oil" />
+        <key key="brand:wikidata" value="Q139574880" />
         <key key="contact:phone" value="+995 598 58 84 84" />
         <key key="contact:email" value="Tariel591007755@gmail.com" />
         <key key="name" value="მ-ოილი" />
@@ -4099,8 +4099,8 @@
         <link wiki="Tag:amenity%3Dpost_office" />
       </item>
       <item name="CDEK" ru.name="СДЭК" type="node,closedway,multipolygon" preset_name_label="true">
-        <key key="brand" value="СДЭК" />
-        <key key="brand:ka" value="СДЭК" />
+        <key key="brand" value="სდეკ" />
+        <key key="brand:ka" value="სდეკ" />
         <key key="brand:en" value="CDEK" />
         <key key="brand:ru" value="СДЭК" />
         <key key="name:en" value="CDEK" />
