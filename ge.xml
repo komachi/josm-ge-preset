@@ -13,22 +13,6 @@
     <text key="brand" text="brand" />
     <text key="brand:wikidata" text="brand:wikidata" />
   </chunk>
-  <chunk id="phone">
-    <combo key="contact:phone" text="Phone number" text.ka="ტელეფონის ნომერი" />
-  </chunk>
-  <chunk id="website">
-    <combo key="contact:website" text="Website" text.ka="ვებგვერდი" />
-  </chunk>
-  <chunk id="email">
-    <combo key="contact:email" text="Email" />
-  </chunk>
-  <chunk id="social">
-    <combo key="contact:facebook" text="Facebook" />
-    <combo key="contact:telegram" text="Telegram" />
-    <combo key="contact:linkedin" text="LinkedIn" />
-    <combo key="contact:youtube" text="YouTube" />
-    <combo key="contact:twitter" text="X (former Twitter)" />
-  </chunk>
   <chunk id="operator">
     <combo key="operator" text="Operator" />
   </chunk>
@@ -58,18 +42,11 @@
   <chunk id="opening_hours_24_7">
     <combo key="opening_hours" text="Opening Hours" values="24/7" default="24/7" />
   </chunk>
-  <chunk id="contacts">
-    <reference ref="phone" />
-  </chunk>
   <chunk id="basic_data">
     <reference ref="opening_hours" />
-    <space />
-    <reference ref="contacts" />
   </chunk>
   <chunk id="basic_data_24_7">
     <reference ref="opening_hours_24_7" />
-    <space />
-    <reference ref="contacts" />
   </chunk>
   <chunk id="toilets">
     <check key="toilets" text="Toilet" ka.text="ტუალეტი" ru.text="Туалет" />
@@ -183,7 +160,6 @@
   </chunk>
   <chunk id="atm">
     <reference ref="opening_hours_24_7" />
-    <reference ref="contacts" />
     <reference ref="operator" />
     <reference ref="brand" />
     <space />
@@ -198,8 +174,6 @@
   </chunk>
   <chunk id="crypto_atm">
     <reference ref="opening_hours_24_7" />
-    <space />
-    <reference ref="contacts" />
     <space />
     <reference ref="operator" />
     <space />
@@ -227,8 +201,6 @@
   </chunk>
   <chunk id="paybox">
     <reference ref="opening_hours_24_7" />
-    <space />
-    <reference ref="contacts" />
     <space />
     <reference ref="operator" />
     <space />
@@ -435,11 +407,6 @@
         <key key="brand" value="პსპ" />
         <key key="brand:ka" value="პსპ" />
         <key key="brand:wikidata" value="Q115970964" />
-        <key key="contact:facebook" value="https://facebook.com/psp.ge" />
-        <key key="contact:instagram" value="https://instagram.com/psp_pharmacy" />
-        <key key="contact:youtube" value="https://youtube.com/user/PSPN1TV" />
-        <key key="contact:website" value="https://psp.ge" />
-        <key key="contact:email" value="online@psp.ge" />
         <key key="name" value="პსპ" />
         <key key="name:ka" value="პსპ" />
         <key key="name:en" value="PSP" />
@@ -453,11 +420,6 @@
         <key key="brand:en" value="Aversi" />
         <key key="brand:ru" value="Аверси" />
         <key key="brand:wikidata" value="Q55653978" />
-        <key key="contact:facebook" value="https://facebook.com/AversiPharma" />
-        <key key="contact:instagram" value="https://instagram.com/aversipharma" />
-        <key key="contact:youtube" value="https://youtube.com/user/AversiPharma" />
-        <key key="contact:linkedin" value="https://linkedin.com/company/aversi-pharma" />
-        <key key="contact:website" value="https://www.aversi.ge" />
         <key key="name" value="ავერსი" />
         <key key="name:ka" value="ავერსი" />
         <key key="name:en" value="Aversi" />
@@ -472,7 +434,6 @@
         <key key="brand:en" value="Pharmadepot" />
         <key key="brand:ru" value="Фармадепо" />
         <key key="brand:wikidata" value="Q115971332" />
-        <key key="contact:facebook" value="https://facebook.com/Pharmadepot" />
         <key key="name" value="ფარმადეპო" />
         <key key="name:ka" value="ფარმადეპო" />
         <key key="name:en" value="Pharmadepot" />
@@ -486,7 +447,6 @@
         <key key="brand:ka" value="ნეოფარმი" />
         <key key="brand:en" value="Neopharmi" />
         <key key="brand:ru" value="Неофарми" />
-        <key key="contact:website" value="https://neopharmi.ge" />
         <key key="brand:wikidata" value="Q131469942" />
         <key key="name" value="ნეოფარმი" />
         <key key="name:ka" value="ნეოფარმი" />
@@ -501,8 +461,6 @@
         <key key="brand:ka" value="ჯპს" />
         <key key="brand:en" value="GPC" />
         <key key="brand:wikidata" value="Q115971130" />
-        <key key="contact:email" value="info@gepha.com" />
-        <key key="contact:facebook" value="https://facebook.com/gpcpharmacy" />
         <key key="name" value="ჯპს" />
         <key key="name:ka" value="ჯპს" />
         <key key="name:en" value="GPC" />
@@ -516,11 +474,6 @@
         <key key="brand:en" value="Impex" />
         <key key="brand:ka" value="იმპექსი" />
         <key key="brand:ru" value="Импекс" />
-        <key key="contact:facebook" value="https://facebook.com/ImpexPharmacy" />
-        <key key="contact:instagram" value="https://instagram.com/impexpharmacy" />
-        <key key="contact:linkedin" value="https://linkedin.com/company/impexpharm" />
-        <key key="contact:phone" value="+995 32 231 31 00" />
-        <key key="contact:email" value="office@myimpex.ge" />
         <key key="brand:wikidata" value="Q131469943" />
         <key key="name" value="იმპექსი" />
         <key key="name:ka" value="იმპექსი" />
@@ -535,8 +488,6 @@
         <key key="brand:ka" value="ჰეკატე" />
         <key key="brand:en" value="Hekate" />
         <key key="brand:ru" value="Хекате" />
-        <key key="contact:website" value="http://hekate.ge" />
-        <key key="contact:email" value="info.hekate@mail.ru" />
         <key key="brand:wikidata" value="Q131469944" />
         <key key="name" value="ჰეკატე" />
         <key key="name:ka" value="ჰეკატე" />
@@ -555,7 +506,6 @@
         <key key="name:ka" value="იმპულსი" />
         <key key="name:en" value="Impulse" />
         <key key="name:ru" value="Импульс" />
-        <key key="contact:facebook" value="https://www.facebook.com/welcomeimpulsi" />
         <key key="brand:wikidata" value="Q131469945" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
@@ -570,12 +520,7 @@
         <key key="name:ka" value="ფარმსახლი" />
         <key key="name:en" value="Pharmhouse" />
         <key key="name:ru" value="Фармхауз" />
-        <key key="contact:website" value="https://pharmhouse.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/pharmsaxli" />
-        <key key="contact:instagram" value="https://www.instagram.com/pharmhouse.pharmacy" />
-        <key key="contact:linkedin" value="https://www.linkedin.com/company/%E1%83%A4%E1%83%90%E1%83%A0%E1%83%9B%E1%83%90%E1%83%A1%E1%83%90%E1%83%AE%E1%83%9A%E1%83%98" />
         <key key="brand:wikidata" value="Q131469946" />
-        <key key="contact:phone" value="+995 32 247 01 10" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
@@ -589,7 +534,6 @@
         <key key="name:ka" value="36.6" />
         <key key="name:en" value="36.6" />
         <key key="name:ru" value="36.6" />
-        <key key="contact:facebook" value="https://www.facebook.com/aftiaqi36.6" />
         <key key="brand:wikidata" value="Q131746590" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
@@ -602,9 +546,6 @@
         <key key="name" value="დოიჩე აფთიაქი" />
         <key key="name:ka" value="დოიჩე აფთიაქი" />
         <key key="name:en" value="Deutsche pharmacy" />
-        <key key="contact:facebook" value="https://www.facebook.com/Deutschepharmacy" />
-        <key key="contact:email" value="info@deutscheprodukte.ge" />
-        <key key="contact:phone" value="+995 571 50 71 75" />
         <key key="brand:wikidata" value="Q131469947" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
@@ -619,10 +560,6 @@
         <key key="name:ka" value="იბერიფარმა" />
         <key key="name:en" value="Iberipharma" />
         <key key="name:ru" value="Иберифарма" />
-        <key key="contact:website" value="https://www.iberipharma.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/IBERIPHARMA" />
-        <key key="contact:email" value="info@iberiplus.ge" />
-        <key key="contact:phone" value="+995 32 234 40 88" />
         <key key="brand:wikidata" value="Q131469949" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
@@ -637,10 +574,6 @@
         <key key="name:ka" value="რონიკო" />
         <key key="name:en" value="Roniko" />
         <key key="name:ru" value="Ронико" />
-        <key key="contact:website" value="https://roniko.ge" />
-        <key key="contact:facebook" value="https://facebook.com/ronikooptics" />
-        <key key="contact:instagram" value="https://instagram.com/roniko_optics" />
-        <key key="contact:youtube" value="https://youtube.com/user/ronikooptics" />
         <key key="brand:wikidata" value="Q131469951" />
         <key key="shop" value="optician" />
         <reference ref="basic_shop" />
@@ -654,9 +587,6 @@
         <key key="name:ka" value="ოპტიმისტი" />
         <key key="name:en" value="Optimist" />
         <key key="name:ru" value="Оптимист" />
-        <key key="contact:website" value="https://optimist.ge" />
-        <key key="contact:facebook" value="https://facebook.com/optimistgemini" />
-        <key key="contact:email" value="info@geminioptics.ge" />
         <key key="brand:wikidata" value="Q131469952" />
         <key key="shop" value="optician" />
         <reference ref="basic_shop" />
@@ -670,11 +600,6 @@
         <key key="name:ka" value="კენარი" />
         <key key="name:en" value="Kenari" />
         <key key="name:ru" value="Кенари" />
-        <key key="contact:website" value="https://kenari.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/kenarioptica" />
-        <key key="contact:instagram" value="https://www.instagram.com/kenarioptics" />
-        <key key="contact:phone" value="+995 32 230 79 50" />
-        <key key="contact:email" value="kenari@kenari.ge" />
         <key key="brand:wikidata" value="Q131469953" />
         <key key="shop" value="optician" />
         <reference ref="basic_shop" />
@@ -692,11 +617,6 @@
         <key key="name:en" value="Synevo" />
         <key key="name:ru" value="Синево" />
         <key key="brand:wikidata" value="Q117891346" />
-        <key key="contact:website" value="https://synevo.ge" />
-        <key key="contact:email" value="info@synevo.ge" />
-        <key key="contact:phone" value="+995 32 239 38 33;+995 32 280 01 11" />
-        <key key="contact:linkedin" value="https://linkedin.com/company/synevo-georgia" />
-        <key key="contact:facebook" value="https://facebook.com/synevolabs" />
         <key key="healthcare" value="sample_collection" />
         <reference ref="basic_shop" />
       </item>
@@ -713,10 +633,6 @@
         <key key="name:en" value="Cavea" />
         <key key="name:ru" value="Кавеа" />
         <key key="brand:wikidata" value="Q112120623" />
-        <key key="contact:website" value="https://www.cavea.ge" />
-        <key key="contact:email" value="info@cavea.ge" />
-        <key key="contact:phone" value="+995 32 255 50 00;+995 32 200 70 07" />
-        <key key="contact:facebook" value="https://www.facebook.com/cavea.ge" />
         <check key="cinema:3D" text="3D" />
         <check key="cinema:IMAX" text="IMAX" default="off" />
         <key key="amenity" value="cinema" />
@@ -733,7 +649,6 @@
         <key key="name:ka" value="კეი ეფ სი" />
         <key key="name:en" value="KFC" />
         <key key="alt_name:en" value="Kentucky Fried Chicken" />
-        <key key="contact:facebook" value="https://facebook.com/KFCGeo" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="cuisine" value="burger;wings;chicken" />
@@ -750,8 +665,6 @@
         <key key="name:ka" value="მაკდონალდსი" />
         <key key="name:en" value="McDonald's" />
         <key key="name:ru" value="Макдональдс" />
-        <key key="contact:website" value="https://www.mcdonalds.ge" />
-        <key key="contact:linkedin" value="https://linkedin.com/company/mcdonalds-georgia" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="cuisine" value="burger" />
@@ -768,8 +681,6 @@
         <key key="name" value="დანკინ" />
         <key key="name:ka" value="დანკინ" />
         <key key="name:en" value="Dunkin'" />
-        <key key="contact:website" value="https://dd.ge" />
-        <key key="contact:facebook" value="https://facebook.com/dunkindonutsgeo" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="cuisine" value="donut;bagel;pizza;hot_dog;burger" />
@@ -783,8 +694,6 @@
         <key key="name" value="საბვეი" />
         <key key="name:ka" value="საბვეი" />
         <key key="name:en" value="Subway" />
-        <key key="contact:website" value="https://mysubway.ge" />
-        <key key="contact:facebook" value="https://facebook.com/SubwayGE" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="cuisine" value="sandwich" />
@@ -799,7 +708,6 @@
         <key key="name:ka" value="ბურგერ კინგი" />
         <key key="name:en" value="Burger King" />
         <key key="name:ru" value="Бургер Кинг" />
-        <key key="contact:facebook" value="https://facebook.com/BurgerKingGE" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="cuisine" value="burger" />
@@ -814,9 +722,6 @@
         <key key="name" value="ვენდი'ს" />
         <key key="name:ka" value="ვენდი'ს" />
         <key key="name:en" value="Wendy's" />
-        <key key="contact:facebook" value="https://facebook.com/WendysGeorgia" />
-        <key key="contact:instagram" value="https://instagram.com/wendysgeorgia" />
-        <key key="contact:website" value="https://wendys.ge" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="cuisine" value="burger" />
@@ -834,11 +739,6 @@
         <key key="name:ka" value="დომინო'ს პიცა" />
         <key key="name:en" value="Domino's Pizza" />
         <key key="name:ru" value="Домино'с Пицца" />
-        <key key="contact:website" value="https://dominospizza.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/dominosgeorgia" />
-        <key key="contact:instagram" value="https://www.instagram.com/dominos_geo" />
-        <key key="contact:email" value="info@dominospizza.ge" />
-        <key key="contact:phone" value="+995 32 299 88 88" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="cuisine" value="pizza" />
@@ -855,10 +755,6 @@
         <key key="name:ka" value="დოდო პიცა" />
         <key key="name:en" value="Dodo Pizza" />
         <key key="name:ru" value="Додо Пицца" />
-        <key key="contact:website" value="https://dodopizza.ge" />
-        <key key="contact:instagram" value="https://www.instagram.com/dodopizza.georgia" />
-        <key key="contact:email" value="feedback@dodopizza.ge" />
-        <key key="contact:phone" value="+995 579 18 52 25" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="cuisine" value="pizza" />
@@ -872,10 +768,6 @@
         <key key="name" value="სკა ჯუს ბარი" />
         <key key="name:ka" value="სკა ჯუს ბარი" />
         <key key="name:en" value="Ska Juice Bar" />
-        <key key="contact:facebook" value="https://facebook.com/skajuicebar" />
-        <key key="contact:instagram" value="https://instagram.com/ska_juicebar" />
-        <key key="contact:email" value="tako@skagroup.ge" />
-        <key key="contact:phone" value="+995 599 87 74 61" />
         <key key="brand:wikidata" value="Q131469954" />
         <key key="cuisine" value="juice;smoothie;sandwich" />
         <key key="takeaway" value="yes" />
@@ -893,12 +785,6 @@
         <key key="name:ka" value="თოლია" />
         <key key="name:en" value="Tolia" />
         <key key="name:ru" value="Толия" />
-        <key key="contact:facebook" value="https://www.facebook.com/toliaicecream" />
-        <key key="contact:twitter" value="https://twitter.com/toliaicecream" />
-        <key key="contact:instagram" value="https://www.instagram.com/toliaicecream" />
-        <key key="contact:youtube" value="https://www.youtube.com/channel/UCy6AYGSp9OZ0PuVGH3YQVOA" />
-        <key key="contact:email" value="info@tolia.ge" />
-        <key key="contact:website" value="https://tolia.ge" />
         <key key="brand:wikidata" value="Q131469955" />
         <key key="takeaway" value="only" />
         <key key="amenity" value="ice_cream" />
@@ -912,8 +798,6 @@
         <key key="name:ka" value="ბასკინ რობინსი" />
         <key key="name:en" value="Baskin Robbins" />
         <key key="name:ru" value="Баскин Роббинс" />
-        <key key="contact:facebook" value="https://www.facebook.com/BaskinRobbinsGeorgia/" />
-        <key key="contact:phone" value="+995 577 10 58 94" />
         <key key="takeaway" value="only" />
         <key key="amenity" value="ice_cream" />
         <reference ref="eatery" />
@@ -925,7 +809,6 @@
         <key key="name:ka" value="მაკშაურმა" />
         <key key="name:en" value="MacShaurma" />
         <key key="name:ru" value="МакШаурма" />
-        <key key="contact:facebook" value="https://www.facebook.com/macshaurmabatumi" />
         <key key="brand:wikidata" value="Q131469956" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
@@ -939,9 +822,6 @@
         <key key="brand:wikidata" value="Q118347431" />
         <key key="name:ka" value="Tashir Pizza" />
         <key key="name" value="Tashir Pizza" />
-        <key key="contact:facebook" value="https://www.facebook.com/tashirpizzageorgia" />
-        <key key="contact:phone" value="+995 32 297 11 11" />
-        <key key="contact:email" value="info@tashirgroup.am" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="cuisine" value="pizza" />
@@ -957,11 +837,6 @@
         <key key="name:ka" value="ლუკა პოლარე" />
         <key key="name:en" value="Luca Polare" />
         <key key="name:ru" value="Лука Поларе" />
-        <key key="contact:phone" value="+995 32 238 08 02" />
-        <key key="contact:facebook" value="https://www.facebook.com/LucaPolareOriginal" />
-        <key key="contact:instagram" value="https://www.instagram.com/lucapolare" />
-        <key key="contact:email" value="info@lucapolare.com" />
-        <key key="contact:website" value="https://www.lucapolare.com" />
         <key key="brand:wikidata" value="Q131469957" />
         <key key="amenity" value="ice_cream" />
         <reference ref="eatery" />
@@ -979,12 +854,6 @@
         <key key="operator" value="მეამა" />
         <key key="operator:ka" value="მეამა" />
         <key key="operator:wikidata" value="Q99850395" />
-        <key key="contact:facebook" value="https://www.facebook.com/IloveMeama" />
-        <key key="contact:twitter" value="https://twitter.com/Meamacoffee" />
-        <key key="contact:instagram" value="https://www.instagram.com/meama" />
-        <key key="contact:youtube" value="https://www.youtube.com/@Meama" />
-        <key key="contact:email" value="info@meama.ge" />
-        <key key="contact:website" value="https://meama.ge" />
         <key key="cuisine" value="coffee_shop" />
         <key key="coffee:brand" value="Meama" />
         <key key="takeaway" value="only" />
@@ -999,9 +868,6 @@
         <key key="name:tr" value="Usta Dönerci" />
         <key key="name:ru" value="Уста Дёнерджи" />
         <key key="brand:wikidata" value="Q126723224" />
-        <key key="contact:facebook" value="https://www.facebook.com/ustadonerci.turkiye/" />
-        <key key="contact:website" value="https://www.ustadonerci.com" />
-        <key key="contact:email" value="donerci.usta@gmail.com" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="cuisine" value="turkish" />
@@ -1017,10 +883,6 @@
         <key key="name:en" value="Entrée" />
         <key key="name:ka" value="ანტრე" />
         <key key="name:ru" value="Антре" />
-        <key key="contact:facebook" value="https://www.facebook.com/entree.ge" />
-        <key key="contact:instagram" value="https://www.instagram.com/entree_ge" />
-        <key key="contact:phone" value="+995 595 90 71 80" />
-        <key key="contact:website" value="https://entree.ge" />
         <key key="brand:wikidata" value="Q131469958" />
         <key key="amenity" value="cafe" />
         <key key="shop" value="pastry" />
@@ -1036,9 +898,6 @@
         <key key="brand:ka" value="დი რომა" />
         <key key="brand:en" value="Di Roma" />
         <key key="brand:ru" value="Ди Рома" />
-        <key key="contact:facebook" value="https://www.facebook.com/pizzadiroma.ge/" />
-        <key key="contact:phone" value="+995 579 88 00 52" />
-        <key key="contact:email" value="info@pizzadiroma.ge" />
         <key key="brand:wikidata" value="Q131469959" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
@@ -1055,7 +914,6 @@
         <key key="brand:ka" value="დეგუსტო" />
         <key key="brand:en" value="Degusto" />
         <key key="brand:ru" value="Дегусто" />
-        <key key="contact:facebook" value="https://www.facebook.com/Degusto.ge/" />
         <key key="brand:wikidata" value="Q131469960" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
@@ -1072,8 +930,6 @@
         <key key="name:ka" value="ტემპო" />
         <key key="name:en" value="Tempo" />
         <key key="name:ru" value="Темпо" />
-        <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=100094852352863" />
-        <key key="contact:instagram" value="https://www.instagram.com/tempo_geo" />
         <key key="brand:wikidata" value="Q131469961" />
         <key key="cuisine" value="coffee_shop;sandwich" />
         <key key="takeaway" value="only" />
@@ -1088,9 +944,6 @@
         <key key="name:ka" value="შაურმა ქლაბი" />
         <key key="name:en" value="Shaurma Club" />
         <key key="name:ru" value="Шаурма Клаб" />
-        <key key="contact:facebook" value="https://www.facebook.com/ShaurmaClubb" />
-        <key key="contact:website" value="https://shaurmaclub.ge" />
-        <key key="contact:instagram" value="https://www.instagram.com/shaurmaclubb" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="cuisine" value="shawarma" />
@@ -1106,11 +959,6 @@
         <key key="name:en" value="August" />
         <key key="name:ka" value="აუგუსტი" />
         <key key="name:ru" value="Август" />
-        <key key="contact:email" value="info@august.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/Augustbakery.ge" />
-        <key key="contact:instagram" value="https://www.instagram.com/augustbakery_" />
-        <key key="contact:phone" value="+995 598 10 41 70" />
-        <key key="contact:website" value="https://www.august.ge" />
         <key key="brand:wikidata" value="Q134732257" />
         <key key="amenity" value="cafe" />
         <key key="shop" value="pastry" />
@@ -1127,8 +975,6 @@
         <key key="name:ka" value="მარგე" />
         <key key="name:en" value="Marge" />
         <key key="name:ru" value="Марге" />
-        <key key="contact:facebook" value="https://www.facebook.com/margefastfood" />
-        <key key="contact:phone" value="+995 32 220 72 07" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="cuisine" value="shawarma" />
@@ -1145,10 +991,6 @@
         <key key="name:ka" value="პიცა ჰატი" />
         <key key="name:en" value="Pizza Hut" />
         <key key="name:ru" value="Пицца Хат" />
-        <key key="contact:instagram" value="https://www.instagram.com/pizzahut.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/p/Pizza-Hut-Georgia-61551897867194" />
-        <key key="contact:email" value="pizzahutge@gmail.com" />
-        <key key="contact:phone" value="+995 511 56 07 11" />
         <key key="takeaway" value="yes" />
         <key key="delivery" value="yes" />
         <key key="cuisine" value="pizza" />
@@ -1164,11 +1006,6 @@
         <key key="name:en" value="QooQy" />
         <key key="name:ka" value="ქუქი" />
         <key key="name:ru" value="Куки" />
-        <key key="contact:email" value="team@QooQyBakery.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/QooQyBakery" />
-        <key key="contact:instagram" value="https://www.instagram.com/qooqybakery" />
-        <key key="contact:phone" value="+995 32 288 74 87" />
-        <key key="contact:website" value="https://www.qooqybakery.ge" />
         <key key="brand:wikidata" value="Q136806219" />
         <key key="amenity" value="cafe" />
         <key key="shop" value="pastry" />
@@ -1189,11 +1026,6 @@
           <key key="name:ru" value="Чистый Дом" />
           <key key="alt_name:en" value="Supta Sakhli" />
           <key key="alt_name:ru" value="Супта Сахли" />
-          <key key="contact:website" value="https://ch.ge" />
-          <key key="contact:facebook" value="https://facebook.com/suftasakhli" />
-          <key key="contact:instagram" value="https://instagram.com/supta_sakhli" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/%E1%83%A1%E1%83%A3%E1%83%A4%E1%83%97%E1%83%90-%E1%83%A1%E1%83%90%E1%83%AE%E1%83%9A%E1%83%98" />
-          <key key="contact:email" value="contact@ch.ge" />
           <key key="brand:wikidata" value="Q131469962" />
           <key key="shop" value="chemist" />
           <reference ref="basic_shop" />
@@ -1207,12 +1039,6 @@
           <key key="name:ka" value="ისი პარი" />
           <key key="name:en" value="Ici Paris" />
           <key key="name:ru" value="Иси Пари" />
-          <key key="contact:website" value="https://www.iciparis.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/OFFICIAL.ICIPARIS" />
-          <key key="contact:instagram" value="https://www.instagram.com/iciparisofficial" />
-          <key key="contact:youtube" value="https://www.youtube.com/channel/UCE-IyL0u5twGKPdqTEIJEbw" />
-          <key key="contact:phone" value="+995 32 220 17 18" />
-          <key key="contact:email" value="info@iciparis.ge" />
           <key key="brand:wikidata" value="Q131469963" />
           <key key="shop" value="cosmetics" />
           <reference ref="basic_shop" />
@@ -1226,12 +1052,6 @@
           <key key="name:ka" value="ვულე ვუ" />
           <key key="name:en" value="Voulez-Vous" />
           <key key="name:ru" value="Вуле Ву" />
-          <key key="contact:website" value="https://voulez-vous.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/VoulezVous.Perfumery" />
-          <key key="contact:instagram" value="https://www.instagram.com/voulez_vous_perfumery" />
-          <key key="contact:youtube" value="https://www.youtube.com/@voulez-vous3795" />
-          <key key="contact:phone" value="+995 32 237 22 72" />
-          <key key="contact:email" value="info@voulez-vous.ge" />
           <key key="brand:wikidata" value="Q131469965" />
           <key key="shop" value="cosmetics" />
           <reference ref="basic_shop" />
@@ -1244,9 +1064,6 @@
           <key key="name:ka" value="მოზაიკა" />
           <key key="name:en" value="Mosaic" />
           <key key="name:ru" value="Мозайка" />
-          <key key="contact:website" value="http://batumimosaic.ge" />
-          <key key="contact:phone" value="+995 577 41 50 15" />
-          <key key="contact:email" value="info@batumimosaic.ge" />
           <key key="brand:wikidata" value="Q131469966" />
           <key key="shop" value="cosmetics" />
           <reference ref="basic_shop" />
@@ -1259,9 +1076,6 @@
           <key key="name:ka" value="ლუტეცია" />
           <key key="name:en" value="Lutecia" />
           <key key="name:ru" value="Лютеция" />
-          <key key="contact:website" value="https://www.lutecia.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/lutecia.official" />
-          <key key="contact:instagram" value="https://www.instagram.com/lutecia.official" />
           <key key="brand:wikidata" value="Q134732306" />
           <key key="shop" value="cosmetics" />
           <reference ref="basic_shop" />
@@ -1272,7 +1086,6 @@
         <item name="Way Mart" ka.name="ვეი მარტი" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="ვეი მარტი" />
           <key key="brand:ka" value="ვეი მარტი" />
-          <key key="contact:facebook" value="https://www.facebook.com/WayMartGeorgia/" />
           <key key="brand:wikidata" value="Q131469967" />
           <key key="name" value="ვეი მარტი" />
           <key key="name:ka" value="ვეი მარტი" />
@@ -1285,8 +1098,6 @@
           <key key="brand" value="ჯიბე ქეშ &amp; ქერი" />
           <key key="brand:ka" value="ჯიბე ქეშ &amp; ქერი" />
           <key key="brand:wikidata" value="Q131469968" />
-          <key key="contact:facebook" value="https://www.facebook.com/Jibegeo" />
-          <key key="contact:email" value="info@jibe.ge" />
           <key key="name" value="ჯიბე" />
           <key key="name:ka" value="ჯიბე" />
           <key key="name:en" value="Jibe" />
@@ -1299,9 +1110,6 @@
           <key key="brand:ka" value="სპარი" />
           <key key="brand:en" value="Spar" />
           <key key="brand:wikidata" value="Q610492" />
-          <key key="contact:facebook" value="https://facebook.com/SPARGeorgia" />
-          <key key="contact:email" value="office@spar-georgia.com" />
-          <key key="contact:website" value="https://spargeorgia.com" />
           <key key="name" value="სპარი" />
           <key key="name:ka" value="სპარი" />
           <key key="name:en" value="Spar" />
@@ -1315,11 +1123,6 @@
           <key key="brand:en" value="Nikora" />
           <key key="brand:ru" value="Никора" />
           <key key="brand:wikidata" value="Q115949612" />
-          <key key="contact:facebook" value="https://facebook.com/nikorasupermarket" />
-          <key key="contact:instagram" value="https://instagram.com/nikora_supermarket" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/nikora-supermarket" />
-          <key key="contact:email" value="info@nikoratrade.ge" />
-          <key key="contact:website" value="https://nikorasupermarket.ge" />
           <key key="name" value="ნიკორა" />
           <key key="name:ka" value="ნიკორა" />
           <key key="name:en" value="Nikora" />
@@ -1333,9 +1136,6 @@
           <key key="brand:en" value="Ori Nabiji" />
           <key key="brand:ru" value="Ори Набиджи" />
           <key key="brand:wikidata" value="Q115949750" />
-          <key key="contact:facebook" value="https://facebook.com/2nabijiofficial" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/2-%E1%83%9C%E1%83%90%E1%83%91%E1%83%98%E1%83%AF%E1%83%98-2-nabiji" />
-          <key key="contact:website" value="https://2nabiji.ge" />
           <key key="name" value="ორი ნაბიჯი" />
           <key key="name:ka" value="ორი ნაბიჯი" />
           <key key="alt_name:ka" value="2 ნაბიჯი" />
@@ -1350,8 +1150,6 @@
           <key key="brand" value="ბილიონი" />
           <key key="brand:ka" value="ბილიონი" />
           <key key="brand:en" value="Billion" />
-          <key key="contact:facebook" value="https://facebook.com/BillionSupermarket" />
-          <key key="contact:email" value="info@billioni.ge" />
           <key key="brand:wikidata" value="Q131469969" />
           <key key="name" value="ბილიონი" />
           <key key="name:ka" value="ბილიონი" />
@@ -1366,11 +1164,6 @@
           <key key="brand:en" value="Magniti" />
           <key key="brand:ru" value="Магнити" />
           <key key="brand:wikidata" value="Q118792780" />
-          <key key="contact:facebook" value="https://facebook.com/magniti.ge" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/magniti" />
-          <key key="contact:youtube" value="https://youtube.com/channel/UCXnteLjNLQ7p_A-J25RgMKw" />
-          <key key="contact:website" value="https://magniti.ge" />
-          <key key="contact:email" value="info@magniti.ge" />
           <key key="name" value="მაგნიტი" />
           <key key="name:ka" value="მაგნიტი" />
           <key key="name:en" value="Magniti" />
@@ -1384,9 +1177,6 @@
           <key key="brand:en" value="Nazilbe" />
           <key key="brand:ru" value="Назилбе" />
           <key key="brand:wikidata" value="Q131469970" />
-          <key key="contact:facebook" value="https://facebook.com/people/Nazilbe-ნაზილბე/100057598083303/" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/nazilbe" />
-          <key key="contact:website" value="https://nazilbe.ge" />
           <key key="name" value="ნაზილბე" />
           <key key="name:ka" value="ნაზილბე" />
           <key key="name:en" value="Nazilbe" />
@@ -1400,9 +1190,6 @@
           <key key="brand:en" value="Goodwill" />
           <key key="brand:ru" value="Гудвилл" />
           <key key="brand:wikidata" value="Q118799213" />
-          <key key="contact:facebook" value="https://facebook.com/GOODWILLHYPERMARKET" />
-          <key key="contact:website" value="https://goodwill.ge" />
-          <key key="contact:email" value="marketing@goodwill.ge" />
           <key key="name" value="გუდვილი" />
           <key key="name:ka" value="გუდვილი" />
           <key key="name:en" value="Goodwill" />
@@ -1416,11 +1203,6 @@
           <key key="brand:en" value="Agrohub" />
           <key key="brand:ru" value="Агрохаб" />
           <key key="brand:wikidata" value="Q131469971" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/agrohub" />
-          <key key="contact:youtube" value="https://youtube.com/channel/UCIbue9itKq2Dp3Uzsf4twWA" />
-          <key key="contact:instagram" value="https://instagram.com/agrohub" />
-          <key key="contact:facebook" value="https://facebook.com/agrohubge" />
-          <key key="contact:website" value="http://www.agrohub.ge" />
           <key key="name" value="აგროჰაბი" />
           <key key="name:ka" value="აგროჰაბი" />
           <key key="name:en" value="Agrohub" />
@@ -1437,12 +1219,6 @@
           <key key="operator:ka" value="შპს მაჯიდ ალ ფუტაიმ ჰიპერმარკეტს ჯორჯია" />
           <key key="operator" value="შპს მაჯიდ ალ ფუტაიმ ჰიპერმარკეტს ჯორჯია" />
           <key key="operator:wikidata" value="Q139570627" />
-          <key key="contact:twitter" value="https://twitter.com/carrefourge" />
-          <key key="contact:youtube" value="https://youtube.com/channel/UCQ7aPJ3odUD15oPgBrqhEtA" />
-          <key key="contact:instagram" value="https://instagram.com/carrefour_georgia" />
-          <key key="contact:facebook" value="https://facebook.com/carrefourgeorgia" />
-          <key key="contact:website" value="https://www.carrefour.ge" />
-          <key key="contact:email" value="mobappgeo@mafcarrefour.com" />
           <key key="name" value="კარფური" />
           <key key="name:ka" value="კარფური" />
           <key key="name:en" value="Carrefour" />
@@ -1459,12 +1235,6 @@
           <key key="operator:ka" value="შპს მაჯიდ ალ ფუტაიმ ჰიპერმარკეტს ჯორჯია" />
           <key key="operator" value="შპს მაჯიდ ალ ფუტაიმ ჰიპერმარკეტს ჯორჯია" />
           <key key="operator:wikidata" value="Q139570627" />
-          <key key="contact:twitter" value="https://twitter.com/carrefourge" />
-          <key key="contact:youtube" value="https://youtube.com/channel/UCQ7aPJ3odUD15oPgBrqhEtA" />
-          <key key="contact:instagram" value="https://instagram.com/carrefour_georgia" />
-          <key key="contact:facebook" value="https://facebook.com/carrefourgeorgia" />
-          <key key="contact:website" value="https://www.carrefour.ge" />
-          <key key="contact:email" value="mobappgeo@mafcarrefour.com" />
           <key key="name" value="კარფური სითი" />
           <key key="name:ka" value="კარფური სითი" />
           <key key="name:en" value="Carrefour City" />
@@ -1481,12 +1251,6 @@
           <key key="operator:ka" value="შპს მაჯიდ ალ ფუტაიმ ჰიპერმარკეტს ჯორჯია" />
           <key key="operator" value="შპს მაჯიდ ალ ფუტაიმ ჰიპერმარკეტს ჯორჯია" />
           <key key="operator:wikidata" value="Q139570627" />
-          <key key="contact:twitter" value="https://twitter.com/carrefourge" />
-          <key key="contact:youtube" value="https://youtube.com/channel/UCQ7aPJ3odUD15oPgBrqhEtA" />
-          <key key="contact:instagram" value="https://instagram.com/carrefour_georgia" />
-          <key key="contact:facebook" value="https://facebook.com/carrefourgeorgia" />
-          <key key="contact:website" value="https://www.carrefour.ge" />
-          <key key="contact:email" value="mobappgeo@mafcarrefour.com" />
           <key key="name" value="კარფური მარკეტი" />
           <key key="name:ka" value="კარფური მარკეტი" />
           <key key="name:en" value="Carrefour Market" />
@@ -1500,7 +1264,6 @@
           <key key="brand:en" value="Libre" />
           <key key="brand:ru" value="Либре" />
           <key key="brand:wikidata" value="Q131469972" />
-          <key key="contact:facebook" value="https://facebook.com/supermarketilibre" />
           <key key="name" value="ლიბრე" />
           <key key="name:ka" value="ლიბრე" />
           <key key="name:en" value="Libre" />
@@ -1514,9 +1277,6 @@
           <key key="brand:en" value="Zgapari" />
           <key key="brand:ru" value="Згапари" />
           <key key="brand:wikidata" value="Q131469973" />
-          <key key="contact:facebook" value="https://facebook.com/Zgaparisupermarket" />
-          <key key="contact:website" value="https://zgapari.ge" />
-          <key key="contact:email" value="ltd.zgapari@gmail.com" />
           <key key="name" value="ზღაპარი" />
           <key key="name:ka" value="ზღაპარი" />
           <key key="name:en" value="Zgapari" />
@@ -1530,8 +1290,6 @@
           <key key="brand:en" value="Fresco" />
           <key key="brand:ru" value="Фреско" />
           <key key="brand:wikidata" value="Q131469974" />
-          <key key="contact:facebook" value="https://facebook.com/FrescoRetailGroup" />
-          <key key="contact:website" value="https://fresco.ge" />
           <key key="name" value="ფრესკო" />
           <key key="name:ka" value="ფრესკო" />
           <key key="name:en" value="Fresco" />
@@ -1545,7 +1303,6 @@
           <key key="brand:en" value="Ioli" />
           <key key="brand:ru" value="Иоли" />
           <key key="brand:wikidata" value="Q131469975" />
-          <key key="contact:facebook" value="https://facebook.com/ioli.supermarket" />
           <key key="name" value="იოლი" />
           <key key="name:ka" value="იოლი" />
           <key key="name:en" value="Ioli" />
@@ -1559,10 +1316,6 @@
           <key key="brand:en" value="Willmart" />
           <key key="brand:ru" value="Виллмарт" />
           <key key="brand:wikidata" value="Q118793042" />
-          <key key="contact:facebook" value="https://facebook.com/willmartbatumi" />
-          <key key="contact:instagram" value="https://instagram.com/willmartbatumi" />
-          <key key="contact:website" value="https://willmart.ge" />
-          <key key="contact:email" value="info@willmart.ge" />
           <key key="name" value="ვილმარტი" />
           <key key="name:ka" value="ვილმარტი" />
           <key key="name:en" value="Willmart" />
@@ -1576,8 +1329,6 @@
           <key key="brand:ka" value="დეილი" />
           <key key="brand:ru" value="Дейли" />
           <key key="brand:wikidata" value="Q131469976" />
-          <key key="contact:instagram" value="https://instagram.com/dailysupermarket" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/daily-grocery" />
           <key key="name" value="დეილი" />
           <key key="name:ka" value="დეილი" />
           <key key="name:en" value="Daily" />
@@ -1591,11 +1342,6 @@
           <key key="brand:ka" value="ევროპროდუქტი" />
           <key key="brand:ru" value="Европродукти" />
           <key key="brand:wikidata" value="Q131469977" />
-          <key key="contact:phone" value="+995 32 265 25 45" />
-          <key key="contact:email" value="info@europroduct.ge" />
-          <key key="contact:website" value="https://europroduct.ge" />
-          <key key="contact:instagram" value="https://www.instagram.com/europroduct_market" />
-          <key key="contact:facebook" value="https://www.facebook.com/EuroproductGeo" />
           <key key="name" value="ევროპროდუქტი" />
           <key key="name:ka" value="ევროპროდუქტი" />
           <key key="name:en" value="Europroduct" />
@@ -1609,8 +1355,6 @@
           <key key="brand:ka" value="უნივერსამი" />
           <key key="brand:ru" value="Универсами" />
           <key key="brand:wikidata" value="Q131469979" />
-          <key key="contact:email" value="info@universami.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/Universami" />
           <key key="name" value="უნივერსამი" />
           <key key="name:ka" value="უნივერსამი" />
           <key key="name:en" value="Universami" />
@@ -1624,9 +1368,6 @@
           <key key="brand:en" value="Gvirila" />
           <key key="brand:ru" value="Гвирила" />
           <key key="brand:wikidata" value="Q131469980" />
-          <key key="contact:email" value="info@gvirila.com.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/Gvirila2022" />
-          <key key="contact:linkedin" value="https://www.linkedin.com/company/%E1%83%92%E1%83%95%E1%83%98%E1%83%A0%E1%83%98%E1%83%9A%E1%83%90-%E2%80%A2-gvirila" />
           <key key="name" value="გვირილა" />
           <key key="name:ka" value="გვირილა" />
           <key key="name:en" value="Gvirila" />
@@ -1641,10 +1382,6 @@
           <key key="brand:en" value="Smart" />
           <key key="brand:ru" value="Смарт" />
           <key key="brand:wikidata" value="Q131469982" />
-          <key key="contact:website" value="http://www.smart.ge" />
-          <key key="contact:email" value="hotline@smart.ge" />
-          <key key="contact:facebook" value="https://facebook.com/SmartSupermarkets" />
-          <key key="contact:instagram" value="https://instagram.com/smartsupermarket" />
           <key key="name" value="სმარტი" />
           <key key="name:ka" value="სმარტი" />
           <key key="name:en" value="Smart" />
@@ -1658,10 +1395,6 @@
           <key key="brand:ka" value="მადაგონი" />
           <key key="brand:ru" value="Мадагони" />
           <key key="brand:wikidata" value="Q131469983" />
-          <key key="contact:phone" value="+995 34 128 02 80" />
-          <key key="contact:website" value="https://www.madagoni.ge" />
-          <key key="contact:instagram" value="https://www.instagram.com/madagonisupermarket" />
-          <key key="contact:facebook" value="https://www.facebook.com/madagonimadagoni" />
           <key key="name" value="მადაგონი" />
           <key key="name:ka" value="მადაგონი" />
           <key key="name:en" value="Madagoni" />
@@ -1674,10 +1407,6 @@
           <key key="brand:ka" value="კალათა" />
           <key key="brand:en" value="Kalata" />
           <key key="brand:ru" value="Калата" />
-          <key key="contact:facebook" value="https://www.facebook.com/Kalata.market" />
-          <key key="contact:instagram" value="https://www.instagram.com/kalata.supermarket" />
-          <key key="contact:phone" value="+995 32 230 00 70" />
-          <key key="contact:website" value="https://kalata.ge" />
           <key key="brand:wikidata" value="Q133886762" />
           <key key="name" value="კალათა" />
           <key key="name:ka" value="კალათა" />
@@ -1696,11 +1425,6 @@
           <key key="name:en" value="Madart" />
           <key key="name:ru" value="Мадарт" />
           <key key="brand:wikidata" value="Q131469984" />
-          <key key="contact:website" value="https://madart.ge" />
-          <key key="contact:facebook" value="https://facebook.com/madartgeorgia" />
-          <key key="contact:instagram" value="https://instagram.com/madart_madart" />
-          <key key="contact:email" value="sales@madart.ge" />
-          <key key="contact:phone" value="+995 32 219 29 19" />
           <key key="shop" value="pastry" />
           <reference ref="basic_shop" />
         </item>
@@ -1711,9 +1435,6 @@
           <key key="brand:en" value="Noste" />
           <key key="brand:ru" value="Носте" />
           <key key="brand:wikidata" value="Q131469987" />
-          <key key="contact:email" value="info@gpp.ge" />
-          <key key="contact:website" value="http://gpp.ge" />
-          <key key="contact:facebook" value="https://facebook.com/Nostechicken" />
           <key key="name" value="ნოსტე" />
           <key key="name:ka" value="ნოსტე" />
           <key key="name:en" value="Noste" />
@@ -1728,9 +1449,6 @@
           <key key="brand:en" value="Biu Biu" />
           <key key="brand:ru" value="Биу Биу" />
           <key key="brand:wikidata" value="Q128032103" />
-          <key key="contact:email" value="info@gpp.ge" />
-          <key key="contact:website" value=" https://www.biubiu.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/biubiu.ge" />
           <key key="name" value="ბიუ ბიუ" />
           <key key="name:ka" value="ბიუ ბიუ" />
           <key key="name:en" value="Biu Biu" />
@@ -1758,7 +1476,6 @@
           <key key="brand:en" value="Belmart" />
           <key key="brand:ru" value="Белмарт" />
           <key key="brand:wikidata" value="Q131469988" />
-          <key key="contact:facebook" value="https://www.facebook.com/belmartstore" />
           <key key="name" value="ბელმარტი" />
           <key key="name:ka" value="ბელმარტი" />
           <key key="name:en" value="Belmart" />
@@ -1773,11 +1490,6 @@
           <key key="brand:en" value="Belarusian House" />
           <key key="brand:ru" value="Беларуский Дом" />
           <key key="brand:wikidata" value="Q134732277" />
-          <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=61575496730552" />
-          <key key="contact:instagram" value="https://www.instagram.com/belarusianhouse.official" />
-          <key key="contact:email" value="cdcompany08@gmail.com" />
-          <key key="contact:website" value="https://belarusianhouse.ge" />
-          <key key="contact:phone" value="+995 599 50 85 23" />
           <key key="name" value="ბელორუსული სახლი" />
           <key key="name:ka" value="ბელორუსული სახლი" />
           <key key="name:en" value="Belarusian House" />
@@ -1791,10 +1503,6 @@
           <key key="brand:en" value="Vake" />
           <key key="brand:ru" value="Ваке" />
           <key key="brand:wikidata" value="Q131469989" />
-          <key key="contact:facebook" value="https://www.facebook.com/vakeproducts/" />
-          <key key="contact:phone" value="+995 32 222 65 04" />
-          <key key="contact:email" value="info@vake.ge" />
-          <key key="contact:website" value="http://vake.ge" />
           <key key="name" value="ვაკე" />
           <key key="name:ka" value="ვაკე" />
           <key key="name:en" value="Vake" />
@@ -1808,12 +1516,6 @@
           <key key="brand:en" value="Meama" />
           <key key="brand:ru" value="Меама" />
           <key key="brand:wikidata" value="Q99850395" />
-          <key key="contact:facebook" value="https://www.facebook.com/IloveMeama" />
-          <key key="contact:twitter" value="https://twitter.com/Meamacoffee" />
-          <key key="contact:instagram" value="https://www.instagram.com/meama" />
-          <key key="contact:youtube" value="https://www.youtube.com/@Meama" />
-          <key key="contact:email" value="info@meama.ge" />
-          <key key="contact:website" value="https://meama.ge" />
           <key key="name" value="მეამა" />
           <key key="name:ka" value="მეამა" />
           <key key="name:en" value="Meama" />
@@ -1831,9 +1533,6 @@
           <key key="name:en" value="Tortini" />
           <key key="name:ru" value="Тортини" />
           <key key="brand:wikidata" value="Q134735289" />
-          <key key="contact:facebook" value="https://www.facebook.com/tortini.ge" />
-          <key key="contact:email" value="food7.saburtalo@gmail.com" />
-          <key key="contact:phone" value="+995 32 256 00 21" />
           <key key="shop" value="pastry" />
           <reference ref="basic_shop" />
         </item>
@@ -1843,9 +1542,6 @@
           <key key="brand:en" value="Sisauri" />
           <key key="brand:ru" value="Сисаури" />
           <key key="brand:wikidata" value="Q136806161" />
-          <key key="contact:facebook" value="https://www.facebook.com/sisaurigrinders" />
-          <key key="contact:phone" value="+995 32 388 81 82" />
-          <key key="contact:email" value="sisaurigrinders@gmail.com" />
           <key key="name" value="სისაური" />
           <key key="name:ka" value="სისაური" />
           <key key="name:en" value="Sisauri" />
@@ -1861,9 +1557,6 @@
           <key key="brand:ka" value="ფემილი" />
           <key key="brand:en" value="Family" />
           <key key="brand:wikidata" value="Q131469990" />
-          <key key="contact:facebook" value="https://www.facebook.com/people/Family-Supermarket-მაღაზიათა-ქსელი-ფემილი/100063663874411/" />
-          <key key="contact:email" value="marketfamily87@gmail.com" />
-          <key key="contact:phone" value="+995 431 30 06 00" />
           <key key="name" value="ფემილი" />
           <key key="name:ka" value="ფემილი" />
           <key key="name:en" value="Family" />
@@ -1880,9 +1573,6 @@
           <key key="brand:en" value="Alcorium" />
           <key key="brand:ru" value="Алкориум" />
           <key key="brand:wikidata" value="Q131469985" />
-          <key key="contact:email" value="info@alcorium-store.ge" />
-          <key key="contact:website" value="https://alcorium-store.ge" />
-          <key key="contact:facebook" value="https://facebook.com/alcorium" />
           <key key="name" value="ალკორიუმი" />
           <key key="name:ka" value="ალკორიუმი" />
           <key key="name:en" value="Alcorium" />
@@ -1909,9 +1599,6 @@
           <key key="brand:en" value="Smugglers" />
           <key key="brand:ru" value="Смаглерс" />
           <key key="brand:wikidata" value="Q131469986" />
-          <key key="contact:email" value="info@smugglers.ge" />
-          <key key="contact:website" value="http://smugglers.com.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/smugglers.stores" />
           <key key="name" value="სმაგლერსი" />
           <key key="name:ka" value="სმაგლერსი" />
           <key key="name:en" value="Smugglers" />
@@ -1936,12 +1623,6 @@
           <key key="brand:ka" value="ზღვა ლუდი" />
           <key key="brand:en" value="Zgva Ludi" />
           <key key="brand:wikidata" value="Q136806338" />
-          <key key="contact:email" value="franch@zgvaludi.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/zgvaludi" />
-          <key key="contact:instagram" value="https://www.instagram.com/zgvaludi" />
-          <key key="contact:phone" value="+995 571 81 77 77" />
-          <key key="contact:telegram" value="https://t.me/zgvaludi_bot" />
-          <key key="contact:website" value="https://franshiza.zgvaludi.ge" />
           <key key="name" value="ზღვა ლუდი" />
           <key key="name:ka" value="ზღვა ლუდი" />
           <key key="name:en" value="Zgva Ludi" />
@@ -1955,10 +1636,6 @@
           <key key="brand:ka" value="8000 მოსავალი" />
           <key key="brand:en" value="8000 Vintages" />
           <key key="brand:wikidata" value="Q136806379" />
-          <key key="contact:email" value="info@8000vintages.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/8000mosavali" />
-          <key key="contact:phone" value="+995 32 288 00 11" />
-          <key key="contact:website" value="https://www.8000vintages.ge" />
           <key key="name" value="8000 მოსავალი" />
           <key key="name:ka" value="8000 მოსავალი" />
           <key key="name:en" value="8000 Vintages" />
@@ -1977,13 +1654,6 @@
           <key key="name:ka" value="ზუმერი" />
           <key key="name:en" value="Zoommer" />
           <key key="brand:wikidata" value="Q131469991" />
-          <key key="contact:website" value="https://zoommer.ge" />
-          <key key="contact:facebook" value="https://facebook.com/zoommerge" />
-          <key key="contact:instagram" value="https://instagram.com/zoommer.ge" />
-          <key key="contact:twitter" value="https://twitter.com/Zoommer_tweets" />
-          <key key="contact:youtube" value="https://youtube.com/user/WwwZoommerGe" />
-          <key key="contact:email" value="info@zoommer.ge" />
-          <key key="contact:phone" value="+995 32 260 30 60" />
           <key key="shop" value="electronics" />
           <reference ref="duty_free_assistance" />
           <reference ref="basic_shop" />
@@ -1996,14 +1666,6 @@
           <key key="name:ka" value="ალტა" />
           <key key="name:en" value="Alta" />
           <key key="brand:wikidata" value="Q131469992" />
-          <key key="contact:website" value="https://alta.ge" />
-          <key key="contact:facebook" value="https://facebook.com/alta.ge" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/altaofficial" />
-          <key key="contact:tiktok" value="https://tiktok.com/@alta.ge" />
-          <key key="contact:youtube" value="https://youtube.com/@AltaOfficial" />
-          <key key="contact:instagram" value="https://www.instagram.com/alta.ge" />
-          <key key="contact:phone" value="+995 32 238 00 38" />
-          <key key="contact:email" value="retail@alta.ge" />
           <key key="shop" value="electronics" />
           <reference ref="duty_free_assistance" />
           <reference ref="basic_shop" />
@@ -2016,14 +1678,6 @@
           <key key="name:ka" value="ელიტ ელექტრონიქსი" />
           <key key="name:en" value="Elit Electronics" />
           <key key="brand:wikidata" value="Q131469993" />
-          <key key="contact:phone" value="+995 32 248 48 48" />
-          <key key="contact:email" value="info@ee.ge" />
-          <key key="contact:website" value="https://ee.ge" />
-          <key key="contact:facebook" value="https://facebook.com/ElitElectronics" />
-          <key key="contact:instagram" value="https://instagram.com/elit_electronics" />
-          <key key="contact:tiktok" value="https://tiktok.com/@elitelectronics" />
-          <key key="contact:youtube" value="https://youtube.com/c/EeGeElitElectronics" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/elit-electronics" />
           <key key="shop" value="electronics" />
           <reference ref="duty_free_assistance" />
           <reference ref="basic_shop" />
@@ -2036,13 +1690,6 @@
           <key key="name:en" value="Mi Store" />
           <key key="name:ka" value="მისთორი" />
           <key key="brand:wikidata" value="Q131469994" />
-          <key key="contact:website" value="https://mistore.ge/" />
-          <key key="contact:tiktok" value="https://www.tiktok.com/@mistore.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/mistoregeorgia" />
-          <key key="contact:instagram" value="https://www.instagram.com/mistore_xiaomi_authorised" />
-          <key key="contact:youtube" value="https://www.youtube.com/@xiaomimistore4703" />
-          <key key="contact:phone" value="+995 32 250 05 70" />
-          <key key="contact:email" value="info@mistore.ge" />
           <key key="shop" value="electronics" />
           <reference ref="basic_shop" />
         </item>
@@ -2054,10 +1701,6 @@
           <key key="name:ka" value="მეტრომარტი" />
           <key key="name:en" value="Metromart" />
           <key key="brand:wikidata" value="Q131469995" />
-          <key key="contact:website" value="https://metromart.ge" />
-          <key key="contact:email" value="info@metromart.ge" />
-          <key key="contact:facebook" value="https://facebook.com/Metromarti" />
-          <key key="contact:phone" value="+995 32 200 05 55" />
           <key key="shop" value="electronics" />
           <reference ref="crypto_currencies_thru_citypay_io" />
           <reference ref="basic_shop" />
@@ -2070,9 +1713,6 @@
           <key key="name:ka" value="უნიკომი" />
           <key key="name:en" value="Unicom" />
           <key key="brand:wikidata" value="Q131469996" />
-          <key key="contact:website" value="https://unicom.ge" />
-          <key key="contact:email" value="info@unicom.ge" />
-          <key key="contact:phone" value="+995 32 215 20 15" />
           <key key="shop" value="electronics" />
           <reference ref="basic_shop" />
         </item>
@@ -2084,12 +1724,6 @@
           <key key="name:ka" value="აიტექნიკსი" />
           <key key="name:en" value="iTechnics" />
           <key key="brand:wikidata" value="Q131469997" />
-          <key key="contact:website" value="https://itechnics.ge" />
-          <key key="contact:email" value="info@itechnics.ge" />
-          <key key="contact:facebook" value="https://facebook.com/itechnicsgeo" />
-          <key key="contact:instagram" value="https://instagram.com/itechnics_geo" />
-          <key key="contact:twitter" value="https://twitter.com/itechnicgeorgia" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/itechnic-georgia" />
           <key key="shop" value="electronics" />
           <reference ref="crypto_currencies_thru_citypay_io" />
           <reference ref="basic_shop" />
@@ -2102,11 +1736,6 @@
           <key key="name:ka" value="აიპლიუსი" />
           <key key="name:en" value="iPlus" />
           <key key="brand:wikidata" value="Q131469998" />
-          <key key="contact:website" value="https://iplus.com.ge" />
-          <key key="contact:email" value="info@iphoneplus.ge" />
-          <key key="contact:facebook" value="https://facebook.com/iPlusGeo" />
-          <key key="contact:instagram" value="https://instagram.com/iplus.com.ge" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/iplus-%E1%83%90%E1%83%98%E1%83%9E%E1%83%9A%E1%83%98%E1%83%A3%E1%83%A1%E1%83%98" />
           <key key="shop" value="electronics" />
           <reference ref="crypto_currencies_thru_citypay_io" />
           <reference ref="basic_shop" />
@@ -2119,12 +1748,6 @@
           <key key="name:ka" value="მეგატექნიკა" />
           <key key="name:en" value="Megatechnica" />
           <key key="brand:wikidata" value="Q131469999" />
-          <key key="contact:website" value="https://megatechnica.ge" />
-          <key key="contact:facebook" value="https://facebook.com/Megatechnica.ge" />
-          <key key="contact:instagram" value="https://instagram.com/megatechnica.ge" />
-          <key key="contact:youtube" value="https://youtube.com/channel/UCVvLvPGjYfajMmIxk-WGJbA" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/megatechnica" />
-          <key key="contact:email" value="info@megatechnica.ge" />
           <key key="shop" value="electronics" />
           <reference ref="basic_shop" />
         </item>
@@ -2136,10 +1759,6 @@
           <key key="name:ka" value="ტექნო ბუმი" />
           <key key="name:en" value="Techno Boom" />
           <key key="brand:wikidata" value="Q131470000" />
-          <key key="contact:website" value="https://technoboom.ge" />
-          <key key="contact:youtube" value="https://youtube.com/@technoboom6869" />
-          <key key="contact:email" value="info@technoboom.ge" />
-          <key key="contact:phone" value="+995 32 243 01 02" />
           <key key="shop" value="electronics" />
           <reference ref="basic_shop" />
         </item>
@@ -2149,10 +1768,6 @@
           <key key="brand:wikidata" value="Q631792" />
           <key key="name:ka" value="Beko" />
           <key key="name" value="Beko" />
-          <key key="contact:website" value="https://www.beko.com/ge-ka" />
-          <key key="contact:facebook" value="https://www.facebook.com/BekoGeo" />
-          <key key="contact:phone" value="+995 32 215 50 50" />
-          <key key="contact:email" value="info@beko.com.ge" />
           <key key="shop" value="appliance" />
           <reference ref="basic_shop" />
         </item>
@@ -2164,10 +1779,6 @@
           <key key="name:ka" value="კონტაქტ ჰოუმი" />
           <key key="name:en" value="Kontakt Home" />
           <key key="brand:wikidata" value="Q131470001" />
-          <key key="contact:website" value="https://kontakt.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/kontakthomegeo" />
-          <key key="contact:instagram" value="https://www.instagram.com/kontakt.ge" />
-          <key key="contact:phone" value="+995 32 360 60 60" />
           <key key="shop" value="electronics" />
           <reference ref="basic_shop" />
         </item>
@@ -2179,11 +1790,6 @@
           <key key="name:en" value="iSpace" />
           <key key="name:ka" value="აისფეისი" />
           <key key="brand:wikidata" value="Q131470002" />
-          <key key="contact:website" value="https://ispace.ge/" />
-          <key key="contact:email" value="info@iSpace.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/iSpace.ge" />
-          <key key="contact:instagram" value="https://www.instagram.com/ispace.ge/" />
-          <key key="contact:phone" value="+995 32 223 53 23" />
           <key key="shop" value="electronics" />
           <reference ref="basic_shop" />
         </item>
@@ -2198,11 +1804,6 @@
           <key key="name:ka" value="ჭიტა" />
           <key key="name:en" value="Chita" />
           <key key="brand:wikidata" value="Q131470003" />
-          <key key="contact:phone" value="+995 32 238 08 22" />
-          <key key="contact:website" value="https://chita.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/chita.ge" />
-          <key key="contact:instagram" value="https://www.instagram.com/chitastore" />
-          <key key="contact:tiktok" value="https://www.tiktok.com/@chitastore" />
           <key key="shop" value="toys" />
           <reference ref="basic_shop" />
         </item>
@@ -2214,10 +1815,6 @@
           <key key="name:ka" value="პეპელა" />
           <key key="name:en" value="Pepela" />
           <key key="brand:wikidata" value="Q131470004" />
-          <key key="contact:phone" value="+995 32 388 85 98" />
-          <key key="contact:website" value="https://pepela.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/PepelaToys" />
-          <key key="contact:email" value="contact@pepela.ge" />
           <key key="shop" value="toys" />
           <reference ref="basic_shop" />
         </item>
@@ -2229,9 +1826,6 @@
           <key key="name:ka" value="XS სათამაშოები" />
           <key key="name:en" value="XS Toys" />
           <key key="brand:wikidata" value="Q131470006" />
-          <key key="contact:website" value="https://xstoys.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/XSToys" />
-          <key key="contact:email" value="info@anvol.ge" />
           <key key="shop" value="toys" />
           <reference ref="basic_shop" />
         </item>
@@ -2243,10 +1837,6 @@
           <key key="name:ka" value="კურაკურა" />
           <key key="name:en" value="KuraKura" />
           <key key="brand:wikidata" value="Q131470007" />
-          <key key="contact:website" value="https://kura-kura.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/kurakuratbilisi" />
-          <key key="contact:phone" value="+995 577 14 46 77" />
-          <key key="contact:email" value="kuragifts@gmail.com" />
           <key key="shop" value="games" />
           <reference ref="basic_shop" />
         </item>
@@ -2261,9 +1851,6 @@
           <key key="name:ka" value="ბიბლუსი" />
           <key key="name:en" value="Biblus" />
           <key key="brand:wikidata" value="Q131470008" />
-          <key key="contact:website" value="https://biblusi.ge" />
-          <key key="contact:facebook" value="https://facebook.com/biblusi.ge" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/biblusi" />
           <key key="shop" value="books" />
           <reference ref="basic_shop" />
         </item>
@@ -2275,14 +1862,6 @@
           <key key="name:ka" value="სულაკაური" />
           <key key="name:en" value="Sulakauri" />
           <key key="brand:wikidata" value="Q131470009" />
-          <key key="contact:website" value="https://www.sulakauri.ge" />
-          <key key="contact:email" value="info@sulakauri.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/sulakauripublishing" />
-          <key key="contact:instagram" value="https://www.instagram.com/sulakauri_publishing" />
-          <key key="contact:linkedin" value="https://www.linkedin.com/company/sulakauri-publishing" />
-          <key key="contact:phone" value="+995 32 291 11 65;+995 32 291 09 54" />
-          <key key="contact:twitter" value="https://twitter.com/sulakauripub" />
-          <key key="contact:youtube" value="https://www.youtube.com/user/Sulakauripublishing" />
           <key key="shop" value="books" />
           <reference ref="basic_shop" />
         </item>
@@ -2294,10 +1873,6 @@
           <key key="name:ka" value="პროსპეროს წიგნები" />
           <key key="name:en" value="Prospero's Books" />
           <key key="brand:wikidata" value="Q131470010" />
-          <key key="contact:website" value="https://prosperosbookshop.com" />
-          <key key="contact:facebook" value="https://www.facebook.com/prosperosbooks" />
-          <key key="contact:phone" value="+995 32 292 35 92" />
-          <key key="contact:email" value="info@prosperosbookshop.com" />
           <key key="shop" value="books" />
           <reference ref="basic_shop" />
         </item>
@@ -2309,9 +1884,6 @@
           <key key="name:ka" value="ლიბრა" />
           <key key="name:en" value="Libra" />
           <key key="brand:wikidata" value="Q136806056" />
-          <key key="contact:facebook" value="https://www.facebook.com/librastores" />
-          <key key="contact:phone" value="+995 32 294 52 00" />
-          <key key="contact:email" value="librawignebi@gmail.com" />
           <key key="shop" value="books" />
           <reference ref="basic_shop" />
         </item>
@@ -2323,10 +1895,6 @@
           <key key="name:ka" value="სანტა ესპერანსა" />
           <key key="name:en" value="Santa Esperansa" />
           <key key="brand:wikidata" value="Q136806077" />
-          <key key="contact:facebook" value="https://www.facebook.com/santabooks" />
-          <key key="contact:phone" value="+995 32 288 08 21" />
-          <key key="contact:email" value="books@santaesperanza.ge" />
-          <key key="contact:website" value="https://www.santaesperanza.ge" />
           <key key="shop" value="books" />
           <reference ref="basic_shop" />
         </item>
@@ -2345,8 +1913,6 @@
           <key key="operator:ka" value="აი სი არ ტრეიდი" />
           <key key="operator:en" value="ICR Trade" />
           <key key="operator:wikidata" value="Q139570813" />
-          <key key="contact:facebook" value="https://facebook.com/batageorgia" />
-          <key key="contact:linkedin" value="https://instagram.com/bata.georgia" />
           <key key="shop" value="shoes" />
           <reference ref="basic_shop" />
         </item>
@@ -2358,9 +1924,6 @@
           <key key="name" value="ელსი ვაიკიკი" />
           <key key="name:ka" value="ელსი ვაიკიკი" />
           <key key="name:en" value="LC Waikiki" />
-          <key key="contact:website" value="https://www.lcwaikiki.ge" />
-          <key key="contact:facebook" value="https://facebook.com/LCWaikikiGeorgia" />
-          <key key="contact:instagram" value="https://instagram.com/lcwaikiki.georgia" />
           <key key="shop" value="clothes" />
           <reference ref="basic_shop" />
           <reference ref="clothes_list" />
@@ -2373,9 +1936,6 @@
           <key key="name:ka" value="ნავნე" />
           <key key="name:en" value="navne" />
           <key key="brand:wikidata" value="Q131470011" />
-          <key key="contact:facebook" value="https://www.facebook.com/www.navne.ge" />
-          <key key="contact:email" value="info@navne.ge" />
-          <key key="contact:phone" value="+995 32 264 60 60" />
           <key key="shop" value="clothes" />
           <reference ref="basic_shop" />
           <reference ref="clothes_list" />
@@ -2386,9 +1946,6 @@
           <key key="brand:wikidata" value="Q2042514" />
           <key key="name:ka" value="OVS" />
           <key key="name" value="OVS" />
-          <key key="contact:facebook" value="https://www.facebook.com/OvsGeorgia/" />
-          <key key="contact:email" value="info@gtex.ge" />
-          <key key="contact:phone" value="+995 32 290 33 34" />
           <key key="shop" value="clothes" />
           <reference ref="basic_shop" />
           <reference ref="clothes_list" />
@@ -2400,8 +1957,6 @@
           <key key="name" value="ფლო" />
           <key key="name:ka" value="ფლო" />
           <key key="name:en" value="FLO" />
-          <key key="contact:website" value="https://www.flo.com.tr" />
-          <key key="contact:facebook" value="https://www.facebook.com/FLOShoesGeorgia" />
           <key key="shop" value="shoes" />
           <reference ref="basic_shop" />
         </item>
@@ -2413,10 +1968,6 @@
           <key key="name:ka" value="ტოპსპორტი" />
           <key key="name:en" value="TopSport" />
           <key key="brand:wikidata" value="Q131470012" />
-          <key key="contact:facebook" value="https://www.facebook.com/TOPSPORTGEORGIA" />
-          <key key="contact:email" value="info@tgl.ge" />
-          <key key="contact:phone" value="+995 32 205 21 20" />
-          <key key="contact:website" value="https://topsport.ge" />
           <key key="shop" value="clothes" />
           <key key="clothes" value="sports" />
           <reference ref="basic_shop" />
@@ -2433,8 +1984,6 @@
           <key key="operator:en" value="ICR Trade" />
           <key key="operator:wikidata" value="Q139570813" />
           <key key="brand:wikidata" value="Q131470013" />
-          <key key="contact:website" value="http://icrcorp.ge/brands/footwear/corso-italia" />
-          <key key="contact:facebook" value="https://www.facebook.com/CorsoItaliaShoes" />
           <key key="shop" value="shoes" />
           <reference ref="basic_shop" />
         </item>
@@ -2450,8 +1999,6 @@
           <key key="operator:en" value="ICR Trade" />
           <key key="operator:wikidata" value="Q139570813" />
           <key key="brand:wikidata" value="Q131470014" />
-          <key key="contact:facebook" value="https://www.facebook.com/OkaidiGeorgia" />
-          <key key="contact:website" value="https://okaidi.ge" />
           <key key="shop" value="clothes" />
           <reference ref="basic_shop" />
           <reference ref="clothes_list" />
@@ -2468,10 +2015,6 @@
           <key key="name:en" value="Miniso" />
           <key key="operator" value="მინისო საქართველი" />
           <key key="operator:ka" value="მინისო საქართველი" />
-          <key key="contact:website" value="https://miniso.ge" />
-          <key key="contact:facebook" value="https://facebook.com/minisogeorgia" />
-          <key key="contact:instagram" value="https://instagram.com/miniso_georgia" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/miniso-georgia" />
           <key key="shop" value="variety_store" />
           <reference ref="basic_shop" />
         </item>
@@ -2482,11 +2025,6 @@
           <key key="name" value="იოიოსო" />
           <key key="name:ka" value="იოიოსო" />
           <key key="name:en" value="Yoyoso" />
-          <key key="contact:email" value="online@yoyoso.ge" />
-          <key key="contact:phone" value="+995 511 22 55 33" />
-          <key key="contact:website" value="https://yoyoso.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/yoyoso.geo" />
-          <key key="contact:instagram" value="https://www.instagram.com/yoyoso_georgia" />
           <key key="shop" value="variety_store" />
           <reference ref="basic_shop" />
         </item>
@@ -2499,9 +2037,6 @@
           <key key="name:en" value="OnePrice" />
           <key key="operator" value="ვანპრაისი საქართველო" />
           <key key="operator:ka" value="ვანპრაისი საქართველო" />
-          <key key="contact:website" value="http://www.oneprice.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/OnePrice.Georgia" />
-          <key key="contact:instagram" value="https://www.instagram.com/onepricegeorgia/" />
           <key key="shop" value="variety_store" />
           <reference ref="basic_shop" />
         </item>
@@ -2512,7 +2047,6 @@
           <key key="name" value="ფიქს პრაისი" />
           <key key="name:ka" value="ფიქს პრაისი" />
           <key key="name:en" value="Fix Price" />
-          <key key="contact:instagram" value="https://www.instagram.com/fixprice.georgia" />
           <key key="shop" value="variety_store" />
           <reference ref="basic_shop" />
         </item>
@@ -2524,10 +2058,6 @@
           <key key="name:ka" value="სუპერი" />
           <key key="name:en" value="Super" />
           <key key="brand:wikidata" value="Q131470015" />
-          <key key="contact:website" value="https://superstore.ge" />
-          <key key="contact:email" value="info@superstore.ge" />
-          <key key="contact:instagram" value="https://www.instagram.com/superstoregeorgia" />
-          <key key="contact:facebook" value="https://www.facebook.com/SuperStoreGeorgia" />
           <key key="shop" value="houseware" />
           <reference ref="basic_shop" />
         </item>
@@ -2539,9 +2069,6 @@
           <key key="name:ka" value="ჰოუმ" />
           <key key="name:en" value="Home" />
           <key key="brand:wikidata" value="Q131470016" />
-          <key key="contact:phone" value="+995 551 16 77 41" />
-          <key key="contact:email" value="info@ltdhome.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/ltdhome" />
           <key key="shop" value="houseware" />
           <reference ref="basic_shop" />
         </item>
@@ -2553,9 +2080,6 @@
           <key key="name:ka" value="მანამო ჰოუმი" />
           <key key="name:en" value="Manamo Home" />
           <key key="brand:wikidata" value="Q131470017" />
-          <key key="contact:phone" value="+995 32 256 04 04" />
-          <key key="contact:email" value="estore@manamohome.com" />
-          <key key="contact:website" value="https://manamohome.com" />
           <key key="shop" value="household_linen" />
           <reference ref="basic_shop" />
         </item>
@@ -2569,10 +2093,6 @@
           <key key="name" value="იუსკ" />
           <key key="name:ka" value="იუსკ" />
           <key key="name:en" value="Jysk" />
-          <key key="contact:website" value="https://jysk.ge" />
-          <key key="contact:facebook" value="https://facebook.com/JYSKGeorgia" />
-          <key key="contact:instagram" value="https://instagram.com/jyskgeorgia" />
-          <key key="contact:email" value="online@jysk.ge" />
           <key key="shop" value="furniture" />
           <reference ref="basic_shop" />
         </item>
@@ -2585,11 +2105,6 @@
           <key key="name:en" value="Gorgia" />
           <key key="name:ru" value="Горгиа" />
           <key key="brand:wikidata" value="Q131470018" />
-          <key key="contact:website" value="https://gorgia.ge" />
-          <key key="contact:facebook" value="https://facebook.com/gorgia.ge" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/bmc-gorgia" />
-          <key key="contact:instagram" value="https://instagram.com/gorgia.ge" />
-          <key key="contact:email" value="web@gorgia.ge" />
           <key key="shop" value="doityourself" />
           <reference ref="basic_shop" />
         </item>
@@ -2604,9 +2119,6 @@
           <key key="name:ka" value="პეტ სპოტი" />
           <key key="name:en" value="Pet Spot" />
           <key key="brand:wikidata" value="Q131470019" />
-          <key key="contact:website" value="https://www.petspot.shop" />
-          <key key="contact:facebook" value="https://facebook.com/PetSpot.Georgia" />
-          <key key="contact:instagram" value="https://instagram.com/petspot_georgia" />
           <key key="shop" value="pet" />
           <reference ref="basic_shop" />
         </item>
@@ -2618,9 +2130,6 @@
           <key key="name:ka" value="ზოოსითი" />
           <key key="name:en" value="ZooCity" />
           <key key="brand:wikidata" value="Q131470020" />
-          <key key="contact:website" value="https://zoocity.ge" />
-          <key key="contact:facebook" value="https://facebook.com/ZooCityGeo" />
-          <key key="contact:instagram" value="https://instagram.com/zoocity_geo" />
           <key key="shop" value="pet" />
           <reference ref="basic_shop" />
         </item>
@@ -2632,9 +2141,6 @@
           <key key="name:ka" value="ზოომარტი" />
           <key key="name:en" value="Zoomart" />
           <key key="brand:wikidata" value="Q131470021" />
-          <key key="contact:website" value="https://zoomart.ge" />
-          <key key="contact:facebook" value="https://facebook.com/zoomart.ge" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/zoomartgeorgia" />
           <key key="shop" value="pet" />
           <reference ref="basic_shop" />
         </item>
@@ -2646,9 +2152,6 @@
           <key key="name:ka" value="ზოოჰაბი" />
           <key key="name:en" value="Zoohub" />
           <key key="brand:wikidata" value="Q131470022" />
-          <key key="contact:phone" value="+995 598 46 99 26" />
-          <key key="contact:email" value="info@zoohub.com.ge" />
-          <key key="contact:facebook" value="https://facebook.com/zoohub" />
           <key key="shop" value="pet" />
           <reference ref="basic_shop" />
         </item>
@@ -2660,10 +2163,6 @@
           <key key="name:ka" value="ზოოლაიფი" />
           <key key="name:en" value="ZooLife" />
           <key key="brand:wikidata" value="Q131470023" />
-          <key key="contact:website" value="https://zoolife.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/people/ZooLife-ზოოლაიფი/100063596333301/" />
-          <key key="contact:email" value="geozoolife@gmail.com" />
-          <key key="contact:phone" value="+995 577 12 27 78" />
           <key key="shop" value="pet" />
           <reference ref="basic_shop" />
         </item>
@@ -2680,9 +2179,6 @@
           <key key="name:en" value="Amboli" />
           <key key="name:ru" value="Амболи" />
           <key key="brand:wikidata" value="Q134735780" />
-          <key key="contact:website" value="https://amboli.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/amboli.ge" />
-          <key key="contact:instagram" value="https://www.instagram.com/amboli_ge" />
           <key key="shop" value="car_parts" />
           <reference ref="basic_shop" />
         </item>
@@ -2696,9 +2192,6 @@
           <key key="name:en" value="Greenway" />
           <key key="name:ru" value="Гринвей" />
           <key key="brand:wikidata" value="Q134735986" />
-          <key key="contact:website" value="https://greenway.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/umartivesad.ge" />
-          <key key="contact:phone" value="+995 32 299 77 77" />
           <key key="amenity" value="vehicle_inspection" />
           <reference ref="basic_shop" />
         </item>
@@ -2715,12 +2208,6 @@
           <key key="brand:en" value="TBC Bank" />
           <key key="brand:ru" value="ТиБиСи Банк" />
           <key key="brand:wikidata" value="Q2620975" />
-          <key key="contact:website" value="https://www.tbcbank.ge" />
-          <key key="contact:phone" value="+995 32 227 27 27" />
-          <key key="contact:facebook" value="https://www.facebook.com/tbcbank" />
-          <key key="contact:linkedin" value="https://www.linkedin.com/company/tbc-bank/" />
-          <key key="contact:youtube" value="https://www.youtube.com/user/TBCBankTV" />
-          <key key="contact:twitter" value="https://twitter.com/JSCTBC" />
           <key key="name" value="თიბისი ბანკი" />
           <key key="name:ka" value="თიბისი ბანკი" />
           <key key="name:en" value="TBC Bank" />
@@ -2739,12 +2226,6 @@
           <key key="brand:ru" value="Банк Грузии" />
           <key key="brand:tr" value="Gürcistan Bankası" />
           <key key="brand:wikidata" value="Q2469733" />
-          <key key="contact:phone" value="+995 32 244 44 44" />
-          <key key="contact:website" value="https://bankofgeorgia.ge" />
-          <key key="contact:instagram" value="https://instagram.com/bankofgeorgia" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/bank-of-georgia" />
-          <key key="contact:youtube" value="https://youtube.com/user/BankofGeorgiaTV" />
-          <key key="contact:email" value="customerservice@bog.ge" />
           <key key="name" value="საქართველოს ბანკი" />
           <key key="name:ka" value="საქართველოს ბანკი" />
           <key key="name:en" value="Bank of Georgia" />
@@ -2762,8 +2243,6 @@
           <key key="brand:ru" value="Банк Грузии" />
           <key key="brand:tr" value="Gürcistan Bankası" />
           <key key="brand:wikidata" value="Q2469733" />
-          <key key="contact:website" value="https://expresssesxi.ge" />
-          <key key="contact:phone" value="+995 32 244 44 44" />
           <key key="name" value="საქართველოს ბანკი ექსპრესი" />
           <key key="name:ka" value="საქართველოს ბანკი ექსპრესი" />
           <key key="name:en" value="Bank of Georgia Express" />
@@ -2779,12 +2258,6 @@
           <key key="brand:ru" value="Банк Грузии" />
           <key key="brand:tr" value="Gürcistan Bankası" />
           <key key="brand:wikidata" value="Q2469733" />
-          <key key="contact:phone" value="+995 32 244 44 00" />
-          <key key="contact:website" value="https://solo.ge" />
-          <key key="contact:instagram" value="https://www.instagram.com/solo_ge/" />
-          <key key="contact:facebook" value="https://www.facebook.com/www.SOLO.ge" />
-          <key key="contact:youtube" value="https://www.youtube.com/channel/UCazxChwPkbV_lCxelYITnNg" />
-          <key key="contact:email" value="solo@bog.ge" />
           <key key="name" value="სოლო" />
           <key key="name:ka" value="სოლო" />
           <key key="name:en" value="Solo" />
@@ -2799,12 +2272,6 @@
           <key key="brand:en" value="Liberty" />
           <key key="brand:ru" value="Либерти" />
           <key key="brand:wikidata" value="Q6541585" />
-          <key key="contact:website" value="https://libertybank.ge" />
-          <key key="contact:email" value="info@lb.ge" />
-          <key key="contact:phone" value="+995 32 255 55 00" />
-          <key key="contact:facebook" value="https://facebook.com/libertybank.ge" />
-          <key key="contact:instagram" value="https://instagram.com/liberty_bank_" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/libertybankge" />
           <key key="name" value="ლიბერთი" />
           <key key="name:ka" value="ლიბერთი" />
           <key key="name:en" value="Liberty" />
@@ -2819,13 +2286,6 @@
           <key key="brand:en" value="Credo Bank" />
           <key key="brand:ru" value="Кредо Банк" />
           <key key="brand:wikidata" value="Q131470024" />
-          <key key="contact:website" value="https://credobank.ge" />
-          <key key="contact:facebook" value="https://facebook.com/CredoBank" />
-          <key key="contact:instagram" value="https://instagram.com/credobank" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/credo-bank" />
-          <key key="contact:youtube" value="https://youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
-          <key key="contact:email" value="info@credo.ge" />
-          <key key="contact:phone" value="+995 32 242 42 42" />
           <key key="name" value="კრედო ბანკი" />
           <key key="name:ka" value="კრედო ბანკი" />
           <key key="name:en" value="Credo Bank" />
@@ -2843,12 +2303,6 @@
           <key key="brand:en" value="BasisBank" />
           <key key="brand:ru" value="БазисБанк" />
           <key key="brand:wikidata" value="Q16365625" />
-          <key key="contact:website" value="https://bb.ge" />
-          <key key="contact:facebook" value="https://facebook.com/Basisbank" />
-          <key key="contact:instagram" value="https://instagram.com/basis_bank" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/jsc-basisbank" />
-          <key key="contact:youtube" value="https://youtube.com/user/basisbankhualing" />
-          <key key="contact:phone" value="+995 32 292 29 22" />
           <key key="name" value="ბაზისბანკი" />
           <key key="name:ka" value="ბაზისბანკი" />
           <key key="name:en" value="BasisBank" />
@@ -2863,12 +2317,6 @@
           <key key="brand:en" value="Terabank" />
           <key key="brand:ru" value="Терабанк" />
           <key key="brand:wikidata" value="Q131470026" />
-          <key key="contact:website" value="https://terabank.ge" />
-          <key key="contact:facebook" value="https://facebook.com/terabank" />
-          <key key="contact:instagram" value="https://instagram.com/Terabank" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/terabank" />
-          <key key="contact:email" value="info@terabank.ge" />
-          <key key="contact:phone" value="+995 32 255 00 00" />
           <key key="name" value="ტერაბანკი" />
           <key key="name:ka" value="ტერაბანკი" />
           <key key="name:en" value="Terabank" />
@@ -2883,11 +2331,6 @@
           <key key="brand:en" value="ProCredit Bank" />
           <key key="brand:ru" value="ПроКредит Банк" />
           <key key="brand:wikidata" value="Q122763256" />
-          <key key="contact:website" value="https://procreditbank.ge" />
-          <key key="contact:facebook" value="https://facebook.com/procreditbankgeorgia" />
-          <key key="contact:instagram" value="https://instagram.com/procreditbankgeorgia" />
-          <key key="contact:email" value="geo.info@procredit-group.com" />
-          <key key="contact:phone" value="+995 32 220 22 22" />
           <key key="name" value="პროკრედიტ ბანკი" />
           <key key="name:ka" value="პროკრედიტ ბანკი" />
           <key key="name:en" value="ProCredit Bank" />
@@ -2902,12 +2345,6 @@
           <key key="brand:en" value="Cartu Bank" />
           <key key="brand:ru" value="Карту Банк" />
           <key key="brand:wikidata" value="Q25541238" />
-          <key key="contact:website" value="https://cartubank.ge" />
-          <key key="contact:facebook" value="https://facebook.com/cartubank" />
-          <key key="contact:twitter" value="https://twitter.com/CartuBank" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/cartu-bank" />
-          <key key="contact:email" value="info@cartubank.ge" />
-          <key key="contact:phone" value="+995 32 200 80 80" />
           <key key="name" value="ბანკი ქართუ" />
           <key key="name:ka" value="ბანკი ქართუ" />
           <key key="name:en" value="Cartu Bank" />
@@ -2923,8 +2360,6 @@
           <key key="brand:ru" value="Зираат Банк" />
           <key key="brand:tr" value="Ziraat Bankası" />
           <key key="brand:wikidata" value="Q696003" />
-          <key key="contact:website" value="https://ziraatbank.ge" />
-          <key key="contact:phone" value="+995 32 294 37 04" />
           <key key="name" value="ზირაათ ბანკი" />
           <key key="name:ka" value="ზირაათ ბანკი" />
           <key key="name:en" value="Ziraat Bank" />
@@ -2943,12 +2378,6 @@
           <key key="brand:wikidata" value="Q1046186" />
           <key key="operator:ka" value="ხალიკ ბანკი საქართველო" />
           <key key="operator" value="ხალიკ ბანკი საქართველო" />
-          <key key="contact:website" value="https://halykbank.ge" />
-          <key key="contact:email" value="info@hbg.ge" />
-          <key key="contact:phone" value="+995 32 224 07 07" />
-          <key key="contact:facebook" value="https://facebook.com/halykbank.ge" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/halykbankgeo" />
-          <key key="contact:instagram" value="https://instagram.com/halykbankgeo" />
           <key key="name" value="ხალიკ ბანკი" />
           <key key="name:ka" value="ხალიკ ბანკი" />
           <key key="name:en" value="Halyk Bank" />
@@ -2964,13 +2393,6 @@
           <key key="brand:en" value="Re|Bank" />
           <key key="brand:ru" value="Ре|Банк" />
           <key key="brand:wikidata" value="Q131470027" />
-          <key key="contact:phone" value="+995 32 222 25 25" />
-          <key key="contact:website" value="https://rebank.ge" />
-          <key key="contact:instagram" value="https://www.instagram.com/rebankforchanges" />
-          <key key="contact:linkedin" value="https://www.linkedin.com/company/rebank-ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/rebank.ge" />
-          <key key="contact:youtube" value="https://www.youtube.com/channel/UCYZ6WinOLhj0a3hru8Yu1IA" />
-          <key key="contact:email" value="info@rebank.ge" />
           <key key="name" value="რე|ბანკი" />
           <key key="name:ka" value="რე|ბანკი" />
           <key key="name:en" value="Re|Bank" />
@@ -2990,11 +2412,6 @@
           <key key="brand:wikidata" value="Q909613" />
           <key key="operator:ka" value="სს იშბანკი საქართველო" />
           <key key="operator" value="სს იშბანკი საქართველო" />
-          <key key="contact:phone" value="+995 32 244 22 44" />
-          <key key="contact:website" value="http://isbank.ge" />
-          <key key="contact:linkedin" value="https://www.linkedin.com/company/jsc-isbak-georgia" />
-          <key key="contact:facebook" value="https://www.facebook.com/IsbankGeorgia/" />
-          <key key="contact:email" value="info@isbank.ge" />
           <key key="name:ka" value="იშბანკი" />
           <key key="name" value="იშბანკი" />
           <key key="name:en" value="IsBank" />
@@ -3013,12 +2430,6 @@
           <key key="brand:ru" value="Банк Грузии" />
           <key key="brand:tr" value="Gürcistan Bankası" />
           <key key="brand:wikidata" value="Q2469733" />
-          <key key="contact:phone" value="+995 32 244 44 44" />
-          <key key="contact:website" value="https://bankofgeorgia.ge" />
-          <key key="contact:instagram" value="https://instagram.com/bankofgeorgia" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/bank-of-georgia" />
-          <key key="contact:youtube" value="https://youtube.com/user/BankofGeorgiaTV" />
-          <key key="contact:email" value="customerservice@bog.ge" />
           <key key="operator:ka" value="საქართველოს ბანკი" />
           <key key="operator" value="საქართველოს ბანკი" />
           <key key="operator:wikidata" value="Q2469733" />
@@ -3035,12 +2446,6 @@
           <key key="brand:ka" value="თიბისი ბანკი" />
           <key key="brand:en" value="TBC Bank" />
           <key key="brand:ru" value="ТиБиСи Банк" />
-          <key key="contact:website" value="https://www.tbcbank.ge" />
-          <key key="contact:phone" value="+995 32 227 27 27" />
-          <key key="contact:facebook" value="https://www.facebook.com/tbcbank" />
-          <key key="contact:linkedin" value="https://www.linkedin.com/company/tbc-bank/" />
-          <key key="contact:youtube" value="https://www.youtube.com/user/TBCBankTV" />
-          <key key="contact:twitter" value="https://twitter.com/JSCTBC" />
           <key key="operator:ka" value="თიბისი ბანკი" />
           <key key="operator" value="თიბისი ბანკი" />
           <key key="operator:wikidata" value="Q2620975" />
@@ -3062,13 +2467,6 @@
           <key key="operator:en" value="Credo Bank" />
           <key key="operator:ru" value="Кредо Банк" />
           <key key="operator:wikidata" value="Q131470024" />
-          <key key="contact:website" value="https://credobank.ge" />
-          <key key="contact:facebook" value="https://facebook.com/CredoBank" />
-          <key key="contact:instagram" value="https://instagram.com/credobank" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/credo-bank" />
-          <key key="contact:youtube" value="https://youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
-          <key key="contact:email" value="info@credo.ge" />
-          <key key="contact:phone" value="+995 32 242 42 42" />
           <key key="operator:ka" value="კრედო ბანკი" />
           <key key="operator" value="კრედო ბანკი" />
           <key key="payment:coins" value="yes" />
@@ -3082,12 +2480,6 @@
           <key key="brand:en" value="Liberty" />
           <key key="brand:ru" value="Либерти" />
           <key key="brand:wikidata" value="Q6541585" />
-          <key key="contact:website" value="https://libertybank.ge" />
-          <key key="contact:email" value="info@lb.ge" />
-          <key key="contact:phone" value="+995 32 255 55 00" />
-          <key key="contact:facebook" value="https://facebook.com/libertybank.ge" />
-          <key key="contact:instagram" value="https://instagram.com/liberty_bank_" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/libertybankge" />
           <key key="operator:ka" value="ლიბერთი" />
           <key key="operator" value="ლიბერთი" />
           <key key="operator:wikidata" value="Q6541585" />
@@ -3101,10 +2493,6 @@
           <key key="brand:ka" value="ფეიბოქსი" />
           <key key="brand:en" value="PayBox" />
           <key key="brand:wikidata" value="Q132183551" />
-          <key key="contact:email" value="info@oppa.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/PayBoxTerminals" />
-          <key key="contact:instagram" value="https://www.instagram.com/payboxterminals/" />
-          <key key="contact:phone" value="+995 32 220 30 00;+995 32 224 45 00" />
           <key key="operator:ka" value="ოპპა" />
           <key key="operator" value="ოპპა" />
           <key key="operator:en" value="Oppa" />
@@ -3116,13 +2504,6 @@
           <key key="amenity" value="payment_terminal" />
           <key key="brand" value="Cryptal" />
           <key key="brand:en" value="Cryptal" />
-          <key key="contact:email" value="support@cryptal.com" />
-          <key key="contact:facebook" value="https://www.facebook.com/Cryptalexchange" />
-          <key key="contact:linkedin" value="https://www.linkedin.com/company/cryptalexchange" />
-          <key key="contact:tiktok" value="https://www.tiktok.com/@cryptal.com" />
-          <key key="contact:telegram" value="https://t.me/clCryptalGlobalFriends" />
-          <key key="contact:twitter" value="https://x.com/cryptalexchange" />
-          <key key="contact:phone" value="+995 322 053 253" />
           <key key="operator" value="Cryptal" />
           <key key="operator:en" value="Cryptal" />
           <key key="payment:coins" value="yes" />
@@ -3140,12 +2521,6 @@
           <key key="brand:ru" value="Банк Грузии" />
           <key key="brand:tr" value="Gürcistan Bankası" />
           <key key="brand:wikidata" value="Q2469733" />
-          <key key="contact:phone" value="+995 32 244 44 44" />
-          <key key="contact:website" value="https://bankofgeorgia.ge" />
-          <key key="contact:instagram" value="https://instagram.com/bankofgeorgia" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/bank-of-georgia" />
-          <key key="contact:youtube" value="https://youtube.com/user/BankofGeorgiaTV" />
-          <key key="contact:email" value="customerservice@bog.ge" />
           <key key="operator:wikidata" value="Q2469733" />
           <key key="operator:ka" value="საქართველოს ბანკი" />
           <key key="operator" value="საქართველოს ბანკი" />
@@ -3164,12 +2539,6 @@
           <key key="brand:en" value="TBC Bank" />
           <key key="brand:ru" value="ТиБиСи Банк" />
           <key key="brand:wikidata" value="Q2620975" />
-          <key key="contact:website" value="https://www.tbcbank.ge" />
-          <key key="contact:phone" value="+995 32 227 27 27" />
-          <key key="contact:facebook" value="https://www.facebook.com/tbcbank" />
-          <key key="contact:linkedin" value="https://www.linkedin.com/company/tbc-bank/" />
-          <key key="contact:youtube" value="https://www.youtube.com/user/TBCBankTV" />
-          <key key="contact:twitter" value="https://twitter.com/JSCTBC" />
           <key key="operator:wikidata" value="Q2620975" />
           <key key="operator:ka" value="თიბისი ბანკი" />
           <key key="operator" value="თიბისი ბანკი" />
@@ -3188,12 +2557,6 @@
           <key key="brand:en" value="Liberty" />
           <key key="brand:ru" value="Либерти" />
           <key key="brand:wikidata" value="Q6541585" />
-          <key key="contact:website" value="https://libertybank.ge" />
-          <key key="contact:email" value="info@lb.ge" />
-          <key key="contact:phone" value="+995 32 255 55 00" />
-          <key key="contact:facebook" value="https://facebook.com/libertybank.ge" />
-          <key key="contact:instagram" value="https://instagram.com/liberty_bank_" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/libertybankge" />
           <key key="operator:wikidata" value="Q6541585" />
           <key key="operator:ka" value="ლიბერთი ბანკი" />
           <key key="operator" value="ლიბერთი ბანკი" />
@@ -3211,13 +2574,6 @@
           <key key="brand:ka" value="კრედო ბანკი" />
           <key key="brand:en" value="Credo Bank" />
           <key key="brand:ru" value="Кредо Банк" />
-          <key key="contact:website" value="https://credobank.ge" />
-          <key key="contact:facebook" value="https://facebook.com/CredoBank" />
-          <key key="contact:instagram" value="https://instagram.com/credobank" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/credo-bank" />
-          <key key="contact:youtube" value="https://youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw" />
-          <key key="contact:email" value="info@credo.ge" />
-          <key key="contact:phone" value="+995 32 242 42 42" />
           <key key="operator:ka" value="კრედო ბანკი" />
           <key key="operator" value="კრედო ბანკი" />
           <key key="cash_in" value="no" />
@@ -3237,12 +2593,6 @@
           <key key="brand:en" value="BasisBank" />
           <key key="brand:ru" value="БазисБанк" />
           <key key="brand:wikidata" value="Q16365625" />
-          <key key="contact:website" value="https://bb.ge" />
-          <key key="contact:facebook" value="https://facebook.com/Basisbank" />
-          <key key="contact:instagram" value="https://instagram.com/basis_bank" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/jsc-basisbank" />
-          <key key="contact:youtube" value="https://youtube.com/user/basisbankhualing" />
-          <key key="contact:phone" value="+995 32 292 29 22" />
           <key key="operator:ka" value="ბაზისბანკი" />
           <key key="operator" value="ბაზისბანკი" />
           <key key="operator:wikidata" value="Q16365625" />
@@ -3262,12 +2612,6 @@
           <key key="brand:ka" value="ტერაბანკი" />
           <key key="brand:en" value="Terabank" />
           <key key="brand:ru" value="Терабанк" />
-          <key key="contact:website" value="https://terabank.ge" />
-          <key key="contact:facebook" value="https://facebook.com/terabank" />
-          <key key="contact:instagram" value="https://instagram.com/Terabank" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/terabank" />
-          <key key="contact:email" value="info@terabank.ge" />
-          <key key="contact:phone" value="+995 32 255 00 00" />
           <key key="operator:ka" value="ტერაბანკი" />
           <key key="operator" value="ტერაბანკი" />
           <key key="cash_in" value="no" />
@@ -3286,12 +2630,6 @@
           <key key="brand:ka" value="ბანკი ქართუ" />
           <key key="brand:en" value="Cartu Bank" />
           <key key="brand:ru" value="Карту Банк" />
-          <key key="contact:website" value="https://cartubank.ge" />
-          <key key="contact:facebook" value="https://facebook.com/cartubank" />
-          <key key="contact:twitter" value="https://twitter.com/CartuBank" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/cartu-bank" />
-          <key key="contact:email" value="info@cartubank.ge" />
-          <key key="contact:phone" value="+995 32 200 80 80" />
           <key key="operator:ka" value="ბანკი ქართუ" />
           <key key="operator" value="ბანკი ქართუ" />
           <key key="cash_in" value="no" />
@@ -3314,12 +2652,6 @@
           <key key="brand:wikidata" value="Q1046186" />
           <key key="operator:ka" value="ხალიკ ბანკი საქართველო" />
           <key key="operator" value="ხალიკ ბანკი საქართველო" />
-          <key key="contact:website" value="https://halykbank.ge" />
-          <key key="contact:email" value="info@hbg.ge" />
-          <key key="contact:phone" value="+995 32 224 07 07" />
-          <key key="contact:facebook" value="https://facebook.com/halykbank.ge" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/halykbankgeo" />
-          <key key="contact:instagram" value="https://instagram.com/halykbankgeo" />
           <key key="cash_in" value="no" />
           <key key="cash_out" value="yes" />
           <key key="language:en" value="yes" />
@@ -3339,10 +2671,6 @@
           <key key="brand:wikidata" value="Q1046186" />
           <key key="operator:ka" value="პროკრედიტ ბანკი" />
           <key key="operator" value="პროკრედიტ ბანკი" />
-          <key key="contact:phone" value="+995 32 220 22 22" />
-          <key key="contact:website" value="https://procreditbank.ge" />
-          <key key="contact:facebook" value="https://facebook.com/procreditbankgeorgia" />
-          <key key="contact:instagram" value="https://instagram.com/procreditbankgeorgia" />
           <key key="cash_in" value="no" />
           <key key="cash_out" value="yes" />
           <key key="language:en" value="yes" />
@@ -3363,8 +2691,6 @@
           <key key="brand:wikidata" value="Q696003" />
           <key key="operator:ka" value="ზირაათ ბანკი" />
           <key key="operator" value="ზირაათ ბანკი" />
-          <key key="contact:phone" value="+995 32 294 37 04" />
-          <key key="contact:website" value="https://ziraatbank.ge" />
           <key key="cash_in" value="no" />
           <key key="cash_out" value="yes" />
           <key key="language:en" value="yes" />
@@ -3383,13 +2709,6 @@
           <key key="brand:ru" value="Ре|Банк" />
           <key key="operator:ka" value="პაშა ბანკი საქართველო" />
           <key key="operator" value="პაშა ბანკი საქართველო" />
-          <key key="contact:phone" value="+995 32 222 25 25" />
-          <key key="contact:website" value="https://rebank.ge" />
-          <key key="contact:instagram" value="https://www.instagram.com/rebankforchanges" />
-          <key key="contact:linkedin" value="https://www.linkedin.com/company/rebank-ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/rebank.ge" />
-          <key key="contact:youtube" value="https://www.youtube.com/channel/UCYZ6WinOLhj0a3hru8Yu1IA" />
-          <key key="contact:email" value="info@rebank.ge" />
           <key key="cash_in" value="no" />
           <key key="cash_out" value="yes" />
           <key key="language:en" value="yes" />
@@ -3410,11 +2729,6 @@
           <key key="brand:wikidata" value="Q909613" />
           <key key="operator:ka" value="სს იშბანკი საქართველო" />
           <key key="operator" value="სს იშბანკი საქართველო" />
-          <key key="contact:phone" value="+995 32 244 22 44" />
-          <key key="contact:website" value="http://isbank.ge" />
-          <key key="contact:linkedin" value="https://www.linkedin.com/company/jsc-isbak-georgia" />
-          <key key="contact:facebook" value="https://www.facebook.com/IsbankGeorgia/" />
-          <key key="contact:email" value="info@isbank.ge" />
           <key key="cash_in" value="no" />
           <key key="cash_out" value="yes" />
           <key key="language:en" value="yes" />
@@ -3435,11 +2749,6 @@
           <key key="brand:wikidata" value="Q134736471" />
           <key key="operator" value="რიკო კრედიტი" />
           <key key="operator:wikidata" value="Q134736471" />
-          <key key="contact:website" value="http://www.ricocredit.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/rico.ge" />
-          <key key="contact:instagram" value="https://www.instagram.com/rico_credit" />
-          <key key="contact:email" value="rico@rico.ge" />
-          <key key="contact:phone" value="+995 32 229 29 29" />
           <key key="cash_in" value="no" />
           <key key="cash_out" value="yes" />
           <key key="language:en" value="yes" />
@@ -3458,13 +2767,6 @@
           <key key="brand:ka" value="კრიპტომატი" />
           <key key="brand:en" value="Cryptomat" />
           <key key="brand:ru" value="Криптомат" />
-          <key key="contact:phone" value="+995 32 288 07 70" />
-          <key key="contact:email" value="support@cryptomat.com" />
-          <key key="contact:website" value="https://cryptomat.com" />
-          <key key="contact:facebook" value="https://facebook.com/CryptomatGeo" />
-          <key key="contact:linkedin" value="https://linkedin.com/company/cryptomat" />
-          <key key="contact:twitter" value="https://twitter.com/Cryptomat_ge" />
-          <key key="contact:youtube" value="https://youtube.com/channel/UCUqgsvb9k9Ogcr6Jd78RSeg" />
           <key key="cash_in" value="yes" />
           <key key="payment:credit_cards" value="no" />
           <key key="payment:debit_cards" value="no" />
@@ -3482,11 +2784,6 @@
           <key key="brand:ka" value="Blockchain.ge" />
           <key key="operator:ka" value="Blockchain.ge" />
           <key key="operator" value="Blockchain.ge" />
-          <key key="contact:email" value="support@blockchain.ge" />
-          <key key="contact:website" value="https://blockchain.ge" />
-          <key key="contact:facebook" value="https://facebook.com/people/Blockchainge/61567175421402/" />
-          <key key="contact:instagram" value="https://instagram.com/blockchain.ge" />
-          <key key="contact:telegram" value="https://t.me/blockchain_ge" />
           <key key="cash_in" value="yes" />
           <key key="payment:credit_cards" value="no" />
           <key key="payment:debit_cards" value="no" />
@@ -3517,10 +2814,6 @@
           <key key="brand:ru" value="Бермели" />
           <key key="operator:ka" value="შპს მისო „ბერმელი“" />
           <key key="operator" value="შპს მისო „ბერმელი“" />
-          <key key="contact:website" value="https://bermeli.ge" />
-          <key key="contact:facebook" value="https://facebook.com/MikrosapinansoOrganizatsiaBermeli" />
-          <key key="contact:email" value="info@bermeli.ge" />
-          <key key="contact:phone" value="+995 568 70 03 00" />
           <key key="name" value="ბერმელი" />
           <key key="name:ka" value="ბერმელი" />
           <key key="name:en" value="Bermeli" />
@@ -3534,10 +2827,6 @@
           <key key="brand:ka" value="კრისტალი" />
           <key key="brand:en" value="Crystal" />
           <key key="brand:ru" value="Кристал" />
-          <key key="contact:website" value="https://crystal.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/CrystalJscMfo" />
-          <key key="contact:youtube" value="https://www.youtube.com/user/MFOCrystal" />
-          <key key="contact:phone" value="+995 32 202 20 20" />
           <key key="name" value="კრისტალი" />
           <key key="name:ka" value="კრისტალი" />
           <key key="name:en" value="Crystal" />
@@ -3550,10 +2839,6 @@
           <key key="brand:ka" value="ინტელიექსპრესი" />
           <key key="brand:en" value="InteliExpress" />
           <key key="brand:ru" value="ИнтелиЭкспресс" />
-          <key key="contact:website" value="http://ge.inteliexpress.net" />
-          <key key="contact:facebook" value="https://www.facebook.com/InteliExpress" />
-          <key key="contact:email" value="info@intelexpress.ge" />
-          <key key="contact:phone" value="+995 32 249 25 25" />
           <key key="name" value="ინტელიექსპრესი" />
           <key key="name:ka" value="ინტელიექსპრესი" />
           <key key="name:en" value="InteliExpress" />
@@ -3569,11 +2854,6 @@
           <key key="brand:en" value="Rico Credit" />
           <key key="brand:ru" value="Рико Кредит" />
           <key key="brand:wikidata" value="Q134736471" />
-          <key key="contact:website" value="http://www.ricocredit.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/rico.ge" />
-          <key key="contact:instagram" value="https://www.instagram.com/rico_credit" />
-          <key key="contact:email" value="rico@rico.ge" />
-          <key key="contact:phone" value="+995 32 229 29 29" />
           <key key="name" value="რიკო კრედიტი" />
           <key key="name:ka" value="რიკო კრედიტი" />
           <key key="name:en" value="Rico Credit" />
@@ -3589,10 +2869,6 @@
           <key key="brand:ka" value="სკაპი" />
           <key key="brand:en" value="Scapp" />
           <key key="brand:ru" value="Скапп" />
-          <key key="contact:website" value="https://scapp.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/scapp.ge" />
-          <key key="contact:youtube" value="https://www.youtube.com/channel/UCpxxR2NbIH_uJQD7XLKIEdw" />
-          <key key="contact:phone" value="+995 32 230 03 00" />
           <key key="name" value="სკაპი" />
           <key key="name:ka" value="სკაპი" />
           <key key="name:en" value="Scapp" />
@@ -3608,10 +2884,6 @@
           <key key="brand:en" value="TBC Bank" />
           <key key="brand:ru" value="ТиБиСи Банк" />
           <key key="brand:wikidata" value="Q2620975" />
-          <key key="contact:website" value="https://www.valuto.ge" />
-          <key key="contact:facebook" value="https://www.facebook.com/valutoge" />
-          <key key="contact:email" value="info@valuto.ge" />
-          <key key="contact:phone" value="+995 32 224 27 27" />
           <key key="name" value="ვალუტო" />
           <key key="name:ka" value="ვალუტო" />
           <key key="name:en" value="Valuto" />
@@ -3634,10 +2906,6 @@
         <key key="brand:ka" value="რომპეტროლი" />
         <key key="brand:en" value="Rompetrol" />
         <key key="brand:wikidata" value="Q1788862" />
-        <key key="contact:website" value="https://www.rompetrol.ge" />
-        <key key="contact:facebook" value="https://facebook.com/RompetrolGeorgiaLtd" />
-        <key key="contact:phone" value="+995 32 224 04 44" />
-        <key key="contact:email" value="officege@rompetrol.com" />
         <key key="name" value="რომპეტროლი" />
         <key key="name:ka" value="რომპეტროლი" />
         <key key="name:en" value="Rompetrol" />
@@ -3653,8 +2921,6 @@
         <key key="operator:ka" value="სოკარ ჯორჯია პეტროლეუმი" />
         <key key="operator" value="სოკარ ჯორჯია პეტროლეუმი" />
         <key key="operator:en" value="SOCAR Georgia Petroleum" />
-        <key key="contact:website" value="https://www.sgp.ge" />
-        <key key="contact:email" value="info@sgp.ge" />
         <key key="name" value="სოკარი" />
         <key key="name:ka" value="სოკარი" />
         <key key="name:en" value="Socar" />
@@ -3671,8 +2937,6 @@
         <key key="operator:ka" value="ვისოლ პეტროლიუმ ჯორჯია" />
         <key key="operator" value="ვისოლ პეტროლიუმ ჯორჯია" />
         <key key="operator:en" value="Wissol Petroleum Georgia" />
-        <key key="contact:website" value="http://wissol.ge" />
-        <key key="contact:email" value="office@wissol.ge" />
         <key key="name" value="ვისოლი" />
         <key key="name:ka" value="ვისოლი" />
         <key key="name:en" value="Wissol" />
@@ -3689,10 +2953,6 @@
         <key key="operator:ka" value="სან პეტროლიუმ ჯორჯია" />
         <key key="operator" value="სან პეტროლიუმ ჯორჯია" />
         <key key="operator:en" value="Sun Petroleum Georgia" />
-        <key key="contact:website" value="https://gulf.ge" />
-        <key key="contact:facebook" value="https://facebook.com/gulfge" />
-        <key key="contact:twitter" value="https://twitter.com/GulfGe" />
-        <key key="contact:youtube" value="https://youtube.com/user/GulfGe" />
         <key key="name" value="გალფი" />
         <key key="name:ka" value="გალფი" />
         <key key="name:en" value="Gulf" />
@@ -3705,8 +2965,6 @@
         <key key="brand:ka" value="ქონექთი" />
         <key key="brand:en" value="Connect" />
         <key key="brand:wikidata" value="Q131470028" />
-        <key key="contact:facebook" value="https://facebook.com/ConnectPetroleumGeo" />
-        <key key="contact:email" value="info@connect.com.ge" />
         <key key="name" value="ქონექთი" />
         <key key="name:ka" value="ქონექთი" />
         <key key="name:en" value="Connect" />
@@ -3723,9 +2981,6 @@
         <key key="operator:ka" value="შპს ლუკოილ ჯორჯია" />
         <key key="operator" value="შპს ლუკოილ ჯორჯია" />
         <key key="operator:en" value="Lukoil Georgia" />
-        <key key="contact:website" value="http://www.lukoil.ge" />
-        <key key="contact:facebook" value="https://facebook.com/lukoil.georgia" />
-        <key key="contact:email" value="info@lukoil.ge" />
         <key key="name" value="ლუკოილი" />
         <key key="name:ka" value="ლუკოილი" />
         <key key="name:en" value="Lukoil" />
@@ -3738,9 +2993,6 @@
         <key key="brand:ka" value="პორტალი" />
         <key key="brand:en" value="Portal" />
         <key key="brand:wikidata" value="Q131470029" />
-        <key key="contact:website" value="https://portal.com.ge" />
-        <key key="contact:facebook" value="https://facebook.com/LTD.portal" />
-        <key key="contact:email" value="info@portal.com.ge" />
         <key key="name" value="პორტალი" />
         <key key="name:ka" value="პორტალი" />
         <key key="name:en" value="Portal" />
@@ -3754,10 +3006,6 @@
         <key key="brand:en" value="Optima" />
         <key key="brand:ru" value="Оптима" />
         <key key="brand:wikidata" value="Q131470031" />
-        <key key="contact:facebook" value="https://facebook.com/optimapetrol" />
-        <key key="contact:instagram" value="https://instagram.com/optimapetrol" />
-        <key key="contact:website" value="http://optimapetrol.ge" />
-        <key key="contact:email" value="info@optimapetrol.ge" />
         <key key="name" value="ოპტიმა" />
         <key key="name:ka" value="ოპტიმა" />
         <key key="name:en" value="Optima" />
@@ -3770,8 +3018,6 @@
         <key key="brand:ka" value="ეკოპეტროლი" />
         <key key="brand:en" value="Ekopetrol" />
         <key key="brand:wikidata" value="Q131470032" />
-        <key key="contact:website" value="https://ekopetrol.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/EkopertolGeorgia" />
         <key key="name" value="ეკოპეტროლი" />
         <key key="name:ka" value="ეკოპეტროლი" />
         <key key="name:en" value="Ekopetrol" />
@@ -3785,11 +3031,6 @@
         <key key="brand:en" value="Neogas" />
         <key key="brand:ru" value="Неогаз" />
         <key key="brand:wikidata" value="Q131470033" />
-        <key key="contact:facebook" value="https://www.facebook.com/neogas.ge" />
-        <key key="contact:youtube" value="https://www.youtube.com/channel/UCaOfEP6vI8GnayYTRKB3lww" />
-        <key key="contact:website" value="https://neogas.ge" />
-        <key key="contact:email" value="info@neogas.ge" />
-        <key key="contact:phone" value="+995 32 247 16 16" />
         <key key="name" value="ნეოგაზი" />
         <key key="name:ka" value="ნეოგაზი" />
         <key key="name:en" value="Neogas" />
@@ -3803,9 +3044,6 @@
         <key key="brand:en" value="Gama" />
         <key key="brand:ru" value="Гама" />
         <key key="brand:wikidata" value="Q131470034" />
-        <key key="contact:website" value="http://gamagas.ge" />
-        <key key="contact:email" value="info@gamagas.ge" />
-        <key key="contact:phone" value="+995 32 224 25 90" />
         <key key="name" value="გამა" />
         <key key="name:ka" value="გამა" />
         <key key="name:en" value="Gama" />
@@ -3818,10 +3056,6 @@
         <key key="brand:ka" value="AutoLPGas" />
         <key key="brand:en" value="AutoLPGas" />
         <key key="brand:wikidata" value="Q131470035" />
-        <key key="contact:website" value="https://lpgauto.ge" />
-        <key key="contact:email" value="info@lpgauto.ge" />
-        <key key="contact:phone" value="+995 599 52 80 00" />
-        <key key="contact:facebook" value="https://www.facebook.com/autolpgas" />
         <key key="name:ka" value="AutoLPGas" />
         <key key="name" value="AutoLPGas" />
         <key key="name:en" value="AutoLPGas" />
@@ -3835,11 +3069,6 @@
         <key key="brand:ka" value="ი-სპეის" />
         <key key="brand:en" value="E-Space" />
         <key key="brand:wikidata" value="Q131470036" />
-        <key key="contact:website" value="https://e-space.ge" />
-        <key key="contact:facebook" value="https://facebook.com/espace.ge" />
-        <key key="contact:linkedin" value="https://linkedin.com/company/ltd-e-space" />
-        <key key="contact:email" value="info@e-space.ge" />
-        <key key="contact:phone" value="+995 32 243 34 73" />
         <key key="authentication:app" value="yes" />
         <reference ref="charging_station" />
       </item>
@@ -3849,21 +3078,12 @@
         <key key="brand:ka" value="EV Georgia" />
         <key key="operator:en" value="ElectroUA Georgia" />
         <key key="brand:wikidata" value="Q131470037" />
-        <key key="contact:website" value="https://ev-georgia.net" />
-        <key key="contact:email" value="info@ev-georgia.net" />
-        <key key="contact:phone" value="+995 514 07 00 33" />
-        <key key="contact:telegram" value="https://t.me/EVGeorgia_bot" />
         <reference ref="charging_station" />
       </item>
       <item name="MartEV" type="node,closedway,multipolygon" preset_name_label="true">
         <key key="amenity" value="charging_station" />
         <key key="brand" value="MartEV" />
         <key key="brand:wikidata" value="Q138332705" />
-        <key key="contact:website" value="https://martev.io" />
-        <key key="contact:facebook" value="https://www.facebook.com/people/%E1%83%9B%E1%83%90%E1%83%A0%E1%83%A2%E1%83%98%E1%83%95%E1%83%98-Martev-Charging-Station/61566349196128" />
-        <key key="contact:instagram" value="https://www.instagram.com/martev_chargingstation" />
-        <key key="contact:email" value="info@martev.io" />
-        <key key="contact:phone" value="+995 32 205 34 53" />
         <key key="authentication:app" value="yes" />
         <reference ref="charging_station" />
       </item>
@@ -3871,9 +3091,6 @@
         <key key="amenity" value="charging_station" />
         <key key="brand" value="EV Power" />
         <key key="brand:wikidata" value="Q138339918" />
-        <key key="contact:website" value="https://www.evpower.ge" />
-        <key key="contact:email" value="info@evpower.ge" />
-        <key key="contact:phone" value="+995 32 208 88 09" />
         <key key="authentication:app" value="yes" />
         <reference ref="charging_station" />
       </item>
@@ -3883,8 +3100,6 @@
         <key key="brand:ka" value="და-ტენე" />
         <key key="brand:en" value="Da-Tene" />
         <key key="brand:wikidata" value="Q138339944" />
-        <key key="contact:website" value="https://da-tene.com" />
-        <key key="contact:instagram" value="https://www.instagram.com/datene__" />
         <key key="authentication:app" value="yes" />
         <reference ref="charging_station" />
       </item>
@@ -3895,9 +3110,6 @@
         <key key="brand" value="თოფიჩი" />
         <key key="brand:ka" value="თოფიჩი" />
         <key key="brand:en" value="Topichi" />
-        <key key="contact:facebook" value="https://www.facebook.com/topichi7" />
-        <key key="contact:phone" value="+995 598 89 88 22" />
-        <key key="contact:email" value="qvasiyma1@gmail.com" />
         <key key="name" value="თოფიჩი" />
         <key key="name:ka" value="თოფიჩი" />
         <key key="name:en" value="Topichi" />
@@ -3909,8 +3121,6 @@
         <key key="brand" value="მ-ოილი" />
         <key key="brand:ka" value="მ-ოილი" />
         <key key="brand:en" value="M-Oil" />
-        <key key="contact:phone" value="+995 598 58 84 84" />
-        <key key="contact:email" value="Tariel591007755@gmail.com" />
         <key key="name" value="მ-ოილი" />
         <key key="name:ka" value="მ-ოილი" />
         <key key="name:en" value="M-Oil" />
@@ -3932,10 +3142,6 @@
         <key key="name:ka" value="სელფი" />
         <key key="name:en" value="Cellfie" />
         <key key="name:ru" value="Селфи" />
-        <key key="contact:website" value="https://cellfie.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/cellfie.ge" />
-        <key key="contact:instagram" value="https://www.instagram.com/cellfie.ge" />
-        <key key="contact:youtube" value="https://www.youtube.com/@cellfiege" />
         <key key="office" value="telecommunication" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -3950,11 +3156,6 @@
         <key key="name:ka" value="სილქნეტი" />
         <key key="name:en" value="Silknet" />
         <key key="name:ru" value="Силкнет" />
-        <key key="contact:website" value="https://silknet.com" />
-        <key key="contact:facebook" value="https://facebook.com/silknet" />
-        <key key="contact:instagram" value="https://instagram.com/silknet_" />
-        <key key="contact:linkedin" value="https://linkedin.com/company/silknet" />
-        <key key="contact:youtube" value="https://youtube.com/channel/UCnXM6z9Z40w86hHrglwTkOw" />
         <key key="office" value="telecommunication" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -3971,11 +3172,6 @@
         <key key="name:ka" value="მაგთი" />
         <key key="name:en" value="Magti" />
         <key key="name:ru" value="Магти" />
-        <key key="contact:website" value="https://www.magticom.ge" />
-        <key key="contact:email" value="office@magticom.ge" />
-        <key key="contact:facebook" value="https://facebook.com/Magti" />
-        <key key="contact:instagram" value="https://instagram.com/magticom" />
-        <key key="contact:twitter" value="https://twitter.com/magticom" />
         <key key="office" value="telecommunication" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -4011,12 +3207,6 @@
         <key key="name:es" value="Casa de Justicia" />
         <key key="name:hy" value="Արդարադատության տուն" />
         <key key="name:ab" value="Аиустициа аҩны" />
-        <key key="contact:facebook" value="https://facebook.com/publicservicehall" />
-        <key key="contact:twitter" value="https://twitter.com/PublicServiceH" />
-        <key key="contact:flickr" value="https://flickr.com/photos/publicservicehall" />
-        <key key="contact:youtube" value="https://youtube.com/user/PublicServiceHallGe" />
-        <key key="contact:website" value="https://psh.gov.ge" />
-        <key key="contact:email" value="info@psh.gov.ge" />
         <key key="operator:ka" value="სსიპ იუსტიციის სახლი" />
         <key key="operator" value="სსიპ იუსტიციის სახლი" />
         <key key="operator:en" value="LEPL Public Service Hall" />
@@ -4034,11 +3224,6 @@
         <key key="name:en" value="Revenue Service" />
         <key key="name:ru" value="Налоговая служба" />
         <key key="brand:wikidata" value="Q131470038" />
-        <key key="contact:facebook" value="https://facebook.com/georgia.revenue.service" />
-        <key key="contact:linkedin" value="https://linkedin.com/company/georgia-revenue-service-%E1%83%A8%E1%83%94%E1%83%9B%E1%83%9D%E1%83%A1%E1%83%90%E1%83%95%E1%83%9A%E1%83%94%E1%83%91%E1%83%98%E1%83%A1-%E1%83%A1%E1%83%90%E1%83%9B%E1%83%A1%E1%83%90%E1%83%AE%E1%83%A3%E1%83%A0%E1%83%98" />
-        <key key="contact:youtube" value="https://youtube.com/channel/UCkAz6v7yxav4jWXAfJWpnGA" />
-        <key key="contact:website" value="https://rs.ge" />
-        <key key="contact:email" value="info@rs.ge" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:government%3Dtax" />
@@ -4059,10 +3244,6 @@
         <key key="operator:short:ru" value="Патрульная полиция" />
         <key key="operator:wikidata" value="Q56345209" />
         <key key="operator:type" value="government" />
-        <key key="contact:facebook" value="https://facebook.com/policeofgeorgia" />
-        <key key="contact:website" value="https://police.ge" />
-        <key key="contact:phone" value="+995 32 241 42 42" />
-        <key key="contact:email" value="patrolinfo@mia.gov.ge" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:amenity%3Dpolice" />
@@ -4087,12 +3268,6 @@
         <key key="operator" value="შპს საქართველოს ფოსტა" />
         <key key="operator:wikidata" value="Q12869041" />
         <key key="operator:type" value="government" />
-        <key key="contact:facebook" value="https://facebook.com/gpost.ge" />
-        <key key="contact:linkedin" value="https://linkedin.com/company/georgian-post" />
-        <key key="contact:youtube" value="https://youtube.com/channel/UCjI73rVjVyi2AIOMOmguX4A" />
-        <key key="contact:website" value="https://gpost.ge" />
-        <key key="contact:email" value="info@gpost.ge" />
-        <key key="contact:phone" value="+995 32 224 09 09" />
         <text key="ref" text="Postcode/Reference" ka.text="საფოსტო ინდექსი" ru.text="Почтовый индекс" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -4107,8 +3282,6 @@
         <key key="alt_name:en" value="SDEK" />
         <key key="name:ru" value="СДЭК" />
         <key key="brand:wikidata" value="Q28665980" />
-        <key key="contact:website" value="https://cdek.ge" />
-        <key key="contact:email" value="georgia@cdek.ru" />
         <key key="office" value="courier" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -4121,10 +3294,6 @@
         <key key="brand:ka" value="USA2Georgia" />
         <key key="brand" value="USA2Georgia" />
         <key key="brand:wikidata" value="Q131470039" />
-        <key key="contact:website" value="https://usa2georgia.com" />
-        <key key="contact:instagram" value="https://instagram.com/usa2georgia.com_" />
-        <key key="contact:facebook" value="https://facebook.com/USA2GEORGIACOM" />
-        <key key="contact:email" value="sales@usa2georgia.com" />
         <key key="office" value="courier" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -4137,9 +3306,6 @@
         <key key="brand:ka" value="Locker.ge" />
         <key key="brand" value="Locker.ge" />
         <key key="brand:wikidata" value="Q131470040" />
-        <key key="contact:website" value="https://www.locker.ge" />
-        <key key="contact:phone" value="+995 32 242 11 99" />
-        <key key="contact:email" value="sales@usa2georgia.com" />
         <key key="amenity" value="parcel_locker" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -4152,9 +3318,6 @@
         <key key="brand" value="კამექსი" />
         <key key="brand:en" value="Camex" />
         <key key="brand:wikidata" value="Q131470041" />
-        <key key="contact:website" value="https://camex.ge" />
-        <key key="contact:facebook" value="https://facebook.com/camex.ge" />
-        <key key="contact:instagram" value="https://instagram.com/camex.ge" />
         <key key="office" value="courier" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -4168,9 +3331,6 @@
         <key key="brand" value="ინექს" />
         <key key="brand:en" value="Inex" />
         <key key="brand:wikidata" value="Q133886939" />
-        <key key="contact:website" value="https://inex.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/InexGroup" />
-        <key key="contact:phone" value="+995 32 249 26 26" />
         <key key="office" value="courier" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -4186,10 +3346,6 @@
         <key key="name:en" value="Delivo" />
         <key key="name:ru" value="Деливо" />
         <key key="brand:wikidata" value="Q134732414" />
-        <key key="contact:website" value="https://delivo.ge" />
-        <key key="contact:email" value="info@delivo.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=100092410068179" />
-        <key key="contact:phone" value="+995 32 500 00 10" />
         <key key="office" value="courier" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -4207,9 +3363,6 @@
         <key key="brand:ru" value="Вайлдбериз" />
         <key key="brand:wikidata" value="Q24933714" />
         <key key="brand:wikipedia" value="ru:Wildberries" />
-        <key key="contact:website" value="https://www.wildberries.ge" />
-        <key key="contact:email" value="hotline@wildberries.ge" />
-        <key key="contact:telegram" value="WB_Hotline_GE_bot" />
         <key key="shop" value="outpost" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
@@ -4231,12 +3384,6 @@
         <key key="operator" value="შპს საქართველოს ფოსტა" />
         <key key="operator:wikidata" value="Q12869041" />
         <key key="operator:type" value="government" />
-        <key key="contact:facebook" value="https://facebook.com/gpost.ge" />
-        <key key="contact:linkedin" value="https://linkedin.com/company/georgian-post" />
-        <key key="contact:youtube" value="https://youtube.com/channel/UCjI73rVjVyi2AIOMOmguX4A" />
-        <key key="contact:phone" value="+995 32 224 09 09" />
-        <key key="contact:website" value="https://gpost.ge" />
-        <key key="contact:email" value="info@gpost.ge" />
         <link wiki="Tag:amenity%3Dpost_box" />
       </item>
     </group>
@@ -4252,12 +3399,6 @@
         <key key="brand:ka" value="ჯი პი აი" />
         <key key="brand:en" value="GPI" />
         <key key="brand:wikidata" value="Q131470042" />
-        <key key="contact:youtube" value="https://www.youtube.com/channel/UCqpS3isySBNBRInCrFm5gLw" />
-        <key key="contact:linkedin" value="https://www.linkedin.com/company/gpih-vig" />
-        <key key="contact:facebook" value="https://www.facebook.com/gpiholdinginsurance" />
-        <key key="contact:website" value="https://www.gpih.ge" />
-        <key key="contact:email" value="info@gpih.ge" />
-        <key key="contact:phone" value="+995 32 250 51 11" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dinsurance" />
@@ -4272,10 +3413,6 @@
         <key key="brand:ka" value="ირაო" />
         <key key="brand:en" value="Irao" />
         <key key="brand:wikidata" value="Q131470043" />
-        <key key="contact:facebook" value="https://www.facebook.com/IRAO.VIG" />
-        <key key="contact:website" value="https://irao.ge" />
-        <key key="contact:email" value="office@irao.ge" />
-        <key key="contact:phone" value="+995 32 294 99 49" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dinsurance" />
@@ -4290,9 +3427,6 @@
         <key key="brand:ka" value="იმედი L" />
         <key key="brand:en" value="Imedi L" />
         <key key="brand:wikidata" value="Q131470044" />
-        <key key="contact:website" value="https://imedil.ge" />
-        <key key="contact:email" value="info@imedil.ge" />
-        <key key="contact:phone" value="+995 32 292 22 22" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <reference ref="crypto_currencies_thru_citypay_io" />
@@ -4308,10 +3442,6 @@
         <key key="brand:ka" value="არდი" />
         <key key="brand:en" value="Ardi" />
         <key key="brand:wikidata" value="Q131470045" />
-        <key key="contact:facebook" value="https://www.facebook.com/ardiinsurance" />
-        <key key="contact:website" value="https://www.ardi.ge" />
-        <key key="contact:email" value="office@ardi.ge" />
-        <key key="contact:phone" value="+995 32 210 10 10" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dinsurance" />
@@ -4326,10 +3456,6 @@
         <key key="brand:ka" value="თიბისი დაზღვევა" />
         <key key="brand:en" value="TBC Insurance" />
         <key key="brand:wikidata" value="Q131470046" />
-        <key key="contact:facebook" value="https://www.facebook.com/tbcinsurance" />
-        <key key="contact:website" value="https://tbcinsurance.ge" />
-        <key key="contact:email" value="info@tbcinsurance.ge" />
-        <key key="contact:phone" value="+995 32 242 22 22" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office%3Dinsurance" />
@@ -4372,8 +3498,6 @@
       </item>
       <item name="plastmasa.ge Batumi" type="node" icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg" preset_name_label="true">
         <reference ref="access" />
-        <key key="contact:website" value="https://plastmasa.ge" />
-        <key key="contact:phone" value="+995 577 49 59 59" />
         <key key="operator:ka" value="შპს „ბათუმის სანდასუფთავება“" />
         <key key="operator" value="შპს „ბათუმის სანდასუფთავება“" />
         <key key="operator:type" value="government" />
@@ -4384,8 +3508,6 @@
       </item>
       <item name="plastmasa.ge Tbilisi" type="node" icon="https://upload.wikimedia.org/wikipedia/commons/a/a5/Twemoji_267b.svg" preset_name_label="true">
         <reference ref="access" />
-        <key key="contact:website" value="https://plastmasa.ge" />
-        <key key="contact:phone" value="+995 32 261 90 50" />
         <key key="operator:ka" value="შპს „თბილსერვის ჯგუფი“" />
         <key key="operator" value="შპს „თბილსერვის ჯგუფი“" />
         <key key="operator:type" value="government" />
@@ -4418,10 +3540,6 @@
         <key key="brand:en" value="BatumVelo" />
         <key key="operator" value="შპს „ბათუმის ავტოტრანსპორტი“" />
         <key key="operator:type" value="government" />
-        <key key="contact:email" value="support@batumvelo.ge" />
-        <key key="contact:phone" value="+995 577 37 76 76" />
-        <key key="contact:website" value="https://batumvelo.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/profile.php?id=100090979308798" />
         <key key="fee" value="yes" />
         <key key="authentication:app" value="yes" />
         <key key="payment:cash" value="no" />
@@ -4442,10 +3560,6 @@
         <key key="tickets:public_transport" value="only" />
         <key key="operator" value="მეტრო სერვის +" />
         <key key="operator:type" value="government" />
-        <key key="contact:email" value="info@msplus.ge" />
-        <key key="contact:phone" value="+995 32 244 40 01" />
-        <key key="contact:website" value="https://www.msplus.ge" />
-        <key key="contact:facebook" value="https://www.facebook.com/metroserviceplus" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:shop=ticket" />
@@ -4464,9 +3578,6 @@
         <key key="operator:en" value="Telmico" />
         <key key="brand:wikidata" value="Q131470237" />
         <key key="operator:wikidata" value="Q131470237" />
-        <key key="contact:website" value="https://www.telmico.ge/" />
-        <key key="contact:email" value="info@telmico.ge" />
-        <key key="contact:phone" value="+995 32 500 07 77" />
         <reference ref="basic_data" />
         <reference ref="wheelchair_address" />
         <link wiki="Tag:office=energy_supplier" />
