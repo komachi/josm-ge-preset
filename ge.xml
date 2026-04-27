@@ -2144,7 +2144,7 @@
           <reference ref="basic_shop" />
         </item>
         <item name="Beko" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="Beko" />
+          <key key="brand" value="ბეკო" />
           <key key="brand:ka" value="ბეკო" />
           <key key="brand:wikidata" value="Q631792" />
           <key key="contact:website" value="https://www.beko.com/ge-ka" />
