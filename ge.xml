@@ -1231,7 +1231,7 @@
           <key key="contact:youtube" value="https://www.youtube.com/@voulez-vous3795" />
           <key key="contact:phone" value="+995 32 237 22 72" />
           <key key="contact:email" value="info@voulez-vous.ge" />
-          <key key="brand:wikidata" value="Q131469964" />
+          <key key="brand:wikidata" value="Q131469965" />
           <key key="shop" value="cosmetics" />
           <reference ref="basic_shop" />
         </item>
@@ -1246,7 +1246,7 @@
           <key key="contact:website" value="http://batumimosaic.ge" />
           <key key="contact:phone" value="+995 577 41 50 15" />
           <key key="contact:email" value="info@batumimosaic.ge" />
-          <key key="brand:wikidata" value="Q131469965" />
+          <key key="brand:wikidata" value="Q131469966" />
           <key key="shop" value="cosmetics" />
           <reference ref="basic_shop" />
         </item>
@@ -1452,13 +1452,14 @@
           <reference ref="basic_shop" />
         </item>
         <item name="Carrefour City" ka.name="კარფური სითი" ru.name="Карфур Сити" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="კარფური" />
-          <key key="brand:ka" value="კარფური" />
-          <key key="brand:en" value="Carrefour" />
-          <key key="brand:ru" value="Карфур" />
-          <key key="brand:wikidata" value="Q217599" />
+          <key key="brand" value="კარფური სითი" />
+          <key key="brand:ka" value="კარფური სითი" />
+          <key key="brand:en" value="Carrefour City" />
+          <key key="brand:ru" value="Карфур Сити" />
+          <key key="brand:wikidata" value="Q2940187" />
           <key key="operator:ka" value="შპს მაჯიდ ალ ფუტაიმ ჰიპერმარკეტს ჯორჯია" />
           <key key="operator" value="შპს მაჯიდ ალ ფუტაიმ ჰიპერმარკეტს ჯორჯია" />
+          <key key="operator:wikidata" value="Q139570627" />
           <key key="contact:twitter" value="https://twitter.com/carrefourge" />
           <key key="contact:youtube" value="https://youtube.com/channel/UCQ7aPJ3odUD15oPgBrqhEtA" />
           <key key="contact:instagram" value="https://instagram.com/carrefour_georgia" />
