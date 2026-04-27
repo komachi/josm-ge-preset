@@ -1,0 +1,16 @@
+{
+  "problemMatcher": [
+    {
+      "owner": "lint-josm-xml-preset",
+      "pattern": [
+        {
+          "regexp": "^(.+)[#](\\d+):\\s+(ERROR|WARNING):\\s+(.+)$",
+          "file": 1,
+          "line": 2,
+          "severity": 3,
+          "message": 4
+        }
+      ]
+    }
+  ]
+}
