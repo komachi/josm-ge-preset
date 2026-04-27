@@ -476,7 +476,7 @@
         <key key="name" value="ფარმადეპო" />
         <key key="name:ka" value="ფარმადეპო" />
         <key key="name:en" value="Pharmadepot" />
-        <key key="name:ru" value="Фармадепот" />
+        <key key="name:ru" value="Фармадепо" />
         <key key="amenity" value="pharmacy" />
         <key key="healthcare" value="pharmacy" />
         <reference ref="basic_shop" />
@@ -809,6 +809,7 @@
       <item name="Wendy's" ka.name="ვენდი'ს" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/6/66/Wendy%27s_logo_2012.svg">
         <key key="brand" value="ვენდი'ს" />
         <key key="brand:ka" value="ვენდი'ს" />
+        <key key="brand:en" value="Wendy's" />
         <key key="brand:wikidata" value="Q550258" />
         <key key="name" value="ვენდი'ს" />
         <key key="name:ka" value="ვენდი'ს" />
@@ -970,6 +971,7 @@
         <key key="brand:ka" value="მეამა" />
         <key key="brand:en" value="Meama" />
         <key key="brand:ru" value="Меама" />
+        <key key="brand:wikidata" value="Q99850395" />
         <key key="name" value="მეამა ქოლექთი" />
         <key key="name:ka" value="მეამა ქოლექთი" />
         <key key="name:en" value="Meama Collect" />
@@ -1295,6 +1297,7 @@
         <item name="Spar" ka.name="სპარი" ru.name="Спар" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/7/71/SPAR_Logo.svg">
           <key key="brand" value="სპარი" />
           <key key="brand:ka" value="სპარი" />
+          <key key="brand:en" value="Spar" />
           <key key="brand:wikidata" value="Q610492" />
           <key key="contact:facebook" value="https://facebook.com/SPARGeorgia" />
           <key key="contact:email" value="office@spar-georgia.com" />
@@ -1470,11 +1473,11 @@
           <reference ref="basic_shop" />
         </item>
         <item name="Carrefour Market" ka.name="კარფური მარკეტი" ru.name="Карфур Маркет" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="კარფური" />
-          <key key="brand:ka" value="კარფური" />
-          <key key="brand:en" value="Carrefour" />
-          <key key="brand:ru" value="Карфур" />
-          <key key="brand:wikidata" value="Q217599" />
+          <key key="brand" value="კარფური მარკეტი" />
+          <key key="brand:ka" value="კარფური მარკეტი" />
+          <key key="brand:en" value="Carrefour Market" />
+          <key key="brand:ru" value="Карфур Маркет" />
+          <key key="brand:wikidata" value="Q2689639" />
           <key key="operator:ka" value="შპს მაჯიდ ალ ფუტაიმ ჰიპერმარკეტს ჯორჯია" />
           <key key="operator" value="შპს მაჯიდ ალ ფუტაიმ ჰიპერმარკეტს ჯორჯია" />
           <key key="operator:wikidata" value="Q139570627" />
@@ -2332,11 +2335,16 @@
       <group name="Clothes" ka.name="ქსოვილი" ru.name="Одежда" icon="https://upload.wikimedia.org/wikipedia/commons/f/f9/T-shirt_silhouette.svg">
         <item name="Bata" ka.name="ბატა" type="node,closedway,multipolygon" preset_name_label="true" icon="https://upload.wikimedia.org/wikipedia/commons/3/3e/Bata.svg">
           <key key="brand" value="ბატა" />
+          <key key="brand:en" value="Bata" />
           <key key="brand:ka" value="ბატა" />
           <key key="brand:wikidata" value="Q688082" />
           <key key="name" value="ბატა" />
           <key key="name:ka" value="ბატა" />
           <key key="name:en" value="Bata" />
+          <key key="operator" value="აი სი არ ტრეიდი" />
+          <key key="operator:ka" value="აი სი არ ტრეიდი" />
+          <key key="operator:en" value="ICR Trade" />
+          <key key="operator:wikidata" value="Q139570813" />
           <key key="contact:facebook" value="https://facebook.com/batageorgia" />
           <key key="contact:linkedin" value="https://instagram.com/bata.georgia" />
           <key key="shop" value="shoes" />
@@ -2345,6 +2353,7 @@
         <item name="LC Waikiki" ka.name="ელსი ვაიქიქი" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="ელსი ვაიკიკი" />
           <key key="brand:ka" value="ელსი ვაიკიკი" />
+          <key key="brand:en" value="LC Waikiki" />
           <key key="brand:wikidata" value="Q3205965" />
           <key key="name" value="ელსი ვაიკიკი" />
           <key key="name:ka" value="ელსი ვაიკიკი" />
@@ -2419,7 +2428,10 @@
           <key key="name" value="კორსო იტალია" />
           <key key="name:ka" value="კორსო იტალია" />
           <key key="name:en" value="Corso Italia" />
-          <key key="operator" value="ICR Trade" />
+          <key key="operator" value="აი სი არ ტრეიდი" />
+          <key key="operator:ka" value="აი სი არ ტრეიდი" />
+          <key key="operator:en" value="ICR Trade" />
+          <key key="operator:wikidata" value="Q139570813" />
           <key key="brand:wikidata" value="Q131470013" />
           <key key="contact:website" value="http://icrcorp.ge/brands/footwear/corso-italia" />
           <key key="contact:facebook" value="https://www.facebook.com/CorsoItaliaShoes" />
@@ -2433,7 +2445,10 @@
           <key key="name" value="ოკაიდი" />
           <key key="name:ka" value="ოკაიდი" />
           <key key="name:en" value="Okaïdi" />
-          <key key="operator" value="ICR Trade" />
+          <key key="operator" value="აი სი არ ტრეიდი" />
+          <key key="operator:ka" value="აი სი არ ტრეიდი" />
+          <key key="operator:en" value="ICR Trade" />
+          <key key="operator:wikidata" value="Q139570813" />
           <key key="brand:wikidata" value="Q131470014" />
           <key key="contact:facebook" value="https://www.facebook.com/OkaidiGeorgia" />
           <key key="contact:website" value="https://okaidi.ge" />
@@ -3075,6 +3090,7 @@
           <key key="contact:linkedin" value="https://linkedin.com/company/libertybankge" />
           <key key="operator:ka" value="ლიბერთი" />
           <key key="operator" value="ლიბერთი" />
+          <key key="operator:wikidata" value="Q6541585" />
           <key key="payment:coins" value="yes" />
           <key key="payment:cash" value="yes" />
           <reference ref="paybox" />
@@ -3552,6 +3568,7 @@
           <key key="brand:ka" value="რიკო კრედიტი" />
           <key key="brand:en" value="Rico Credit" />
           <key key="brand:ru" value="Рико Кредит" />
+          <key key="brand:wikidata" value="Q134736471" />
           <key key="contact:website" value="http://www.ricocredit.ge" />
           <key key="contact:facebook" value="https://www.facebook.com/rico.ge" />
           <key key="contact:instagram" value="https://www.instagram.com/rico_credit" />
@@ -3648,7 +3665,7 @@
         <key key="amenity" value="fuel" />
         <key key="brand" value="ვისოლი" />
         <key key="brand:ka" value="ვისოლი" />
-        <key key="brand:en" value="WISSOL" />
+        <key key="brand:en" value="Wissol" />
         <key key="brand:wikidata" value="Q8027737" />
         <key key="operator:wikidata" value="Q8027737" />
         <key key="operator:ka" value="ვისოლ პეტროლიუმ ჯორჯია" />
@@ -3933,8 +3950,6 @@
         <key key="name:ka" value="სილქნეტი" />
         <key key="name:en" value="Silknet" />
         <key key="name:ru" value="Силкнет" />
-        <key key="old_name:ka" value="ჯეოსელი" />
-        <key key="old_name:en" value="Geocell" />
         <key key="contact:website" value="https://silknet.com" />
         <key key="contact:facebook" value="https://facebook.com/silknet" />
         <key key="contact:instagram" value="https://instagram.com/silknet_" />
@@ -3995,7 +4010,7 @@
         <key key="name:ru" value="Дом Юстиции" />
         <key key="name:es" value="Casa de Justicia" />
         <key key="name:hy" value="Արդարադատության տուն" />
-        <key key="name:ab" value="Аиустициa aҩны" />
+        <key key="name:ab" value="Аиустициа аҩны" />
         <key key="contact:facebook" value="https://facebook.com/publicservicehall" />
         <key key="contact:twitter" value="https://twitter.com/PublicServiceH" />
         <key key="contact:flickr" value="https://flickr.com/photos/publicservicehall" />
@@ -4037,6 +4052,7 @@
         <key key="amenity" value="police" />
         <key key="operator" value="საქართველოს შინაგან საქმეთა სამინისტროს საპატრულო პოლიციის დეპარტამენტი" />
         <key key="operator:short" value="საპატრულო პოლიციი" />
+        <key key="operator:short:ka" value="საპატრულო პოლიციი" />
         <key key="operator:en" value="Patrol Police Departament of the Ministry of Internal Affairs of Georgia" />
         <key key="operator:short:en" value="Patrol Police" />
         <key key="operator:ru" value="Департамент патрульной полиции Министерства внутренних дел Грузии" />
@@ -4185,8 +4201,10 @@
         <key key="name:en" value="Wildberries" />
         <key key="name:ru" value="Вайлдбериз" />
         <key key="brand:ka" value="ვაილდბერიზი" />
-        <key key="brand" value="Wildberries" />
         <key key="brand:en" value="Wildberries" />
+        <key key="brand" value="ვაილდბერიზი" />
+        <key key="brand:en" value="Wildberries" />
+        <key key="brand:ru" value="Вайлдбериз" />
         <key key="brand:wikidata" value="Q24933714" />
         <key key="brand:wikipedia" value="ru:Wildberries" />
         <key key="contact:website" value="https://www.wildberries.ge" />
