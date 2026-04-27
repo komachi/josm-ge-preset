@@ -1,0 +1,40 @@
+name: Lint ge.xml for common mistakes
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.13'
+
+    - name: Install dependencies
+      run: |
+        pip install lxml requests
+
+    - name: Run linter
+      env:
+        BASE_SHA: ${{ github.event.pull_request.base.sha }}
+      run: |
+        echo "::add-matcher::.github/lint-matcher.json"
+
+        if [[ -n "$BASE_SHA" ]]; then
+          python3 ./scripts/lint.py ge.xml <(git show $BASE_SHA:ge.xml)
+        else
+          python3 ./scripts/lint.py ge.xml
+        fi
+        echo "::remove-matcher owner=lint-josm-xml-preset::"

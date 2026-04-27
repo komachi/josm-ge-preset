@@ -1,0 +1,35 @@
+name: Use xmllint to validate the preset
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Install dependencies
+      run: |
+        sudo apt install -y libxml2-utils wget
+
+    - name: Download the schema
+      run: |
+        wget https://josm.openstreetmap.de/tagging-preset-1.0
+
+    - name: Run xmllint
+      run: |
+        echo "::add-matcher::.github/xmllint-matcher.json"
+
+        xmllint --schema tagging-preset-1.0 ge.xml
+
+        echo "::remove-matcher owner=xmllint::"
+
