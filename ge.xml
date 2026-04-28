@@ -906,6 +906,7 @@
       </item>
       <item name="Baskin Robbins" ka.name="ბასკინ რობინსი" type="node,closedway,multipolygon" preset_name_label="true">
         <key key="brand" value="ბასკინ რობინსი" />
+        <key key="brand:en" value="Baskin Robbins" />
         <key key="brand:ka" value="ბასკინ რობინსი" />
         <key key="brand:wikidata" value="Q584601" />
         <key key="name" value="ბასკინ რობინსი" />
