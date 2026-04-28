@@ -2145,7 +2145,11 @@
         </item>
         <item name="Beko" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="ბეკო" />
+          <key key="brand:en" value="Beko" />
           <key key="brand:ka" value="ბეკო" />
+          <key key="name" value="ბეკო" />
+          <key key="name:en" value="Beko" />
+          <key key="name:ka" value="ბეკო" />
           <key key="brand:wikidata" value="Q631792" />
           <key key="contact:website" value="https://www.beko.com/ge-ka" />
           <key key="contact:facebook" value="https://www.facebook.com/BekoGeo" />
@@ -2379,11 +2383,11 @@
           <reference ref="clothes_list" />
         </item>
         <item name="OVS" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="OVS" />
-          <key key="brand:ka" value="OVS" />
+          <key key="brand" value="ოვსი" />
+          <key key="brand:ka" value="ოვსი" />
           <key key="brand:wikidata" value="Q2042514" />
-          <key key="name:ka" value="OVS" />
-          <key key="name" value="OVS" />
+          <key key="name:ka" value="ოვსი" />
+          <key key="name" value="ოვსი" />
           <key key="contact:facebook" value="https://www.facebook.com/OvsGeorgia/" />
           <key key="contact:email" value="info@gtex.ge" />
           <key key="contact:phone" value="+995 32 290 33 34" />
@@ -2849,8 +2853,8 @@
           <key key="contact:phone" value="+995 32 292 29 22" />
           <key key="name" value="ბაზისბანკი" />
           <key key="name:ka" value="ბაზისბანკი" />
-          <key key="name:en" value="BasisBank" />
-          <key key="name:ru" value="БазисБанк" />
+          <key key="name:en" value="Basisbank" />
+          <key key="name:ru" value="Базисбанк" />
           <reference ref="bank_office" />
         </item>
         <item name="Terabank" ka.name="ტერაბანკი" ru.name="Терабанк" type="node,closedway,multipolygon" preset_name_label="true">
@@ -3232,8 +3236,8 @@
           <key key="amenity" value="atm" />
           <key key="brand" value="ბაზისბანკი" />
           <key key="brand:ka" value="ბაზისბანკი" />
-          <key key="brand:en" value="BasisBank" />
-          <key key="brand:ru" value="БазисБанк" />
+          <key key="brand:en" value="Basisbank" />
+          <key key="brand:ru" value="Базисбанк" />
           <key key="brand:wikidata" value="Q16365625" />
           <key key="contact:website" value="https://bb.ge" />
           <key key="contact:facebook" value="https://facebook.com/Basisbank" />
