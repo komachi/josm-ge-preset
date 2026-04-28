@@ -164,12 +164,16 @@ def __main__():
     root_group = (
         lxml.etree.parse(open(input_file, "r")).getroot().find("josm:group", ns)
     )
+
     if root_group is not None:
         for issue in check_group(root_group, diff_map):
             print(
                 f"{input_file}#{issue.location()}: {logging.getLevelName(issue.severity)}: {issue.item.attrib["name"]}: {issue.message}"
             )
             exit_code = 1
+
+    if exit_code == 0:
+        print("No issues found")
 
     exit(exit_code)
 
