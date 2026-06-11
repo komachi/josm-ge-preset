@@ -2493,7 +2493,7 @@
           <key key="shop" value="variety_store" />
           <reference ref="basic_shop" />
         </item>
-        <item name="" ka.name="ამბარი" type="node,closedway,multipolygon" preset_name_label="true">
+        <item name="ამბარი" ka.name="ამბარი" type="node,closedway,multipolygon" preset_name_label="true">
           <key key="brand" value="ამბარი" />
           <key key="brand:ka" value="ამბარი" />
           <key key="brand:wikidata" value="Q122641630" />
