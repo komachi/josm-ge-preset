@@ -2493,13 +2493,14 @@
           <key key="shop" value="variety_store" />
           <reference ref="basic_shop" />
         </item>
-        <item name="OnePrice" ka.name="ვანპრაისი" type="node,closedway,multipolygon" preset_name_label="true">
-          <key key="brand" value="ვანპრაისი" />
-          <key key="brand:ka" value="ვანპრაისი" />
+        <item name="" ka.name="ამბარი" type="node,closedway,multipolygon" preset_name_label="true">
+          <key key="brand" value="ამბარი" />
+          <key key="brand:ka" value="ამბარი" />
           <key key="brand:wikidata" value="Q122641630" />
-          <key key="name" value="ვანპრაისი" />
-          <key key="name:ka" value="ვანპრაისი" />
-          <key key="name:en" value="OnePrice" />
+          <key key="name" value="ამბარი" />
+          <key key="name:ka" value="ამბარი" />
+          <key key="name:en" value="Ambari" />
+          <key key="name:ru" value="Амбари" />
           <key key="operator" value="ვანპრაისი საქართველო" />
           <key key="operator:ka" value="ვანპრაისი საქართველო" />
           <key key="contact:website" value="http://www.oneprice.ge" />
